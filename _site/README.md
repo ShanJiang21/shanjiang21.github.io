@@ -1,5 +1,5 @@
 # website
-THIS is Shanjiang's personal website for displaying projects and cvs, welcome to share your ideas with me.
+THIS is Shanjiang's personal website for displaying projects and blog posts, welcome to share your ideas with me.
 
 ##  Theme: Vno - Jekyll
 
