@@ -13,7 +13,7 @@ permalink: /:year/:month/:title/:categories
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: slate
+cover_color: blue
 
 # The blog button should not be removed.
 blog_button:
@@ -22,13 +22,15 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Resume, description: My Resume, url: 'https://shanjiang21.github.io/Shanjiang_cv2018.pdf'}
-    - {title: Footprint, description: My Footprint, url: 'https://shanjiang21.github.io/Footprints.html'}
     - {title: About, description: My website introduction, url: 'https://shanjiang21.github.io/about.html'}
+    - {title: CV, description: My Resume, url: 'https://shanjiang21.github.io/Shanjiang_cv2018.pdf'}
+    - {title: Projects, description: My website introduction, url: 'https://shanjiang21.github.io/projects.html'}
+    - {title: Footprint, description: My Footprint, url: 'https://shanjiang21.github.io/Footprints.html'}
+
 
 # Pagination
-plugins: [jekyll-paginate]
-paginate: 10
+plugins: ["jekyll-sitemap","jekyll-paginate"]
+paginate: 8
 paginate_path: "page/:num/"
 
 
@@ -41,7 +43,7 @@ comment:
 
 # Social
 social:
-    weibo: Alexandra_shan
     github: shanjiang21
     mail: sj2921@columbia.edu
-    linkedin_username: Shan Jiang
+    linkedin_username: shan-jiang-983639153
+    weibo: Alexandra_shan

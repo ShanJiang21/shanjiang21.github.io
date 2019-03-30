@@ -1,15 +1,6 @@
 <nav class="cover-navigation navigation--social">
   <ul class="navigation">
 
-  {% if site.social.weibo %}
-  <!-- Weibo -->
-  <li class="navigation__item">
-    <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 's webo'" target="_blank">
-      <i class='social fa fa-weibo'></i>
-      <span class="label">Weibo</span>
-    </a>
-  </li>
-  {% endif %}
 
   {% if site.social.github %}
   <!-- Github -->
@@ -22,14 +13,13 @@
   {% endif %}
 
 
-  {% if site.social.gplus %}
-  <!-- Google Plus -->
-  <li class="navigation__item">
-    <a href="https://plus.google.com/{{site.social.gplus}}" rel="author" title="Google+" target="_blank">
-      <i class='social fa fa-google-plus-square'></i>
-      <span class="label">Google Plus</span>
-    </a>
-  </li>
+  {% if site.social.linkedin_username %}
+    <li class="navigation__item">
+      <a href="https://linkedin.com/in/{{ site.linkedin_username}}" title="Linkedin page">
+        <i class="fa fa-linkedin"></i>
+        <span class="label">LinkedIn</span>
+      </a>
+    </li>
   {% endif %}
 
 
@@ -39,6 +29,16 @@
     <a href="mailto:{{site.social.mail}}" title="Contact me">
       <i class='social fa fa-envelope'></i>
       <span class="label">Email</span>
+    </a>
+  </li>
+  {% endif %}
+  
+  {% if site.social.weibo %}
+  <!-- Weibo -->
+  <li class="navigation__item">
+    <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 's webo'" target="_blank">
+      <i class='social fa fa-weibo'></i>
+      <span class="label">Weibo</span>
     </a>
   </li>
   {% endif %}

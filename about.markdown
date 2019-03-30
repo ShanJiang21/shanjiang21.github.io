@@ -5,8 +5,30 @@ author: "Shan J."
 date: 2019-02-09 16:00
 
 ---
+<style>
+.highlight-left {margin-left: 0}
+</style>
+
+<div id="vrview-image-mono"></div>
+
+Image courtesy: [Google VRView example](http://googlevr.github.io/vrview/examples/gallery/index.html)
 
 <blockquote class="full-width"><p>A student, runner and Enthusiast for statistics.</p></blockquote>
+
+<div id="vrview-image-mono"></div>
+
+<script>
+window.addEventListener('load', onVrViewLoad);
+function onVrViewLoad() {
+  var vrView1 = new VRView.Player('#vrview-image-mono', {
+    image: '/assets/',
+    is_stereo: false,
+    width: '100%',
+    height: 360
+  });
+}
+</script>
+
 
 I am Shan Jiang(<span lang="zh">姜珊</span>), a master student at the Department of biostatistics, from [Columbia University](https://www.mailman.columbia.edu/become-student/departments/biostatistics), my research interests fall into computational social science and network analysis, health sociology. Prior to my graduate school studies, I received my B.A. at [Central University of Finance and Economics](http://en.cufe.edu.cn/), China.
 
