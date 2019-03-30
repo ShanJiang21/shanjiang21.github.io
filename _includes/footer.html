@@ -1,7 +1,15 @@
+
 <section class="footer">
     <footer>
+          Last Updated {% if page.date %}
+          {{ page.date | date: '%Y' }}
+          {% endif %}
+          {{ site.time | date: '%Y' }} {{ site.creator}}. Made with <i class="fa fa-heart"></i> with <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
+          <a href="{{ site.repo.gitea }}"><i class="fa fa-code-fork"></i> this website</a>
+            <a Spotted an error? Report it using <a href="{{site.repo.github }}/issues">GitHub</a>
+</footer>
+<br>
     	<span class="footer__copyright">This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons Attribution 4.0 Unported License </a></span>
-        <span class="footer__copyright"> via <a href="https://jekyllrb.com">Jekyll</a> generated on {{ site.time | date: "%F" }} ，Appreciate <a href="https://www.digitalocean.com/?refcode=30ed2d146762">Digital Ocean</a> offered a stable vps service</span>
-        <span class="footer__copyright"> This website {% if site.creator %}is created by {{site.creator}}，{% endif %} adopted <a href="https://github.com/onevcat/vno-jekyll">Vno - Jekyll</a> as Jekyll theme，you can find Source code on <a href="https://github.com/onevcat/OneV-s-Den">GitHub</a> - &copy; {{site.time | date: "%Y"}}</span>
-    </footer>
+        <span class="footer__copyright"> &copy; {{site.time | date: "%Y"}} via <a href="https://jekyllrb.com">Jekyll</a> generated on {{ site.time | date: "%F" }} ，Appreciate <a href="https://www.digitalocean.com/?refcode=30ed2d146762">Digital Ocean</a> offered a stable vps service</span>
+
 </section>
