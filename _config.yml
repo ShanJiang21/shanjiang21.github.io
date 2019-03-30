@@ -1,0 +1,47 @@
+# Basic
+title: Shan Jiang's hub
+subtitle: Forever green.
+welcome_message: Now I am working on Energy insecuirity and applications of data visulization on social science topics, for more information, <a href="https://shanjiang21.github.io/sociology.html">click here</a>
+description: Hi, I am Shan(@shanjiang21), a master student at Columbia University.
+creator: <a href="https://shanjiang21.github.io/#blog">@Alex_Shan</a>
+
+url: "https://shanjiang21.github.io/"
+
+permalink: /:year/:month/:title/:categories
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: slate
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Resume, description: My Resume, url: 'https://shanjiang21.github.io/Shanjiang_cv2018.pdf'}
+    - {title: Footprint, description: My Footprint, url: 'https://shanjiang21.github.io/Footprints.html'}
+    - {title: About, description: My website introduction, url: 'https://shanjiang21.github.io/about.html'}
+
+# Pagination
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+
+# Add plugins for multilingual use
+
+
+# Comment
+comment:
+    disqus: shanj
+
+# Social
+social:
+    weibo: Alexandra_shan
+    github: shanjiang21
+    mail: sj2921@columbia.edu
+    linkedin_username: Shan Jiang
