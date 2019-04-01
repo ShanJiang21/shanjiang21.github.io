@@ -11,6 +11,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.9.25)
     forwardable-extended (2.6.0)
+    hashie (3.6.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -41,27 +42,13 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
-    octopress (3.0.11)
-      jekyll (>= 2.0)
-      mercenary (~> 0.3.2)
-      octopress-deploy
-      octopress-escape-code (~> 2.0)
-      octopress-hooks (~> 2.0)
-      redcarpet (~> 3.0)
-      titlecase
-    octopress-deploy (1.3.0)
-      colorator
-    octopress-escape-code (2.1.1)
-      jekyll (~> 3.0)
-    octopress-hooks (2.6.2)
-      jekyll (>= 2.0)
+    multipart-post (2.0.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    redcarpet (3.4.0)
     rouge (3.3.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
@@ -70,7 +57,12 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    titlecase (0.1.1)
+    soda-ruby (1.0.0)
+      hashie (~> 3.5)
+      multipart-post (~> 2.0.0)
+      sys-uname (~> 1.0.2)
+    sys-uname (1.0.4)
+      ffi (>= 1.0.0)
 
 PLATFORMS
   ruby
@@ -79,8 +71,8 @@ DEPENDENCIES
   jekyll
   jekyll-paginate
   jekyll-sitemap
-  octopress
   sass
+  soda-ruby
 
 BUNDLED WITH
    2.0.1
