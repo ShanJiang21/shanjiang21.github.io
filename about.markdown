@@ -5,7 +5,7 @@ author: "Shan J."
 date: 2019-02-09 16:00
 
 ---
-<img src= "assets/images/index.jpg" alt="Example" width="263" height="160" align = center>
+<img src= "assets/images/index.jpg" style="width:58%" align = center>
 
 <blockquote class="full-width"><p>A student, runner and Enthusiast for statistics.</p></blockquote>
 
@@ -64,7 +64,7 @@ Below is an incomplete list of packages and projects I have worked on.
 
 #### Blogs and online books
 * [Yihui Xie's Blog](https://yihui.name/)
-* [Text Mining]((https://github.com/dgrtwo/tidy-text-mining)
+* [Text Mining](https://github.com/dgrtwo/tidy-text-mining)
 * [R Markdown Fixes](https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/edit)
 * [Word Count add-in](https://github.com/benmarwick/wordcountaddin)
 * [soft-ware tutorial](http://www.smart-stats.org/content/software-tutorials)

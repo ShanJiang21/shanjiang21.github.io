@@ -24,7 +24,6 @@ blog_button:
 nav:
     - {title: About, description: My website introduction, url: 'https://shanjiang21.github.io/about.html'}
     - {title: CV, description: My Resume, url: 'https://shanjiang21.github.io/Shanjiang_cv2018.pdf'}
-    - {title: Projects, description: My website introduction, url: 'https://shanjiang21.github.io/projects.html'}
     - {title: Footprint, description: My Footprint, url: 'https://shanjiang21.github.io/Footprints.html'}
 
 
