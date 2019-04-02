@@ -1,11 +1,12 @@
 ---
 layout: page
-title: "About this website"
+title: "Projects"
 author: "Shan J."
-date: 2019-02-09 16:00
+date: 2019-04-01 16:00
 
 ---
-<img src= "assets/images/index.jpg" style="width:58%" align = center>
+
+<img src= "assets/images/index.jpg" style="width:58%">
 
 <blockquote class="full-width"><p>A student, runner and Enthusiast for statistics.</p></blockquote>
 
