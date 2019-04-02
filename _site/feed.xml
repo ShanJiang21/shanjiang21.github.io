@@ -5,8 +5,8 @@
     <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Apr 2019 10:21:11 -0400</pubDate>
-    <lastBuildDate>Tue, 02 Apr 2019 10:21:11 -0400</lastBuildDate>
+    <pubDate>Tue, 02 Apr 2019 10:51:53 -0400</pubDate>
+    <lastBuildDate>Tue, 02 Apr 2019 10:51:53 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -34,11 +34,44 @@ The first day of arrival shall never be nicer.&lt;/p&gt;
 
 &lt;p&gt;Grown up in a Mountain area created more connections for me with this spacious place, there is no such a fever for skyscrapers as Los Angelas is built on an earthquake belt, which makes it more costly and challenging to construct high buildings than just a three story inn.&lt;/p&gt;
 
-&lt;p&gt;Danish town, a tiny niche, named Solvang,&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Danish town, a tiny niche, named Solvang, nestled in the Santa Ynez Valley that looks and smells like Christmas year-round.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Apr 2019 21:32:24 -0400</pubDate>
         <link>http://localhost:4000/2019/04/Beautiful-Days-in-California/</link>
         <guid isPermaLink="true">http://localhost:4000/2019/04/Beautiful-Days-in-California/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>996:Chinese young engineers</title>
+        <description>&lt;p&gt;&lt;strong&gt;996 vs. ICU&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/.jpg&quot; alt=&quot;cali1&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://zqb.cyol.com/html/2019-04/02/nw.D110000zgqnb_20190402_1-02.htm&quot;&gt;被“996”工作制围困的年轻人：像是定好闹钟的机器&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;What is 996?&lt;/p&gt;
+
+&lt;p&gt;A “996” work schedule refers to an unofficial work schedule (9 a.m. ~ 9 p.m., 6 days per week) that has been gaining in popularity. Serving a company that encourages the “996” work schedule usually means working for at least 60 hours per week.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;What can I do?
+Update this list with evidence to help every worker.
+Add this badge to your project to support 996.ICU.
+License your awesome projects with the 996ICU License.
+Add proposals to give advise and suggestion about the development of 996.ICU.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Apr 2019 21:32:24 -0400</pubDate>
+        <link>http://localhost:4000/2019/04/996-Chinese-young-engineers/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/996-Chinese-young-engineers/</guid>
         
         
       </item>
