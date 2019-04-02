@@ -1,14 +1,18 @@
 ---
 layout: post
-title: 996:Chinese young engineers
+title: 996 viral:Chinese young engineers'
 date: 2019-04-02 10:32:24.000000000 +09:00
 author: Shan J.
 ---
 
+> I haven’t really thought of living a life, Because I’m building something, and before I finish it, there won’t be anything else on my mind.
+
+Recently there is a viral suddenly spread on github among Chinese computer engineers, on which they set up a project for protesting against the 996 work mode, which is a common practice in Internet
+
 **996 vs. ICU**
 
 
-![cali1](/assets/images/.jpg)
+![996 companies](/assets/images/.jpg)
 
 - - -
 
@@ -27,3 +31,8 @@ Update this list with evidence to help every worker.
 Add this badge to your project to support 996.ICU.
 License your awesome projects with the 996ICU License.
 Add proposals to give advise and suggestion about the development of 996.ICU.
+
+***
+Demanding conditions
+
+Struggle to have a life and work balance is due to the overtime working and
