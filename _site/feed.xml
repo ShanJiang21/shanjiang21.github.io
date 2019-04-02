@@ -5,9 +5,28 @@
     <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Apr 2019 09:51:11 -0400</pubDate>
-    <lastBuildDate>Tue, 02 Apr 2019 09:51:11 -0400</lastBuildDate>
+    <pubDate>Tue, 02 Apr 2019 10:12:46 -0400</pubDate>
+    <lastBuildDate>Tue, 02 Apr 2019 10:12:46 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Beautiful Days in California</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;California is where you get to start over.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/cali1.jpg&quot; alt=&quot;cali1&quot; /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=bNTMQ-I36kg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Getting away from New York City, and travel for spring break means a lot to me.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Apr 2019 21:32:24 -0400</pubDate>
+        <link>http://localhost:4000/2019/04/Beautiful-Days-in-California/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/Beautiful-Days-in-California/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ASA 2018 Economic sociology paper awards </title>
@@ -71,8 +90,6 @@
       <item>
         <title>Missing data mean imputation</title>
         <description>&lt;h2 id=&quot;missing-data-techniques--缺失值处理可以用均值填补么&quot;&gt;Missing-data Techniques | 缺失值处理，可以用均值填补么？&lt;/h2&gt;
-
-&lt;p&gt;[TOC]&lt;/p&gt;
 
 &lt;h3 id=&quot;1-背景-overview&quot;&gt;1. 背景:	Overview&lt;/h3&gt;
 

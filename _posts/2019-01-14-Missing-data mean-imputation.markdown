@@ -7,7 +7,6 @@ author: Shan J.
 
 ## Missing-data Techniques | 缺失值处理，可以用均值填补么？
 
-[TOC]
 
 ### 1. 背景:	Overview
 

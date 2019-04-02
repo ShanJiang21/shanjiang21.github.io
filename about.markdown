@@ -6,8 +6,8 @@ date: 2019-04-01 16:00
 
 ---
 
-<img src= "assets/images/index.jpg" style="width:58%">
 
+<img src= "assets/images/index.jpg" style="width:40%">
 
 
 <blockquote class="full-width"><p>A student, runner and Enthusiast for statistics.</p></blockquote>
@@ -65,3 +65,4 @@ Below is an incomplete list of packages and projects I have worked on.
 
 * [Five Thirty Eight](https://fivethirtyeight.com/) for political data visualization;
 * [Introduction to Educational and Psychological Measurement Using R](https://www.thetaminusb.com/intro-measurement-r/) for factor analysis and scaling, scoring.
+* []()
