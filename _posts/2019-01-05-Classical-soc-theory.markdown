@@ -5,8 +5,7 @@ author: "Shan"
 date: 2019-01-05 15:32:24.000000000 +09:00
 
 ---
-
-## 						<center>1</center>  
+						<center>1</center>  
 
 It may be strange to be offering an exposition of the ideas of Marx, Weber and Durkheim in an era when, so it is argued by some in the discpline, the 'grand narratives' of thought, as Lyotard (1984) terms overarching theoretical schemes, have lost their validity. New identities, new forms of knowledge, new patterns of social relationships, new sources of division and more, are all forcing a break, it is claimed that, with a past shaped by modes of thought originating over three hundred years ago during the Enlightenment. Marx, Weber and Durkheim are Victorian scholars and it is perhaps hard to grasp that they have anything of relevance to say to a world which has dramatically changed since their time.
 

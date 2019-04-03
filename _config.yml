@@ -5,7 +5,7 @@ welcome_message: Now I am working on Energy insecuirity and applications of data
 description: Hi, I am Shan(@shanjiang21), a master student at Columbia University.
 creator: <a href="https://shanjiang21.github.io/#blog">@Shan_Jiang</a>
 
-url: "https://shanjiang21.github.io/"
+url: "https://shanj.tk/"
 
 permalink: /:year/:month/:title/:categories
 
@@ -13,7 +13,7 @@ permalink: /:year/:month/:title/:categories
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: purple
+cover_color: blue
 
 
 # Navigation buttons in the front page.
@@ -21,11 +21,8 @@ nav:
     - {title: About, description: My website introduction, url: 'https://shanjiang21.github.io/about.html'}
     - {title: CV, description: My Resume, url: 'https://shanjiang21.github.io/Shanjiang_cv2018.pdf'}
     - {title: Footprint, description: My Footprint, url: 'https://shanjiang21.github.io/Footprints.html'}
+    - {title: Blog, description: Visit blog, url: 'https://shanjiang21.github.io/Footprints.html'}
 
-# The blog button should not be removed.
-blog_button:
-    title: Blog
-    description: Visit blog
 
 # Pagination
 plugins: ["jekyll-sitemap","jekyll-paginate"]

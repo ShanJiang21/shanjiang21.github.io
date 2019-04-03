@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 996 viral:Chinese young engineers'
+title: 996 viral:Chinese young engineers' Asilomar moment
 date: 2019-04-02 10:32:24.000000000 +09:00
 author: Shan J.
 ---

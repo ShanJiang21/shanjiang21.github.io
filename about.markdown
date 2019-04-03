@@ -7,8 +7,7 @@ date: 2019-04-01 16:00
 ---
 
 
-<img src= "assets/images/index.jpg" style="width:40%">
-
+<img src= "assets/images/index.jpg" alt="">
 
 <blockquote class="full-width"><p>A student, runner and Enthusiast for statistics.</p></blockquote>
 
@@ -48,6 +47,7 @@ Below is an incomplete list of packages and projects I have worked on.
 ### Statistics resources
 
 #### Top R packages
+
 * [Rcpp](http://adv-r.had.co.nz/Rcpp.html), provides a combination of R and C++.
 * [stringr](https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html), extremely useful for text mining.
 * [ggplot](https://www.mailman.columbia.edu/sites/default/files/media/fdawg_ggplot2.html), a well-known pakage for data visualization.
@@ -65,4 +65,4 @@ Below is an incomplete list of packages and projects I have worked on.
 
 * [Five Thirty Eight](https://fivethirtyeight.com/) for political data visualization;
 * [Introduction to Educational and Psychological Measurement Using R](https://www.thetaminusb.com/intro-measurement-r/) for factor analysis and scaling, scoring.
-* []()
+* [Working Group on Computational Social Science @Columbia](http://css.iserp.columbia.edu/),

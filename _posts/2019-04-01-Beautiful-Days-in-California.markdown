@@ -7,19 +7,17 @@ author: Shan J.
 
 > California is where you get to start over.     
 
-![cali1](/assets/images/cali1.jpg)
-
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bNTMQ-I36kg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 Getting away from New York City, and travel for spring break means a lot to me.
 
-Starry night,
+>Starry night,
 Comfortable temperature,
 Nice drivers and servants,
 The first day of arrival shall never be nicer.
 
+![cali1](/assets/images/cali1.jpg)
 
 Nice spring break just started from the blue clear sky and green field. With freezes blowing from further hills, loneliness and fear just faded away from my heart, no worries or suspicious ideas would be generated as I am living in this moment.
 

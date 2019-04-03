@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Projects"
 author: "Shan J."
 date: 2019-04-01 16:00
