@@ -5,8 +5,8 @@
     <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Apr 2019 19:17:22 -0400</pubDate>
-    <lastBuildDate>Wed, 03 Apr 2019 19:17:22 -0400</lastBuildDate>
+    <pubDate>Wed, 03 Apr 2019 19:27:00 -0400</pubDate>
+    <lastBuildDate>Wed, 03 Apr 2019 19:27:00 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -19,11 +19,7 @@
 
 &lt;p&gt;&lt;strong&gt;996 vs. ICU&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/.jpg&quot; alt=&quot;996 companies&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://zqb.cyol.com/html/2019-04/02/nw.D110000zgqnb_20190402_1-02.htm&quot;&gt;被“996”工作制围困的年轻人：像是定好闹钟的机器&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/996.jpg&quot; alt=&quot;996 companies&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -33,16 +29,28 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;What can I do?
-Update this list with evidence to help every worker.
-Add this badge to your project to support 996.ICU.
-License your awesome projects with the 996ICU License.
-Add proposals to give advise and suggestion about the development of 996.ICU.&lt;/p&gt;
+&lt;p&gt;What can I do?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Update this list with evidence to help every worker.&lt;/li&gt;
+  &lt;li&gt;Add this badge to your project to support 996.ICU.&lt;/li&gt;
+  &lt;li&gt;License your awesome projects with the 996ICU License.&lt;/li&gt;
+  &lt;li&gt;Add proposals to give advise and suggestion about the development of 996.ICU.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
+
 &lt;p&gt;Demanding conditions&lt;/p&gt;
 
 &lt;p&gt;Struggle to have a life and work balance is due to the overtime working and&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;IF THEY DO NOT PUT IN THE HOURS, THEY CAN EASILY JUST BE LAID OFF.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://zqb.cyol.com/html/2019-04/02/nw.D110000zgqnb_20190402_1-02.htm&quot;&gt;被“996”工作制围困的年轻人：像是定好闹钟的机器&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Apr 2019 21:32:24 -0400</pubDate>
         <link>http://localhost:4000/2019/04/996-viral-Chinese-young-engineers-Asilomar-moment/</link>

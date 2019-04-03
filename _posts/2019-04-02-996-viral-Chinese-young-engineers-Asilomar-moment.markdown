@@ -12,11 +12,8 @@ Recently there is a viral suddenly spread on github among Chinese computer engin
 **996 vs. ICU**
 
 
-![996 companies](/assets/images/.jpg)
+![996 companies](/assets/images/996.jpg)
 
-- - -
-
-[被“996”工作制围困的年轻人：像是定好闹钟的机器](http://zqb.cyol.com/html/2019-04/02/nw.D110000zgqnb_20190402_1-02.htm)
 
 ***
 
@@ -27,12 +24,20 @@ A "996" work schedule refers to an unofficial work schedule (9 a.m. ~ 9 p.m., 6 
 ***
 
 What can I do?
-Update this list with evidence to help every worker.
-Add this badge to your project to support 996.ICU.
-License your awesome projects with the 996ICU License.
-Add proposals to give advise and suggestion about the development of 996.ICU.
+
+* Update this list with evidence to help every worker.
+* Add this badge to your project to support 996.ICU.
+* License your awesome projects with the 996ICU License.
+* Add proposals to give advise and suggestion about the development of 996.ICU.
 
 ***
+
 Demanding conditions
 
 Struggle to have a life and work balance is due to the overtime working and
+
+> IF THEY DO NOT PUT IN THE HOURS, THEY CAN EASILY JUST BE LAID OFF.
+
+- - -
+
+[被“996”工作制围困的年轻人：像是定好闹钟的机器](http://zqb.cyol.com/html/2019-04/02/nw.D110000zgqnb_20190402_1-02.htm)
