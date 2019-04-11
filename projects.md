@@ -1,7 +1,8 @@
 ---
-title: Side projects
+title: projects
 layout: page
-redirect_from: "/projects/"
+header-img: "img/project-bg.jpg"
+description: Where my time goes? here you may get a hint.
 ---
 
 Some of the cool side-projects I've been working on.
@@ -22,23 +23,32 @@ I've started by giving some small contributions to [awesome]
 
 ## Net neutralnost
 
-![netneutralnost.com](https://i.imgur.com/icc6aTn.png)
 
-[Net neutralnost](https://netneutralnost.com/) was an online protest in which about a dozen of sites from my region (Bosnia & Herzegovina, Serbia, and Croatia) decided to spend a day to spark the story about net neutrality in our local region. I've started the action, wrote the content on the website, coordinated the shutdown, coordinated the social campaign, and wrote a couple of articles to the websites that agreed to enter the action.  
 
 ## Battery API
 
-<img src="https://scontent-cdg2-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/s720x720/1425601_539855279502629_7569263953278633140_n.png?oh=49f9836a38a684a062e9ffc006f42639&oe=56D80387" alt="battery api" class="fit image">
-
-[Battery](https://r3bl.me/battery/) is a very simple web page that shows you the battery status of your device by using the Battery Status API. Compatible with Chrome and Firefox (on desktop and Android). Code available [here](https://github.com/aleksandar-todorovic/battery).
 
 ## dotfiles
-<a href="https://i.imgur.com/kQBIy3H.png"><img src="https://i.imgur.com/kQBIy3H.png" alt="clean desktop screenshot" class="fit image"></a>
 
 
-<a href="https://i.imgur.com/iSu2KMY.png"><img src="https://i.imgur.com/iSu2KMY.png" alt="fake working screenshot" class="fit image"></a>
+###  Ongoing Projects
 
-The dotfiles of my [i3wm](https://i3wm.org/) install. Code available [here](https://github.com/aleksandar-todorovic/dotfiles).
+Below is an incomplete list of projects I have worked on.
+
+* [Data science jobs outlook](https://shanjiang21.github.io/P8105_final_website.io/)
+* [Shiny](https://github.com/ShanJiang21/Shiny_lec)
+* [Energy Insecurity]()
+
+## Computational social science
+
+###  Sociology Journal
+
+* [The American Sociological Review](https://journals.sagepub.com/home/asr)
+* [The American Journal of Sociology](https://www.journals.uchicago.edu/toc/ajs/current)
+* [Social Forces](https://academic.oup.com/sf/issue)
+* [Social Networks](https://www.journals.elsevier.com/social-networks)
+* [Peers at work](https://eml.berkeley.edu/~moretti/text20.pdf)
+
 
 ## My blog: Use Jekyll to hold my own Tech Blog
 

@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Footprints
+description: "Hundreds of miles."
+header-img: "img/about-bg-o.jpg"
+multilingual: true
 ---
 
 <p class="message" align="right">

@@ -14,7 +14,6 @@ Recently there is a viral suddenly spread on github among Chinese computer engin
 
 ![996 companies](/assets/images/996.jpg)
 
-
 ***
 
 What is 996?
@@ -32,9 +31,9 @@ What can I do?
 
 ***
 
-Demanding conditions
+Mapping machanism behind popular 996 work Demanding conditions
 
-Struggle to have a life and work balance is due to the overtime working and
+Struggle to have a life and work balance is due to the overtime working and strict conditions set on 
 
 > IF THEY DO NOT PUT IN THE HOURS, THEY CAN EASILY JUST BE LAID OFF.
 

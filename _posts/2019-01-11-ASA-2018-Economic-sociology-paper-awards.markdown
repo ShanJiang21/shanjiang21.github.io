@@ -7,7 +7,7 @@ date: 2019-01-24 09:38:24.000000000 +09:00
 ---
 
 
-### ASA 2018 经济社会学最佳文章盘点
+### ASA 2018 Economic Sociology Paper winners 
 
 <blockquote class="full-width"><p>Statistical thinking will one day be as necessary for efficient citizenship as the ability to read and write.</p></blockquote>
 

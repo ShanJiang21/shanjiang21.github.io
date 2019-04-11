@@ -1,45 +1,72 @@
 # Basic
-title: Shan Jiang's hub
-subtitle: Forever green.
+title: Shan Jiang's hub Blog
+SEOTitle: 姜珊的个人主页 | SJ's Blog
+header-img: img/home-bg.jpg
+email: sj2921@columbia.edu
+keyword: Sociology, novels, R, biostatistics, live in NYC
 welcome_message: Now I am working on Energy insecuirity and applications of data visulization on social science topics, for more information, <a href="https://shanjiang21.github.io/sociology.html">click here</a>
 description: Hi, I am Shan(@shanjiang21), a master student at Columbia University.
-creator: <a href="https://shanjiang21.github.io/#blog">@Shan_Jiang</a>
-
 url: "https://shanj.tk/"
+baseurl: ""
 
-permalink: /:year/:month/:title/:categories
+# Publish posts or collection documents with a future date.
+future: true
 
-# Format
+
+# SNS settings
+linkedin_username: shan-jiang-983639153
+weibo_username: jason96026
+github_username: shanjiang21
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true
 
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: purple
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
+sidebar-avatar: /img/avatar.jpg
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1.3              # A tag will be featured if the size of it is more than this condition value
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
 
 
-# Navigation buttons in the front page.
-nav:
-    - {title: About, description: My website introduction, url: 'https://shanjiang21.github.io/about.html'}
-    - {title: CV, description: My Resume, url: 'https://shanjiang21.github.io/Shanjiang_cv2018.pdf'}
-    - {title: Footprint, description: My Footprint, url: 'https://shanjiang21.github.io/Footprints.html'}
 
-# The blog button should not be removed.
-blog_button:
-    title: Blog
-    description: Visit blog
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
-# Pagination
-plugins: ["jekyll-sitemap","jekyll-paginate"]
-paginate: 8
-paginate_path: "page/:num/"
 
+# Disqus settings
+disqus_username: shanj
 
-# Comment
-comment:
-    disqus: shanj
+# Netease settings
+netease_comment: false
 
-# Social
-social:
-    github: shanjiang21
-    mail: sj2921@columbia.edu
-    linkedin: shan-jiang-983639153
-    weibo: jason96026
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: True

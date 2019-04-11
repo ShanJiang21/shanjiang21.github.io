@@ -1,0 +1,19 @@
+{
+  "name": "Shan Jiang's hub",
+  "short_name": "SJ's",
+  "description": "About a growing girl & writer who loves logos.",
+  "icons": [{
+    "src": "icons/128.png",
+    "sizes": "189x189",
+    "type": "image/png"
+  }, {
+    "src": "icons/512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

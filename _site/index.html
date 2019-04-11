@@ -1,231 +1,656 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Hi, I am Shan(@shanjiang21), a master student at Columbia University.">
+    <meta name="keywords"  content="Sociology, novels, R, biostatistics, live in NYC">
+    <meta name="theme-color" content="#000000">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="姜珊的个人主页 | SJ's Blog">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Love, live and lost.">
+    
+    <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
+    <meta property="og:url" content="http://localhost:4000/">
+    <meta property="og:site_name" content="姜珊的个人主页 | SJ's Blog">
+    
+    <title>姜珊的个人主页 | SJ's Blog</title>
 
-  <title>Shan Jiang&#39;s hub</title>
-  <meta name="description" content="Hi, I am Shan(@shanjiang21), a master student at Columbia University.">
-  <meta name="author" content="Shan Jiang">
-  <meta name="theme-color" content="">
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
 
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="Shan Jiang&#39;s hub">
-  <meta property="og:description" content="Hi, I am Shan(@shanjiang21), a master student at Columbia University.">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/">
 
-  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
-  <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="/css/main.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
 
-  <!-- Custom Fonts -->
-  <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
-  <!-- Hux change font-awesome CDN to qiniu -->
-  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-  <!-- ga & ba script hoook -->
-  <script></script>
+    <!-- ga & ba script hoook -->
+    <script></script>
 </head>
 
 
-  <body>
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
 
-    <span class="mobile btn-mobile-menu">
-        <i class="fa fa-list btn-mobile-menu__icon"></i>
-        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
-    </span>
+    <!-- Navigation -->
 
-    <header class="panel-cover " style="background-image: url('/assets/images/background-cover.jpg')">
-  <div class="panel-main">
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
 
-    <div class="panel-main__inner panel-inverted">
-    <div class="panel-main__content">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Shan Jiang's hub Blog</a>
+        </div>
 
-        <a href="/#blog" title="Go to main page of Shan Jiang's hub " class="blog-button"><img src="/assets/images/avatar.jpg" width="80" alt="Shan Jiang's hub logo" class="panel-cover__logo logo" /></a>
-        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="link to homepage for Shan Jiang's hub" class="blog-button">Shan Jiang's hub</a></h1>
-        
-        <span class="panel-cover__subtitle panel-subtitle">Forever green.</span>
-        
-        <hr class="panel-cover__divider" />
-        <p class="panel-cover__description">Hi, I am Shan(@shanjiang21), a master student at Columbia University.</p>
-        <hr class="panel-cover__divider panel-cover__divider--secondary" />
-
-        
-        <p class="panel-cover__description">Now I am working on Energy insecuirity and applications of data visulization on social science topics, for more information, <a href="https://shanjiang21.github.io/sociology.html">click here</a></p>
-        
-
-        <div class="navigation-wrapper">
-          <div>
-            <nav class="cover-navigation cover-navigation--primary">
-              <ul class="navigation">
-                <li class="navigation__item"><a href="/#blog" title="Visit blog" class="blog-button">Blog</a></li>
-                
-                  <li class="navigation__item"><a href="https://shanjiang21.github.io/about.html" target="_blank" title="My website introduction">About</a></li>
-                
-                  <li class="navigation__item"><a href="https://shanjiang21.github.io/Shanjiang_cv2018.pdf" target="_blank" title="My Resume">CV</a></li>
-                
-                  <li class="navigation__item"><a href="https://shanjiang21.github.io/Footprints.html" target="_blank" title="My Footprint">Footprint</a></li>
-                
-              </ul>
-            </nav>
-          </div>
-
-          <div><nav class="cover-navigation navigation--social">
-  <ul class="navigation">
-
-
-      <!-- Email -->
-      <li class="navigation__item">
-        <a href="mailto:sj2921@columbia.edu" title="Contact me">
-          <i class='social fa fa-envelope'></i>
-          <span class="label">Email</span>
-        </a>
-      </li>
-      
-
-  
-  <!-- Github -->
-  <li class="navigation__item">
-    <a href="https://github.com/shanjiang21" title="@shanjiang21 's Github" target="_blank">
-      <i class='social fa fa-github'></i>
-      <span class="label">Github</span>
-    </a>
-  </li>
-  
-
-
-  
-  <!-- LinkedIn -->
-    <li class="navigation__item">
-      <a href="https://linkedin.com/in/shan-jiang-983639153" title="Linkedin page">
-        <i class="fa fa-linkedin"></i>
-        <span class="label">LinkedIn</span>
-      </a>
-    </li>
-  
-
-
-
-  
-  <!-- Weibo -->
-  <li class="navigation__item">
-    <a href="http://weibo.com/jason96026" title="@jason96026 's webo'" target="_blank">
-      <i class='social fa fa-weibo'></i>
-      <span class="label">Weibo</span>
-    </a>
-  </li>
-  
-
-  </ul>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="/Footprints/">Footprints</a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/archive/">Archive</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/projects/">projects</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
 </nav>
-</div>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!-- Page Header -->
+
+
+
+
+
+
+
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="site-heading">
+        
+          <h1>Shan Jiang's hub Blog</h1>
+          <span class="subheading">Love, live and lost.</span>
         </div>
       </div>
     </div>
-
-    
-    <div class="panel-cover--overlay cover-purple"></div>
-    
   </div>
 </header>
 
 
-    <div class="content-wrapper">
-        <div class="content-wrapper__inner">
-            <div class="main-post-list hidden">
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+        
 
-  <ol class="post-list">
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2019/04/996-viral-Chinese-young-engineers-Asilomar-moment/" title=" visit 996 viral:Chinese young engineers' Asilomar moment">996 viral:Chinese young engineers' Asilomar moment</a></h2>
-      <p class="excerpt">  I haven’t really thought of living a life, Because I’m building something, and before I finish it, there won’t be anything else on my mind.Recently there is a viral suddenly spread on github among Chinese computer engineers, on which they set up...&hellip;</p>
-      <div class="post-list__meta"><time datetime="2019-04-01 21:32:24 -0400" class="post-list__meta--date date">2019-04-01</time> &#8226; <span class="post-list__meta--tags tags"></span><a class="btn-border-small" href=/2019/04/996-viral-Chinese-young-engineers-Asilomar-moment/>more</a></div>
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2019/04/Beautiful-Days-in-California/" title=" visit Beautiful Days in California">Beautiful Days in California</a></h2>
-      <p class="excerpt">  California is where you get to start over.Getting away from New York City, and travel for spring break means a lot to me.  Starry night,Comfortable temperature,Nice drivers and servants,The first day of arrival shall never be nicer.Nice spring b...&hellip;</p>
-      <div class="post-list__meta"><time datetime="2019-04-01 21:32:24 -0400" class="post-list__meta--date date">2019-04-01</time> &#8226; <span class="post-list__meta--tags tags"></span><a class="btn-border-small" href=/2019/04/Beautiful-Days-in-California/>more</a></div>
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2019/01/ASA-2018-Economic-sociology-paper-awards/" title=" visit ASA 2018 Economic sociology paper awards ">ASA 2018 Economic sociology paper awards </a></h2>
-      <p class="excerpt">ASA 2018 经济社会学最佳文章盘点Statistical thinking will one day be as necessary for efficient citizenship as the ability to read and write.ASA，美国社会学协会，在全世界的社会学领域中享有盛名。目前，社会学协会分工完善，领域众多，其中发展较为完备，拥趸众多的当属——经济社会学。哥伦比亚大学的社会科学领域，一直是自由主义的天堂。这里兴起了最早期的性别研究，民主社会运动，但同...&hellip;</p>
-      <div class="post-list__meta"><time datetime="2019-01-23 19:38:24 -0500" class="post-list__meta--date date">2019-01-23</time> &#8226; <span class="post-list__meta--tags tags"></span><a class="btn-border-small" href=/2019/01/ASA-2018-Economic-sociology-paper-awards/>more</a></div>
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2019/01/Missing-data-mean-imputation/" title=" visit Missing data mean imputation">Missing data mean imputation</a></h2>
-      <p class="excerpt">Missing-data Techniques | 缺失值处理，可以用均值填补么？1. 背景:	Overview  看到社科院社会学系博士招生题里面的一道问题下图简答题第三问，我觉得虽然看起来很基础，但是细细思考，可以说是考察了统计的一些核心概念，实际操作性很强，因此我花了一些时间系统整理了缺失值处理的主流方法，最后用了断断续续将近一周完成这篇文章，希望能够有所启发。Missing data arise in almost all serious statistical analyses....&hellip;</p>
-      <div class="post-list__meta"><time datetime="2019-01-14 01:32:24 -0500" class="post-list__meta--date date">2019-01-14</time> &#8226; <span class="post-list__meta--tags tags"></span><a class="btn-border-small" href=/2019/01/Missing-data-mean-imputation/>more</a></div>
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2019/01/Classical-soc-theory/" title=" visit Classical sociology theory">Classical sociology theory</a></h2>
-      <p class="excerpt">					&lt;center&gt;1&lt;/center&gt;  It may be strange to be offering an exposition of the ideas of Marx, Weber and Durkheim in an era when, so it is argued by some in the discpline, the ‘grand narratives’ of thought, as Lyotard (1984) terms overa...&hellip;</p>
-      <div class="post-list__meta"><time datetime="2019-01-05 01:32:24 -0500" class="post-list__meta--date date">2019-01-05</time> &#8226; <span class="post-list__meta--tags tags"></span><a class="btn-border-small" href=/2019/01/Classical-soc-theory/>more</a></div>
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2018/12/Titanic-R/" title=" visit Titanic">Titanic</a></h2>
-      <p class="excerpt"># Load packageslibrary(tidyverse)library(formattable)library(gmodels)Import web-based APIAll web-based 2 APIs have always the same structure:they consist of a URL to a domain and a path to an endpoint.For instance: http://example.com/api where htt...&hellip;</p>
-      <div class="post-list__meta"><time datetime="2018-12-30 01:32:24 -0500" class="post-list__meta--date date">2018-12-30</time> &#8226; <span class="post-list__meta--tags tags"></span><a class="btn-border-small" href=/2018/12/Titanic-R/>more</a></div>
-      <hr class="post-list__divider" />
-    </li>
-    
-  </ol>
-
-  <hr class="post-list__divider " />
-
-<nav class="pagination" role="navigation">
-    
-    <span class="pagination__page-number">1 / 1</span>
-    
-</nav>
-
-
-</div>
-
+<!-- USE SIDEBAR -->
+    <!-- PostList Container -->
+    		<div class="
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                postlist-container
+            ">
+    			
+<div class="post-preview">
+    <a href="/2019/04/10/Latent-Varible-analysis-Tutorial/">
+        <h2 class="post-title">
+            Latent Variable Tutorial
+        </h2>
+        
+        <div class="post-content-preview">
             
-<section class="footer">
-    <footer>
-          Last Updated 
-          2019 <a href="https://shanjiang21.github.io/#blog">@Shan_Jiang</a>. Made with <i class="fa fa-heart"></i> with <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
-          <a href=""><i class="fa fa-code-fork"></i> this website</a>
-            <a Spotted an error? Report it using <a href="shanjiang21/issues">GitHub</a>
-</footer>
-<br>
-    	<span class="footer__copyright">This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons Attribution 4.0 Unported License </a></span>
-        <span class="footer__copyright"> &copy; 2019 via <a href="https://jekyllrb.com">Jekyll</a> generated on 2019-04-03 ，Appreciate <a href="https://www.digitalocean.com/?refcode=30ed2d146762">Digital Ocean</a> offered a stable vps service</span>
+                
+  Lec 1  Introduction    
+      Motivating Examples
+      Models        
+          Unsupervised Learning
+        
+      
+      Software Usage
+    
+  
+  Lec2 Fundamental Ideas of Measurement    
+  ...
+            
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by Shan J. on April 10, 2019
+    </p>
+</div>
+<hr>
 
+<div class="post-preview">
+    <a href="/2019/04/01/996-viral-Chinese-young-engineers-Asilomar-moment/">
+        <h2 class="post-title">
+            996 viral:Chinese young engineers' Asilomar moment
+        </h2>
+        
+        <div class="post-content-preview">
+            
+                
+  I haven’t really thought of living a life, Because I’m building something, and before I finish it, there won’t be anything else on my mind.
+
+
+Recently there is a viral suddenly spread on github ...
+            
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by Shan J. on April 1, 2019
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2019/04/01/Beautiful-Days-in-California/">
+        <h2 class="post-title">
+            Beautiful Days in California
+        </h2>
+        
+        <div class="post-content-preview">
+            
+                
+  California is where you get to start over.
+
+
+
+
+Getting away from New York City, and travel for spring break means a lot to me.
+
+
+  Starry night,
+Comfortable temperature,
+Nice drivers and servant...
+            
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by Shan J. on April 1, 2019
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2019/01/23/ASA-2018-Economic-sociology-paper-awards/">
+        <h2 class="post-title">
+            ASA 2018 Economic sociology paper awards 
+        </h2>
+        
+        <div class="post-content-preview">
+            
+                ASA 2018 Economic Sociology Paper winners
+
+Statistical thinking will one day be as necessary for efficient citizenship as the ability to read and write.
+
+ASA，美国社会学协会，在全世界的社会学领域中享有盛名。目前，社会学协会分工完善，领域...
+            
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by Shan on January 23, 2019
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2019/01/14/Missing-data-mean-imputation/">
+        <h2 class="post-title">
+            Missing data mean imputation
+        </h2>
+        
+        <div class="post-content-preview">
+            
+                Missing-data Techniques | 缺失值处理，可以用均值填补么？
+
+1. 背景:	Overview
+
+
+  看到社科院社会学系博士招生题里面的一道问题下图简答题第三问，我觉得虽然看起来很基础，但是细细思考，可以说是考察了统计的一些核心概念，实际操作性很强，因此我花了一些时间系统整理了缺失值处理的主流方法，最后用了断断续续将近一周完成这篇文章，希望能够有所启发。
+
+
+
+
+Mi...
+            
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by Shan J. on January 14, 2019
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2019/01/05/Classical-soc-theory/">
+        <h2 class="post-title">
+            Classical sociology theory
+        </h2>
+        
+        <div class="post-content-preview">
+            
+                1
+					&lt;center&gt;1&lt;/center&gt;  
+
+
+It may be strange to be offering an exposition of the ideas of Marx, Weber and Durkheim in an era when, so it is argued by some in the discpline, the ‘gran...
+            
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by Shan on January 5, 2019
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2018/12/30/Titanic-R/">
+        <h2 class="post-title">
+            Titanic
+        </h2>
+        
+        <div class="post-content-preview">
+            
+                # Load packages
+library(tidyverse)
+library(formattable)
+library(gmodels)
+
+
+
+Import web-based API
+All web-based 2 APIs have always the same structure:
+they consist of a URL to a domain and a path to...
+            
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by Shan on December 30, 2018
+    </p>
+</div>
+<hr>
+
+
+<!-- Pager -->
+
+
+    		</div>
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-3 col-lg-offset-0
+                col-md-3 col-md-offset-0
+                col-sm-12
+                col-xs-12
+                sidebar-container
+            ">
+                <!-- Featured Tags -->
+                
+
+
+<section>
+    
+    <h5><a href="/archive/">FEATURED TAGS</a></h5>
+    <div class="tags">
+        
+        
+        
+        
+        
+    </div>
 </section>
 
+
+                <!-- Short About -->
+                <section class="visible-md visible-lg">
+  <hr>
+  <h5><a href="/about/">ABOUT ME</a></h5>
+  <div class="short-about">
+    
+    <img src="/img/avatar.jpg" />
+    
+    
+    <p>For the next quantum leap<br>离开世界之前，一切都是过程</p>
+    
+    <!-- SNS Link -->
+    
+
+
+<ul class="list-inline">
+
+
+  
+  
+  
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/jason96026">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/shanjiang21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/shan-jiang-983639153">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+  </div>
+</section>
+
+                <!-- Friends Blog -->
+                
+    		</div>
+        
+	</div>
+</div>
+
+
+<!-- Add support for Mathjax by Voleking-->
+<!-- If you want to see formulars well in post preview, Maybe you should add this.-->
+<!-- However, most of the time formulars may not appear in the post preview, you can delete it.-->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- SNS Link -->
+                
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/jason96026">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/shanjiang21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/shan-jiang-983639153">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+
+                <p class="copyright text-muted">
+                    Copyright &copy; Shan Jiang's hub Blog 2019
+                    <br>
+                    Powered by <a href="http://huangxuan.me">Hux Blog</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
         </div>
     </div>
+</footer>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
 
-<script type="text/javascript" src="/js/main.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
 
 
 
 
-  </body>
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+
+
+<!-- Multi-Lingual -->
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
 
 </html>
