@@ -21,14 +21,6 @@ Last updated: March 2019
 
 I've started by giving some small contributions to [awesome]
 
-## Net neutralnost
-
-
-
-## Battery API
-
-
-## dotfiles
 
 
 ###  Ongoing Projects
