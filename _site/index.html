@@ -11,16 +11,16 @@
     <meta name="theme-color" content="#000000">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="SJ's Blog">
+    <meta property="og:title" content="Personal website for Shan Jiang">
     
     <meta property="og:type" content="website">
     <meta property="og:description" content="Love, live and lost.">
     
     <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
     <meta property="og:url" content="http://localhost:4000/">
-    <meta property="og:site_name" content="SJ's Blog">
+    <meta property="og:site_name" content="Personal website for Shan Jiang">
     
-    <title>SJ's Blog</title>
+    <title>Personal website for Shan Jiang</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -71,7 +71,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Shan Jiang's hub</a>
+            <a class="navbar-brand" href="/">Shan's hub</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -81,6 +81,8 @@
                     <li>
                         <a href="/">Home</a>
                     </li>
+                    
+                    
                     
                     
                     <li>
@@ -98,8 +100,6 @@
                     <li>
                         <a href="/archive/">Archive</a>
                     </li>
-                    
-                    
                     
                     
                     
@@ -188,7 +188,7 @@
         
         <div class="site-heading">
         
-          <h1>Shan Jiang's hub</h1>
+          <h1>Shan's hub</h1>
           <span class="subheading">Love, live and lost.</span>
         </div>
       </div>
@@ -395,6 +395,29 @@ they consist of a URL to a domain and a path to...
 <!-- Pager -->
 
 
+<!-- Include the library. -->
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
+
+<script>
+    GitHubCalendar(".calendar", "shanjiang21");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "shanjiang21, { responsive: true });
+</script>
+
     		</div>
     <!-- Sidebar Container -->
             <div class="
@@ -556,7 +579,7 @@ they consist of a URL to a domain and a path to...
 </ul>
 
                 <p class="copyright text-muted">
-                    Copyright &copy; Shan Jiang's hub 2019
+                    Copyright &copy; Shan's hub 2019
                     <br>
                     Powered by <a href="https://github.com/ShanJiang21">Jekyll on GitHub</a> |
                     <iframe

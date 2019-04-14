@@ -18,7 +18,7 @@ Below is an incomplete list of packages and projects I have worked on.
 * [Data science jobs outlook](https://shanjiang21.github.io/P8105_final_website.io/)
 * [Shiny](https://github.com/ShanJiang21/Shiny_lec)
 
-<img src= "assets/images/Data_science.jpg" style="width:28%">
+<img src= "img/data_science.jpg" style="width:28%">
 
 ### Preferred links  
 

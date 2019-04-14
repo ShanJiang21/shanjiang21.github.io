@@ -3,21 +3,21 @@ layout: post
 title: "Classical sociology theory"
 author: "Shan"
 date: 2019-01-05 15:32:24.000000000 +09:00
-
 ---
+
 						<center>1</center>  
 
 It may be strange to be offering an exposition of the ideas of Marx, Weber and Durkheim in an era when, so it is argued by some in the discpline, the 'grand narratives' of thought, as Lyotard (1984) terms overarching theoretical schemes, have lost their validity. New identities, new forms of knowledge, new patterns of social relationships, new sources of division and more, are all forcing a break, it is claimed that, with a past shaped by modes of thought originating over three hundred years ago during the Enlightenment. Marx, Weber and Durkheim are Victorian scholars and it is perhaps hard to grasp that they have anything of relevance to say to a world which has dramatically changed since their time.
 
-Of course, there has been a prominent strand in sociological thought which is sensitive to the idea that the world and/or the discipline are both in an impending state of crisis. Indeed, a strong case can be made that such a sense was critical in the very formation of the discipline in the early nineteenth century as industrialism began to effect major changes in patterns of life throughout Europe. Later in that century, a young French Philosohy teacher was particular concerned with what he saw as the growing instability of social life. Long-estabilished values and ways of life seemed to be breaking down as industrialization and urbanization transformed the society of his day. Where once the authority of church and monarchy had gone unquestioned, there now seemed to be <u>no authority which could hold society together</u>.
+Of course, there has been a prominent strand in sociological thought which is sensitive to the idea that the world and/or the discipline are both in an impending state of crisis. Indeed, a strong case can be made that such a sense was critical in the very formation of the discipline in the early nineteenth century as industrialism began to effect major changes in patterns of life throughout Europe. Later in that century, a young French Philosophy teacher was particular concerned with what he saw as the growing instability of social life. Long-established values and ways of life seemed to be breaking down as industrialization and urbanization transformed the society of his day. Where once the authority of church and monarchy had gone unquestioned, there now seemed to be <u>no authority which could hold society together</u>.
 
 #### 1  	Questions
 
-Historically speaking, the study of sociology theories is usually segmented as two epochs. Classical era, which starts from **Comte**,  contains some of the most influential figures, such as Marx, Max Weber and Durkheim. It is not until the rise of Chicago School and some other scholars do the sociology step into the second phase. There are often some questions about the classical times and concerns on society transformation, in transiting from obeying majesty in every aspects to resiting authority, how do people unite together? How can they have a consistent or uniform values for making the society stable?
+Historically speaking, the study of sociology theories is usually segmented as two epochs. Classical era, which starts from **Comte**,  contains some of the most influential figures, such as Marx, Max Weber and Durkheim. It is not until the rise of Chicago School and some other scholars do the sociology step into the second phase. There are often some questions about the classical times and concerns on society transformation, in transiting from obeying majesty in every aspects to resisting authority, how do people unite together? How can they have a consistent or uniform values for making the society stable?
 
 #### 2  	Transition
 
-From pieces of works from Durkheim, we see the notivation of sociological thinking is not only drawn from a sense of impending crisis, but also originates from a formulation of what is, with strong justification, the central question of sociology itself, namely: **how is social order possible?**
+From pieces of works from Durkheim, we see the motivation of sociological thinking is not only drawn from a sense of impending crisis, but also originates from a formulation of what is, with strong justification, the central question of sociology itself, namely: **how is social order possible?**
 
 mIt is perhaps to Marx, Weber and Durkheim we owe the greatest debt for the most systematic attempts to set out just how the question might be addressed. Their ideas are of enduring concern and relevance.
 

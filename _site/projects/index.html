@@ -11,16 +11,16 @@
     <meta name="theme-color" content="#000000">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="projects - SJ's Blog">
+    <meta property="og:title" content="projects - Personal website for Shan Jiang">
     
     <meta property="og:type" content="website">
     <meta property="og:description" content="Where my time goes? here you may get a hint.">
     
     <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
     <meta property="og:url" content="http://localhost:4000/projects/">
-    <meta property="og:site_name" content="SJ's Blog">
+    <meta property="og:site_name" content="Personal website for Shan Jiang">
     
-    <title>projects - SJ's Blog</title>
+    <title>projects - Personal website for Shan Jiang</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -71,7 +71,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Shan Jiang's hub</a>
+            <a class="navbar-brand" href="/">Shan's hub</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -81,6 +81,8 @@
                     <li>
                         <a href="/">Home</a>
                     </li>
+                    
+                    
                     
                     
                     <li>
@@ -98,8 +100,6 @@
                     <li>
                         <a href="/archive/">Archive</a>
                     </li>
-                    
-                    
                     
                     
                     
@@ -211,9 +211,20 @@
                 col-xs-12
                 postlist-container
             ">
-    			<p>Some of the cool side-projects I’ve been working on.</p>
+    			<p>Some of the cool side-projects I’ve been working on.
+Last updated: March 2019</p>
 
-<p>Last updated: March 2019</p>
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
+
+<script>
+    GitHubCalendar(".calendar", "shanjiang21");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "shanjiang21, { responsive: true });
+</script>
 
 <h2 id="table-of-content">Table of Content</h2>
 
@@ -416,7 +427,7 @@
 </ul>
 
                 <p class="copyright text-muted">
-                    Copyright &copy; Shan Jiang's hub 2019
+                    Copyright &copy; Shan's hub 2019
                     <br>
                     Powered by <a href="https://github.com/ShanJiang21">Jekyll on GitHub</a> |
                     <iframe

@@ -6,8 +6,19 @@ description: Where my time goes? here you may get a hint.
 ---
 
 Some of the cool side-projects I've been working on.
-
 Last updated: March 2019
+
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
+
+<script>
+    GitHubCalendar(".calendar", "shanjiang21");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "shanjiang21, { responsive: true });
+</script>
 
 ## Table of Content
 
