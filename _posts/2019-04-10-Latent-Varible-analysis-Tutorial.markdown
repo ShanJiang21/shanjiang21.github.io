@@ -1,21 +1,22 @@
 ---
 layout: post
 title: Latent Variable Tutorial
-date: 2019-04-10 21:32:24.000000000 +09:00
+date: 2019-04-13 21:32:24.000000000 +09:00
 author: Shan J.
 ---
 
 * TOC
 {:toc}
 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
-## Lec 1  Introduction
+# Lec 1  Introduction
 
-### Motivating Examples
+## Motivating Examples
 
 > You are a sociologist who has collected a social network and various attributes about each person. You use a latent variable model to discover the underlying communities in this population and to characterize the kinds of people that participate in each. The discovered communities help you understand **the structure of the network** and help predict “missing” edges, such as people who know each other but are not yet linked or people who would enjoy meeting each other.
 
-![Box's loop](/Users/shan/Learning/shanjiang21.github.io/assets/images/Box's loop.png)
+![Box's loop]("/img/Box's loop.png")
 
  George Box and collaborators proposed a Box's loop in the 1960s, by adopting scientific method, Box tried to understand nature by iterative experimental design, data collection, model formulation, and model criticism.
 

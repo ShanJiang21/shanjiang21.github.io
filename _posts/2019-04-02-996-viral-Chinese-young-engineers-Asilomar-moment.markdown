@@ -12,7 +12,7 @@ Recently there is a viral suddenly spread on github among Chinese computer engin
 **996 vs. ICU**
 
 
-![996 companies](/assets/images/996.jpg)
+![996 companies](/img/996.jpg)
 
 ***
 
@@ -31,11 +31,15 @@ What can I do?
 
 ***
 
-Mapping machanism behind popular 996 work Demanding conditions
+Mapping the mechanism behind popular 996 work Demanding conditions
 
-Struggle to have a life and work balance is due to the overtime working and strict conditions set on 
+Struggle to have a life and work balance is due to the overtime working and strict conditions set on these young elites. They are deprived of their own life, thinking room, together with their happiness shared with family members.
+
+Some digital media called 996 is a scandal for Chinese start-ups and giant technology empires, while I disagree with such criticism. The inside story is not fully presented by now.
+
 
 > IF THEY DO NOT PUT IN THE HOURS, THEY CAN EASILY JUST BE LAID OFF.
+
 
 - - -
 

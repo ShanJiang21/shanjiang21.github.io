@@ -5,133 +5,137 @@
     <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Apr 2019 12:11:44 -0400</pubDate>
-    <lastBuildDate>Sun, 14 Apr 2019 12:11:44 -0400</lastBuildDate>
+    <pubDate>Sun, 14 Apr 2019 16:19:16 -0400</pubDate>
+    <lastBuildDate>Sun, 14 Apr 2019 16:19:16 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Latent Variable Tutorial</title>
         <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#lec-1--introduction&quot; id=&quot;markdown-toc-lec-1--introduction&quot;&gt;Lec 1  Introduction&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#motivating-examples&quot; id=&quot;markdown-toc-motivating-examples&quot;&gt;Motivating Examples&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#models&quot; id=&quot;markdown-toc-models&quot;&gt;Models&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#unsupervised-learning&quot; id=&quot;markdown-toc-unsupervised-learning&quot;&gt;Unsupervised Learning&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#motivating-examples&quot; id=&quot;markdown-toc-motivating-examples&quot;&gt;Motivating Examples&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#models&quot; id=&quot;markdown-toc-models&quot;&gt;Models&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#unsupervised-learning&quot; id=&quot;markdown-toc-unsupervised-learning&quot;&gt;Unsupervised Learning&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#software-usage&quot; id=&quot;markdown-toc-software-usage&quot;&gt;Software Usage&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#software-usage&quot; id=&quot;markdown-toc-software-usage&quot;&gt;Software Usage&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#lec2-fundamental-ideas-of-measurement&quot; id=&quot;markdown-toc-lec2-fundamental-ideas-of-measurement&quot;&gt;Lec2 Fundamental Ideas of Measurement&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#steps-for-creating-measurement&quot; id=&quot;markdown-toc-steps-for-creating-measurement&quot;&gt;Steps for creating measurement&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#1-construct-latent-variable-definition-and-content-domain&quot; id=&quot;markdown-toc-1-construct-latent-variable-definition-and-content-domain&quot;&gt;1. Construct latent variable definition and content domain&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#deiphi-method&quot; id=&quot;markdown-toc-deiphi-method&quot;&gt;Deiphi Method&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#levels-of-measurement&quot; id=&quot;markdown-toc-levels-of-measurement&quot;&gt;Levels of Measurement&lt;/a&gt;            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#nominal-data&quot; id=&quot;markdown-toc-nominal-data&quot;&gt;Nominal Data&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#ordinal-data&quot; id=&quot;markdown-toc-ordinal-data&quot;&gt;Ordinal Data&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#interval-data&quot; id=&quot;markdown-toc-interval-data&quot;&gt;Interval Data&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#ratio-data&quot; id=&quot;markdown-toc-ratio-data&quot;&gt;Ratio Data&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#lec2-fundamental-ideas-of-measurement&quot; id=&quot;markdown-toc-lec2-fundamental-ideas-of-measurement&quot;&gt;Lec2 Fundamental Ideas of Measurement&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#steps-for-creating-measurement&quot; id=&quot;markdown-toc-steps-for-creating-measurement&quot;&gt;Steps for creating measurement&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#1-construct-latent-variable-definition-and-content-domain&quot; id=&quot;markdown-toc-1-construct-latent-variable-definition-and-content-domain&quot;&gt;1. Construct latent variable definition and content domain&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#deiphi-method&quot; id=&quot;markdown-toc-deiphi-method&quot;&gt;Deiphi Method&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#levels-of-measurement&quot; id=&quot;markdown-toc-levels-of-measurement&quot;&gt;Levels of Measurement&lt;/a&gt;                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;#nominal-data&quot; id=&quot;markdown-toc-nominal-data&quot;&gt;Nominal Data&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#ordinal-data&quot; id=&quot;markdown-toc-ordinal-data&quot;&gt;Ordinal Data&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#interval-data&quot; id=&quot;markdown-toc-interval-data&quot;&gt;Interval Data&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#ratio-data&quot; id=&quot;markdown-toc-ratio-data&quot;&gt;Ratio Data&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#2-generating-and-judging-measurement-items&quot; id=&quot;markdown-toc-2-generating-and-judging-measurement-items&quot;&gt;2. Generating and judging measurement items&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#criteria&quot; id=&quot;markdown-toc-criteria&quot;&gt;Criteria&lt;/a&gt;                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;#reliability&quot; id=&quot;markdown-toc-reliability&quot;&gt;Reliability&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#validity&quot; id=&quot;markdown-toc-validity&quot;&gt;Validity&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#dimensionality&quot; id=&quot;markdown-toc-dimensionality&quot;&gt;Dimensionality&lt;/a&gt;                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;#formative-vs-reflective-measurement&quot; id=&quot;markdown-toc-formative-vs-reflective-measurement&quot;&gt;Formative vs Reflective measurement&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#cronbachs-alpha&quot; id=&quot;markdown-toc-cronbachs-alpha&quot;&gt;Cronbach’s alpha&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#2-generating-and-judging-measurement-items&quot; id=&quot;markdown-toc-2-generating-and-judging-measurement-items&quot;&gt;2. Generating and judging measurement items&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#criteria&quot; id=&quot;markdown-toc-criteria&quot;&gt;Criteria&lt;/a&gt;            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#reliability&quot; id=&quot;markdown-toc-reliability&quot;&gt;Reliability&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#validity&quot; id=&quot;markdown-toc-validity&quot;&gt;Validity&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#lec-3-factor-analysis-part-i&quot; id=&quot;markdown-toc-lec-3-factor-analysis-part-i&quot;&gt;Lec 3 Factor Analysis Part I&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#general-theory-and-exploratory-factor-analysis&quot; id=&quot;markdown-toc-general-theory-and-exploratory-factor-analysis&quot;&gt;General Theory and Exploratory Factor Analysis&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#factor-analysis-model&quot; id=&quot;markdown-toc-factor-analysis-model&quot;&gt;Factor Analysis Model&lt;/a&gt;                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;#commonly-used-cut-offs-indicating-good-fit-of-the-model&quot; id=&quot;markdown-toc-commonly-used-cut-offs-indicating-good-fit-of-the-model&quot;&gt;Commonly used cut-offs indicating “good fit” of the model&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#model-comparison&quot; id=&quot;markdown-toc-model-comparison&quot;&gt;Model comparison&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#dimensionality&quot; id=&quot;markdown-toc-dimensionality&quot;&gt;Dimensionality&lt;/a&gt;            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#formative-vs-reflective-measurement&quot; id=&quot;markdown-toc-formative-vs-reflective-measurement&quot;&gt;Formative vs Reflective measurement&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#cronbachs-alpha&quot; id=&quot;markdown-toc-cronbachs-alpha&quot;&gt;Cronbach’s alpha&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#lec-3-factor-analysis-part-i&quot; id=&quot;markdown-toc-lec-3-factor-analysis-part-i&quot;&gt;Lec 3 Factor Analysis Part I&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#general-theory-and-exploratory-factor-analysis&quot; id=&quot;markdown-toc-general-theory-and-exploratory-factor-analysis&quot;&gt;General Theory and Exploratory Factor Analysis&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#factor-analysis-model&quot; id=&quot;markdown-toc-factor-analysis-model&quot;&gt;Factor Analysis Model&lt;/a&gt;            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#commonly-used-cut-offs-indicating-good-fit-of-the-model&quot; id=&quot;markdown-toc-commonly-used-cut-offs-indicating-good-fit-of-the-model&quot;&gt;Commonly used cut-offs indicating “good fit” of the model&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#model-comparison&quot; id=&quot;markdown-toc-model-comparison&quot;&gt;Model comparison&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#exploratory-factor-analysis&quot; id=&quot;markdown-toc-exploratory-factor-analysis&quot;&gt;Exploratory Factor Analysis&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#steps-in-an-efa&quot; id=&quot;markdown-toc-steps-in-an-efa&quot;&gt;Steps in an EFA&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#rotation&quot; id=&quot;markdown-toc-rotation&quot;&gt;Rotation&lt;/a&gt;            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#types-of-rotations&quot; id=&quot;markdown-toc-types-of-rotations&quot;&gt;Types of Rotations&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#two-examples-for-efa&quot; id=&quot;markdown-toc-two-examples-for-efa&quot;&gt;Two Examples for EFA&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#exploratory-factor-analysis&quot; id=&quot;markdown-toc-exploratory-factor-analysis&quot;&gt;Exploratory Factor Analysis&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#steps-in-an-efa&quot; id=&quot;markdown-toc-steps-in-an-efa&quot;&gt;Steps in an EFA&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#rotation&quot; id=&quot;markdown-toc-rotation&quot;&gt;Rotation&lt;/a&gt;                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;#types-of-rotations&quot; id=&quot;markdown-toc-types-of-rotations&quot;&gt;Types of Rotations&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#two-examples-for-efa&quot; id=&quot;markdown-toc-two-examples-for-efa&quot;&gt;Two Examples for EFA&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#lec-4-factor-analysis-part-ii&quot; id=&quot;markdown-toc-lec-4-factor-analysis-part-ii&quot;&gt;Lec 4 Factor Analysis Part II&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#confirmatory-factor-analysis&quot; id=&quot;markdown-toc-confirmatory-factor-analysis&quot;&gt;Confirmatory Factor Analysis&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#specify-a-cfa-in-mplus&quot; id=&quot;markdown-toc-specify-a-cfa-in-mplus&quot;&gt;Specify a CFA in MPLUS&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#degrees-of-freedom&quot; id=&quot;markdown-toc-degrees-of-freedom&quot;&gt;Degrees of Freedom&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#standardized-and-unstandardized&quot; id=&quot;markdown-toc-standardized-and-unstandardized&quot;&gt;Standardized and Unstandardized&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#model-comparison-1&quot; id=&quot;markdown-toc-model-comparison-1&quot;&gt;Model Comparison&lt;/a&gt;            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#nested-model&quot; id=&quot;markdown-toc-nested-model&quot;&gt;Nested model&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#modification-indices&quot; id=&quot;markdown-toc-modification-indices&quot;&gt;Modification Indices&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#lec-4-factor-analysis-part-ii&quot; id=&quot;markdown-toc-lec-4-factor-analysis-part-ii&quot;&gt;Lec 4 Factor Analysis Part II&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#confirmatory-factor-analysis&quot; id=&quot;markdown-toc-confirmatory-factor-analysis&quot;&gt;Confirmatory Factor Analysis&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#specify-a-cfa-in-mplus&quot; id=&quot;markdown-toc-specify-a-cfa-in-mplus&quot;&gt;Specify a CFA in MPLUS&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#degrees-of-freedom&quot; id=&quot;markdown-toc-degrees-of-freedom&quot;&gt;Degrees of Freedom&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#standardized-and-unstandardized&quot; id=&quot;markdown-toc-standardized-and-unstandardized&quot;&gt;Standardized and Unstandardized&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#model-comparison-1&quot; id=&quot;markdown-toc-model-comparison-1&quot;&gt;Model Comparison&lt;/a&gt;                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;#nested-model&quot; id=&quot;markdown-toc-nested-model&quot;&gt;Nested model&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#modification-indices&quot; id=&quot;markdown-toc-modification-indices&quot;&gt;Modification Indices&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#lec-5-factor-analysis-part-iii&quot; id=&quot;markdown-toc-lec-5-factor-analysis-part-iii&quot;&gt;Lec 5 Factor Analysis Part III&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#item-response-theory&quot; id=&quot;markdown-toc-item-response-theory&quot;&gt;Item Response Theory&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#discrimination&quot; id=&quot;markdown-toc-discrimination&quot;&gt;Discrimination&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#severity&quot; id=&quot;markdown-toc-severity&quot;&gt;Severity&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#measurement-invariance-using-mimic&quot; id=&quot;markdown-toc-measurement-invariance-using-mimic&quot;&gt;Measurement invariance using MIMIC&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#differential-item-functioning&quot; id=&quot;markdown-toc-differential-item-functioning&quot;&gt;Differential item Functioning&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#bifactor-modeling&quot; id=&quot;markdown-toc-bifactor-modeling&quot;&gt;Bifactor modeling&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#second-order-factor-model&quot; id=&quot;markdown-toc-second-order-factor-model&quot;&gt;Second-order factor model&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#lec-6-latent-class-analysis&quot; id=&quot;markdown-toc-lec-6-latent-class-analysis&quot;&gt;Lec 6 Latent Class Analysis&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#item--response-theory-catrgorical-latent-variable-modeling&quot; id=&quot;markdown-toc-item--response-theory-catrgorical-latent-variable-modeling&quot;&gt;Item  Response Theory: Catrgorical latent variable modeling&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#lca-general-theory&quot; id=&quot;markdown-toc-lca-general-theory&quot;&gt;LCA general Theory&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#model&quot; id=&quot;markdown-toc-model&quot;&gt;Model&lt;/a&gt;            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#item-difficulty&quot; id=&quot;markdown-toc-item-difficulty&quot;&gt;Item Difficulty&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#item-discrimination&quot; id=&quot;markdown-toc-item-discrimination&quot;&gt;Item Discrimination&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#pseudo-change-parameter&quot; id=&quot;markdown-toc-pseudo-change-parameter&quot;&gt;Pseudo-change parameter&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#lec-5-factor-analysis-part-iii&quot; id=&quot;markdown-toc-lec-5-factor-analysis-part-iii&quot;&gt;Lec 5 Factor Analysis Part III&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#item-response-theory&quot; id=&quot;markdown-toc-item-response-theory&quot;&gt;Item Response Theory&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#discrimination&quot; id=&quot;markdown-toc-discrimination&quot;&gt;Discrimination&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#severity&quot; id=&quot;markdown-toc-severity&quot;&gt;Severity&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#measurement-invariance-using-mimic&quot; id=&quot;markdown-toc-measurement-invariance-using-mimic&quot;&gt;Measurement invariance using MIMIC&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#differential-item-functioning&quot; id=&quot;markdown-toc-differential-item-functioning&quot;&gt;Differential item Functioning&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#bifactor-modeling&quot; id=&quot;markdown-toc-bifactor-modeling&quot;&gt;Bifactor modeling&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#second-order-factor-model&quot; id=&quot;markdown-toc-second-order-factor-model&quot;&gt;Second-order factor model&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#lec-8-structural-equation-model-i&quot; id=&quot;markdown-toc-lec-8-structural-equation-model-i&quot;&gt;Lec 8 Structural Equation Model I&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#origin-of-structural-equation-model&quot; id=&quot;markdown-toc-origin-of-structural-equation-model&quot;&gt;Origin of Structural Equation model&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#lec-10-sem&quot; id=&quot;markdown-toc-lec-10-sem&quot;&gt;Lec 10 SEM&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#resources&quot; id=&quot;markdown-toc-resources&quot;&gt;Resources&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#appendix&quot; id=&quot;markdown-toc-appendix&quot;&gt;Appendix&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#lec-6-latent-class-analysis&quot; id=&quot;markdown-toc-lec-6-latent-class-analysis&quot;&gt;Lec 6 Latent Class Analysis&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#item--response-theory-catrgorical-latent-variable-modeling&quot; id=&quot;markdown-toc-item--response-theory-catrgorical-latent-variable-modeling&quot;&gt;Item  Response Theory: Catrgorical latent variable modeling&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#lca-general-theory&quot; id=&quot;markdown-toc-lca-general-theory&quot;&gt;LCA general Theory&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#model&quot; id=&quot;markdown-toc-model&quot;&gt;Model&lt;/a&gt;                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;#item-difficulty&quot; id=&quot;markdown-toc-item-difficulty&quot;&gt;Item Difficulty&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#item-discrimination&quot; id=&quot;markdown-toc-item-discrimination&quot;&gt;Item Discrimination&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#pseudo-change-parameter&quot; id=&quot;markdown-toc-pseudo-change-parameter&quot;&gt;Pseudo-change parameter&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#lec-8-structural-equation-model-i&quot; id=&quot;markdown-toc-lec-8-structural-equation-model-i&quot;&gt;Lec 8 Structural Equation Model I&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#origin-of-structural-equation-model&quot; id=&quot;markdown-toc-origin-of-structural-equation-model&quot;&gt;Origin of Structural Equation model&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#lec-10-sem&quot; id=&quot;markdown-toc-lec-10-sem&quot;&gt;Lec 10 SEM&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#resources&quot; id=&quot;markdown-toc-resources&quot;&gt;Resources&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#appendix&quot; id=&quot;markdown-toc-appendix&quot;&gt;Appendix&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;lec-1--introduction&quot;&gt;Lec 1  Introduction&lt;/h2&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot; async=&quot;&quot;&gt;&lt;/script&gt;
 
-&lt;h3 id=&quot;motivating-examples&quot;&gt;Motivating Examples&lt;/h3&gt;
+&lt;h1 id=&quot;lec-1--introduction&quot;&gt;Lec 1  Introduction&lt;/h1&gt;
+
+&lt;h2 id=&quot;motivating-examples&quot;&gt;Motivating Examples&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;You are a sociologist who has collected a social network and various attributes about each person. You use a latent variable model to discover the underlying communities in this population and to characterize the kinds of people that participate in each. The discovered communities help you understand &lt;strong&gt;the structure of the network&lt;/strong&gt; and help predict “missing” edges, such as people who know each other but are not yet linked or people who would enjoy meeting each other.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;/Users/shan/Learning/shanjiang21.github.io/assets/images/Box's loop.png&quot; alt=&quot;Box's loop&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;&amp;quot;/img/Box's loop.png&amp;quot;&quot; alt=&quot;Box's loop&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;George Box and collaborators proposed a Box’s loop in the 1960s, by adopting scientific method, Box tried to understand nature by iterative experimental design, data collection, model formulation, and model criticism.&lt;/p&gt;
 
@@ -770,9 +774,9 @@ continuous variables&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 10 Apr 2019 08:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/10/Latent-Varible-analysis-Tutorial/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/10/Latent-Varible-analysis-Tutorial/</guid>
+        <pubDate>Sat, 13 Apr 2019 08:32:24 -0400</pubDate>
+        <link>http://localhost:4000/2019/04/13/Latent-Varible-analysis-Tutorial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/13/Latent-Varible-analysis-Tutorial/</guid>
         
         
       </item>
@@ -787,7 +791,7 @@ continuous variables&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;996 vs. ICU&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/996.jpg&quot; alt=&quot;996 companies&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/996.jpg&quot; alt=&quot;996 companies&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -808,9 +812,11 @@ continuous variables&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Mapping machanism behind popular 996 work Demanding conditions&lt;/p&gt;
+&lt;p&gt;Mapping the mechanism behind popular 996 work Demanding conditions&lt;/p&gt;
 
-&lt;p&gt;Struggle to have a life and work balance is due to the overtime working and strict conditions set on&lt;/p&gt;
+&lt;p&gt;Struggle to have a life and work balance is due to the overtime working and strict conditions set on these young elites. They are deprived of their own life, thinking room, together with their happiness shared with family members.&lt;/p&gt;
+
+&lt;p&gt;Some digital media called 996 is a scandal for Chinese start-ups and giant technology empires, while I disagree with such criticism. The inside story is not fully presented by now.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;IF THEY DO NOT PUT IN THE HOURS, THEY CAN EASILY JUST BE LAID OFF.&lt;/p&gt;
@@ -844,13 +850,13 @@ Nice drivers and servants,
 The first day of arrival shall never be nicer.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/cali1.jpg&quot; alt=&quot;cali1&quot; /&gt;&lt;/p&gt;
-
 &lt;p&gt;Nice spring break just started from the blue clear sky and green field. With freezes blowing from further hills, loneliness and fear just faded away from my heart, no worries or suspicious ideas would be generated as I am living in this moment.&lt;/p&gt;
 
 &lt;p&gt;Fast and furious can be a salient feature for driving on the road across LA for sure. Even I was on board with my friend on a tour bus, I still feel the power to break restrictions and the freedom to embrace nature without any doubt.&lt;/p&gt;
 
 &lt;p&gt;Los Angeles shall be labeled as a glamorous city, reminding me of the shiniest memories in the past. The palm trees are scattered around accompanied by big houses.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/cali1.jpg&quot; alt=&quot;cali1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Grown up in a Mountain area created more connections for me with this spacious place, there is no such a fever for skyscrapers as Los Angelas is built on an earthquake belt, which makes it more costly and challenging to construct high buildings than just a three story inn.&lt;/p&gt;
 

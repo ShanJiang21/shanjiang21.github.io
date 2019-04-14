@@ -17,7 +17,7 @@
     <meta property="og:description" content="
 ">
     
-    <meta property="article:published_time" content="2019-04-10T08:32:24Z">
+    <meta property="article:published_time" content="2019-04-13T08:32:24Z">
     
     
     <meta property="article:author" content="Shan J.">
@@ -25,7 +25,7 @@
     
     
     <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
-    <meta property="og:url" content="http://localhost:4000/2019/04/10/Latent-Varible-analysis-Tutorial/">
+    <meta property="og:url" content="http://localhost:4000/2019/04/13/Latent-Varible-analysis-Tutorial/">
     <meta property="og:site_name" content="Personal website for Shan Jiang">
     
     <title>Latent Variable Tutorial - Personal website for Shan Jiang</title>
@@ -37,7 +37,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2019/04/10/Latent-Varible-analysis-Tutorial/">
+    <link rel="canonical" href="http://localhost:4000/2019/04/13/Latent-Varible-analysis-Tutorial/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -213,7 +213,7 @@
                     <h1>Latent Variable Tutorial</h1>
                     
                     <h2 class="subheading"></h2>
-                    <span class="meta">Posted by Shan J. on April 10, 2019</span>
+                    <span class="meta">Posted by Shan J. on April 13, 2019</span>
                 </div>
             </div>
         </div>
@@ -241,125 +241,129 @@
 
 				<ul id="markdown-toc">
   <li><a href="#lec-1--introduction" id="markdown-toc-lec-1--introduction">Lec 1  Introduction</a>    <ul>
-      <li><a href="#motivating-examples" id="markdown-toc-motivating-examples">Motivating Examples</a></li>
-      <li><a href="#models" id="markdown-toc-models">Models</a>        <ul>
-          <li><a href="#unsupervised-learning" id="markdown-toc-unsupervised-learning">Unsupervised Learning</a></li>
+      <li><a href="#motivating-examples" id="markdown-toc-motivating-examples">Motivating Examples</a>        <ul>
+          <li><a href="#models" id="markdown-toc-models">Models</a>            <ul>
+              <li><a href="#unsupervised-learning" id="markdown-toc-unsupervised-learning">Unsupervised Learning</a></li>
+            </ul>
+          </li>
+          <li><a href="#software-usage" id="markdown-toc-software-usage">Software Usage</a></li>
         </ul>
       </li>
-      <li><a href="#software-usage" id="markdown-toc-software-usage">Software Usage</a></li>
-    </ul>
-  </li>
-  <li><a href="#lec2-fundamental-ideas-of-measurement" id="markdown-toc-lec2-fundamental-ideas-of-measurement">Lec2 Fundamental Ideas of Measurement</a>    <ul>
-      <li><a href="#steps-for-creating-measurement" id="markdown-toc-steps-for-creating-measurement">Steps for creating measurement</a></li>
-      <li><a href="#1-construct-latent-variable-definition-and-content-domain" id="markdown-toc-1-construct-latent-variable-definition-and-content-domain">1. Construct latent variable definition and content domain</a>        <ul>
-          <li><a href="#deiphi-method" id="markdown-toc-deiphi-method">Deiphi Method</a></li>
-          <li><a href="#levels-of-measurement" id="markdown-toc-levels-of-measurement">Levels of Measurement</a>            <ul>
-              <li><a href="#nominal-data" id="markdown-toc-nominal-data">Nominal Data</a></li>
-              <li><a href="#ordinal-data" id="markdown-toc-ordinal-data">Ordinal Data</a></li>
-              <li><a href="#interval-data" id="markdown-toc-interval-data">Interval Data</a></li>
-              <li><a href="#ratio-data" id="markdown-toc-ratio-data">Ratio Data</a></li>
+      <li><a href="#lec2-fundamental-ideas-of-measurement" id="markdown-toc-lec2-fundamental-ideas-of-measurement">Lec2 Fundamental Ideas of Measurement</a>        <ul>
+          <li><a href="#steps-for-creating-measurement" id="markdown-toc-steps-for-creating-measurement">Steps for creating measurement</a></li>
+          <li><a href="#1-construct-latent-variable-definition-and-content-domain" id="markdown-toc-1-construct-latent-variable-definition-and-content-domain">1. Construct latent variable definition and content domain</a>            <ul>
+              <li><a href="#deiphi-method" id="markdown-toc-deiphi-method">Deiphi Method</a></li>
+              <li><a href="#levels-of-measurement" id="markdown-toc-levels-of-measurement">Levels of Measurement</a>                <ul>
+                  <li><a href="#nominal-data" id="markdown-toc-nominal-data">Nominal Data</a></li>
+                  <li><a href="#ordinal-data" id="markdown-toc-ordinal-data">Ordinal Data</a></li>
+                  <li><a href="#interval-data" id="markdown-toc-interval-data">Interval Data</a></li>
+                  <li><a href="#ratio-data" id="markdown-toc-ratio-data">Ratio Data</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#2-generating-and-judging-measurement-items" id="markdown-toc-2-generating-and-judging-measurement-items">2. Generating and judging measurement items</a>            <ul>
+              <li><a href="#criteria" id="markdown-toc-criteria">Criteria</a>                <ul>
+                  <li><a href="#reliability" id="markdown-toc-reliability">Reliability</a></li>
+                  <li><a href="#validity" id="markdown-toc-validity">Validity</a></li>
+                </ul>
+              </li>
+              <li><a href="#dimensionality" id="markdown-toc-dimensionality">Dimensionality</a>                <ul>
+                  <li><a href="#formative-vs-reflective-measurement" id="markdown-toc-formative-vs-reflective-measurement">Formative vs Reflective measurement</a></li>
+                  <li><a href="#cronbachs-alpha" id="markdown-toc-cronbachs-alpha">Cronbach’s alpha</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
         </ul>
       </li>
-      <li><a href="#2-generating-and-judging-measurement-items" id="markdown-toc-2-generating-and-judging-measurement-items">2. Generating and judging measurement items</a>        <ul>
-          <li><a href="#criteria" id="markdown-toc-criteria">Criteria</a>            <ul>
-              <li><a href="#reliability" id="markdown-toc-reliability">Reliability</a></li>
-              <li><a href="#validity" id="markdown-toc-validity">Validity</a></li>
+      <li><a href="#lec-3-factor-analysis-part-i" id="markdown-toc-lec-3-factor-analysis-part-i">Lec 3 Factor Analysis Part I</a>        <ul>
+          <li><a href="#general-theory-and-exploratory-factor-analysis" id="markdown-toc-general-theory-and-exploratory-factor-analysis">General Theory and Exploratory Factor Analysis</a>            <ul>
+              <li><a href="#factor-analysis-model" id="markdown-toc-factor-analysis-model">Factor Analysis Model</a>                <ul>
+                  <li><a href="#commonly-used-cut-offs-indicating-good-fit-of-the-model" id="markdown-toc-commonly-used-cut-offs-indicating-good-fit-of-the-model">Commonly used cut-offs indicating “good fit” of the model</a></li>
+                </ul>
+              </li>
+              <li><a href="#model-comparison" id="markdown-toc-model-comparison">Model comparison</a></li>
             </ul>
           </li>
-          <li><a href="#dimensionality" id="markdown-toc-dimensionality">Dimensionality</a>            <ul>
-              <li><a href="#formative-vs-reflective-measurement" id="markdown-toc-formative-vs-reflective-measurement">Formative vs Reflective measurement</a></li>
-              <li><a href="#cronbachs-alpha" id="markdown-toc-cronbachs-alpha">Cronbach’s alpha</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><a href="#lec-3-factor-analysis-part-i" id="markdown-toc-lec-3-factor-analysis-part-i">Lec 3 Factor Analysis Part I</a>    <ul>
-      <li><a href="#general-theory-and-exploratory-factor-analysis" id="markdown-toc-general-theory-and-exploratory-factor-analysis">General Theory and Exploratory Factor Analysis</a>        <ul>
-          <li><a href="#factor-analysis-model" id="markdown-toc-factor-analysis-model">Factor Analysis Model</a>            <ul>
-              <li><a href="#commonly-used-cut-offs-indicating-good-fit-of-the-model" id="markdown-toc-commonly-used-cut-offs-indicating-good-fit-of-the-model">Commonly used cut-offs indicating “good fit” of the model</a></li>
-            </ul>
-          </li>
-          <li><a href="#model-comparison" id="markdown-toc-model-comparison">Model comparison</a></li>
-        </ul>
-      </li>
-      <li><a href="#exploratory-factor-analysis" id="markdown-toc-exploratory-factor-analysis">Exploratory Factor Analysis</a>        <ul>
-          <li><a href="#steps-in-an-efa" id="markdown-toc-steps-in-an-efa">Steps in an EFA</a></li>
-          <li><a href="#rotation" id="markdown-toc-rotation">Rotation</a>            <ul>
-              <li><a href="#types-of-rotations" id="markdown-toc-types-of-rotations">Types of Rotations</a></li>
-              <li><a href="#two-examples-for-efa" id="markdown-toc-two-examples-for-efa">Two Examples for EFA</a></li>
+          <li><a href="#exploratory-factor-analysis" id="markdown-toc-exploratory-factor-analysis">Exploratory Factor Analysis</a>            <ul>
+              <li><a href="#steps-in-an-efa" id="markdown-toc-steps-in-an-efa">Steps in an EFA</a></li>
+              <li><a href="#rotation" id="markdown-toc-rotation">Rotation</a>                <ul>
+                  <li><a href="#types-of-rotations" id="markdown-toc-types-of-rotations">Types of Rotations</a></li>
+                  <li><a href="#two-examples-for-efa" id="markdown-toc-two-examples-for-efa">Two Examples for EFA</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
         </ul>
       </li>
-    </ul>
-  </li>
-  <li><a href="#lec-4-factor-analysis-part-ii" id="markdown-toc-lec-4-factor-analysis-part-ii">Lec 4 Factor Analysis Part II</a>    <ul>
-      <li><a href="#confirmatory-factor-analysis" id="markdown-toc-confirmatory-factor-analysis">Confirmatory Factor Analysis</a>        <ul>
-          <li><a href="#specify-a-cfa-in-mplus" id="markdown-toc-specify-a-cfa-in-mplus">Specify a CFA in MPLUS</a></li>
-          <li><a href="#degrees-of-freedom" id="markdown-toc-degrees-of-freedom">Degrees of Freedom</a></li>
-          <li><a href="#standardized-and-unstandardized" id="markdown-toc-standardized-and-unstandardized">Standardized and Unstandardized</a></li>
-          <li><a href="#model-comparison-1" id="markdown-toc-model-comparison-1">Model Comparison</a>            <ul>
-              <li><a href="#nested-model" id="markdown-toc-nested-model">Nested model</a></li>
-              <li><a href="#modification-indices" id="markdown-toc-modification-indices">Modification Indices</a></li>
+      <li><a href="#lec-4-factor-analysis-part-ii" id="markdown-toc-lec-4-factor-analysis-part-ii">Lec 4 Factor Analysis Part II</a>        <ul>
+          <li><a href="#confirmatory-factor-analysis" id="markdown-toc-confirmatory-factor-analysis">Confirmatory Factor Analysis</a>            <ul>
+              <li><a href="#specify-a-cfa-in-mplus" id="markdown-toc-specify-a-cfa-in-mplus">Specify a CFA in MPLUS</a></li>
+              <li><a href="#degrees-of-freedom" id="markdown-toc-degrees-of-freedom">Degrees of Freedom</a></li>
+              <li><a href="#standardized-and-unstandardized" id="markdown-toc-standardized-and-unstandardized">Standardized and Unstandardized</a></li>
+              <li><a href="#model-comparison-1" id="markdown-toc-model-comparison-1">Model Comparison</a>                <ul>
+                  <li><a href="#nested-model" id="markdown-toc-nested-model">Nested model</a></li>
+                  <li><a href="#modification-indices" id="markdown-toc-modification-indices">Modification Indices</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
         </ul>
       </li>
-    </ul>
-  </li>
-  <li><a href="#lec-5-factor-analysis-part-iii" id="markdown-toc-lec-5-factor-analysis-part-iii">Lec 5 Factor Analysis Part III</a>    <ul>
-      <li><a href="#item-response-theory" id="markdown-toc-item-response-theory">Item Response Theory</a>        <ul>
-          <li><a href="#discrimination" id="markdown-toc-discrimination">Discrimination</a></li>
-          <li><a href="#severity" id="markdown-toc-severity">Severity</a></li>
-        </ul>
-      </li>
-      <li><a href="#measurement-invariance-using-mimic" id="markdown-toc-measurement-invariance-using-mimic">Measurement invariance using MIMIC</a>        <ul>
-          <li><a href="#differential-item-functioning" id="markdown-toc-differential-item-functioning">Differential item Functioning</a></li>
-        </ul>
-      </li>
-      <li><a href="#bifactor-modeling" id="markdown-toc-bifactor-modeling">Bifactor modeling</a>        <ul>
-          <li><a href="#second-order-factor-model" id="markdown-toc-second-order-factor-model">Second-order factor model</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><a href="#lec-6-latent-class-analysis" id="markdown-toc-lec-6-latent-class-analysis">Lec 6 Latent Class Analysis</a>    <ul>
-      <li><a href="#item--response-theory-catrgorical-latent-variable-modeling" id="markdown-toc-item--response-theory-catrgorical-latent-variable-modeling">Item  Response Theory: Catrgorical latent variable modeling</a>        <ul>
-          <li><a href="#lca-general-theory" id="markdown-toc-lca-general-theory">LCA general Theory</a></li>
-          <li><a href="#model" id="markdown-toc-model">Model</a>            <ul>
-              <li><a href="#item-difficulty" id="markdown-toc-item-difficulty">Item Difficulty</a></li>
-              <li><a href="#item-discrimination" id="markdown-toc-item-discrimination">Item Discrimination</a></li>
-              <li><a href="#pseudo-change-parameter" id="markdown-toc-pseudo-change-parameter">Pseudo-change parameter</a></li>
+      <li><a href="#lec-5-factor-analysis-part-iii" id="markdown-toc-lec-5-factor-analysis-part-iii">Lec 5 Factor Analysis Part III</a>        <ul>
+          <li><a href="#item-response-theory" id="markdown-toc-item-response-theory">Item Response Theory</a>            <ul>
+              <li><a href="#discrimination" id="markdown-toc-discrimination">Discrimination</a></li>
+              <li><a href="#severity" id="markdown-toc-severity">Severity</a></li>
+            </ul>
+          </li>
+          <li><a href="#measurement-invariance-using-mimic" id="markdown-toc-measurement-invariance-using-mimic">Measurement invariance using MIMIC</a>            <ul>
+              <li><a href="#differential-item-functioning" id="markdown-toc-differential-item-functioning">Differential item Functioning</a></li>
+            </ul>
+          </li>
+          <li><a href="#bifactor-modeling" id="markdown-toc-bifactor-modeling">Bifactor modeling</a>            <ul>
+              <li><a href="#second-order-factor-model" id="markdown-toc-second-order-factor-model">Second-order factor model</a></li>
             </ul>
           </li>
         </ul>
       </li>
-    </ul>
-  </li>
-  <li><a href="#lec-8-structural-equation-model-i" id="markdown-toc-lec-8-structural-equation-model-i">Lec 8 Structural Equation Model I</a>    <ul>
-      <li><a href="#origin-of-structural-equation-model" id="markdown-toc-origin-of-structural-equation-model">Origin of Structural Equation model</a></li>
-    </ul>
-  </li>
-  <li><a href="#lec-10-sem" id="markdown-toc-lec-10-sem">Lec 10 SEM</a>    <ul>
-      <li><a href="#resources" id="markdown-toc-resources">Resources</a></li>
-      <li><a href="#appendix" id="markdown-toc-appendix">Appendix</a></li>
+      <li><a href="#lec-6-latent-class-analysis" id="markdown-toc-lec-6-latent-class-analysis">Lec 6 Latent Class Analysis</a>        <ul>
+          <li><a href="#item--response-theory-catrgorical-latent-variable-modeling" id="markdown-toc-item--response-theory-catrgorical-latent-variable-modeling">Item  Response Theory: Catrgorical latent variable modeling</a>            <ul>
+              <li><a href="#lca-general-theory" id="markdown-toc-lca-general-theory">LCA general Theory</a></li>
+              <li><a href="#model" id="markdown-toc-model">Model</a>                <ul>
+                  <li><a href="#item-difficulty" id="markdown-toc-item-difficulty">Item Difficulty</a></li>
+                  <li><a href="#item-discrimination" id="markdown-toc-item-discrimination">Item Discrimination</a></li>
+                  <li><a href="#pseudo-change-parameter" id="markdown-toc-pseudo-change-parameter">Pseudo-change parameter</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#lec-8-structural-equation-model-i" id="markdown-toc-lec-8-structural-equation-model-i">Lec 8 Structural Equation Model I</a>        <ul>
+          <li><a href="#origin-of-structural-equation-model" id="markdown-toc-origin-of-structural-equation-model">Origin of Structural Equation model</a></li>
+        </ul>
+      </li>
+      <li><a href="#lec-10-sem" id="markdown-toc-lec-10-sem">Lec 10 SEM</a>        <ul>
+          <li><a href="#resources" id="markdown-toc-resources">Resources</a></li>
+          <li><a href="#appendix" id="markdown-toc-appendix">Appendix</a></li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
 
-<h2 id="lec-1--introduction">Lec 1  Introduction</h2>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async=""></script>
 
-<h3 id="motivating-examples">Motivating Examples</h3>
+<h1 id="lec-1--introduction">Lec 1  Introduction</h1>
+
+<h2 id="motivating-examples">Motivating Examples</h2>
 
 <blockquote>
   <p>You are a sociologist who has collected a social network and various attributes about each person. You use a latent variable model to discover the underlying communities in this population and to characterize the kinds of people that participate in each. The discovered communities help you understand <strong>the structure of the network</strong> and help predict “missing” edges, such as people who know each other but are not yet linked or people who would enjoy meeting each other.</p>
 </blockquote>
 
-<p><img src="/Users/shan/Learning/shanjiang21.github.io/assets/images/Box's loop.png" alt="Box's loop" /></p>
+<p><img src="&quot;/img/Box's loop.png&quot;" alt="Box's loop" /></p>
 
 <p>George Box and collaborators proposed a Box’s loop in the 1960s, by adopting scientific method, Box tried to understand nature by iterative experimental design, data collection, model formulation, and model criticism.</p>
 
@@ -1070,8 +1074,8 @@ continuous variables</p>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "shanj";
-    var disqus_identifier = "/2019/04/10/Latent-Varible-analysis-Tutorial";
-    var disqus_url = "http://localhost:4000/2019/04/10/Latent-Varible-analysis-Tutorial/";
+    var disqus_identifier = "/2019/04/13/Latent-Varible-analysis-Tutorial";
+    var disqus_url = "http://localhost:4000/2019/04/13/Latent-Varible-analysis-Tutorial/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
