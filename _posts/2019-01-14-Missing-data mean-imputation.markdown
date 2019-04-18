@@ -3,10 +3,11 @@ layout: post
 title: Missing data mean imputation
 date: 2019-01-14 15:32:24.000000000 +09:00
 author: Shan J.
+tags:
+    - Statistics
 ---
 
 ## Missing-data Techniques | 缺失值处理，可以用均值填补么？
-
 
 ### 1. 背景:	Overview
 

@@ -64,6 +64,10 @@ disqus_username: shanj
 # Netease settings
 netease_comment: false
 
+# Google Analytics
+ga_track_id: 'UA-138327408-1'            # Format: UA-xxxxxx-xx
+ga_domain: shanj.tk
+
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true

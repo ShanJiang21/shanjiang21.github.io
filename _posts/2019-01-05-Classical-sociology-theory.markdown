@@ -3,7 +3,11 @@ layout: post
 title: "Classical sociology theory"
 author: "Shan"
 date: 2019-01-05 15:32:24.000000000 +09:00
+tags:
+    - Sociology
 ---
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
 						<center>1</center>  
 

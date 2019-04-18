@@ -5,8 +5,8 @@
     <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Apr 2019 20:59:41 -0400</pubDate>
-    <lastBuildDate>Mon, 15 Apr 2019 20:59:41 -0400</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 20:37:49 -0400</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 20:37:49 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -825,6 +825,242 @@ continuous variables&lt;/p&gt;
         <link>http://localhost:4000/2019/04/13/Latent-Varible-analysis-Tutorial/</link>
         <guid isPermaLink="true">http://localhost:4000/2019/04/13/Latent-Varible-analysis-Tutorial/</guid>
         
+        <category>statistics</category>
+        
+        <category>latent variable</category>
+        
+        <category>Tutorial</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Python tutorial</title>
+        <description>&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot; async=&quot;&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;All programming languages must be able to:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;remember things,&lt;/li&gt;
+  &lt;li&gt;repeat things,&lt;/li&gt;
+  &lt;li&gt;communicate, and&lt;/li&gt;
+  &lt;li&gt;make decisions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Functions are all about #2: &lt;strong&gt;repeating things&lt;/strong&gt;. Think of a function as a standalone mini-program: It takes some inputs, performs some operations, and generates an output. We define a function once, and we can execute the code define within a function as many times as we like – repeating all those lines of code with a single invocation.&lt;/p&gt;
+
+&lt;p&gt;The code we’ve written in Python have already employed functions – so far, we’ve defined a function named &lt;em&gt;main&lt;/em&gt; and invoked it to kick off the execution of a program.  But we’ll go way beyond that, defining many functions to do one small thing apiece, and putting them together into a larger program. Now that our programs are starting to get more robust and sophisticated, you’ll define functions beyond just main for pretty much everything you write. Not just in Python and not just in DS2000, but for all of your computer science/data science/programming going forward.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why Functions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Functions help us to organize our code. They save us from writing a big, long, ugly &lt;em&gt;main&lt;/em&gt;. A function is written once and then its code can be executed many times.&lt;/p&gt;
+
+&lt;p&gt;Functions are short and concise. &lt;strong&gt;Keep this rule of thumb in mind:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;A  Function has one job.
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We define a function to do its one little thing, and then we can execute that code many times, on all kinds of different inputs.&lt;/p&gt;
+
+&lt;p&gt;We define functions because they are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Modular&lt;/em&gt;&lt;/strong&gt;. We end up with many small, single-purpose functions, which we can then piece together into a larger program. It’s the same reason IKEA gives us a bunch of separate shelves that we assemble; it might be annoying, but it’s much easier than if we had to build the whole bookshelf from scratch ourselves.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Testable&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;.&lt;/em&gt; We’ve written test cases for our Python programs in this class, which are great and useful. The drawback of what we’ve done so far, with everything in one big &lt;em&gt;main&lt;/em&gt;, is that &lt;u&gt;we need to provide input at the prompt&lt;/u&gt; and then &lt;strong&gt;eyeball the output&lt;/strong&gt; to make sure it all worked as expected. Functions enable us to test our code &lt;em&gt;programmatically&lt;/em&gt;  – instead of a human eyeball, it’s Python code that determines whether a function generated the correct output given an input. Much more reliable.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Reuseable&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;.&lt;/em&gt; Once a function is defined, we can use it in many programs, sometimes with wildly different purposes. For example, Python provides a function that generates a random number, and I’ve used this function for programs that roll dice, deal a card from a deck, play a guessing game, play rock/scissors/paper, and basically any game of chance you can think of, because they’re my favorite programs to write. That one function has come in handy in tons of ways.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Name, Parameters, Return Type&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A function is uniquely defined by three characteristics:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Name (required)&lt;/em&gt;&lt;/strong&gt; . Similar to a variable name, a function is named so we can refer to it elsewhere in the program.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Parameters (zero or more).&lt;/em&gt;&lt;/strong&gt; The data types of its expected input(s). A parameter is a variable that is attached to the function. Because variables must be initialized before we can meaningful use them, a parameter is initialized by the function caller.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Return Type (zero or one).&lt;/em&gt;&lt;/strong&gt; The data type of its expected output. A function performs some operation on its input, and returns the result to the function caller.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here’s an example of a simple function in Python, defined by the function writer:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;divide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;''' function: divide
+        parameters: two numbers, x and y
+        returns: a float, the result of dividing x / y
+    '''&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Let’s break it down to the important parts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: divide&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Parameters&lt;/strong&gt;: two numbers, which could be floats or ints. The parameters are variables attached to the function, and they are named &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt;. You can see that &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt; are not initialized here in the function definition, but we know that we need them to be initialized so that we can use them – they’ll be given values by the function caller.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Return type&lt;/strong&gt;: a float. The function returns the result of &lt;em&gt;x / y&lt;/em&gt;, which is a float even if &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt; are both integers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A few other things to notice here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There is a block comment written just under the function name. It must be in block comments so that &lt;a href=&quot;https://docs.python.org/2/library/pydoc.html&quot;&gt;pydoc&lt;/a&gt; will generate your function documentation correctly. For DS2000, we require both parameters and return type to be specified here, but including the name is optional (it’s just something I like to do so I can see them all together in IDLE’s green highlights).&lt;/li&gt;
+  &lt;li&gt;The last line of the function is a &lt;strong&gt;return&lt;/strong&gt; statement. Return is a &lt;strong&gt;reserve word&lt;/strong&gt; in Python. Its job is to hand a value back to the caller. Once a return statement is executed, flow of control also returns to the caller. If any additional code were written here underneath the return statement, it would never be executed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A function is not required to return a value. &lt;u&gt;If it doesn’t return anything, we call it a “void function,”&lt;/u&gt; and we say that its return type is &lt;strong&gt;void.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;main&lt;/em&gt; functions we’ve defined in our programs so far don’t return anything; when the flow of control reaches the end of the function, the function just ends without explicitly requiring a return statement.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calling the function&lt;/strong&gt;. Here’s how it would look if I call the &lt;em&gt;divide&lt;/em&gt; function from somewhere inside my main function:&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;What to notice here:&lt;/u&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We had to know the &lt;em&gt;name, parameters&lt;/em&gt;, and &lt;em&gt;return type&lt;/em&gt; of this function in order to call it. That’s how we know the correct syntax for invoking it.&lt;/li&gt;
+  &lt;li&gt;We’ve named our variables here &lt;em&gt;a&lt;/em&gt; and &lt;em&gt;b&lt;/em&gt; and initialized them to have the values 14 and 5. Therefore, 14 and 5 become the values associated with the function’s parameters &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt;. The values 14 and 5 are the &lt;strong&gt;arguments&lt;/strong&gt; to the divide function.&lt;/li&gt;
+  &lt;li&gt;Because the function &lt;em&gt;divide&lt;/em&gt; returns a value, the function caller must save the value it returns. Otherwise, the result of dividing 14/5 would be lost. Here, we’re saving the result in a variable, but we could also print it out, or use it as input to another function… but we can’t ignore it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Flow of Control&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Without functions, a basic little Python code snippet would be executed from top to bottom and left to right, just like reading a book. Here’s an example you might recognize from class: converting my dog’s weight in stone to his weight in pounds.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;weight_in_stone = 5.35&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;weight_in_pounds = weight_in_stone * 14&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;3&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;print(‘Tug weighs’, round(weight_in_pounds, 2), ‘pounds!’)&lt;/strong&gt;*&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The flow of control is easy to follow and predictable. The lines are executed in this order:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Line 1&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Line 2&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Line 3&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now let’s turn this little bit of code into a function. Even though there’s not much going on with this calculation, it makes sense to turn it into a function, because:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It could easily be reused in lots of different contexts.&lt;/li&gt;
+  &lt;li&gt;It clearly takes one input (weight in stone) and computes a value (weight in pounds).&lt;/li&gt;
+  &lt;li&gt;It’s a calculation we might need more than once in the same program.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Turning this calculation into a function alters the flow of control. Flow of control begins with &lt;em&gt;main&lt;/em&gt;, which is often called the “driver”, and should be the first place you look when trying to understand someone else’s code. Then, flow of control flows into a function when it is invoked. Flow of control goes back to the caller when a return statement is executed.  Let’s take another look at this example, as a more complete Python program:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-python &quot;&gt;
+def stone_to_pounds(num_stone):
+    num_pounds = num_stone * 14
+    return num_pounds
+
+def main():
+    weight_in_stone = 5.35
+    pounds = stone_to_pounds(weight_in_stone)
+    print('Tug weighs', round(pounds, 2), 'pounds!')
+
+main()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The flow of control really begins at line 10 ( at &lt;u&gt;line 1&lt;/u&gt; and &lt;u&gt;line 5&lt;/u&gt;, we define functions but don’t execute them so the flow of control doesn’t go there yet). When we call the stone_to_pounds function, the flow of control goes up to line 1, and then returns to the caller at line 7. In all, here’s the flow:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Line 10&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Line 5&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Line 6&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Line 7 # invoke stone_to_pounds&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Line 1&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Line 2&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Line 3&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Line 7 # flow of control returns to caller;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;​       &lt;strong&gt;# variable&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;pounds&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;is initialized&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Line 8&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At line 3, the flow of control returns to the caller. Whatever value is stored in the variable &lt;em&gt;num_pounds&lt;/em&gt; is handed back to the caller. This value is used to initialize the variable &lt;em&gt;pounds&lt;/em&gt; in main.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A Word on Testing (and more soon…)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We said above that one of the reasons for writing functions in the first place is so we can test our code programmatically.&lt;/p&gt;
+
+&lt;p&gt;We’ll talk a lot more about testing and debugging in the next few weeks, but for now think of it this way: in the example above, we wrote a function to divide two numbers. Rather than calling the function and eyeballing the output, we can now call the function and write some code to verify that it worked as expected. Rather than hitting function+F5 over and over again to run the program with different inputs, we can use code to test our function many, many times without breaking a sweat. It’ll be great.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Testing and Debugging&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We already know the most important part of testing and debugging: when something goes wrong, DON’T PANIC!!&lt;/p&gt;
+
+&lt;p&gt;The second most important part of this process is to find possible issues in our code early. Remember, most of the software you write will be used by people who aren’t you. We design and write a big, hopefully useful, piece of code, and hand it off to a group of users who want our software so they can accomplish something meaningful, creative, and substantive. And – I say this from experience – your users will act as if they are &lt;em&gt;trying&lt;/em&gt; to break your program. Your job is not to let them.&lt;/p&gt;
+
+&lt;p&gt;Testing and debugging work together:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt; is the process of running a program (or parts of a program) to ascertain whether it works as intended.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Debugging&lt;/strong&gt; is the process of fixing a program that you already know does not work as intended.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Good programmers write their programs in a way that makes them easier to test and debug. It’s not something to think about after you’ve written your program, but to think about before you begin writing.&lt;/p&gt;
+
+&lt;p&gt;We’ll get some practice with testing in DS2000 by writing test suites. A test suite is a separate Python program, with its own &lt;em&gt;main&lt;/em&gt;, that repeatedly calls a function you’ve written to validate that it works correctly. A test suite will contain tests for multiple functions.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Apr 2019 08:32:24 -0400</pubDate>
+        <link>http://localhost:4000/2019/04/12/PythonLec2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/12/PythonLec2/</guid>
+        
+        <category>Python</category>
+        
+        <category>coding</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Seeing the unseeable</title>
+        <description>&lt;h2 id=&quot;the-first-blackhole-picture-captured&quot;&gt;The first blackhole picture captured&lt;/h2&gt;
+
+&lt;p&gt;The unveiling, before a crowd at the National Press Club in Washington D.C. and five other venues around the world, took place almost exactly a century after images of &lt;a href=&quot;https://www.nytimes.com/2017/07/31/science/eclipse-einstein-general-relativity.html?module=inline&quot;&gt;stars askew in the heavens&lt;/a&gt; made Einstein famous and confirmed his theory of general relativity as the law of the cosmos.&lt;/p&gt;
+
+&lt;p&gt;We live 26,000 light-years from the center of the Milky Way. That’s a rounding error by cosmological standards, but still — it’s far. When the light now reaching Earth from the galactic center first took flight, people were crossing the Bering Strait land bridge, hunting woolly mammoths along the way.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;In these dark days, it’s only fitting that the object of this pursuit is the darkest thing imaginable.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The same logic also applies to ourselves, you may never know the limit of yourself, once you are settled down, it is hard and pricy for you to be go even one more step further.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“To do this, we worked for over a decade,” Doeleman said, in a Washington, D.C.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 10 Apr 2019 08:32:24 -0400</pubDate>
+        <link>http://localhost:4000/2019/04/10/Seeing-the-unseeable-black-hole-and-ego/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/10/Seeing-the-unseeable-black-hole-and-ego/</guid>
+        
         
       </item>
     
@@ -1257,12 +1493,16 @@ earnings.top &amp;lt;- topcode (earnings, 100) hist (earnings.top[earnings&amp;g
         <link>http://localhost:4000/2019/01/14/Missing-data-mean-imputation/</link>
         <guid isPermaLink="true">http://localhost:4000/2019/01/14/Missing-data-mean-imputation/</guid>
         
+        <category>Statistics</category>
+        
         
       </item>
     
       <item>
         <title>Classical sociology theory</title>
-        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+        <description>&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot; async=&quot;&quot;&gt;&lt;/script&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 &lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;					&amp;lt;center&amp;gt;1&amp;lt;/center&amp;gt;  
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -1313,8 +1553,10 @@ earnings.top &amp;lt;- topcode (earnings, 100) hist (earnings.top[earnings&amp;g
 &lt;p&gt;It is also shown that none of these scholars, not even Marx, could pass contemporary tests of ‘&lt;strong&gt;political correctness’&lt;/strong&gt;. We take the view, however, this does not invalidate their sociological ideas. For example, Marx and Engles, also have some ideas which can be linked with the contemporary critique of patriarchal society on the way in which capitalism depends on the unpaid but essential domestic work of women, or their reduction to status of property in the context of &lt;strong&gt;bourgeois&lt;/strong&gt; family life.&lt;/p&gt;
 </description>
         <pubDate>Sat, 05 Jan 2019 01:32:24 -0500</pubDate>
-        <link>http://localhost:4000/2019/01/05/Classical-soc-theory/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/05/Classical-soc-theory/</guid>
+        <link>http://localhost:4000/2019/01/05/Classical-sociology-theory/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/05/Classical-sociology-theory/</guid>
+        
+        <category>Sociology</category>
         
         
       </item>
@@ -1443,6 +1685,10 @@ ggplot(train_df, aes(x = as.factor(pclass), stat = &quot;count&quot;)) +
         <pubDate>Sun, 30 Dec 2018 01:32:24 -0500</pubDate>
         <link>http://localhost:4000/2018/12/30/Titanic-R/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/12/30/Titanic-R/</guid>
+        
+        <category>Python</category>
+        
+        <category>Statistics</category>
         
         
       </item>
