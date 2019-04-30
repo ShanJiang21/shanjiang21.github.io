@@ -5,9 +5,53 @@
     <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 17 Apr 2019 20:37:49 -0400</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2019 20:37:49 -0400</lastBuildDate>
+    <pubDate>Tue, 30 Apr 2019 17:34:40 -0400</pubDate>
+    <lastBuildDate>Tue, 30 Apr 2019 17:34:40 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Two seperated world</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/img/post_notre_dame_cathedral.jpg&quot; alt=&quot;Notre Dame Cathedral fire&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Plato developed a two layer view of reality, the world of Becoming and the world of Being. &lt;br /&gt;
+         — symposium, Plato&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The world of Becoming is the physical world we percieve through our senses. This world is always in movement, always changing. The world of Being is the world of forms, or ideas. It is absolute, independent, and transcendent. It never changes and yet causes the essential nature of things we percieve in the world of Becoming.&lt;/p&gt;
+
+&lt;p&gt;Massive blaze encompasses the Notre Dame Cathedral, which is not only a landmark of Paris,  also an icon of Europe.&lt;/p&gt;
+
+&lt;p&gt;Shock and quietness engulf all the people, real fears spread among the public, media delineate this event as a devastating disaster.&lt;/p&gt;
+
+&lt;p&gt;Roof has collapsed on such a so-called historical day, isn’t it ironic? you may able to call it an absolute tragedy for these families who have overseen the rise and falls besides the once-romantic Seine bank in Paris.&lt;/p&gt;
+
+&lt;p&gt;The grief, or you can called it the sense of feeling lost your beloved stuff, friends, appeared again for millions of parisians.&lt;/p&gt;
+
+&lt;p&gt;If you watch closely to everyone’s life, you will find there will always be certain degree of shades. There is no doubt, some of us are the lucky dogs among all creatures of God, fortune or wealth, good education or luxury commodities, it always seems to be easy and convenient. However, for those diagnosed with rare disease, are they doomed to suffer from the date of birth? I am completely discouraged by the world, and still I am a person trying to enjoy all the privilege brought to me by my family, abuse resources I have available with me.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;No hope forever,  No &lt;em&gt;orietur&lt;/em&gt;.
+Science and patience,
+The torment is sure.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If the pursuit of knowledge per se cannot change the situation, what should I insist? It is almost impossible for one to keep up with the latest information every moment, it’s often exhausting and tiring, sometimes disappointing, but there is also miracle that exists always.&lt;/p&gt;
+
+&lt;p&gt;To the darkest days, tears and down hours, these will in the final be faded away.&lt;/p&gt;
+
+&lt;p&gt;There are limited time allocated for families, science and society. No wonder, why after carrying on the responsibility to maintain the role of breadwinner in family, more care and attention are paid for the internal mechanism of the tiny cell’s interest instead of the stars on the beautify sky, not necessarily cosmology, but one more important mission for one him/herself.&lt;/p&gt;
+
+&lt;p&gt;The Platonic instinct to &lt;strong&gt;seek a higher principle&lt;/strong&gt; is rooted in my mind, perhaps that is the reason why I can accept my normal good-looking and just above C+ dressing style, as for me, now the &lt;strong&gt;beauty as capital&lt;/strong&gt; still cannot be prioritized.&lt;/p&gt;
+
+&lt;p&gt;I am no copy of anyone, unique and should be cherished, not being able to fulfill eternity, just live in the moment.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Apr 2019 08:32:24 -0400</pubDate>
+        <link>http://localhost:4000/2019/04/23/Two-seperated-world/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/23/Two-seperated-world/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Nothing Forever</title>
@@ -1557,138 +1601,6 @@ earnings.top &amp;lt;- topcode (earnings, 100) hist (earnings.top[earnings&amp;g
         <guid isPermaLink="true">http://localhost:4000/2019/01/05/Classical-sociology-theory/</guid>
         
         <category>Sociology</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Titanic</title>
-        <description>&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;# Load packages
-library(tidyverse)
-library(formattable)
-library(gmodels)
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;import-web-based-api&quot;&gt;Import web-based API&lt;/h2&gt;
-&lt;p&gt;All web-based 2 APIs have always the same structure:
-they consist of a URL to a domain and a path to an endpoint.
-For instance: http://example.com/api where http://example.com is the URL and /api is the path to the endpoint.
-In recent years, JSON has become the most common answer format by far. JSON is a simple text file that uses special characters and conventions to bring structure into its contents.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;train_raw = read_csv(&quot;./data/train.csv&quot;)
-test_df = read_csv('data/test.csv')
-skimr::skim(train_raw)
-skimr::skim(test_df)
-
-# identify count of NAs in data frame
-sum(is.na(train_raw))
-sum(is.na(test_df))
-
-## For data frames, a convenient shortcut to compute the total missing values in each column is to use colSums():
-
-colSums(is.na(train_raw))
-colSums(is.na(test_df))
-
-## head of data, formatted   
-formattable(head(train_raw)) ## In python: sns.set_style('whitegrid')
-
-train_df  = train_raw %&amp;gt;%
-  janitor::clean_names() %&amp;gt;%
-  mutate(survived = as.factor(survived))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;There are in total &lt;code class=&quot;highlighter-rouge&quot;&gt;nrow(train_raw )&lt;/code&gt; passengers on the list, while the missing values in total are &lt;code class=&quot;highlighter-rouge&quot;&gt;sum(is.na(train_df))&lt;/code&gt; and sum(is.na(test_df)) respectively.&lt;/p&gt;
-
-&lt;p&gt;Actually, with a closer look at the data, we can find missing values mainly fall into the category of
-&lt;code class=&quot;highlighter-rouge&quot;&gt;Cabin&lt;/code&gt; and ` Age&lt;code class=&quot;highlighter-rouge&quot;&gt;, few are in &lt;/code&gt;Embarked ` in train dataframe, 1 in &lt;code class=&quot;highlighter-rouge&quot;&gt;Fare &lt;/code&gt; in test_df.&lt;/p&gt;
-
-&lt;h2 id=&quot;descriptive-statistics&quot;&gt;Descriptive statistics&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;## Survived
-library(ggplot2)
-
-## survival: 0 = No, 1 = Yes
-ggplot(train_df, aes(x = survived, stat = &quot;count&quot;)) +
-  geom_bar(aes(fill = sex), width = 0.7) +
-  coord_flip() +
-  theme(legend.position = &quot;top&quot;) +
-  theme_bw() +
-  scale_x_discrete(labels = c(&quot;No&quot;,&quot;Yes&quot;)) +
-  ggtitle(&quot;Survived profile of Titanic passengers&quot;)
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;dealing-with-missing-value&quot;&gt;Dealing with missing value&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;require(randomForest)
-## 1. Assign mode value for missing Embarked rows
-train_df = train_df %&amp;gt;%
-  mutate(embarked = ifelse(is.na(embarked), mode(embarked), embarked)) %&amp;gt;%
-## 2. Cabin: assign NA mark for missing entries
-  mutate(cabin = ifelse(is.na(cabin), 'u0', cabin))
-## 3. Age: an important indicator for prediction, use RandomForest
-
-
-## choose training data to predict age
-age_df = train_raw %&amp;gt;%
-  select('Age','Survived','Fare', 'Parch', 'SibSp', 'Pclass')
-
-age_df_notnull =  age_df %&amp;gt;%
-  filter( is.na(Age) == F )
-
-age_df_isnull = age_df %&amp;gt;%
-  filter( is.na(Age) == T )
-
-# Use RandomForestRegression to train data
-RFR = randomForest(
-  formula = Age ~ .,
-  data  = age_df_notnull)
-
-pred.Age = predict(RFR , age_df_isnull)
-
-## Insert the predicted value for Ages
-train_df = train_df %&amp;gt;%
-  mutate(age = ifelse(is.na(age), pred.Age, age))
-
-sum(is.na(train_df))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;data-analysis&quot;&gt;Data analysis&lt;/h2&gt;
-
-&lt;h4 id=&quot;1-lady-first-principle&quot;&gt;(1). &lt;strong&gt;Lady First&lt;/strong&gt; principle&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;## cross tables
-corr_df = train_df %&amp;gt;%
-  mutate(sex = ifelse(sex == &quot;female&quot;, 0, 1)) %&amp;gt;%
-  select(survived, pclass, sex, age, sib_sp, parch, fare)
-
-with(train_df, CrossTable(sex, survived))
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&quot;2-ticket-class-and-survival-rate-pclass&quot;&gt;(2) Ticket class and survival rate: Pclass&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;## 1 = 1st, 2 = 2nd, 3 = 3rd
-with(train_df, CrossTable( pclass, survived))
-
-## survival: 0 = No, 1 = Yes
-
-ggplot(train_df, aes(x = as.factor(pclass), stat = &quot;count&quot;)) +
-  geom_bar(aes(fill = survived), width = 0.7) +
-  theme(legend.position = &quot;top&quot;) +
-  theme_bw() +
-  scale_x_discrete(labels = c(&quot;1st&quot;,&quot;2nd&quot;, &quot;3rd&quot;)) +
-  xlab(&quot;passenger classes&quot;)  +
-  ggtitle(&quot;Distribution of survival rate among 3 classes on Titanic&quot;)
-
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-        <pubDate>Sun, 30 Dec 2018 01:32:24 -0500</pubDate>
-        <link>http://localhost:4000/2018/12/30/Titanic-R/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/12/30/Titanic-R/</guid>
-        
-        <category>Python</category>
-        
-        <category>Statistics</category>
         
         
       </item>

@@ -112,6 +112,8 @@
                     </li>
                     
                     
+                    
+                    
                 </ul>
             </div>
         </div>
@@ -231,31 +233,36 @@ Last updated: March 2019</p>
     new GitHubCalendar(".calendar", "shanjiang21");
 </script>
 
-<h2 id="table-of-content">Table of Content</h2>
-
-<ul>
-  <li><a href="#awesome-lists">Energy Insecurity Scaling</a></li>
-  <li><a href="#R programming">Academic R tables</a></li>
-  <li><a href="#battery-api">Data Science Jobs Text mining</a></li>
-</ul>
-
-<h2 id="awesome-lists">awesome lists</h2>
-
-<p><img src="https://camo.githubusercontent.com/9cdace173cd8a48b0b633c47374c3553494e0d8f/68747470733a2f2f7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f6d61737465722f6d656469612f6c6f676f2e737667" alt="awesome logo" /></p>
-
-<p>I’ve started by giving some small contributions to [awesome]</p>
-
-<h3 id="ongoing-projects">Ongoing Projects</h3>
+<h3 id="previous-and-ongoing-projects">Previous and Ongoing Projects</h3>
 
 <p>Below is an incomplete list of projects I have worked on.</p>
 
 <ul>
-  <li><a href="https://shanjiang21.github.io/P8105_final_website.io/">Data science jobs outlook</a></li>
+  <li><a href="https://shanjiang21.github.io/P8105_final_website.io/">Data science jobs outlook-based on text mining analysis</a></li>
   <li><a href="https://github.com/ShanJiang21/Shiny_lec">Shiny</a></li>
-  <li><a href="">Energy Insecurity</a></li>
+  <li><a href="#Energy Insecurity Scaling">Energy Insecurity Scaling</a></li>
+  <li><a href="#Social Network Analysis">Social network Analysis visualization</a></li>
 </ul>
 
-<h2 id="computational-social-science">Computational social science</h2>
+<h4 id="data-science-jobs-outlook">Data science jobs outlook</h4>
+
+<p><img src="&quot;img/proj-ds.jpg&quot;" alt="Data Science text mining logo" /></p>
+
+<p>Two datasets were adopted for our data science job analysis.</p>
+
+<p>Data Scientist Job Posts in the U.S on Indeed Website in 2018 August
+The main analysis draws from data scraped and cleaned by Shanshan Lu from Kaggle. This Indeed dataset originates from Indeed website, containing 7,000 data scientist jobs around the U.S. by August 3rd, 2018. Main variables include Company Name, Position Name,  Location, Job Description, and Number of Reviews of the Company. We mainly squared at the job description column that contains information such as a short description of company and position, requirement and route of application.</p>
+
+<p>Based on the ranking of total revenues of each company’s retrospective fiscal year, Fortune magazine’s annual report of top 500 largest companies in the U.S has always been regarded as a reliable measurement for the value of a company. Many of the Fortune 500 companies now have a job title of Chief Data Scientist or Head of Analytics, and some Internet magnets have invested much on data mining, Artificial Intelligence or related areas.</p>
+
+<p>Comparison of top-500 companies and non-top 500 companies are based on Data from The 500 Largest Industrial Corporations in the U.S., Published by Fortune magazine (updated by October 5, 2018)
+Given that differences of preference of these big-names and small companies may have for employees, we will combine the Fortune 500 company list and our Indeed dataset by company name. Through creating a new logical variable named flag to indicate whether each company falls into Fortune 500 companies category or not, this full dataset will be adopted for our Exploratory analysis.</p>
+
+<h4 id="social-network-analysis">Social Network Analysis</h4>
+
+<p><img src="&quot;img/proj-100city.jpg&quot;" alt="Social Network Analysis logo" /></p>
+
+<p>I’ve started doing computational social network analysis for a while, recently I helped with one project on the flow of officials from different positions in China with policy reform.</p>
 
 <h3 id="sociology-journal">Sociology Journal</h3>
 
@@ -269,7 +276,7 @@ Last updated: March 2019</p>
 
 <h2 id="my-blog-use-jekyll-to-hold-my-own-tech-blog">My blog: Use Jekyll to hold my own Tech Blog</h2>
 
-<p><a href="https://tech.occrp.org"><img src="https://i.imgur.com/w5srZBJ.png" alt="Jazbina" class="fit image" /></a></p>
+<p><a href="https://shanj.tk"><img src="img/blog-bg.jpg" alt="Jazbina" class="fit image" /></a></p>
 
     		</div>
     <!-- Sidebar Container -->
@@ -294,12 +301,12 @@ Last updated: March 2019</p>
         </a>
         
         
-                <a data-sort="0008" 
+                <a data-sort="0009" 
                     href="/archive/?tag=Python"
                     title="Python"
                     rel="2">Python</a>
         
-                <a data-sort="0008" 
+                <a data-sort="0009" 
                     href="/archive/?tag=Statistics"
                     title="Statistics"
                     rel="2">Statistics
@@ -517,6 +524,21 @@ Last updated: March 2019</p>
 
 
 <!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-138327408-1';
+    var _gaDomain = 'shanj.tk';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
 
 
 
