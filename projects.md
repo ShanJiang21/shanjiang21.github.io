@@ -42,7 +42,9 @@ Below is an incomplete list of projects I have worked on.
 
 #### Data science jobs outlook
 
-![Data Science text mining logo]("img/proj-ds.jpg")
+
+
+![Data Science text mining logo]("_site/img/proj-ds.jpg")
 
 Two datasets were adopted for our data science job analysis.
 
@@ -57,20 +59,19 @@ Given that differences of preference of these big-names and small companies may 
 
 #### Social Network Analysis
 
-![Social Network Analysis logo]("img/proj-100city.jpg")
+![Social Network Analysis logo]("../proj-100city.png")
 
 I've started doing computational social network analysis for a while, recently I helped with one project on the flow of officials from different positions in China with policy reform.
 
+#### My blog: Use Jekyll to hold my own website
 
-###  Sociology Journal
+<a href="https://shanj.tk"><img src="../img/blog-bg.jpg" alt="" class="fit image"></a>
+
+
+#####  Sociology Journal
 
 * [The American Sociological Review](https://journals.sagepub.com/home/asr)
 * [The American Journal of Sociology](https://www.journals.uchicago.edu/toc/ajs/current)
 * [Social Forces](https://academic.oup.com/sf/issue)
 * [Social Networks](https://www.journals.elsevier.com/social-networks)
 * [Peers at work](https://eml.berkeley.edu/~moretti/text20.pdf)
-
-
-## My blog: Use Jekyll to hold my own Tech Blog
-
-<a href="https://shanj.tk"><img src="img/blog-bg.jpg" alt="Jazbina" class="fit image"></a>
