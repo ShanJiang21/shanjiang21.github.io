@@ -1,4 +1,5 @@
-# website
+# SHAN'S PERSONAL WEBSITE
+
 THIS is Shanjiang's personal website for displaying projects and blog posts, welcome to share your ideas with me.The theme is forked from [Vno Jekyll](https://github.com/onevcat/vno-jekyll).
 
 This website also support for [996 vs ICU project](https://github.com/996icu/996.ICU/blob/master/i18n/en_US.md)
