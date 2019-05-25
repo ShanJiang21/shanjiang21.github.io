@@ -1,9 +1,9 @@
 # Basic
 title: Shan's hub
-SEOTitle: Personal website for Shan Jiang
+SEOTitle: sj2921@columbia.edu
 header-img: img/home-bg.jpg
 email: sj2921@columbia.edu
-keyword: Sociology, novels, R, biostatistics, live in NYC
+keyword: Sociology, novels, R, biostatistics, New Yorker
 welcome_message: Now I am working on Energy insecuirity and applications of data visulization on social science topics, for more information, <a href="https://shanjiang21.github.io/sociology.html">click here</a>
 description: Hi, I am Shan(@shanjiang21), a master student at Columbia University.
 url: "https://shanj.tk/"
@@ -22,7 +22,7 @@ github_username: shanjiang21
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 10
+paginate: 12
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true
 
@@ -61,8 +61,6 @@ kramdown:
 # Disqus settings
 disqus_username: shanj
 
-# Netease settings
-netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-138327408-1'            # Format: UA-xxxxxx-xx

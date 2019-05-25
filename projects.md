@@ -44,7 +44,7 @@ Below is an incomplete list of projects I have worked on.
 
 
 
-![Data Science text mining logo]("_site/img/proj-ds.jpg")
+![Data Science text mining logo](/img/proj-ds.jpg)
 
 Two datasets were adopted for our data science job analysis.
 
@@ -59,7 +59,7 @@ Given that differences of preference of these big-names and small companies may 
 
 #### Social Network Analysis
 
-![Social Network Analysis logo]("../proj-100city.png")
+![Social Network Analysis logo](/img/proj-100city.png)
 
 I've started doing computational social network analysis for a while, recently I helped with one project on the flow of officials from different positions in China with policy reform.
 
@@ -69,6 +69,8 @@ I've started doing computational social network analysis for a while, recently I
 
 
 #####  Sociology Journal
+
+A regular review of popular journals is a nice inspiration and refreshment.
 
 * [The American Sociological Review](https://journals.sagepub.com/home/asr)
 * [The American Journal of Sociology](https://www.journals.uchicago.edu/toc/ajs/current)
