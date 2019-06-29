@@ -15,6 +15,7 @@ This website contains several main sections including my projects, my comments o
 
 Below is an incomplete list of packages and projects I have worked on.
 
+* [New York State Nurse Practitioner Act Impact Evaluation]
 * [Data science jobs outlook](https://shanjiang21.github.io/P8105_final_website.io/)
 * [Shiny](https://github.com/ShanJiang21/Shiny_lec)
 
@@ -38,8 +39,8 @@ Below is an incomplete list of packages and projects I have worked on.
 
 * [Rcpp](http://adv-r.had.co.nz/Rcpp.html), provides a combination of R and C++.
 * [stringr](https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html), extremely useful for text mining.
-* [ggplot](https://www.mailman.columbia.edu/sites/default/files/media/fdawg_ggplot2.html), a well-known pakage for data visualization.
-* [Table 1](https://cran.r-project.org/web/packages/table1/vignettes/table1-examples.html), extremely usefu for organizing tables for publish on journals.
+* [ggplot](https://www.mailman.columbia.edu/sites/default/files/media/fdawg_ggplot2.html), a well-known package for data visualization.
+* [Table 1](https://cran.r-project.org/web/packages/table1/vignettes/table1-examples.html), extremely useful for organizing tables for publish on journals.
 
 #### Blogs and online books
 

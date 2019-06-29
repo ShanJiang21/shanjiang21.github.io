@@ -42,9 +42,7 @@ Below is an incomplete list of projects I have worked on.
 
 #### Data science jobs outlook
 
-
-
-![Data Science text mining logo](/img/proj-ds.jpg)
+![Data Science text mining logo](/img/proj-ds.jpg = 150 x 40)
 
 Two datasets were adopted for our data science job analysis.
 
@@ -59,7 +57,7 @@ Given that differences of preference of these big-names and small companies may 
 
 #### Social Network Analysis
 
-![Social Network Analysis logo](/img/proj-100city.png)
+![Social Network Analysis logo](/img/proj-100city.png = 150 x 40)
 
 I've started doing computational social network analysis for a while, recently I helped with one project on the flow of officials from different positions in China with policy reform.
 
