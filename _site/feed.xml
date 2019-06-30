@@ -5,8 +5,8 @@
     <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 29 Jun 2019 20:10:38 -0400</pubDate>
-    <lastBuildDate>Sat, 29 Jun 2019 20:10:38 -0400</lastBuildDate>
+    <pubDate>Sat, 29 Jun 2019 20:46:19 -0400</pubDate>
+    <lastBuildDate>Sat, 29 Jun 2019 20:46:19 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -14,23 +14,29 @@
         <description>&lt;p&gt;&lt;img src=&quot;/img/post_multi.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;, the world of Becoming and the world of Being. &lt;br /&gt;
-         — symposium, Plato&lt;/p&gt;
+  &lt;p&gt;We are drowning in information and starving for knowledge.
+                                        –Rutherford D. Roger&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;No hope forever,  No &lt;em&gt;orietur&lt;/em&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;In the book &lt;em&gt;elements of statistical learning&lt;/em&gt;, the author shared with us his experience in analyzing data, stating that statistician’s job is to make sense of it all: to extract important patterns and trends, and understand “what the data says.”&lt;/p&gt;
+
+&lt;p&gt;However, for a fresh green-hand who just enters the industry field, things can be challenging sometimes as we may never easily start from the cleaned, organized data.&lt;/p&gt;
+
+&lt;p&gt;When you are checking the messy data, it just implies welcome to the real world.&lt;/p&gt;
+
+&lt;p&gt;Everything from single details to the big picture of life are composed of learning problems that we consider can be roughly categorized as either &lt;em&gt;supervised&lt;/em&gt; or &lt;em&gt;unsupervised&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-individual-does-multi-tasking-physically&quot;&gt;How individual does multi-tasking physically?&lt;/h2&gt;
 
 &lt;p&gt;From the neuroscience studies, we know prefrontal cortex of the brain begins working anytime you need to pay attention.&lt;/p&gt;
 
-&lt;h2 id=&quot;design-the-log-of-myself&quot;&gt;Design the log of myself&lt;/h2&gt;
+&lt;h2 id=&quot;design-working-log&quot;&gt;Design working log&lt;/h2&gt;
 
 &lt;p&gt;One thing I learned from Diana, is try to design the working log of myself. Sometimes, I feel that I have no &lt;strong&gt;me time&lt;/strong&gt; left for myself or I feel exhausted&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Jun 2019 06:36:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/06/29/Two-seperated-world0/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/06/29/Two-seperated-world0/</guid>
+        <link>http://localhost:4000/2019/06/29/Cost-switching/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/06/29/Cost-switching/</guid>
         
         
       </item>
