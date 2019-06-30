@@ -63,7 +63,6 @@ I've started doing computational social network analysis for a while, recently I
 
 #### My blog: Use Jekyll to hold my own website
 
-<a href="https://shanj.tk"><img src="../img/blog-bg.jpg" alt="" class="fit image"></a>
 
 
 #####  Sociology Journal
