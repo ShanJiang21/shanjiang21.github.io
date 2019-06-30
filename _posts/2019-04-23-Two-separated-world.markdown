@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Two seperated world 
+title: Two separated world
 date: 2019-04-23 21:32:24.000000000 +09:00
 author: Shan J.
 ---
@@ -9,7 +9,7 @@ author: Shan J.
 > Plato developed a two layer view of reality, the world of Becoming and the world of Being. <br>
          — symposium, Plato 
 
-The world of Becoming is the physical world we percieve through our senses. This world is always in movement, always changing. The world of Being is the world of forms, or ideas. It is absolute, independent, and transcendent. It never changes and yet causes the essential nature of things we percieve in the world of Becoming. 
+The world of Becoming is the physical world we percieve through our senses. This world is always in movement, always changing. The world of Being is the world of forms, or ideas. It is absolute, independent, and transcendent. It never changes and yet causes the essential nature of things we percieve in the world of Becoming.
 
 
 Massive blaze encompasses the Notre Dame Cathedral, which is not only a landmark of Paris,  also an icon of Europe.

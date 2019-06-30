@@ -5,16 +5,16 @@
     <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 29 Jun 2019 20:00:55 -0400</pubDate>
-    <lastBuildDate>Sat, 29 Jun 2019 20:00:55 -0400</lastBuildDate>
+    <pubDate>Sat, 29 Jun 2019 20:10:38 -0400</pubDate>
+    <lastBuildDate>Sat, 29 Jun 2019 20:10:38 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>The cost of switching from divergent tasks</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/img/.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/img/post_multi.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Plato developed a two layer view of reality, the world of Becoming and the world of Being. &lt;br /&gt;
+  &lt;p&gt;, the world of Becoming and the world of Being. &lt;br /&gt;
          — symposium, Plato&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -22,9 +22,11 @@
   &lt;p&gt;No hope forever,  No &lt;em&gt;orietur&lt;/em&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;From the neuroscience studies, we know prefrontal cortex of the brain begins working anytime you need to pay attention.&lt;/p&gt;
+
 &lt;h2 id=&quot;design-the-log-of-myself&quot;&gt;Design the log of myself&lt;/h2&gt;
 
-&lt;p&gt;One thing I learned from Diana, is try to design the working log of myself. Sometimes, I feel that I have no &lt;strong&gt;me time&lt;/strong&gt; for&lt;/p&gt;
+&lt;p&gt;One thing I learned from Diana, is try to design the working log of myself. Sometimes, I feel that I have no &lt;strong&gt;me time&lt;/strong&gt; left for myself or I feel exhausted&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Jun 2019 06:36:24 -0400</pubDate>
         <link>http://localhost:4000/2019/06/29/Two-seperated-world0/</link>
@@ -34,7 +36,7 @@
       </item>
     
       <item>
-        <title>Two seperated world</title>
+        <title>Two separated world</title>
         <description>&lt;p&gt;&lt;img src=&quot;/img/post_notre_dame_cathedral.jpg&quot; alt=&quot;Notre Dame Cathedral fire&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -71,8 +73,8 @@ The torment is sure.&lt;/p&gt;
 &lt;p&gt;I am no copy of anyone, unique and should be cherished, not being able to fulfill eternity, just live in the moment.&lt;/p&gt;
 </description>
         <pubDate>Tue, 23 Apr 2019 08:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/23/Two-seperated-world/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/23/Two-seperated-world/</guid>
+        <link>http://localhost:4000/2019/04/23/Two-separated-world/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/23/Two-separated-world/</guid>
         
         
       </item>
