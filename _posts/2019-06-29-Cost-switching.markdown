@@ -4,7 +4,7 @@ title: The cost of switching from divergent tasks
 date: 2019-06-29 19:36:24.000000000 +09:00
 author: Shan J.
 ---
-![](/img/post_multi.jpg)
+![Multitasking](/img/post_multi.jpg)
 
 > We are drowning in information and starving for knowledge.
                                         –Rutherford D. Roger
@@ -15,7 +15,7 @@ However, for a fresh green-hand who just enters the industry field, things can b
 
 When you are checking the messy data, it just implies welcome to the real world.
 
-Everything from single details to the big picture of life are composed of learning problems that we consider can be roughly categorized as either *supervised* or *unsupervised*. 
+Everything from single details to the big picture of life are composed of learning problems that we consider can be roughly categorized as either *supervised* or *unsupervised*.
 
 ## How individual does multi-tasking physically?
 
