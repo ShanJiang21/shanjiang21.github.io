@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Vitaé
-description: "Hundreds of miles."
-header-img: "./img/about_bg_4.jpg"
+description: "Not mine own fears Nor the prophetic soul"
+header-img: "./img/me_poem.jpg"
 multilingual: true
 ---
 
