@@ -8,4 +8,4 @@ This website also support for [996 vs ICU project](https://github.com/996icu/996
 
 ## Licence
 
-This blog is licensed as [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/). See the link for more information.
+This blog is licensed as [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/).

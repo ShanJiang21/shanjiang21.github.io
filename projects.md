@@ -5,8 +5,8 @@ header-img: "img/project-bg.jpg"
 description: Where my time goes? here you may get a hint.
 ---
 
-Some of the cool side-projects I've been working on.
-Last updated: March 2019
+This website is a hub for presentation of practices on some of the cool side-projects I've been working on
+Last updated: *June 2019*
 
 <!-- Prepare a container for your calendar. -->
 <script
@@ -31,23 +31,24 @@ Last updated: March 2019
 </script>
 
 
-###  Previous and Ongoing Projects
+### Ongoing Projects
+
+* [Energy Insecurity Scaling](#Energy Insecurity Scaling)
+* [Social network Analysis visualization](#Social Network Analysis)
+* [Climate change and career development]
+
+### Previous projects
 
 Below is an incomplete list of projects I have worked on.
 
-* [Data science jobs outlook-based on text mining analysis](https://shanjiang21.github.io/P8105_final_website.io/)
-* [Shiny](https://github.com/ShanJiang21/Shiny_lec)
-* [Energy Insecurity Scaling](#Energy Insecurity Scaling)
-* [Social network Analysis visualization](#Social Network Analysis)
 
 #### Data science jobs outlook
 
-![Data Science text mining logo](/img/proj-ds.jpg = 150 x 40)
+* [Data science jobs outlook-based on text mining analysis](https://shanjiang21.github.io/P8105_final_website.io/)
 
 Two datasets were adopted for our data science job analysis.
 
-Data Scientist Job Posts in the U.S on Indeed Website in 2018 August
-The main analysis draws from data scraped and cleaned by Shanshan Lu from Kaggle. This Indeed dataset originates from Indeed website, containing 7,000 data scientist jobs around the U.S. by August 3rd, 2018. Main variables include Company Name, Position Name,  Location, Job Description, and Number of Reviews of the Company. We mainly squared at the job description column that contains information such as a short description of company and position, requirement and route of application.
+Data Scientist Job Posts in the U.S on Indeed Website in 2018 August. This Indeed dataset originates from Indeed website, containing 7,000 data scientist jobs around the U.S. by August 3rd, 2018. Main variables include Company Name, Position Name,  Location, Job Description, and Number of Reviews of the Company. We mainly squared at the job description column that contains information such as a short description of company and position, requirement and route of application.
 
 Based on the ranking of total revenues of each company’s retrospective fiscal year, Fortune magazine’s annual report of top 500 largest companies in the U.S has always been regarded as a reliable measurement for the value of a company. Many of the Fortune 500 companies now have a job title of Chief Data Scientist or Head of Analytics, and some Internet magnets have invested much on data mining, Artificial Intelligence or related areas.
 
@@ -57,7 +58,7 @@ Given that differences of preference of these big-names and small companies may 
 
 #### Social Network Analysis
 
-![Social Network Analysis logo](/img/proj-100city.png = 150 x 40)
+![Social Network Analysis logo](/img/proj-100city.png = 100 x 40)
 
 I've started doing computational social network analysis for a while, recently I helped with one project on the flow of officials from different positions in China with policy reform.
 
