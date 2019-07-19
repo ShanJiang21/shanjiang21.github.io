@@ -1,7 +1,7 @@
 ---
-title: projects
+title: Projects
 layout: page
-header-img: "img/project-bg.jpg"
+header-img: "./img/project-bg.jpg"
 description: Where my time goes? here you may get a hint.
 ---
 
