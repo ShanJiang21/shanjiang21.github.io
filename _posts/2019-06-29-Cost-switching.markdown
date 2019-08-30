@@ -17,11 +17,11 @@ When you are checking the messy data, it just implies welcome to the real world.
 
 Everything from single details to the big picture of life are composed of learning problems that we consider can be roughly categorized as either *supervised* or *unsupervised*.
 
-## How individual does multi-tasking physically?
+#### How individual does multi-tasking physically?
 
 From the neuroscience studies, we know prefrontal cortex of the brain begins working anytime you need to pay attention.
 
 
-## Design working log
+#### Design working log
 
 One thing I learned from Diana, is try to design the working log of myself. Sometimes, I feel that I have no **me time** left for myself or I feel exhausted
