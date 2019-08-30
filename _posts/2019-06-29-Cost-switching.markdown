@@ -4,6 +4,7 @@ title: The cost of switching from divergent tasks
 date: 2019-06-29 19:36:24.000000000 +09:00
 author: Shan J.
 ---
+
 ![Multitasking](/img/post_multi.jpg)
 
 > We are drowning in information and starving for knowledge.
@@ -17,11 +18,16 @@ When you are checking the messy data, it just implies welcome to the real world.
 
 Everything from single details to the big picture of life are composed of learning problems that we consider can be roughly categorized as either *supervised* or *unsupervised*.
 
-## How individual does multi-tasking physically?
+### How individual does multi-tasking physically?
 
 From the neuroscience studies, we know prefrontal cortex of the brain begins working anytime you need to pay attention.
 
 
-## Design working log
+### Design working log
 
-One thing I learned from Diana, is try to design the working log of myself. Sometimes, I feel that I have no **me time** left for myself or I feel exhausted
+One thing I learned from Diana, is try to design the working log of myself. Sometimes, I feel that I have no **me time** left for myself or I feel exhausted, most of that fatigue results from the 
+
+### Making "me time"
+There are different types of lonely, while for me, to touch somebody else or open up my heart is now difficult, usually I just use bucks of time to occupy my attention and pretend myself to be quite busy that nobody would have the chance to hurt me or blame me for my loneliness. 
+
+It is never a shame, though, to be honest about the truth that I am in need of another one to listen to me and to be cared for.
