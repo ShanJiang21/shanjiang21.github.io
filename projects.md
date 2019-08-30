@@ -1,12 +1,12 @@
 ---
 title: Projects
 layout: page
-header-img: "./img/project-bg.jpg"
-description: Where my time goes? here you may get a hint.
+header-img: "./img/projects.jpg"
+description: Where my time goes? Get a hint below.
 ---
 
-This website is a hub for presentation of practices on some of the cool side-projects I've been working on
-Last updated: *June 2019*
+This website is for presentation of samples on some of the cool side-projects I've been working on
+Last updated: *August 2019*
 
 <!-- Prepare a container for your calendar. -->
 <script
@@ -33,18 +33,18 @@ Last updated: *June 2019*
 
 ### Ongoing Projects
 
-* [Energy Insecurity Scaling](#Energy Insecurity Scaling)
+* [Energy Insecurity Instrument Scaling](#Energy Insecurity Scaling)
 * [Social network Analysis visualization](#Social Network Analysis)
-* [Climate change and career development]
+* [Bangledesh Migrants Study](#Bangledesh Migrants Study)
 
 ### Previous projects
 
 Below is an incomplete list of projects I have worked on.
 
 
-#### Data science jobs outlook
+#### 1. NLP: Data science jobs outlook
 
-* [Data science jobs outlook-based on text mining analysis](https://shanjiang21.github.io/P8105_final_website.io/)
+[Data science jobs outlook-based on text mining analysis](https://shanjiang21.github.io/P8105_final_website.io/)
 
 Two datasets were adopted for our data science job analysis.
 
@@ -56,22 +56,11 @@ Comparison of top-500 companies and non-top 500 companies are based on Data from
 Given that differences of preference of these big-names and small companies may have for employees, we will combine the Fortune 500 company list and our Indeed dataset by company name. Through creating a new logical variable named flag to indicate whether each company falls into Fortune 500 companies category or not, this full dataset will be adopted for our Exploratory analysis.
 
 
-#### Social Network Analysis
-
-![Social Network Analysis logo](/img/proj-100city.png = 100 x 40)
+#### 2. Social Network Analysis
 
 I've started doing computational social network analysis for a while, recently I helped with one project on the flow of officials from different positions in China with policy reform.
 
-#### My blog: Use Jekyll to hold my own website
+#### 3. Bangledesh Migrants Study
 
 
 
-#####  Sociology Journal
-
-A regular review of popular journals is a nice inspiration and refreshment.
-
-* [The American Sociological Review](https://journals.sagepub.com/home/asr)
-* [The American Journal of Sociology](https://www.journals.uchicago.edu/toc/ajs/current)
-* [Social Forces](https://academic.oup.com/sf/issue)
-* [Social Networks](https://www.journals.elsevier.com/social-networks)
-* [Peers at work](https://eml.berkeley.edu/~moretti/text20.pdf)

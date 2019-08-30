@@ -1,10 +1,10 @@
 {
-  "name": "Shan Jiang's hub",
-  "short_name": "SJ's",
-  "description": "About a growing girl & writer who loves logos.",
+  "name": "Hux Blog",
+  "short_name": "Hux Blog",
+  "description": "About an engineer & designer who loves web.",
   "icons": [{
     "src": "icons/128.png",
-    "sizes": "189x189",
+    "sizes": "128x128",
     "type": "image/png"
   }, {
     "src": "icons/512.png",

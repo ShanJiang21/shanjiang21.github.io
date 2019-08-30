@@ -1,5 +1,5 @@
 # Basic
-title: Shan Jiang
+title: Shan's hub
 SEOTitle: sj2921@columbia.edu
 header-img: img/home-bg.jpg
 email: sj2921@columbia.edu
@@ -11,7 +11,6 @@ baseurl: ""
 
 # Publish posts or collection documents with a future date.
 future: true
-
 
 # SNS settings
 linkedin_username: shan-jiang-983639153
@@ -28,7 +27,7 @@ anchorjs: true
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
+sidebar-about-description: "The sun always finds a way to shine its light on us<br>怀疑主义者其实都是有信仰的人……嘘，别嚷嚷。"
 sidebar-avatar: /img/avatar.jpg
 
 # Featured Tags
