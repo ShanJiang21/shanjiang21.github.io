@@ -7,15 +7,18 @@ multilingual: true
 ---
 
 ### Programming Tutorial
-<img src="/img/10.jpg" alt="Flatiron Building"  style="width:128px; height:99px;">
+
+<img src="/img/10.jpg" alt="Flatiron Building" style="width:128px; height:99px;">
 
 * [Python Tutorial](#Python Tutorial)
 * [R Tutorial](#R Tutorial)
 * [Data Visualization](#Data Visualization)
-* [Latent Variable]((#Latent Variable)
+* [Latent Variable](#Latent Variable)
+
+<br>
+
 
 <img src= "/img/data_science.jpg" style="width:28%">
-
 
 ### Academic Resources
 
@@ -62,7 +65,7 @@ A regular review of popular journals is a nice inspiration and refreshment.
 
 #### Editing and writing Format
 
-<img src="/img/11.jpg" alt="9"  style="width:128px; height:99px;">
+<img src="/img/11.jpg" style="width:128px; height:99px;">
 
 * [LaTeX Templates and Styles](https://github.com/kjhealy/latex-custom-kjh)
 * [Resume Format](http://kjhealy.github.io/kjh-vita/)

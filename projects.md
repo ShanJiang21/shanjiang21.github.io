@@ -60,7 +60,12 @@ Given that differences of preference of these big-names and small companies may 
 
 I've started doing computational social network analysis for a while, recently I helped with one project on the flow of officials from different positions in China with policy reform.
 
-#### 3. Bangledesh Migrants Study
+#### 3. Bangladesh Migrants Study
 
+The project is aiming at evaluate the living conditions of Bangladesh Domestic Migrants.
 
+Several findings have beyond my expectation:
 
+* The minor marriage happens for more than half of the girls before 18 years old.
+* 22% girls needs to get their marriage before 15 years old.
+* The work-abuse are mainly focus on the verbal abuse. 

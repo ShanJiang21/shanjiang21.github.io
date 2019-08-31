@@ -4,7 +4,7 @@ title: Cost of Switching from divergent tasks
 date: 2019-06-29 19:36:24.000000000 +09:00
 author: Shan J.
 ---
-![Multitasking](/img/post_multi.jpg)
+![Multitasking](/img/post_multi.png)
 
 > We are drowning in information and starving for knowledge.
                                         –Rutherford D. Roger

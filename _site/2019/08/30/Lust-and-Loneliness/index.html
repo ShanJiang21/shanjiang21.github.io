@@ -11,29 +11,25 @@
     <meta name="theme-color" content="#000000">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Titanic - sj2921@columbia.edu">
+    <meta property="og:title" content="Love, Lust and Loneliness - sj2921@columbia.edu">
     
     <meta property="og:type" content="article">
-    <meta property="og:description" content="```{r}
+    <meta property="og:description" content="Cruel Truth about Love
 
 ">
     
-    <meta property="article:published_time" content="2018-12-30T01:32:24Z">
+    <meta property="article:published_time" content="2019-08-30T21:32:24Z">
     
     
-    <meta property="article:author" content="Shan">
+    <meta property="article:author" content="Shan J.">
     
-    
-    <meta property="article:tag" content="Python">
-    
-    <meta property="article:tag" content="Statistics">
     
     
     <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
-    <meta property="og:url" content="http://localhost:4000/2018/12/30/Titanic-R/">
+    <meta property="og:url" content="http://localhost:4000/2019/08/30/Lust-and-Loneliness/">
     <meta property="og:site_name" content="sj2921@columbia.edu">
     
-    <title>Titanic - sj2921@columbia.edu</title>
+    <title>Love, Lust and Loneliness - sj2921@columbia.edu</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -42,7 +38,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2018/12/30/Titanic-R/">
+    <link rel="canonical" href="http://localhost:4000/2019/08/30/Lust-and-Loneliness/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -222,15 +218,11 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/archive/?tag=Python" title="Python">Python</a>
-                        
-                        <a class="tag" href="/archive/?tag=Statistics" title="Statistics">Statistics</a>
-                        
                     </div>
-                    <h1>Titanic</h1>
+                    <h1>Love, Lust and Loneliness</h1>
                     
                     <h2 class="subheading"></h2>
-                    <span class="meta">Posted by Shan on December 30, 2018</span>
+                    <span class="meta">Posted by Shan J. on August 30, 2019</span>
                 </div>
             </div>
         </div>
@@ -256,137 +248,90 @@
                 <!-- Multi-Lingual -->
                 
 
-				<pre><code class="language-{r}">
-# Load packages
-library(tidyverse)
-library(formattable)
-library(gmodels)
+				<p><strong>Cruel Truth about Love</strong></p>
 
-</code></pre>
+<p>Never did I have think about being detached to my parents in such a short time, when all things are going smooth and quite well by normal standard.</p>
 
-<h2 id="import-web-based-api">Import web-based API</h2>
-<p>All web-based 2 APIs have always the same structure:
-they consist of a URL to a domain and a path to an endpoint.
-For instance: http://example.com/api where http://example.com is the URL and /api is the path to the endpoint.
-In recent years, JSON has become the most common answer format by far. JSON is a simple text file that uses special characters and conventions to bring structure into its contents.</p>
+<p>However, when I stand by on the other side of the globe, hearing the quarrelling thousands miles away, even it’s a sunny Saturday, all the days have become grey.</p>
 
-<pre><code class="language-{r}">train_raw = read_csv("./data/train.csv")
-test_df = read_csv('data/test.csv')
-skimr::skim(train_raw)
-skimr::skim(test_df)
+<p>This time, they did not have the chance to blow my mind, I clicked on the close button and quit Wechat as soon as possible, my dad might be experiencing one of the most challenging transition in his lifehood.</p>
 
-# identify count of NAs in data frame
-sum(is.na(train_raw))
-sum(is.na(test_df))
+<p>The big year for him has turned my mom into a part-time worker, with much more freedom in the name time for personal use.</p>
 
-## For data frames, a convenient shortcut to compute the total missing values in each column is to use colSums():
+<p>The truth, however, I saw is exactly the opposite. She does have an increasing amount of time as the Mom-and-Papa ‘s store has shut down,  but the time allocated for herself is so limited that I don’t even know how she can balance the inner self both emotionally and intellectually.</p>
 
-colSums(is.na(train_raw))
-colSums(is.na(test_df))
+<p>As my dad is someone who just have no idea on how “the way of the world” works, my mom has to take on the role as the public relationship agent for him, and for the whole family.</p>
 
-## head of data, formatted   
-formattable(head(train_raw)) ## In python: sns.set_style('whitegrid')
+<p>Often times, in some occasion when my dad need to schemooze alone, confilcts are generated. The “Mianzi” maintained by my mom is exhausted easily by my dad.</p>
 
-train_df  = train_raw %&gt;%
-  janitor::clean_names() %&gt;%
-  mutate(survived = as.factor(survived))
-</code></pre>
+<p>The ineffective communication and the unwillingness to reveal some rules or social norms frequently lead them to a within-family arguments.</p>
 
-<p>There are in total <code class="highlighter-rouge">nrow(train_raw )</code> passengers on the list, while the missing values in total are <code class="highlighter-rouge">sum(is.na(train_df))</code> and sum(is.na(test_df)) respectively.</p>
+<p>Culturally speaking, this kind of overwhelmed lifestyle mostly come from the dominant power of father in Asian society.</p>
 
-<p>Actually, with a closer look at the data, we can find missing values mainly fall into the category of
-<code class="highlighter-rouge">Cabin</code> and ` Age<code class="highlighter-rouge">, few are in </code>Embarked ` in train dataframe, 1 in <code class="highlighter-rouge">Fare </code> in test_df.</p>
+<blockquote>
+  <p>It all starts with boredom.</p>
+</blockquote>
 
-<h2 id="descriptive-statistics">Descriptive statistics</h2>
-<pre><code class="language-{r}">## Survived
-library(ggplot2)
+<p>In China, I cannot imagine how many men are still soaking in the illusion of traditional family expectation and roles arrangement,the burdensome housekeeping and babysitting responsibilities are not the only causes that frustrate women, moreover, I should say, fatigue resulted from the emotional labor they devoted and inability to make any changes in the power dynamics structure.</p>
 
-## survival: 0 = No, 1 = Yes
-ggplot(train_df, aes(x = survived, stat = "count")) +
-  geom_bar(aes(fill = sex), width = 0.7) +
-  coord_flip() +
-  theme(legend.position = "top") +
-  theme_bw() +
-  scale_x_discrete(labels = c("No","Yes")) +
-  ggtitle("Survived profile of Titanic passengers")
+<p>But, I have to be frank, typical idea that the boredom comes from too much freetime available, in fact，things are not that simple as it was talked about.</p>
 
-</code></pre>
+<p><strong>Loneliness in Collectivism</strong></p>
 
-<h3 id="dealing-with-missing-value">Dealing with missing value</h3>
-<pre><code class="language-{r}">require(randomForest)
-## 1. Assign mode value for missing Embarked rows
-train_df = train_df %&gt;%
-  mutate(embarked = ifelse(is.na(embarked), mode(embarked), embarked)) %&gt;%
-## 2. Cabin: assign NA mark for missing entries
-  mutate(cabin = ifelse(is.na(cabin), 'u0', cabin))
-## 3. Age: an important indicator for prediction, use RandomForest
+<iframe width="590" height="330" src="https://www.youtube.com/embed/nx2iLOvP0rM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
+<p>It reminds of the death of Avicii, who was a famous Nodiac music star. It happened on his trip to Oman,</p>
 
-## choose training data to predict age
-age_df = train_raw %&gt;%
-  select('Age','Survived','Fare', 'Parch', 'SibSp', 'Pclass')
+<blockquote>
+  <p>All his notes were in happy mode.</p>
+</blockquote>
 
-age_df_notnull =  age_df %&gt;%
-  filter( is.na(Age) == F )
+<p>These who are close to him are even more surprised than the fans.</p>
 
-age_df_isnull = age_df %&gt;%
-  filter( is.na(Age) == T )
+<p>I hate the labelling, it attaches atigma, ignores the heterogenity of the individual and often is the source of bias.</p>
 
-# Use RandomForestRegression to train data
-RFR = randomForest(
-  formula = Age ~ .,
-  data  = age_df_notnull)
+<p><strong>A little happiness</strong></p>
 
-pred.Age = predict(RFR , age_df_isnull)
+<p><img src="/img/64.jpg" alt="Notre Dame Cathedral fire" /></p>
 
-## Insert the predicted value for Ages
-train_df = train_df %&gt;%
-  mutate(age = ifelse(is.na(age), pred.Age, age))
+<p>A little happiness is originated from the American literature while introduced to East Asia by Japanese Novelist Murakami Haruki, to denote the tender moments in life which shall be recognized and cherished.</p>
 
-sum(is.na(train_df))
-</code></pre>
+<p>A little bit sweet or kind from people can make me feel blessed and grateful for the whole day.</p>
 
-<h2 id="data-analysis">Data analysis</h2>
+<p>Sometimes, it is in the second culture do we find ourselves, who we are and why we try so hard: to heal a wound in the childhood, to earn the sense of belonging, or what’s more, to gain all the needs which satisfy themselves.</p>
 
-<h4 id="1-lady-first-principle">(1). <strong>Lady First</strong> principle</h4>
+<p>It is the tiny kind that makes the life looks better than it is.</p>
 
-<pre><code class="language-{r}">## cross tables
-corr_df = train_df %&gt;%
-  mutate(sex = ifelse(sex == "female", 0, 1)) %&gt;%
-  select(survived, pclass, sex, age, sib_sp, parch, fare)
+<p>We are normal people, normal to live and normal to die, always have no say for most of the time.</p>
 
-with(train_df, CrossTable(sex, survived))
+<p>Bosses buy our time by using their power and money, we nod our head to earn a living. The reverse of attitudes and behaviors are also a crucial reason why we feel quite lonely in these days, we are given the chance to say No, but based on the optimization strategy, keeping quiet is always a better choice.</p>
 
-</code></pre>
+<p>Egregious things never takes a dominant role in life, for individuals fall within the three-sigma range, what affect them most is how they treat their normal life, the working time and spare time, their food and sleep, also a tiny bit risky event may cross over a while in their life-course, maybe.</p>
 
-<h4 id="2-ticket-class-and-survival-rate-pclass">(2) Ticket class and survival rate: Pclass</h4>
+<p>Will loneliness lead to more loneliness? Yes, just the same as “matthew effect”. Rich people always get richer and the poor tends to stay in the lower stack of the society and sometimes siginificant event will drag them into the abyss.</p>
 
-<pre><code class="language-{r}">## 1 = 1st, 2 = 2nd, 3 = 3rd
-with(train_df, CrossTable( pclass, survived))
+<p>To be fair, by using a psychoanalysis for myself, I am the one who would priortize emotional safety over social opportunity. Like a lollipop, if it looks too fancy, then I would be too eager to want it so that I abandoned it.</p>
 
-## survival: 0 = No, 1 = Yes
+<blockquote>
+  <p>In this consumer society, what cannot be bought?</p>
+</blockquote>
 
-ggplot(train_df, aes(x = as.factor(pclass), stat = "count")) +
-  geom_bar(aes(fill = survived), width = 0.7) +
-  theme(legend.position = "top") +
-  theme_bw() +
-  scale_x_discrete(labels = c("1st","2nd", "3rd")) +
-  xlab("passenger classes")  +
-  ggtitle("Distribution of survival rate among 3 classes on Titanic")
+<p>There are still many stuff, faith, love, trust and the willingness to make changes.</p>
 
-</code></pre>
+<p>You can ignore the existence of these invisible concepts, while credit is consist of trust, marriage is made from love and material exchange, and the urge to step out of the comfort zone contributes to the progress around the world.</p>
+
 
 
                 <hr style="visibility: hidden;">
                 <ul class="pager">
                     
-                    
-                    <li class="next">
-                        <a href="/2019/01/05/Classical-sociology-theory/" data-toggle="tooltip" data-placement="top" title="Classical sociology theory">
-                        Next<br>
-                        <span>Classical sociology theory</span>
+                    <li class="previous">
+                        <a href="/2019/06/29/Cost-switching/" data-toggle="tooltip" data-placement="top" title="Cost of Switching from divergent tasks">
+                        Previous<br>
+                        <span>Cost of Switching from divergent tasks</span>
                         </a>
                     </li>
+                    
                     
                 </ul>
                 <hr style="visibility: hidden;">
@@ -458,8 +403,8 @@ ggplot(train_df, aes(x = as.factor(pclass), stat = "count")) +
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "shanj";
-    var disqus_identifier = "/2018/12/30/Titanic-R";
-    var disqus_url = "http://localhost:4000/2018/12/30/Titanic-R/";
+    var disqus_identifier = "/2019/08/30/Lust-and-Loneliness";
+    var disqus_url = "http://localhost:4000/2019/08/30/Lust-and-Loneliness/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

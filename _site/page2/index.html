@@ -11,29 +11,16 @@
     <meta name="theme-color" content="#000000">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Titanic - sj2921@columbia.edu">
+    <meta property="og:title" content="sj2921@columbia.edu">
     
-    <meta property="og:type" content="article">
-    <meta property="og:description" content="```{r}
-
-">
-    
-    <meta property="article:published_time" content="2018-12-30T01:32:24Z">
-    
-    
-    <meta property="article:author" content="Shan">
-    
-    
-    <meta property="article:tag" content="Python">
-    
-    <meta property="article:tag" content="Statistics">
-    
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Love, live and lost.">
     
     <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
-    <meta property="og:url" content="http://localhost:4000/2018/12/30/Titanic-R/">
+    <meta property="og:url" content="http://localhost:4000/page2/">
     <meta property="og:site_name" content="sj2921@columbia.edu">
     
-    <title>Titanic - sj2921@columbia.edu</title>
+    <title>sj2921@columbia.edu</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -42,7 +29,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2018/12/30/Titanic-R/">
+    <link rel="canonical" href="http://localhost:4000/page2/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -194,230 +181,111 @@
 </script>
 
 
-    <!-- Image to hack wechat -->
-<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="/img/home-bg.jpg" width="0" height="0"> -->
-
-<!-- Post Header -->
+    <!-- Page Header -->
 
 
 
-<style type="text/css">
-    header.intro-header{
-        position: relative;
-        background-image: url('/img/home-bg.jpg');
-        background: ;
-    }
 
-    
-</style>
 
-<header class="intro-header" >
 
-    <div class="header-mask"></div>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <div class="tags">
-                        
-                        <a class="tag" href="/archive/?tag=Python" title="Python">Python</a>
-                        
-                        <a class="tag" href="/archive/?tag=Statistics" title="Statistics">Statistics</a>
-                        
-                    </div>
-                    <h1>Titanic</h1>
-                    
-                    <h2 class="subheading"></h2>
-                    <span class="meta">Posted by Shan on December 30, 2018</span>
-                </div>
-            </div>
+
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="site-heading">
+        
+          <h1>Shan's hub</h1>
+          <span class="subheading">Love, live and lost.</span>
         </div>
+      </div>
     </div>
+  </div>
 </header>
 
 
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+        
 
-
-
-
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
-
-    <!-- Post Container -->
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                post-container">
-
-                <!-- Multi-Lingual -->
+<!-- USE SIDEBAR -->
+    <!-- PostList Container -->
+    		<div class="
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                postlist-container
+            ">
+    			
+<div class="post-preview">
+    <a href="/2018/12/30/Titanic-R/">
+        <h2 class="post-title">
+            Titanic
+        </h2>
+        
+        <div class="post-content-preview">
+            
                 
-
-				<pre><code class="language-{r}">
 # Load packages
 library(tidyverse)
 library(formattable)
 library(gmodels)
 
-</code></pre>
-
-<h2 id="import-web-based-api">Import web-based API</h2>
-<p>All web-based 2 APIs have always the same structure:
-they consist of a URL to a domain and a path to an endpoint.
-For instance: http://example.com/api where http://example.com is the URL and /api is the path to the endpoint.
-In recent years, JSON has become the most common answer format by far. JSON is a simple text file that uses special characters and conventions to bring structure into its contents.</p>
-
-<pre><code class="language-{r}">train_raw = read_csv("./data/train.csv")
-test_df = read_csv('data/test.csv')
-skimr::skim(train_raw)
-skimr::skim(test_df)
-
-# identify count of NAs in data frame
-sum(is.na(train_raw))
-sum(is.na(test_df))
-
-## For data frames, a convenient shortcut to compute the total missing values in each column is to use colSums():
-
-colSums(is.na(train_raw))
-colSums(is.na(test_df))
-
-## head of data, formatted   
-formattable(head(train_raw)) ## In python: sns.set_style('whitegrid')
-
-train_df  = train_raw %&gt;%
-  janitor::clean_names() %&gt;%
-  mutate(survived = as.factor(survived))
-</code></pre>
-
-<p>There are in total <code class="highlighter-rouge">nrow(train_raw )</code> passengers on the list, while the missing values in total are <code class="highlighter-rouge">sum(is.na(train_df))</code> and sum(is.na(test_df)) respectively.</p>
-
-<p>Actually, with a closer look at the data, we can find missing values mainly fall into the category of
-<code class="highlighter-rouge">Cabin</code> and ` Age<code class="highlighter-rouge">, few are in </code>Embarked ` in train dataframe, 1 in <code class="highlighter-rouge">Fare </code> in test_df.</p>
-
-<h2 id="descriptive-statistics">Descriptive statistics</h2>
-<pre><code class="language-{r}">## Survived
-library(ggplot2)
-
-## survival: 0 = No, 1 = Yes
-ggplot(train_df, aes(x = survived, stat = "count")) +
-  geom_bar(aes(fill = sex), width = 0.7) +
-  coord_flip() +
-  theme(legend.position = "top") +
-  theme_bw() +
-  scale_x_discrete(labels = c("No","Yes")) +
-  ggtitle("Survived profile of Titanic passengers")
-
-</code></pre>
-
-<h3 id="dealing-with-missing-value">Dealing with missing value</h3>
-<pre><code class="language-{r}">require(randomForest)
-## 1. Assign mode value for missing Embarked rows
-train_df = train_df %&gt;%
-  mutate(embarked = ifelse(is.na(embarked), mode(embarked), embarked)) %&gt;%
-## 2. Cabin: assign NA mark for missing entries
-  mutate(cabin = ifelse(is.na(cabin), 'u0', cabin))
-## 3. Age: an important indicator for prediction, use RandomForest
 
 
-## choose training data to predict age
-age_df = train_raw %&gt;%
-  select('Age','Survived','Fare', 'Parch', 'SibSp', 'Pclass')
-
-age_df_notnull =  age_df %&gt;%
-  filter( is.na(Age) == F )
-
-age_df_isnull = age_df %&gt;%
-  filter( is.na(Age) == T )
-
-# Use RandomForestRegression to train data
-RFR = randomForest(
-  formula = Age ~ .,
-  data  = age_df_notnull)
-
-pred.Age = predict(RFR , age_df_isnull)
-
-## Insert the predicted value for Ages
-train_df = train_df %&gt;%
-  mutate(age = ifelse(is.na(age), pred.Age, age))
-
-sum(is.na(train_df))
-</code></pre>
-
-<h2 id="data-analysis">Data analysis</h2>
-
-<h4 id="1-lady-first-principle">(1). <strong>Lady First</strong> principle</h4>
-
-<pre><code class="language-{r}">## cross tables
-corr_df = train_df %&gt;%
-  mutate(sex = ifelse(sex == "female", 0, 1)) %&gt;%
-  select(survived, pclass, sex, age, sib_sp, parch, fare)
-
-with(train_df, CrossTable(sex, survived))
-
-</code></pre>
-
-<h4 id="2-ticket-class-and-survival-rate-pclass">(2) Ticket class and survival rate: Pclass</h4>
-
-<pre><code class="language-{r}">## 1 = 1st, 2 = 2nd, 3 = 3rd
-with(train_df, CrossTable( pclass, survived))
-
-## survival: 0 = No, 1 = Yes
-
-ggplot(train_df, aes(x = as.factor(pclass), stat = "count")) +
-  geom_bar(aes(fill = survived), width = 0.7) +
-  theme(legend.position = "top") +
-  theme_bw() +
-  scale_x_discrete(labels = c("1st","2nd", "3rd")) +
-  xlab("passenger classes")  +
-  ggtitle("Distribution of survival rate among 3 classes on Titanic")
-
-</code></pre>
+Import web-based API
+All web-based 2 APIs have always the same structure:
+they consist of a URL to a domain and a path t...
+            
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by Shan on December 30, 2018
+    </p>
+</div>
+<hr>
 
 
-                <hr style="visibility: hidden;">
-                <ul class="pager">
-                    
-                    
-                    <li class="next">
-                        <a href="/2019/01/05/Classical-sociology-theory/" data-toggle="tooltip" data-placement="top" title="Classical sociology theory">
-                        Next<br>
-                        <span>Classical sociology theory</span>
-                        </a>
-                    </li>
-                    
-                </ul>
-                <hr style="visibility: hidden;">
+<!-- Pager -->
 
-                
-                <!-- disqus 评论框 start -->
-                <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread"></div>
-                </div>
-                <!-- disqus 评论框 end -->
-                
+<ul class="pager">
+    
+    <li class="previous">
+        <a href="/">&larr; Newer Posts</a>
+    </li>
+    
+    
+</ul>
 
-                
-            </div>  
 
-    <!-- Side Catalog Container -->
-        
+<!-- Include the library. -->
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
 
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+
+    		</div>
     <!-- Sidebar Container -->
             <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
-
+                col-lg-3 col-lg-offset-0
+                col-md-3 col-md-offset-0
+                col-sm-12
+                col-xs-12
+                sidebar-container
+            ">
                 <!-- Featured Tags -->
                 
 
 
 <section>
-    
-        <hr class="hidden-sm hidden-xs">
     
     <h5><a href="/archive/">FEATURED TAGS</a></h5>
     <div class="tags">
@@ -440,72 +308,90 @@ ggplot(train_df, aes(x = as.factor(pclass), stat = "count")) +
 </section>
 
 
+                <!-- Short About -->
+                <section class="visible-md visible-lg">
+  <hr>
+  <h5><a href="/about/">ABOUT ME</a></h5>
+  <div class="short-about">
+    
+    <img src="/img/avatar.jpg" />
+    
+    
+    <p>The sun always finds a way to shine its light on us<br>怀疑主义者其实都是有信仰的人……嘘，别嚷嚷。</p>
+    
+    <!-- SNS Link -->
+    
+
+
+<ul class="list-inline">
+
+
+  
+  
+  
+  
+  <li>
+    <a target="_blank" href="http://weibo.com/jason96026">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/shanjiang21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/shan-jiang-983639153">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+  </div>
+</section>
+
                 <!-- Friends Blog -->
                 
-            </div>
-        </div>
-    </div>
-</article>
-
-<!-- add support for mathjax by voleking-->
+    		</div>
+        
+	</div>
+</div>
 
 
-
-
-
-
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "shanj";
-    var disqus_identifier = "/2018/12/30/Titanic-R";
-    var disqus_url = "http://localhost:4000/2018/12/30/Titanic-R/";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
-
-
-
-
-<!-- async load function -->
-<script>
-    function async(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
+<!-- Add support for Mathjax by Voleking-->
+<!-- If you want to see formulars well in post preview, Maybe you should add this.-->
+<!-- However, most of the time formulars may not appear in the post preview, you can delete it.-->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
     }
+  });
 </script>
-<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
-<script>
-    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
-        anchors.options = {
-          visible: 'always',
-          placement: 'right',
-          icon: '#'
-        };
-        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
-    })
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-<style>
-    /* place left on bigger screen */
-    @media all and (min-width: 800px) {
-        .anchorjs-link{
-            position: absolute;
-            left: -0.75em;
-            font-size: 1.1em;
-            margin-top : -0.1em;
-        }
-    }
-</style>
-
 
 
     <!-- Footer -->
