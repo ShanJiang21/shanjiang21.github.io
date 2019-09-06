@@ -1,73 +1,43 @@
-# Basic
-title: Shan's hub
-SEOTitle: sj2921@columbia.edu
-header-img: img/home-bg.jpg
-email: sj2921@columbia.edu
-keyword: New Yorker, Blog writter, novelist, R, biostatistics,
-welcome_message: Now I am working on Energy insecuirity and applications of data visulization on social science topics, for more information, <a href="https://shanjiang21.github.io/sociology.html">click here</a>
-description: Hi, I am Shan(@shanjiang21), a master student at Columbia University.
-url: "https://shanj.tk/"
-baseurl: ""
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Publish posts or collection documents with a future date.
-future: true
-
-# SNS settings
-linkedin_username: shan-jiang-983639153
-weibo_username: jason96026
-github_username: shanjiang21
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 12
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "The sun always finds a way to shine its light on us<br>怀疑主义者其实都是有信仰的人……嘘，别嚷嚷。"
-sidebar-avatar: /img/avatar.jpg
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1.3              # A tag will be featured if the size of it is more than this condition value
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
-# `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+theme: minima
+plugins:
+  - jekyll-feed
 
-
-# Disqus settings
-disqus_username: shanj
-
-
-# Google Analytics
-ga_track_id: 'UA-138327408-1'            # Format: UA-xxxxxx-xx
-ga_domain: shanj.tk
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-# MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: True
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

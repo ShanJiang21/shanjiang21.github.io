@@ -1,13 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shan's hub</title>
-    <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 31 Aug 2019 10:34:06 -0400</pubDate>
-    <lastBuildDate>Sat, 31 Aug 2019 10:34:06 -0400</lastBuildDate>
+    <pubDate>Fri, 06 Sep 2019 19:38:23 -0400</pubDate>
+    <lastBuildDate>Fri, 06 Sep 2019 19:38:23 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 06 Sep 2019 19:35:21 -0400</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/09/06/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/09/06/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Trickle Down</title>
+        <description>&lt;p&gt;&lt;strong&gt;Trickle-down Economics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In economics history of U.S, there is once upon a time when Reaganomics were popular in the 1980s.&lt;/p&gt;
+
+&lt;p&gt;Before Reagon came to power, there is high unemployment and persistently high inflation. In other word, it was called stagnation.&lt;/p&gt;
+
+&lt;p&gt;It advocates cuts to the tax, which goes to the weathy and celebrities who are at the top of the pyrimaid.&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Loneliness in Collectivism&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;590&quot; height=&quot;330&quot; src=&quot;https://www.youtube.com/embed/nx2iLOvP0rM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;It reminds of the death of Avicii, who was a famous Nodiac music star. It happened on his trip to Oman,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;All his notes were in happy mode.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;These who are close to him are even more surprised than the fans.&lt;/p&gt;
+
+&lt;p&gt;I hate the labelling, it attaches atigma, ignores the heterogenity of the individual and often is the source of bias.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A little happiness&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A little happiness is originated from the American literature while introduced to East Asia by Japanese Novelist Murakami Haruki, to denote the tender moments in life which shall be recognized and cherished.&lt;/p&gt;
+
+&lt;p&gt;A little bit sweet or kind from people can make me feel blessed and grateful for the whole day.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As Sherlock Holmes pointed out, When you have eliminated the impossible, whatever remains, however improbable, must be the truth. 
+ 						– A. Conan Doyle, The Sign of Four&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Establishing a close relationship with others is hard after becoming an adult.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 06 Sep 2019 03:32:24 -0400</pubDate>
+        <link>http://localhost:4000/2019/09/06/trickle-down.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/06/trickle-down.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Love, Lust and Loneliness</title>
@@ -85,8 +162,8 @@
 
 </description>
         <pubDate>Fri, 30 Aug 2019 21:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/08/30/Lust-and-Loneliness/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/08/30/Lust-and-Loneliness/</guid>
+        <link>http://localhost:4000/2019/08/30/Lust-and-Loneliness.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/08/30/Lust-and-Loneliness.html</guid>
         
         
       </item>
@@ -117,8 +194,8 @@
 &lt;p&gt;One thing I learned from Diana, is try to design the working log of myself. Sometimes, I feel that I have no &lt;strong&gt;me time&lt;/strong&gt; left for myself or I feel exhausted&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Jun 2019 06:36:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/06/29/Cost-switching/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/06/29/Cost-switching/</guid>
+        <link>http://localhost:4000/2019/06/29/Cost-switching.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/06/29/Cost-switching.html</guid>
         
         
       </item>
@@ -161,8 +238,8 @@ The torment is sure.&lt;/p&gt;
 &lt;p&gt;I am no copy of anyone, unique and should be cherished, not being able to fulfill eternity, just live in the moment.&lt;/p&gt;
 </description>
         <pubDate>Tue, 23 Apr 2019 08:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/23/Two-separated-world/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/23/Two-separated-world/</guid>
+        <link>http://localhost:4000/2019/04/23/Two-separated-world.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/23/Two-separated-world.html</guid>
         
         
       </item>
@@ -208,8 +285,8 @@ The torment is sure.&lt;/p&gt;
 &lt;p&gt;I am no copy of anyone, unique and should be cherished, not being able to fulfill eternity, just live in the moment.&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Apr 2019 08:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/15/Nothing-Forever/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/15/Nothing-Forever/</guid>
+        <link>http://localhost:4000/2019/04/15/Nothing-Forever.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/15/Nothing-Forever.html</guid>
         
         
       </item>
@@ -686,16 +763,14 @@ run;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Oblique Rotation&lt;/strong&gt;: commonly used for since we often hypothesize our latent variables of interest to be &lt;strong&gt;correlated with one another.&lt;/strong&gt;&lt;/p&gt;
 
-    &lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;Default&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MPLUS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GEOMIN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;method&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;called&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PROMAX&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;Default&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MPLUS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GEOMIN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;method&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;called&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PROMAX&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Orthogonal Rotation&lt;/strong&gt; :it is desirable to identify factors that are as independent from one another as possible, often not possible to find “simple structure” with orthogonal rotation.&lt;/p&gt;
 
-    &lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;VARIMAX&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;VARIMAX&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
 
     &lt;h5 id=&quot;two-examples-for-efa&quot;&gt;Two Examples for EFA&lt;/h5&gt;
 
@@ -964,11 +1039,9 @@ continuous variables&lt;/p&gt;
 
 &lt;p&gt;MPlus&lt;/p&gt;
 
-&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;WITH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;allow&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;correlation&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;WITH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;allow&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;correlation&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -980,8 +1053,8 @@ continuous variables&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 13 Apr 2019 08:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/13/Latent-Varible-analysis-Tutorial/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/13/Latent-Varible-analysis-Tutorial/</guid>
+        <link>http://localhost:4000/2019/04/13/Latent-Varible-analysis-Tutorial.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/13/Latent-Varible-analysis-Tutorial.html</guid>
         
         <category>statistics</category>
         
@@ -1015,9 +1088,8 @@ continuous variables&lt;/p&gt;
 
 &lt;p&gt;Functions are short and concise. &lt;strong&gt;Keep this rule of thumb in mind:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;A  Function has one job.
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A  Function has one job.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;We define a function to do its one little thing, and then we can execute that code many times, on all kinds of different inputs.&lt;/p&gt;
 
@@ -1041,21 +1113,14 @@ continuous variables&lt;/p&gt;
 
 &lt;p&gt;Here’s an example of a simple function in Python, defined by the function writer:&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;divide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;divide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
     &lt;span class=&quot;s&quot;&gt;''' function: divide
         parameters: two numbers, x and y
         returns: a float, the result of dividing x / y
     '''&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Let’s break it down to the important parts:&lt;/p&gt;
 
@@ -1185,8 +1250,8 @@ main()
 &lt;p&gt;We’ll get some practice with testing in DS2000 by writing test suites. A test suite is a separate Python program, with its own &lt;em&gt;main&lt;/em&gt;, that repeatedly calls a function you’ve written to validate that it works correctly. A test suite will contain tests for multiple functions.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Apr 2019 08:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/12/PythonLec2/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/12/PythonLec2/</guid>
+        <link>http://localhost:4000/2019/04/12/PythonLec2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/12/PythonLec2.html</guid>
         
         <category>Python</category>
         
@@ -1216,8 +1281,8 @@ main()
 &lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 10 Apr 2019 08:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/10/Seeing-the-unseeable-black-hole-and-ego/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/10/Seeing-the-unseeable-black-hole-and-ego/</guid>
+        <link>http://localhost:4000/2019/04/10/Seeing-the-unseeable-black-hole-and-ego.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/10/Seeing-the-unseeable-black-hole-and-ego.html</guid>
         
         
       </item>
@@ -1268,105 +1333,8 @@ main()
 &lt;p&gt;&lt;a href=&quot;http://zqb.cyol.com/html/2019-04/02/nw.D110000zgqnb_20190402_1-02.htm&quot;&gt;被“996”工作制围困的年轻人：像是定好闹钟的机器&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Apr 2019 21:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/01/996-viral-Chinese-young-engineers-Asilomar-moment/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/01/996-viral-Chinese-young-engineers-Asilomar-moment/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Beautiful Days in California</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;California is where you get to start over.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bNTMQ-I36kg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Getting away from New York City, and travel for spring break means a lot to me.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Starry night,
-Comfortable temperature,
-Nice drivers and servants,
-The first day of arrival shall never be nicer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Nice spring break just started from the blue clear sky and green field. With freezes blowing from further hills, loneliness and fear just faded away from my heart, no worries or suspicious ideas would be generated as I am living in this moment.&lt;/p&gt;
-
-&lt;p&gt;Fast and furious can be a salient feature for driving on the road across LA for sure. Even I was on board with my friend on a tour bus, I still feel the power to break restrictions and the freedom to embrace nature without any doubt.&lt;/p&gt;
-
-&lt;p&gt;Los Angeles shall be labeled as a glamorous city, reminding me of the shiniest memories in the past. The palm trees are scattered around accompanied by big houses.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/cali1.jpg&quot; alt=&quot;cali1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Grown up in a Mountain area created more connections for me with this spacious place, there is no such a fever for skyscrapers as Los Angelas is built on an earthquake belt, which makes it more costly and challenging to construct high buildings than just a three story inn.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Danish town, a tiny niche, named Solvang, nestled in the Santa Ynez Valley that looks and smells like Christmas year-round.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Apr 2019 21:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/01/Beautiful-Days-in-California/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/01/Beautiful-Days-in-California/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ASA 2018 Economic sociology paper awards </title>
-        <description>&lt;h3 id=&quot;asa-2018-economic-sociology-paper-winners&quot;&gt;ASA 2018 Economic Sociology Paper winners&lt;/h3&gt;
-
-&lt;blockquote class=&quot;full-width&quot;&gt;&lt;p&gt;Statistical thinking will one day be as necessary for efficient citizenship as the ability to read and write.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;ASA，美国社会学协会，在全世界的社会学领域中享有盛名。目前，社会学协会分工完善，领域众多，其中发展较为完备，拥趸众多的当属——经济社会学。&lt;/p&gt;
-
-&lt;p&gt;哥伦比亚大学的社会科学领域，一直是自由主义的天堂。这里兴起了最早期的性别研究，民主社会运动，但同时，哥大也是经济社会学重镇之一，虽然哥大的社会学系相对芝加哥大学，UCLA等相对较小，但是，哥大的教授们一直以来都活跃在比较前沿的交叉领域。&lt;/p&gt;
-
-&lt;p&gt;今天虽然很忙，但是因为enroll了Machine learning和被同意audit 经济社会学，还是很感恩的。冒着熬通宵的危险，还是写完了这篇文章，可能就是拖延 : )&lt;/p&gt;
-
-&lt;h4 id=&quot;格兰诺维特奖-最佳期刊&quot;&gt;格兰诺维特奖—— 最佳期刊&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;2018&lt;/strong&gt;: Nathan Wilmers, “Does Consumer Demand Reproduce Inequality? High-Income Consumers, Vertical Differentiation, and the Wage Structure,” &lt;em&gt;American Journal of Sociology&lt;/em&gt; 123(1):178-231. 2018.&lt;/p&gt;
-
-&lt;p&gt;获得2018年格兰诺维特奖的最佳期刊，来自MIT sloan 管理学院社会学教授 Nathan Wilmers，他本科毕业于芝加哥大学哲学系，之后来到东海岸的哈佛攻读社会学Ph.D., 一路名校生涯，在博士期间，他选择的研究方向是劳动社会学，收入（薪酬福利）不平等，以及工会组织。&lt;/p&gt;
-
-&lt;p&gt;他尝试着回答一些我们日常生活中那些困扰着普通人的柴米油盐的问题：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;穷人会为住房负担更多么？Desmond, Matthew and Nathan Wilmers. forthcoming. “Do the Poor Pay More for Housing? Exploitation, Profit, and Risk in Rental Markets,” &lt;em&gt;American Journal of Sociology&lt;/em&gt;.&lt;/li&gt;
-  &lt;li&gt;消费者的需求会刺激产生更多的不平等么？Wilmers, Nathan. 2017. “Does Consumer Demand Reproduce Inequality? High-income Consumers, Vertical Differentiation and the Wage Structure,” American Journal of Sociology, 123: 178-231.&lt;/li&gt;
-  &lt;li&gt;工会在劳动者们和公司谈判薪酬的时候真的有用么？Wilmers, Nathan. 2017. “Labor Unions as Activist Organizations: A Union Power Approach to Estimating Union Wage Effects,” Social Forces, 95: 1451-1478&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;他利用大量的实证资料证明了，从上世纪70年代开始，收入的不平等主要来自于不同公司涨薪的差异，而不是来自于不同员工的职位差异。&lt;/p&gt;
-
-&lt;p&gt;在这篇文章中，他关注的是二战以来，美国经济依赖于高端消费群体的趋势逐渐增强。消费市场出现明显的市场分层，这样的消费趋势明显地将市场分割为分为上层和下层两个部分，并在造成了上层市场中形成了赢者通吃的局面。消费生活的分层也将导致基于产品质量和价格属性的差异的工业领域的分化。通过实证研究，结果表明，在那些更多依赖于高端消费群体的行业中，工资不平等出现的可能性更高，也印证了在以往研究中未曾涉及的一个不平等的新趋势： 消费差异的增大进一步&lt;strong&gt;增强&lt;/strong&gt;了工资不平等。&lt;/p&gt;
-
-&lt;h4 id=&quot;泽利泽奖-最佳书籍&quot;&gt;泽利泽奖—— 最佳书籍&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://sites.lsa.umich.edu/yy-ang/&quot;&gt;Yuen Yuen Ang&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;她的自我描述是一名精神流浪者。她出生在新加坡，在美国学习成长，最后工作，但她的工作是研究中国，并了解世界。虽然她一直以来都以一种局外人(outsider)的眼光在践行着她的观察，但是她始终坚信：基本上这个星球上生活的所有人都有着共同的地方。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;中国如何逃离中等收入陷阱&lt;/strong&gt; 她的这本书以毕加索的名言开篇：每一种创造行动的第一步，即毁灭。这本书为新兴市场国家指明了一条属于他们的躲避中等收入陷阱的道路：首先，控制好那些相对弱势的，但却常常违背政府的意愿，做出抵抗的社会制度和机构设置，一旦完成，这些国家就可以建立起自己的市场。然后，她指出，这些国家对于市场的适应这一过程，虽然对于长期发展非常关键，就却并不是自然而然就发生的。通过列举了市场适应环节中的三大常见障碍： Ang 确定了中国领导者们创造出了良好的环境，让大家可以摸着石头过河。&lt;/p&gt;
-
-&lt;p&gt;现有的文献中很多学者都认为如今资本主义创造的繁荣，但实际上&lt;strong&gt;发展&lt;/strong&gt;是一种多实体共生的过程，时期更迭，国家和市场的互动也在不断变化。&lt;/p&gt;
-
-&lt;h4 id=&quot;博特奖-最佳学生论文&quot;&gt;博特奖—— 最佳学生论文&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;2018&lt;/strong&gt;: Barbara Kiviat, Harvard University, “The Art of Deciding with Data: Evidence from how Employers Translate Credit Reports into Hiring Decisions,” &lt;em&gt;Socio-Economic Review&lt;/em&gt; mwx030. 2017.&lt;/p&gt;
-
-&lt;p&gt;在美国生活，少不了和银行打交道。与中国不同，美国是一个高度系统化的信用社会，这篇文章就是通过和57位专职招聘的公司代表们的访谈，来调查日常经济生活的重要记录——信用报告，如何影响个人就业，以及其对于不同种族，年龄，和社会地位的个人的影响。&lt;/p&gt;
-
-&lt;p&gt;信用历史记录（credit history）与个人生活息息相关，美国现在主要有三大信用报告机构（&lt;em&gt;credit reporting&lt;/em&gt; agencies), 银行、收债人、政府等都会主动将与个人信用相关的信息，包括信用卡/信贷账户信息、贷款金额、还款记录、欠款记录等等上报到三大机构；而三大机构则会将这些信息综合整理成条理分明的信用报告（credit report），日后银行和借贷机构也会通过这些信用报告来评估借贷人的信用度，用来审批贷款等项目。&lt;/p&gt;
-
-&lt;p&gt;信用报告对个人非常重要，关系到贷款利率的高低，贷款买房，买车的成功率。信用积分则是各个机构根据信用报告的明细，通过一定公式计算出来的、比较通俗易懂的、评定个人信用好坏的标准。现时美国最为通用普遍的是由Fair Isaac Corporation公司（简称FICO）制定出来的&lt;strong&gt;FICO Score&lt;/strong&gt;信用评分系统。&lt;/p&gt;
-
-&lt;p&gt;简而言之，信用报告中的信息很大程度上决定了每个人在社会中能获取的经济资源，不光是保险，住房，甚至对工作也非常重要。超过一半的美国公司人事会在雇人的时候参考候选人的信用报告。但是在这一过程中，信用历史如何影响雇主的决策还是一个黑箱。信用报告反映的不光只是一个量化的分数，这几乎反映了一个人的经济史：信用卡账户，住房贷款，职业变动，学生学费贷款，医疗账单，以及经济类诉讼案件结果。&lt;/p&gt;
-</description>
-        <pubDate>Wed, 23 Jan 2019 19:38:24 -0500</pubDate>
-        <link>http://localhost:4000/2019/01/23/ASA-2018-Economic-sociology-paper-awards/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/23/ASA-2018-Economic-sociology-paper-awards/</guid>
+        <link>http://localhost:4000/2019/04/01/996-viral-Chinese-young-engineers-Asilomar-moment.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/01/996-viral-Chinese-young-engineers-Asilomar-moment.html</guid>
         
         
       </item>
