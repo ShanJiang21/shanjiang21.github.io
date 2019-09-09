@@ -8,17 +8,13 @@ multilingual: true
 
 ### Statistical Programming Tutorial
 
-<img src="/img/10.jpg" alt="Flatiron Building" style="width:128px; height:99px;">
-
 * [Python in Economics Tutorial@](https://lectures.quantecon.org/py/)
 * [R Tutorial - Data Science by Jeff Goldsmith@Columbia](https://p8105.com/)
 * [Data Visualization in Sociology by Kieran Healy@Duke](http://socviz880.co/)
 * [Software Tutorial](http://www.smart-stats.org/content/software-tutorials)
 
 
-
 ### Academic Resources
-
 
 * [Introduction to Data Science 2018 Spring](https://beanumber.github.io/sds192/index.html)
 * [Introduction to Data Science 2018 Fall](https://rudeboybert.github.io/SDS192/)
@@ -26,8 +22,7 @@ multilingual: true
 * [Deep Learning](https://www.cs.columbia.edu/~idrori/deeplearningcufall2018.html) fancy course hosted online by Iddo Drori @Columbia CS department. 
 * [Datacamp](https://www.datacamp.com/groups/8702c0fa3e62145fd1a543715dddc3a3645cd03c/invite), online programming courses for data science. Available for free using links on Moodle.
 
-
-<img src= "/img/Data_science.jpg" style="width:160px; height:99px;">
+<img src= "/img/Data_science.jpg" style="width:190px; height:89px;">
 
 ### Statistics & Quantative Methods 
 
@@ -39,12 +34,12 @@ multilingual: true
 * [Table 1](https://cran.r-project.org/web/packages/table1/vignettes/table1-examples.html), extremely useful for organizing tables for publish on journals.
 * [TAM](https://www.edmeasurementsurveys.com/TAM/Tutorials/), written by authors of ConQuest, which is a popular software for fitting Rasch model, partial credit model and its extended multidimensional models.
 
-#### Computational Sociology resource
+#### Computational resources
 
 * [Five Thirty Eight](https://fivethirtyeight.com/) for political data visualization hosted by ABC news. 
-* [Introduction to Educational and Psychological Measurement Using R](https://www.thetaminusb.com/intro-measurement-r/) for factor analysis and scaling, scoring.
+* [Introduction to Educational and Psychological Measurement Using R](https://www.thetaminusb.com/intro-measurement-r/) a hands-on book introducing SEM, factor analysis techniques by using R. 
 * [Working Group on Computational Social Science @Columbia](http://css.iserp.columbia.edu/)
-* [Generalized Linear models](https://data.princeton.edu/wws509/sets)Statistical Models: Most popular model in sociology, log-linear model
+* [Generalized Linear models](https://data.princeton.edu/wws509/sets)Statistical Models: Most popular model in sociology, log-linear model.
 * [2019 Summer Institutes for Computational Social Science](https://compsocialscience.github.io/summer-institute/2019/) Cool workshop held multi-centered by scholars and researchers from political science, sociology, psychology and other social science departments. Great resources for fans of computational methods. 
 
 #### Blogs and online books
@@ -58,7 +53,6 @@ multilingual: true
 
 
 #### Sociology Journal
-A regular review of popular journals is a nice inspiration and refreshment.
 
 * [The American Sociological Review](https://journals.sagepub.com/home/asr)
 * [The American Journal of Sociology](https://www.journals.uchicago.edu/toc/ajs/current)
@@ -66,14 +60,13 @@ A regular review of popular journals is a nice inspiration and refreshment.
 * [Social Networks](https://www.journals.elsevier.com/social-networks)
 * [Peers at work](https://eml.berkeley.edu/~moretti/text20.pdf)
 
+A regular review of popular journals is a nice inspiration and refreshment.
 
-#### Editing and writing Format
-
-<img src="/img/11.jpg" style="width:125px; height:99px;">
+#### Editing and writing Templates 
 
 * [LaTeX Templates and Styles](https://github.com/kjhealy/latex-custom-kjh)
 * [Resume Format](http://kjhealy.github.io/kjh-vita/)
-* 
+* [Pandoc Templates](https://github.com/kjhealy/pandoc-templates)
 
 #### Footprints
 
