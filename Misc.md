@@ -13,7 +13,7 @@ multilingual: true
 * [Python in Economics Tutorial@](https://lectures.quantecon.org/py/)
 * [R Tutorial - Data Science by Jeff Goldsmith@Columbia](https://p8105.com/)
 * [Data Visualization in Sociology by Kieran Healy@Duke](http://socviz880.co/)
-* [soft-ware Tutorial](http://www.smart-stats.org/content/software-tutorials)
+* [Software Tutorial](http://www.smart-stats.org/content/software-tutorials)
 
 
 
@@ -23,12 +23,13 @@ multilingual: true
 * [Introduction to Data Science 2018 Spring](https://beanumber.github.io/sds192/index.html)
 * [Introduction to Data Science 2018 Fall](https://rudeboybert.github.io/SDS192/)
 * [R for data science](http://r4ds.had.co.nz/), Garrett Grolemund and Hadley Wickham, O’Reilly, 2017. Available free online.
+* [Deep Learning](https://www.cs.columbia.edu/~idrori/deeplearningcufall2018.html) fancy course hosted online by Iddo Drori @Columbia CS department. 
 * [Datacamp](https://www.datacamp.com/groups/8702c0fa3e62145fd1a543715dddc3a3645cd03c/invite), online programming courses for data science. Available for free using links on Moodle.
-* [Generalized Linear models](https://data.princeton.edu/wws509/sets)
 
-<img src= "/img/data_science.jpg" style="width:125px; height:99px;">
 
-### Statistics  & Quantative Methods 
+<img src= "/img/Data_science.jpg" style="width:160px; height:99px;">
+
+### Statistics & Quantative Methods 
 
 #### Top R packages
 
@@ -36,13 +37,15 @@ multilingual: true
 * [stringr](https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html), extremely useful for text mining.
 * [ggplot](https://www.mailman.columbia.edu/sites/default/files/media/fdawg_ggplot2.html), a well-known package for data visualization.
 * [Table 1](https://cran.r-project.org/web/packages/table1/vignettes/table1-examples.html), extremely useful for organizing tables for publish on journals.
+* [TAM](https://www.edmeasurementsurveys.com/TAM/Tutorials/), written by authors of ConQuest, which is a popular software for fitting Rasch model, partial credit model and its extended multidimensional models.
 
 #### Computational Sociology resource
 
-* [Five Thirty Eight](https://fivethirtyeight.com/) for political data visualization;
+* [Five Thirty Eight](https://fivethirtyeight.com/) for political data visualization hosted by ABC news. 
 * [Introduction to Educational and Psychological Measurement Using R](https://www.thetaminusb.com/intro-measurement-r/) for factor analysis and scaling, scoring.
 * [Working Group on Computational Social Science @Columbia](http://css.iserp.columbia.edu/)
-* [2019 Summer Institutes for Computational Social Science](https://compsocialscience.github.io/summer-institute/2019/)
+* [Generalized Linear models](https://data.princeton.edu/wws509/sets)Statistical Models: Most popular model in sociology, log-linear model
+* [2019 Summer Institutes for Computational Social Science](https://compsocialscience.github.io/summer-institute/2019/) Cool workshop held multi-centered by scholars and researchers from political science, sociology, psychology and other social science departments. Great resources for fans of computational methods. 
 
 #### Blogs and online books
 
@@ -54,7 +57,6 @@ multilingual: true
 * [Quantative Economics Notes](https://notes.quantecon.org/)
 
 
-
 #### Sociology Journal
 A regular review of popular journals is a nice inspiration and refreshment.
 
@@ -63,7 +65,6 @@ A regular review of popular journals is a nice inspiration and refreshment.
 * [Social Forces](https://academic.oup.com/sf/issue)
 * [Social Networks](https://www.journals.elsevier.com/social-networks)
 * [Peers at work](https://eml.berkeley.edu/~moretti/text20.pdf)
-
 
 
 #### Editing and writing Format
