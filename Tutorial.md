@@ -16,8 +16,6 @@ tags:
 * TOC
 {:toc}
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-
 ## Lec 1  Introduction
 
 ### Motivating Examples
@@ -179,11 +177,11 @@ How many continuous latent variables are being measured by the items;
 
 ##### Cronbach’s alpha
 
-Generally, $\alpha$ is a measure if how correlated the items in the scale are with each other.
+Generally,  $$\alpha$$ is a measure if how correlated the items in the scale are with each other.
 
-$\alpha$ is measure of the lower bound for the reliability of a simple sum or average scale under the important assumption that the items are **reflective** and are **unidimensional**.
+$$\alpha$$ is measure of the lower bound for the reliability of a simple sum or average scale under the important assumption that the items are **reflective** and are **unidimensional**.
 
-Generally $\alpha$ increases as the number of items increases.
+Generally $$\alpha$$ increases as the number of items increases.
 
 ````SAS
 Proc corr data = a alpha nomiss;
@@ -191,7 +189,7 @@ Var c22 c4;
 run;
 ````
 
-$\alpha$ = Intraclass correlation
+$$ \alpha $$ = Intraclass correlation
 
 ## Lec 3 Factor Analysis Part I
 
@@ -203,9 +201,9 @@ $\alpha$ = Intraclass correlation
 
 $$y = v + \beta f + e$$,
 
-* $f$: often called "common factors";
-* $v$: intercept, for EFA, v = 0, and for CFA often directly model v
-* Var(e) = $\Theta$
+* $$f$$: often called "common factors";
+* $$v$$: intercept, for EFA, v = 0, and for CFA often directly model v
+* Var(e) = $$ \Theta $$
 
 ##### Commonly used cut-offs indicating "good fit" of the model
 

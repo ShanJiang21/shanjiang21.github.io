@@ -268,6 +268,7 @@
         <div class="row">
 
     <!-- Post Container -->
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
@@ -387,8 +388,6 @@
   </li>
   <li><a href="#python-basics" id="markdown-toc-python-basics">Python Basics</a></li>
 </ul>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async=""></script>
 
 <h2 id="lec-1--introduction">Lec 1  Introduction</h2>
 
@@ -638,18 +637,18 @@ techniques are applied, and</p>
 
 <h5 id="cronbachs-alpha">Cronbach’s alpha</h5>
 
-<p>Generally, $\alpha$ is a measure if how correlated the items in the scale are with each other.</p>
+<p>Generally,  <script type="math/tex">\alpha</script> is a measure if how correlated the items in the scale are with each other.</p>
 
-<p>$\alpha$ is measure of the lower bound for the reliability of a simple sum or average scale under the important assumption that the items are <strong>reflective</strong> and are <strong>unidimensional</strong>.</p>
+<p><script type="math/tex">\alpha</script> is measure of the lower bound for the reliability of a simple sum or average scale under the important assumption that the items are <strong>reflective</strong> and are <strong>unidimensional</strong>.</p>
 
-<p>Generally $\alpha$ increases as the number of items increases.</p>
+<p>Generally <script type="math/tex">\alpha</script> increases as the number of items increases.</p>
 
 <pre><code class="language-SAS">Proc corr data = a alpha nomiss;
 Var c22 c4;
 run;
 </code></pre>
 
-<p>$\alpha$ = Intraclass correlation</p>
+<p><script type="math/tex">\alpha</script> = Intraclass correlation</p>
 
 <h2 id="lec-3-factor-analysis-part-i">Lec 3 Factor Analysis Part I</h2>
 
@@ -664,9 +663,9 @@ run;
 <p><script type="math/tex">y = v + \beta f + e</script>,</p>
 
 <ul>
-  <li>$f$: often called “common factors”;</li>
-  <li>$v$: intercept, for EFA, v = 0, and for CFA often directly model v</li>
-  <li>Var(e) = $\Theta$</li>
+  <li><script type="math/tex">f</script>: often called “common factors”;</li>
+  <li><script type="math/tex">v</script>: intercept, for EFA, v = 0, and for CFA often directly model v</li>
+  <li>Var(e) = <script type="math/tex">\Theta</script></li>
 </ul>
 
 <h5 id="commonly-used-cut-offs-indicating-good-fit-of-the-model">Commonly used cut-offs indicating “good fit” of the model</h5>
@@ -1029,7 +1028,6 @@ continuous variables</p>
 <h1 id="python-basics">Python Basics</h1>
 
 
-
                 <hr style="visibility: hidden;">
                 <ul class="pager">
                     
@@ -1099,6 +1097,7 @@ continuous variables</p>
 </article>
 
 <!-- add support for mathjax by voleking-->
+
 
 
 
