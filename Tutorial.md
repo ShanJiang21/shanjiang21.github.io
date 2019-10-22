@@ -17,6 +17,7 @@ tags:
 {:toc}
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
 ## Lec 1  Introduction
 
 ### Motivating Examples
@@ -506,4 +507,3 @@ WITH: allow correlation
   1. [Latent variable Analysis with R](<https://blogs.baylor.edu/rlatentvariable/>), *A Step-By-Step Guide*written by Beaujean
 
 # Python Basics
-
