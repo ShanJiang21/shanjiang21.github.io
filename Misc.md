@@ -6,12 +6,23 @@ header-img: "img/about-bg-o.jpg"
 multilingual: true
 ---
 
+### Footprints
+
+<p class="message" align="left">
+  How many roads must a man walk down<br>
+  Before you call him a man?<br>
+  --<i> Blowin' in the Wind </i>, Bob Dylan
+</p>
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="510" height="390"></iframe>
+Computation and experiment design capabilities are Two major components I acquired along the way studying the Biostatistics, while Sociology pushes me to gain more insights into the deep theory background, I really love the logical analysis with good story telling, just like the cities I have been to, the more you have met and seen, the more likely you are gonna to find the one you love most.
+
 ### Statistical Programming Tutorial
 
-* [Python in Economics Tutorial@](https://lectures.quantecon.org/py/)
-* [R Tutorial - Data Science by Jeff Goldsmith@Columbia](https://p8105.com/)
-* [Data Visualization in Sociology by Kieran Healy@Duke](http://socviz880.co/)
-* [Software Tutorial](http://www.smart-stats.org/content/software-tutorials)
+* [Python in Economics Tutorial@Solan Foundation](https://lectures.quantecon.org/py/)
+* [R Tutorial - Data Science by Jeff Goldsmith@Columbia University](https://p8105.com/)
+* [Data Visualization in Sociology by Kieran Healy@Duke University](http://socviz880.co/)
+* [Statistical Software Tutorial](http://www.smart-stats.org/content/software-tutorials)
 
 
 ### Academic Resources
@@ -67,13 +78,6 @@ A regular review of popular journals is a nice inspiration and refreshment.
 * [LaTeX Templates and Styles](https://github.com/kjhealy/latex-custom-kjh)
 * [Resume Format](http://kjhealy.github.io/kjh-vita/)
 * [Pandoc Templates](https://github.com/kjhealy/pandoc-templates)
+* [Beamer](http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf) is a powerful and flexible $LaTeX$ class to create great looking presentations. 
 
-#### Footprints
 
-<p class="message" align="left">
-  How many roads must a man walk down<br>
-  Before you call him a man?<br>
-  --<i> Blowin' in the Wind </i>, Bob Dylan
-</p>
-
-<iframe src="https://www.google.com/maps/d/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="510" height="390"></iframe>

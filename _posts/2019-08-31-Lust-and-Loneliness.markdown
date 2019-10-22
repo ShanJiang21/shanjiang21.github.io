@@ -47,7 +47,7 @@ I hate the labelling, it attaches atigma, ignores the heterogenity of the indivi
 
 **A little happiness**
 
-![Notre Dame Cathedral fire](/img/64.jpg)
+![A little Happiness](/img/64.jpg)
 
 A little happiness is originated from the American literature while introduced to East Asia by Japanese Novelist Murakami Haruki, to denote the tender moments in life which shall be recognized and cherished.
 

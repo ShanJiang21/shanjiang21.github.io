@@ -7,14 +7,16 @@
     <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="description" content="Hi, I am Shan(@shanjiang21), a master student at Columbia University.">
-    <meta name="keywords"  content="New Yorker, Blog writter, novelist, R, biostatistics,">
+    <meta name="keywords"  content="New Yorker, Blog writter, Novelist">
     <meta name="theme-color" content="#000000">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Python tutorial - sj2921@columbia.edu">
+    <meta property="og:title" content="Python Basics - Love is a touch and yet not a touch">
     
     <meta property="og:type" content="article">
     <meta property="og:description" content="
+
+All programming languages must be able to:
 
 ">
     
@@ -26,14 +28,14 @@
     
     <meta property="article:tag" content="Python">
     
-    <meta property="article:tag" content="coding">
+    <meta property="article:tag" content="Computational Social Science">
     
     
     <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
     <meta property="og:url" content="http://localhost:4000/2019/04/12/PythonLec2/">
-    <meta property="og:site_name" content="sj2921@columbia.edu">
+    <meta property="og:site_name" content="Love is a touch and yet not a touch">
     
-    <title>Python tutorial - sj2921@columbia.edu</title>
+    <title>Python Basics - Love is a touch and yet not a touch</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -100,6 +102,12 @@
                     
                     <li>
                         <a href="/Misc/">Misc.</a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/Tutorial/">Tutorial</a>
                     </li>
                     
                     
@@ -224,10 +232,10 @@
                         
                         <a class="tag" href="/archive/?tag=Python" title="Python">Python</a>
                         
-                        <a class="tag" href="/archive/?tag=coding" title="coding">coding</a>
+                        <a class="tag" href="/archive/?tag=Computational+Social+Science" title="Computational Social Science">Computational Social Science</a>
                         
                     </div>
-                    <h1>Python tutorial</h1>
+                    <h1>Python Basics</h1>
                     
                     <h2 class="subheading"></h2>
                     <span class="meta">Posted by Shan J. on April 12, 2019</span>
@@ -277,9 +285,8 @@
 
 <p>Functions are short and concise. <strong>Keep this rule of thumb in mind:</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>A  Function has one job.
-</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A  Function has one job.
+</code></pre></div></div>
 
 <p>We define a function to do its one little thing, and then we can execute that code many times, on all kinds of different inputs.</p>
 
@@ -303,21 +310,14 @@
 
 <p>Here’s an example of a simple function in Python, defined by the function writer:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">divide</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">divide</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
     <span class="s">''' function: divide
         parameters: two numbers, x and y
         returns: a float, the result of dividing x / y
     '''</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">x</span> <span class="o">/</span> <span class="n">y</span>
     <span class="k">return</span> <span class="n">result</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p>Let’s break it down to the important parts:</p>
 
@@ -447,6 +447,7 @@ main()
 <p>We’ll get some practice with testing in DS2000 by writing test suites. A test suite is a separate Python program, with its own <em>main</em>, that repeatedly calls a function you’ve written to validate that it works correctly. A test suite will contain tests for multiple functions.</p>
 
 
+
                 <hr style="visibility: hidden;">
                 <ul class="pager">
                     
@@ -459,9 +460,9 @@ main()
                     
                     
                     <li class="next">
-                        <a href="/2019/04/13/Latent-Varible-analysis-Tutorial/" data-toggle="tooltip" data-placement="top" title="Latent Variable Tutorial">
+                        <a href="/2019/04/15/Nothing-Forever/" data-toggle="tooltip" data-placement="top" title="Nothing Forever">
                         Next<br>
-                        <span>Latent Variable Tutorial</span>
+                        <span>Nothing Forever</span>
                         </a>
                     </li>
                     
@@ -477,7 +478,7 @@ main()
                 
 
                 
-            </div>  
+            </div>
 
     <!-- Side Catalog Container -->
         
@@ -504,12 +505,17 @@ main()
         </a>
         
         
-                <a data-sort="0011" 
+                <a data-sort="0012" 
                     href="/archive/?tag=Python"
                     title="Python"
-                    rel="2">Python</a>
+                    rel="3">Python</a>
         
-                <a data-sort="0011" 
+                <a data-sort="0013" 
+                    href="/archive/?tag=Computational+Social+Science"
+                    title="Computational Social Science"
+                    rel="2">Computational Social Science</a>
+        
+                <a data-sort="0013" 
                     href="/archive/?tag=Statistics"
                     title="Statistics"
                     rel="2">Statistics
@@ -537,7 +543,6 @@ main()
     var disqus_shortname = "shanj";
     var disqus_identifier = "/2019/04/12/PythonLec2";
     var disqus_url = "http://localhost:4000/2019/04/12/PythonLec2/";
-
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
@@ -564,9 +569,9 @@ main()
 <script>
     async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
-          visible: 'always',
+          visible: 'hover',
           placement: 'right',
-          icon: '#'
+          // icon: '#'
         };
         anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
     })

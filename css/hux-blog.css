@@ -1,3 +1,30 @@
+@font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PT Serif'), local('PTSerif-Regular'), url('./newsprint/pt-serif-v9-latin-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: normal;
+    src: local('PT Serif'), local('PTSerif-Italic'), url('./newsprint/pt-serif-v9-latin-italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: bold;
+    src: local('PT Serif'), local('PTSerif-Bold'), url('./newsprint/pt-serif-v9-latin-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: bold;
+    src: local('PT Serif'), local('PTSerif-BoldItalic'), url('./newsprint/pt-serif-v9-latin-700italic.woff') format('woff');
+}
+
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
@@ -137,8 +164,8 @@
   transition-duration: 0.5s;
   transition-timing-function: ease;
   /*font-family: RobotoDraft;*/
-  font-size: 14px;
-  min-height: 14px;
+  font-size: 13px;
+  min-height: 13px;
   background-color: #323232;
   background-color: #0085a1;
   position: fixed;
@@ -146,7 +173,7 @@
   justify-content: space-between;
   align-items: center;
   color: white;
-  line-height: 22px;
+  line-height: 20px;
   padding: 18px 24px;
   bottom: 0px;
   opacity: 0;
@@ -179,7 +206,7 @@
     Multi-line snackbar height: 80 dp
     Text: Roboto Regular 14 sp
     Action button: Roboto Medium 14 sp, all-caps text
-    Default background fill: #323232 100%  
+    Default background fill: #323232 100%
   */
     left: 0px;
     right: 0px;
@@ -555,7 +582,10 @@ pre.highlight {
     border-radius: 0px;
   }
   .highlighter-rouge .highlight td.rouge-gutter {
-    width: 46px;
+    width: 36px;
+  }
+  .highlighter-rouge .highlight table > tbody > tr > td > pre {
+    padding: 14px 10px;
   }
 }
 body {
@@ -574,6 +604,11 @@ body {
 }
 p {
   margin: 30px 0;
+}
+@media screen and (max-width: 768px) {
+  p {
+    margin: 25px 0;
+  }
 }
 h1,
 h2,
@@ -691,37 +726,58 @@ samp {
 .post-container h4,
 .post-container h5,
 .post-container h6 {
-  margin: 30px 0 10px;
+  margin: 50px 0 20px;
   line-height: 1.4;
 }
-.post-container h5 {
-  font-size: 19px;
-  font-weight: 600;
-  color: gray;
-}
-.post-container h5 + p {
-  margin-top: 5px;
-}
-.post-container h6 {
-  font-size: 16px;
-  font-weight: 600;
-  color: gray;
-}
+.post-container h1 + p,
+.post-container h2 + p,
+.post-container h3 + p,
+.post-container h4 + p,
+.post-container h5 + p,
 .post-container h6 + p {
-  margin-top: 5px;
+  margin-top: 20px;
+}
+.post-container h2::before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #ececec;
+  margin-top: 44px;
+  margin-bottom: 30px;
+}
+.post-container h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: gray;
+}
+.post-container h4 + p {
+  margin-top: 10px;
+}
+.post-container h5,
+.post-container h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: gray;
+}
+.post-container h5 + p,
+.post-container h6 + p {
+  margin-top: 10px;
 }
 @media screen and (max-width: 768px) {
   .post-container h1 {
     font-size: 30px;
   }
   .post-container h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .post-container h3 {
-    font-size: 21px;
+    font-size: 20px;
   }
   .post-container h4 {
     font-size: 19px;
+  }
+  .post-container h5,
+  .post-container h6 {
+    font-size: 18px;
   }
 }
 .post-container ul,
@@ -778,14 +834,14 @@ samp {
 }
 .post-container .anchorjs-link {
   position: absolute;
-  padding-top: 1px;
+  text-decoration: none !important;
 }
 @media only screen and (max-width: 767px) {
   /**
-	 * Layout
-	 * Since V1.6 we use absolute positioning to prevent to expand container-fluid
-	 * which would cover tags. A absolute positioning make a new layer.
-	 */
+   * Layout
+   * Since V1.6 we use absolute positioning to prevent to expand container-fluid
+   * which would cover tags. A absolute positioning make a new layer.
+   */
   .navbar-default .navbar-collapse {
     position: absolute;
     right: 0;
@@ -797,13 +853,13 @@ samp {
     width: 170px;
   }
   /**
-	 * Animation
-	 * HuxBlog-Navbar using genuine Material Design Animation
-	 */
+   * Animation
+   * HuxBlog-Navbar using genuine Material Design Animation
+   */
   #huxblog_navbar {
     /**
-		 * Sharable code and 'out' function
-		 */
+     * Sharable code and 'out' function
+     */
     opacity: 0;
     transform: scaleX(0);
     transform-origin: top right;
@@ -812,8 +868,8 @@ samp {
     -webkit-transform-origin: top right;
     -webkit-transition: all 200ms cubic-bezier(0.47, 0, 0.4, 0.99) 0ms;
     /**
-		 *'In' Animation
-		 */
+     *'In' Animation
+     */
   }
   #huxblog_navbar a {
     font-size: 13px;

@@ -1,9 +1,9 @@
 # Basic
 title: Shan's hub
-SEOTitle: sj2921@columbia.edu
+SEOTitle: Love is a touch and yet not a touch
 header-img: img/home-bg.jpg
 email: sj2921@columbia.edu
-keyword: New Yorker, Blog writter, novelist, R, biostatistics,
+keyword: New Yorker, Blog writter, Novelist
 welcome_message: Now I am working on Energy insecuirity and applications of data visulization on social science topics, for more information, <a href="https://shanjiang21.github.io/sociology.html">click here</a>
 description: Hi, I am Shan(@shanjiang21), a master student at Columbia University.
 url: "https://shanj.tk/"
@@ -27,7 +27,7 @@ anchorjs: true
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "The sun always finds a way to shine its light on us<br>怀疑主义者其实都是有信仰的人……嘘，别嚷嚷。"
+sidebar-about-description: "Love is a touch <br>and yet not a touch<br>路过人间。"
 sidebar-avatar: /img/avatar.jpg
 
 # Featured Tags
@@ -53,7 +53,7 @@ kramdown:
     span:
       line_numbers: false
     block:
-      line_numbers: true
+      line_numbers: false
       start_line: 1
 
 
