@@ -34,7 +34,7 @@ author: Shan J.
 
 >  
 
-![The Great Good Place](../img/GGP.jpg)
+<img src="../img/GGP.jpg" alt="The Great Good Place" style="zoom:33%;" />
 
 Just as the headlines indicated: Cafes, Coffee Shops, Bookstores, Bars, Hair Salons, and Other Hangouts at the Heart of a Community. 
 

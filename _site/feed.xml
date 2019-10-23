@@ -5,8 +5,8 @@
     <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 22 Oct 2019 00:28:18 -0400</pubDate>
-    <lastBuildDate>Tue, 22 Oct 2019 00:28:18 -0400</lastBuildDate>
+    <pubDate>Tue, 22 Oct 2019 11:04:54 -0400</pubDate>
+    <lastBuildDate>Tue, 22 Oct 2019 11:04:54 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -56,7 +56,7 @@
 
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;../img/GGP.jpg&quot; alt=&quot;The Great Good Place&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../img/GGP.jpg&quot; alt=&quot;The Great Good Place&quot; style=&quot;zoom:33%;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Just as the headlines indicated: Cafes, Coffee Shops, Bookstores, Bars, Hair Salons, and Other Hangouts at the Heart of a Community.&lt;/p&gt;
 
@@ -78,10 +78,56 @@
         <title>Python text processing 1</title>
         <description>&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot; async=&quot;&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Beautiful Soup&lt;/code&gt; is a library that makes it easy to scrape information from web pages&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Standardized Computing, Standardized Research&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Greatest scientific discovery of 20th Century: Powerful personal computer (standardize science)&lt;/p&gt;
+
+  &lt;p&gt;1956: $10,000  megabyte&lt;/p&gt;
+
+  &lt;p&gt;2015:$«$ $ 0.0001 per megabyte&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Beautiful Soup&lt;/code&gt; is a library that makes it easy to scrape information from web pages.&lt;/p&gt;
+
+&lt;p&gt;However, if you are transiting from &lt;code class=&quot;highlighter-rouge&quot;&gt;Python 2&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;Python 3&lt;/code&gt;, then you might need to change your code a little bit:&lt;/p&gt;
+
+&lt;h4 id=&quot;load-packages&quot;&gt;Load packages&lt;/h4&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;bs4&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;##For python 3
+&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;urllib.request&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;re&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;nltk&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word_tokenize&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;nltk&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bigrams&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;nltk&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trigrams&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;nltk&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ngrams&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;data-scapping&quot;&gt;Data scapping&lt;/h4&gt;
+
+&lt;p&gt;You can either use &lt;code class=&quot;highlighter-rouge&quot;&gt;urlopen&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;request.get&lt;/code&gt; while the latter one consist of two steps&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;## Source from Yale law center
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url1&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'http://avalon.law.yale.edu/19th_century/gettyb.asp'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;url2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;raw_input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter a website to extract the URL's from: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;## text cleaning
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;contents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;text_1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;text_2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;W'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text_1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;wrangling-web-data&quot;&gt;Wrangling Web data&lt;/h4&gt;
 
 </description>
         <pubDate>Mon, 21 Oct 2019 22:32:24 -0400</pubDate>
@@ -96,7 +142,7 @@
       </item>
     
       <item>
-        <title>Third Space</title>
+        <title>Third Space As A Buffer</title>
         <description>&lt;p&gt;From a young 6-year-old little girl to a 23-year-old adult woman, what and where has helped/benefitted me most?&lt;/p&gt;
 
 &lt;p&gt;I try to ask myself, the inclusive sets certainly my &lt;em&gt;family&lt;/em&gt;, &lt;em&gt;school&lt;/em&gt;, and the temporal phase in &lt;em&gt;professional occasions&lt;/em&gt;. If measured by the length of my life, so far the longest and the only thing I have insisted on doing is &lt;em&gt;staying at school&lt;/em&gt;, no matter doing courseworks or serving as a research assistant, the inner voice keeps talling me the campus is a &lt;strong&gt;safe bubble&lt;/strong&gt; for me, despite the compensation of getting a low-pay and intense burden sometimes, also the endless deadlines that never disappear even in my dream.&lt;/p&gt;
@@ -121,17 +167,15 @@
 
 &lt;h3 id=&quot;loneliness-in-collectivism&quot;&gt;Loneliness in Collectivism&lt;/h3&gt;
 
-&lt;p&gt;It reminds of the death of Avicii, who was a famous Nodiac music star. It happened on his trip to Oman,&lt;/p&gt;
-
 &lt;blockquote&gt;
-  &lt;p&gt;All his notes were in happy mode.&lt;/p&gt;
+  &lt;p&gt;Scourage of the South Korea.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;These who are close to him are even more surprised than the fans.&lt;/p&gt;
 
-&lt;p&gt;I hate the labelling, it attaches atigma, ignores the heterogenity of the individual and often is the source of bias.&lt;/p&gt;
+&lt;p&gt;I hate the labelling, it attaches atigma, ignores the heterogenity of the individual and often is the source of bias and hatred, no matter how strong you try to deny the fact.&lt;/p&gt;
 
-&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Can you imagine, it’s neither Canada nor Sweden, these previously “freezing hell” has the highest suicide rate, it is South Korea, the sense of shame deeply rooted in the asian culture has shaped the thinking style of the&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Third Space sociology&lt;/strong&gt;&lt;/p&gt;
 
@@ -139,30 +183,22 @@
   &lt;p&gt;The term &lt;strong&gt;Third Space&lt;/strong&gt; or &lt;strong&gt;Third Place&lt;/strong&gt; was coined by the sociologist Ray Oldenburg in the early 90s in his book &lt;em&gt;The Great Good Place&lt;/em&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;/img/GGP.jpg&quot; alt=&quot;The Great Good Place&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Just as the headlines indicated: Cafes, Coffee Shops, Bookstores, Bars, Hair Salons, and Other Hangouts at the Heart of a Community.&lt;/p&gt;
-
-&lt;p&gt;Though home and workplace have been two places which take the dominant role in our daily life.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../img/GGP.jpg&quot; alt=&quot;The Great Good Place&quot; style=&quot;zoom:23%;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Farmers’ Market&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Every Tuesday there are tons of vegetables, bread and groceries freshly on sale in front of the Hammer library which is just the third space&lt;/p&gt;
+&lt;p&gt;Every Tuesday there are tons of vegetables, bread and groceries freshly on sale in front of the Hammer library which is just a symbol of third space in the U.S., it diminished the distance from the food source to the consumers, increases the trust between individuals and also lifts the commerical value of the food produced. Historically, the market has been a great place for information transmission and construct of unique social networks, which has been reserved until now. While some places have similar functions just like the market, take a look at the Starbucks around the corner, you may have a better idea why it has made so big a profit.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Standardized Computing, Standardized Research&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Third space in urban life is common while more rely on the intentional maintainance and the conquer of capital is the biggest threat to the phenomenon.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Greatest scientific discovery of 20th Century: Powerful personal computer (standardize science)&lt;/p&gt;
+&lt;p&gt;Just as the headlines indicated: &lt;em&gt;Cafes, Coffee Shops, Bookstores, Bars, Hair Salons, and Other Hangouts&lt;/em&gt; at the Heart of a Community. Though home and workplace have been two places which take the dominant role in our daily life, these small stops on the road home are great buffer from the work and housekeeping duties.&lt;/p&gt;
 
-  &lt;p&gt;1956: $10,000  megabyte&lt;/p&gt;
-
-  &lt;p&gt;2015:$«$ $ 0.0001 per megabyte&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;It is not uncommon that East Asian societies, people pay a lot more attention to the pursuit of external judgment to avoid being pubnished while always they don’t even know how to care for themselves, even if that is considered as his/her right since the date of birth. Besides, society also labels personal care as high-end enjoyment or abuse of money, the betrayal of si mple and plain lifestyle.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 16 Sep 2019 03:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/09/16/Third-Space/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/16/Third-Space/</guid>
+        <link>http://localhost:4000/2019/09/16/Third-Space-as-a-buffer/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/16/Third-Space-as-a-buffer/</guid>
         
         
       </item>
@@ -200,8 +236,7 @@
 &lt;p&gt;&lt;strong&gt;Loneliness in Collectivism&lt;/strong&gt;&lt;/p&gt;
 
 &lt;iframe width=&quot;590&quot; height=&quot;330&quot; src=&quot;https://www.youtube.com/embed/nx2iLOvP0rM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;It reminds of the death of Avicii, who was a famous Nodiac music star. It happened on his trip to Oman,&lt;/p&gt;
+&lt;p&gt;It reminds of the death of Avicii, who was a famous Nodiac music star. It happened on his trip to Oman, who killed himself when everyone else thinks that’s his highlighted moment in his life.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;All his notes were in happy mode.&lt;/p&gt;

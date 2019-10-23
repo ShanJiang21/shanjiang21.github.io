@@ -265,10 +265,56 @@
 
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async=""></script>
 
-<p><code class="highlighter-rouge">Beautiful Soup</code> is a library that makes it easy to scrape information from web pages</p>
+<p><strong>Standardized Computing, Standardized Research</strong></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<blockquote>
+  <p>Greatest scientific discovery of 20th Century: Powerful personal computer (standardize science)</p>
+
+  <p>1956: $10,000  megabyte</p>
+
+  <p>2015:$«$ $ 0.0001 per megabyte</p>
+</blockquote>
+
+<p><code class="highlighter-rouge">Beautiful Soup</code> is a library that makes it easy to scrape information from web pages.</p>
+
+<p>However, if you are transiting from <code class="highlighter-rouge">Python 2</code> to <code class="highlighter-rouge">Python 3</code>, then you might need to change your code a little bit:</p>
+
+<h4 id="load-packages">Load packages</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span> <span class="c1">##For python 3
+</span><span class="kn">from</span> <span class="nn">urllib.request</span> <span class="kn">import</span> <span class="n">urlopen</span>
+<span class="kn">import</span> <span class="nn">re</span>
 </code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">word_tokenize</span>
+<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">bigrams</span>
+<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">trigrams</span>
+<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">ngrams</span>
+</code></pre></div></div>
+
+<h4 id="data-scapping">Data scapping</h4>
+
+<p>You can either use <code class="highlighter-rouge">urlopen</code> or <code class="highlighter-rouge">request.get</code> while the latter one consist of two steps</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">## Source from Yale law center
+</span><span class="n">url1</span>  <span class="o">=</span> <span class="n">urlopen</span><span class="p">(</span><span class="s">'http://avalon.law.yale.edu/19th_century/gettyb.asp'</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">url2</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"Enter a website to extract the URL's from: "</span><span class="p">)</span>
+<span class="n">r</span>  <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">"http://"</span> <span class="o">+</span><span class="n">url2</span><span class="p">)</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">r</span><span class="o">.</span><span class="n">text</span>
+
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">## text cleaning
+</span><span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+<span class="n">text</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">p</span><span class="o">.</span><span class="n">contents</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">text_1</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> 
+<span class="n">text_2</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s">'</span><span class="err">\</span><span class="s">W'</span><span class="p">,</span> <span class="s">' '</span><span class="p">,</span> <span class="n">text_1</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h4 id="wrangling-web-data">Wrangling Web data</h4>
 
 
 
@@ -276,9 +322,9 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2019/09/16/Third-Space/" data-toggle="tooltip" data-placement="top" title="Third Space">
+                        <a href="/2019/09/16/Third-Space-as-a-buffer/" data-toggle="tooltip" data-placement="top" title="Third Space As A Buffer">
                         Previous<br>
-                        <span>Third Space</span>
+                        <span>Third Space As A Buffer</span>
                         </a>
                     </li>
                     

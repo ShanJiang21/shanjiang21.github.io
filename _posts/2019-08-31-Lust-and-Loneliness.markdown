@@ -35,8 +35,7 @@ But, I have to be frank, typical idea that the boredom comes from too much freet
 **Loneliness in Collectivism**
 
 <iframe width="590" height="330" src="https://www.youtube.com/embed/nx2iLOvP0rM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-It reminds of the death of Avicii, who was a famous Nodiac music star. It happened on his trip to Oman, 
+It reminds of the death of Avicii, who was a famous Nodiac music star. It happened on his trip to Oman, who killed himself when everyone else thinks that’s his highlighted moment in his life.
 
 >  All his notes were in happy mode.
 

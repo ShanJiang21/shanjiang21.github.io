@@ -1,4 +1,6 @@
 ---
+
+
 layout: post
 title: Python text processing 1
 date: 2019-10-22 11:32:24.000000000 +09:00
@@ -11,9 +13,57 @@ tags:
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
-`Beautiful Soup` is a library that makes it easy to scrape information from web pages
+**Standardized Computing, Standardized Research**
+
+>  Greatest scientific discovery of 20th Century: Powerful personal computer (standardize science) 
+>
+>  1956: $10,000  megabyte 
+>
+>  2015:$<<$ $ 0.0001 per megabyte
+
+`Beautiful Soup` is a library that makes it easy to scrape information from web pages.
+
+However, if you are transiting from `Python 2` to `Python 3`, then you might need to change your code a little bit:
+
+#### Load packages 
 
 ```python
+from bs4 import BeautifulSoup ##For python 3
+from urllib.request import urlopen
+import re
+```
+
+```python
+from nltk import word_tokenize
+from nltk import bigrams
+from nltk import trigrams
+from nltk import ngrams
+```
+
+#### Data scapping 
+
+You can either use `urlopen` or `request.get` while the latter one consist of two steps 
+
+```python
+## Source from Yale law center
+url1  = urlopen('http://avalon.law.yale.edu/19th_century/gettyb.asp').read()
 
 ```
+
+```python
+url2 = raw_input("Enter a website to extract the URL's from: ")
+r  = requests.get("http://" +url2)
+data = r.text
+
+```
+
+```python
+## text cleaning
+soup = BeautifulSoup(url)
+text = soup.p.contents[0]
+text_1 = text.lower() 
+text_2 = re.sub('\W', ' ', text_1)
+```
+
+#### Wrangling Web data
 
