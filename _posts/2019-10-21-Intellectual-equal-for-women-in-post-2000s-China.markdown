@@ -8,9 +8,25 @@ author: Shan J.
 ---
 
 
-### Duality of attitudes towards women in China
+#### Duality of attitudes towards fertility among highly-educated women in East Asian Society
+
+
+
+Recently the article published on *AJS* has shed light on the dilemma faced by highly-educated women in east asian society. The imcompatibility of childbearing and the career development has increased the anxiety for white-collar ladies in the working places.
+
+The typical labor force participation of  “M” shaped curve is a common life-cycle. The article claims that instead of choosing to bear no kid in the family, most of the couples voluntarily cut on the number of kid they can have in the family, a voluntary one-child pattern is then formulated in the process.
+
+In reality, low fertility rate and attenuate aging in Japan is notorious for a long time, why the couples refuse or just hesitate to have a second baby?
+
+The family power stucture affects the fertility decisions, and it varies between countries. Instead of a dual-earner arrangement, Japan has a long histroy of housekeeping wife. The distribution of household choose to  exist in all three countries.
+
+Interestingly, this study just include the in-depth interview results from Japan and Korea, while no other individual social-political economy has been given intension, especially China. 
+
+
 
 *Harsh Truth and Education Inequality*
+
+In nearaly all OECD countries, the eduacation rate of women has surpassed men.
 
 ***Demographic*** evidence accumulated shows that for education levels of women in China: 
 
@@ -34,15 +50,9 @@ author: Shan J.
 
 >  
 
-<img src="../img/GGP.jpg" alt="The Great Good Place" style="zoom:33%;" />
+<img src="../img/" alt="The Great Good Place" style="zoom:33%;" />
 
-Just as the headlines indicated: Cafes, Coffee Shops, Bookstores, Bars, Hair Salons, and Other Hangouts at the Heart of a Community. 
 
-Though home and workplace have been two places which take the dominant role in our daily life.
-
-*Farmers' Market*
-
-Every Tuesday there are tons of vegetables, bread and groceries freshly on sale in front of the Hammer library which is just the third space 
 
 
 

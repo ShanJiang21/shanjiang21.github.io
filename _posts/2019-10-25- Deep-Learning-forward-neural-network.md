@@ -3,34 +3,24 @@
 
 layout: post
 title: Python text processing 1
-date: 2019-10-25 23:32:24.000000000 +09:00
+date: 2019-10-22 11:32:24.000000000 +09:00
 author: Shan Jiang
 tags:
     - Python
     - Computational Social Science 
-    -
 
 ---
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 **Standardized Computing, Standardized Research**
 
->  Greatest scientific discovery of 20th Century: Powerful personal computer (standardize science) 
->
->  1956: $10,000  megabyte 
->
->  2015:$<<$ $ 0.0001 per megabyte
+>  
 
-`Beautiful Soup` is a library that makes it easy to scrape information from web pages.
-
-However, if you are transiting from `Python 2` to `Python 3`, then you might need to change your code a little bit:
-
-#### Load packages 
+#### Installing `Tensorflow` and `Keras`  
 
 ```python
-from bs4 import BeautifulSoup ##For python 3
-from urllib.request import urlopen
-import re
+pip install tensorflow
+pip install keras
 ```
 
 ```python
