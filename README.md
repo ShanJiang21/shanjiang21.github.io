@@ -1,4 +1,4 @@
-# Shan'S personal website
+# Shan's personal website
 
 This is Shan's personal website for displaying projects and blog posts, welcome to share your ideas with me.The theme is forked from [Vno Jekyll](https://github.com/onevcat/vno-jekyll),you can also choose a easier wordpress or github support for hosting your blog, also sometimes the debugging process is annoying.
 
