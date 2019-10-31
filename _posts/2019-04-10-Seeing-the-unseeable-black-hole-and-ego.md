@@ -21,3 +21,5 @@ We live 26,000 light-years from the center of the Milky Way. That’s a rounding
 The same logic also applies to ourselves, you may never know the limit of yourself, once you are settled down, it is hard and pricy for you to be go even one more step further.
 
 > “To do this, we worked for over a decade,” Doeleman said, in a Washington, D.C.
+
+Will you be able to sacrifice, or even give it a shot to make things happen? I doubt, but it worth trying.

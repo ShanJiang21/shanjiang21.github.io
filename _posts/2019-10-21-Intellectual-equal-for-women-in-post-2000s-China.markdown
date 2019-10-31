@@ -34,7 +34,7 @@ In nearaly all OECD countries, the eduacation rate of women has surpassed men.
 | ------------------------------------------------------- | ----- | ----- |
 | Percentage of women with **No education**               | 3.5   | 6.6   |
 | Percentage of women with **Primary education**          | 10.3  | 29.4  |
-| Percentage of women with $\geq$ **Secondary Education** | 54.2  | 18.2  |
+| Percentage of women with $$\geq$$ **Secondary Education** | 54.2  | 18.2  |
 
  Notes: Source from ACWF-2010. op. cit
 

@@ -11,29 +11,31 @@
     <meta name="theme-color" content="#000000">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Python text processing 1 - Love is a touch and yet not a touch">
+    <meta property="og:title" content="NLP Word Vectors - Love is a touch and yet not a touch">
     
     <meta property="og:type" content="article">
     <meta property="og:description" content="
 
+[TOC]
+
 ">
     
-    <meta property="article:published_time" content="2019-10-21T22:32:24Z">
+    <meta property="article:published_time" content="2019-10-31T10:32:24Z">
     
     
     <meta property="article:author" content="Shan Jiang">
     
     
-    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Text Analysis">
     
     <meta property="article:tag" content="Computational Social Science">
     
     
     <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
-    <meta property="og:url" content="http://localhost:4000/2019/10/21/Python-text-processing-1/">
+    <meta property="og:url" content="http://localhost:4000/2019/10/31/Python-text-processing-1/">
     <meta property="og:site_name" content="Love is a touch and yet not a touch">
     
-    <title>Python text processing 1 - Love is a touch and yet not a touch</title>
+    <title>NLP Word Vectors - Love is a touch and yet not a touch</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -42,7 +44,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2019/10/21/Python-text-processing-1/">
+    <link rel="canonical" href="http://localhost:4000/2019/10/31/Python-text-processing-1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -228,15 +230,15 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/archive/?tag=Python" title="Python">Python</a>
+                        <a class="tag" href="/archive/?tag=Text+Analysis" title="Text Analysis">Text Analysis</a>
                         
                         <a class="tag" href="/archive/?tag=Computational+Social+Science" title="Computational Social Science">Computational Social Science</a>
                         
                     </div>
-                    <h1>Python text processing 1</h1>
+                    <h1>NLP Word Vectors</h1>
                     
                     <h2 class="subheading"></h2>
-                    <span class="meta">Posted by Shan Jiang on October 21, 2019</span>
+                    <span class="meta">Posted by Shan Jiang on October 31, 2019</span>
                 </div>
             </div>
         </div>
@@ -265,15 +267,31 @@
 
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async=""></script>
 
-<p><strong>Standardized Computing, Standardized Research</strong></p>
+<p>[TOC]</p>
+
+<h3 id="neural-networks-and-nlp">Neural Networks and NLP</h3>
+
+<h4 id="word-vectors">Word Vectors</h4>
 
 <blockquote>
-  <p>Greatest scientific discovery of 20th Century: Powerful personal computer (standardize science)</p>
-
-  <p>1956: $10,000  megabyte</p>
-
-  <p>2015:$«$ $ 0.0001 per megabyte</p>
+  <p>Feline to cat, hotel to motel? Love and like? there are around 13 miliion English language, are they are unrelated ? Definitely not!</p>
 </blockquote>
+
+<p>The hard task for us converts to the translation problem, how can we represent these word tokens into some vector that represents a point in some sort of “word” space, like <em>sample space</em> in probability. The intuition behind this is that perhaps there actually exists some <strong>N-dimensional space</strong> (such that N <script type="math/tex">\approx</script> 13 million) that is sufficient to encode all semantics of our language.</p>
+
+<p><strong>One-hot vector:</strong></p>
+
+<hr />
+
+<p>The term <strong>“one-hot”</strong> comes from digital circuit design, meaning “a group of bits among which the legal combinations of values are only those with a single high bit (1) and all the others low (0).</p>
+
+<hr />
+
+<p>Represent every word as an vector  with  all 0s and one 1 at the index of that word in the sorted english language.</p>
+
+<script type="math/tex; mode=display">R^{|V|×1}</script>
+
+<h3 id="application">Application</h3>
 
 <p><code class="highlighter-rouge">Beautiful Soup</code> is a library that makes it easy to scrape information from web pages.</p>
 
@@ -316,25 +334,31 @@
 
 <h4 id="wrangling-web-data">Wrangling Web data</h4>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async=""></script>
+
+<p><strong>Standardized Computing, Standardized Research</strong></p>
+
+<blockquote>
+  <p>Greatest scientific discovery of 20th Century: Powerful personal computer (standardize science)</p>
+
+  <p>1956: Aound $10,000  per megabyte</p>
+
+  <p>2015: <script type="math/tex">% <![CDATA[
+<< %]]></script> $0.0001 per megabyte</p>
+</blockquote>
+
 
 
                 <hr style="visibility: hidden;">
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2019/09/16/Third-Space-as-a-buffer/" data-toggle="tooltip" data-placement="top" title="Third Space As A Buffer">
-                        Previous<br>
-                        <span>Third Space As A Buffer</span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="next">
                         <a href="/2019/10/22/Intellectual-equal-for-women-in-post-2000s-China/" data-toggle="tooltip" data-placement="top" title="Intellectual Equal For Women In Post 2000s China">
-                        Next<br>
+                        Previous<br>
                         <span>Intellectual Equal For Women In Post 2000s China</span>
                         </a>
                     </li>
+                    
                     
                 </ul>
                 <hr style="visibility: hidden;">
@@ -375,10 +399,10 @@
         </a>
         
         
-                <a data-sort="0012" 
+                <a data-sort="0013" 
                     href="/archive/?tag=Python"
                     title="Python"
-                    rel="3">Python</a>
+                    rel="2">Python</a>
         
                 <a data-sort="0013" 
                     href="/archive/?tag=Computational+Social+Science"
@@ -412,8 +436,8 @@
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "shanj";
-    var disqus_identifier = "/2019/10/21/ Python-text-processing-1";
-    var disqus_url = "http://localhost:4000/2019/10/21/Python-text-processing-1/";
+    var disqus_identifier = "/2019/10/31/Python-text-processing-1";
+    var disqus_url = "http://localhost:4000/2019/10/31/Python-text-processing-1/";
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';

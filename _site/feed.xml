@@ -5,88 +5,39 @@
     <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 22 Oct 2019 11:04:54 -0400</pubDate>
-    <lastBuildDate>Tue, 22 Oct 2019 11:04:54 -0400</lastBuildDate>
+    <pubDate>Thu, 31 Oct 2019 19:09:21 -0400</pubDate>
+    <lastBuildDate>Thu, 31 Oct 2019 19:09:21 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Intellectual Equal For Women In Post 2000s China</title>
-        <description>&lt;h3 id=&quot;duality-of-attitudes-towards-women-in-china&quot;&gt;Duality of attitudes towards women in China&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Harsh Truth and Education Inequality&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Demographic&lt;/em&gt;&lt;/strong&gt; evidence accumulated shows that for education levels of women in China:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Breakdown Percentage (%)&lt;/th&gt;
-      &lt;th&gt;Urban&lt;/th&gt;
-      &lt;th&gt;Rural&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Percentage of women with &lt;strong&gt;No education&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;3.5&lt;/td&gt;
-      &lt;td&gt;6.6&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Percentage of women with &lt;strong&gt;Primary education&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;10.3&lt;/td&gt;
-      &lt;td&gt;29.4&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Percentage of women with $\geq$ &lt;strong&gt;Secondary Education&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;54.2&lt;/td&gt;
-      &lt;td&gt;18.2&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Notes: Source from ACWF-2010. op. cit&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;–&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;../img/GGP.jpg&quot; alt=&quot;The Great Good Place&quot; style=&quot;zoom:33%;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Just as the headlines indicated: Cafes, Coffee Shops, Bookstores, Bars, Hair Salons, and Other Hangouts at the Heart of a Community.&lt;/p&gt;
-
-&lt;p&gt;Though home and workplace have been two places which take the dominant role in our daily life.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Farmers’ Market&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Every Tuesday there are tons of vegetables, bread and groceries freshly on sale in front of the Hammer library which is just the third space&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 22 Oct 2019 03:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/10/22/Intellectual-equal-for-women-in-post-2000s-China/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/10/22/Intellectual-equal-for-women-in-post-2000s-China/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Python text processing 1</title>
+        <title>NLP Word Vectors</title>
         <description>&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot; async=&quot;&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;&lt;strong&gt;Standardized Computing, Standardized Research&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[TOC]&lt;/p&gt;
+
+&lt;h3 id=&quot;neural-networks-and-nlp&quot;&gt;Neural Networks and NLP&lt;/h3&gt;
+
+&lt;h4 id=&quot;word-vectors&quot;&gt;Word Vectors&lt;/h4&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Greatest scientific discovery of 20th Century: Powerful personal computer (standardize science)&lt;/p&gt;
-
-  &lt;p&gt;1956: $10,000  megabyte&lt;/p&gt;
-
-  &lt;p&gt;2015:$«$ $ 0.0001 per megabyte&lt;/p&gt;
+  &lt;p&gt;Feline to cat, hotel to motel? Love and like? there are around 13 miliion English language, are they are unrelated ? Definitely not!&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;The hard task for us converts to the translation problem, how can we represent these word tokens into some vector that represents a point in some sort of “word” space, like &lt;em&gt;sample space&lt;/em&gt; in probability. The intuition behind this is that perhaps there actually exists some &lt;strong&gt;N-dimensional space&lt;/strong&gt; (such that N &lt;script type=&quot;math/tex&quot;&gt;\approx&lt;/script&gt; 13 million) that is sufficient to encode all semantics of our language.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;One-hot vector:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The term &lt;strong&gt;“one-hot”&lt;/strong&gt; comes from digital circuit design, meaning “a group of bits among which the legal combinations of values are only those with a single high bit (1) and all the others low (0).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Represent every word as an vector  with  all 0s and one 1 at the index of that word in the sorted english language.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;R^{|V|×1}&lt;/script&gt;
+
+&lt;h3 id=&quot;application&quot;&gt;Application&lt;/h3&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Beautiful Soup&lt;/code&gt; is a library that makes it easy to scrape information from web pages.&lt;/p&gt;
 
@@ -129,14 +80,96 @@
 
 &lt;h4 id=&quot;wrangling-web-data&quot;&gt;Wrangling Web data&lt;/h4&gt;
 
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot; async=&quot;&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Standardized Computing, Standardized Research&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Greatest scientific discovery of 20th Century: Powerful personal computer (standardize science)&lt;/p&gt;
+
+  &lt;p&gt;1956: Aound $10,000  per megabyte&lt;/p&gt;
+
+  &lt;p&gt;2015: &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt;&lt; %]]&gt;&lt;/script&gt; $0.0001 per megabyte&lt;/p&gt;
+&lt;/blockquote&gt;
+
 </description>
-        <pubDate>Mon, 21 Oct 2019 22:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/10/21/Python-text-processing-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/10/21/Python-text-processing-1/</guid>
+        <pubDate>Thu, 31 Oct 2019 10:32:24 -0400</pubDate>
+        <link>http://localhost:4000/2019/10/31/Python-text-processing-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/10/31/Python-text-processing-1/</guid>
         
-        <category>Python</category>
+        <category>Text Analysis</category>
         
         <category>Computational Social Science</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Intellectual Equal For Women In Post 2000s China</title>
+        <description>&lt;h4 id=&quot;duality-of-attitudes-towards-fertility-among-highly-educated-women-in-east-asian-society&quot;&gt;Duality of attitudes towards fertility among highly-educated women in East Asian Society&lt;/h4&gt;
+
+&lt;p&gt;Recently the article published on &lt;em&gt;AJS&lt;/em&gt; has shed light on the dilemma faced by highly-educated women in east asian society. The imcompatibility of childbearing and the career development has increased the anxiety for white-collar ladies in the working places.&lt;/p&gt;
+
+&lt;p&gt;The typical labor force participation of  “M” shaped curve is a common life-cycle. The article claims that instead of choosing to bear no kid in the family, most of the couples voluntarily cut on the number of kid they can have in the family, a voluntary one-child pattern is then formulated in the process.&lt;/p&gt;
+
+&lt;p&gt;In reality, low fertility rate and attenuate aging in Japan is notorious for a long time, why the couples refuse or just hesitate to have a second baby?&lt;/p&gt;
+
+&lt;p&gt;The family power stucture affects the fertility decisions, and it varies between countries. Instead of a dual-earner arrangement, Japan has a long histroy of housekeeping wife. The distribution of household choose to  exist in all three countries.&lt;/p&gt;
+
+&lt;p&gt;Interestingly, this study just include the in-depth interview results from Japan and Korea, while no other individual social-political economy has been given intension, especially China.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Harsh Truth and Education Inequality&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In nearaly all OECD countries, the eduacation rate of women has surpassed men.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Demographic&lt;/em&gt;&lt;/strong&gt; evidence accumulated shows that for education levels of women in China:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Breakdown Percentage (%)&lt;/th&gt;
+      &lt;th&gt;Urban&lt;/th&gt;
+      &lt;th&gt;Rural&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Percentage of women with &lt;strong&gt;No education&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;3.5&lt;/td&gt;
+      &lt;td&gt;6.6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Percentage of women with &lt;strong&gt;Primary education&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;10.3&lt;/td&gt;
+      &lt;td&gt;29.4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Percentage of women with &lt;script type=&quot;math/tex&quot;&gt;\geq&lt;/script&gt; &lt;strong&gt;Secondary Education&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;54.2&lt;/td&gt;
+      &lt;td&gt;18.2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Notes: Source from ACWF-2010. op. cit&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;–&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/&quot; alt=&quot;The Great Good Place&quot; style=&quot;zoom:33%;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 22 Oct 2019 03:32:24 -0400</pubDate>
+        <link>http://localhost:4000/2019/10/22/Intellectual-equal-for-women-in-post-2000s-China/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/10/22/Intellectual-equal-for-women-in-post-2000s-China/</guid>
         
         
       </item>
@@ -622,6 +655,8 @@ main()
 &lt;blockquote&gt;
   &lt;p&gt;“To do this, we worked for over a decade,” Doeleman said, in a Washington, D.C.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;Will you be able to sacrifice, or even give it a shot to make things happen? I doubt, but it worth trying.&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Apr 2019 08:32:24 -0400</pubDate>
         <link>http://localhost:4000/2019/04/10/Seeing-the-unseeable-black-hole-and-ego/</link>
