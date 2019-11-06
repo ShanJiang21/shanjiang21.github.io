@@ -20,17 +20,23 @@ tags:
 
 The hard task for us converts to the translation problem, how can we represent these word tokens into some vector that represents a point in some sort of "word” space, like *sample space* in probability. The intuition behind this is that perhaps there actually exists some **N-dimensional space** (such that N $$\approx$$ 13 million) that is sufficient to encode all semantics of our language. 
 
-**One-hot vector:** 
-
 ---
 
  The term **"one-hot”** comes from digital circuit design, meaning "a group of bits among which the legal combinations of values are only those with a single high bit (1) and all the others low (0).
 
 ---
 
-Represent every word as an vector  with  all 0s and one 1 at the index of that word in the sorted english language.
+Represent every word as an vector with  all 0s and one 1 at the index of that word in the sorted english language.
 
  $$R^{|V|×1}$$
+
+We represent each word as a completely independent entity.  This word representation does not give us directly any notion of similarity. 
+
+For this class of methods to find word embeddings (otherwise known as word vectors), we first loop over a massive dataset and accumulate word co-occurrence counts in some form of a matrix X, and then perform Singular Value Decomposition on X to get a USVT decomposition. 
+
+
+
+
 
 
 

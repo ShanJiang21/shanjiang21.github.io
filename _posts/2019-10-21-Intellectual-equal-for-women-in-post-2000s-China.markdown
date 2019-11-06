@@ -10,8 +10,6 @@ author: Shan J.
 
 #### Duality of attitudes towards fertility among highly-educated women in East Asian Society
 
-
-
 Recently the article published on *AJS* has shed light on the dilemma faced by highly-educated women in east asian society. The imcompatibility of childbearing and the career development has increased the anxiety for white-collar ladies in the working places.
 
 The typical labor force participation of  “M” shaped curve is a common life-cycle. The article claims that instead of choosing to bear no kid in the family, most of the couples voluntarily cut on the number of kid they can have in the family, a voluntary one-child pattern is then formulated in the process.
@@ -40,17 +38,9 @@ In nearaly all OECD countries, the eduacation rate of women has surpassed men.
 
 -----
 
-
-
-
+Infertility is also on the rise, and in Asia there’s still a stigma about it, but attitudes are changing as more couples take fertility tests. 															 --*South China Morning Post*
 
 ****
-
---
-
->  
-
-<img src="../img/" alt="The Great Good Place" style="zoom:33%;" />
 
 
 
