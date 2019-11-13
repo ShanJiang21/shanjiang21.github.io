@@ -35,13 +35,14 @@ Last updated: *Nov. 2019*
 
 Below is an incomplete list of projects I have been working on and contributed to.
 
-* [Data science jobs outlook](#data-science-jobs-outlook-NLP-using-R)
+* [Data science jobs outlook](#data-science-jobs-outlook-(NLP-using-R-))
 * [Bangledesh Migrants Study](#bangledesh-migrants-study)
+* [Media Bias on Protest Events](#social-protest-analysis)
 * [Social network Analysis visualization](#social-network-analysis-visualization)
-* [Energy Insecurity Instrument Scaling](#Energy-Insecurity-Scaling)
+* [Energy Insecurity Instrument Scaling](#Energy-Insecurity-Instrument-scaling)
 
 
-#### Data science jobs outlook (NLP using R)
+#### Data science jobs outlook(NLP using R)
 
 <tr>
    <td> <img src="../img/job_outlook.png" alt="Drawing" style="width: 550px;"/> </td>
@@ -75,7 +76,7 @@ The project is aiming at evaluate the living conditions of Bangladesh Domestic M
 Our analysis shows that, in general, migrant households are poorer on average than urban non-migrant households. Specifically, as measured by wealth index, migrant households are more likely to be in the two poorest wealth quintiles and less likely to be in the richer quintiles (Table 1). But at the same time, it is worth noting that the economic well-being of rural-urban migrants follow a bi-modal distribution: while many of them are in the poor quintiles, a large fraction of these migrants are in the two richest groups. Hence, it is important to examine migrants of different socioeconomic groups separately.
 
 <tr>
-   <td> <img src="../img/dhs_t1.png" alt="Drawing" style="width: 540px;"/> </td>
+   <td> <img src="../img/dhs_t1.png" alt="Drawing" style="width: 560px;"/> </td>
    </tr>
 
 
@@ -85,7 +86,7 @@ Several findings have beyond my expectation:
 * 22% girls needs to get their marriage before 15 years old.
 * The work-abuse are mainly focus on the verbal abuse.
 
- <td> <img src="../img/dhs_t6_2.png" alt="Drawing" style="width: 670px;"/> </td>
+ <td> <img src="../img/dhs_t6_2.png" alt="Drawing" style="width: 690px;"/> </td>
 
 #### Social network Analysis visualization
 
