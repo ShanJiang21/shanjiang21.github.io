@@ -30,12 +30,12 @@ Computation and experiment design capabilities are Two major components I acquir
 * [Introduction to Data Science 2018 Spring](https://beanumber.github.io/sds192/index.html)
 * [Introduction to Data Science 2018 Fall](https://rudeboybert.github.io/SDS192/)
 * [R for data science](http://r4ds.had.co.nz/), Garrett Grolemund and Hadley Wickham, O’Reilly, 2017. Available free online.
-* [Deep Learning](https://www.cs.columbia.edu/~idrori/deeplearningcufall2018.html) fancy course hosted online by Iddo Drori @Columbia CS department. 
+* [Deep Learning](https://www.cs.columbia.edu/~idrori/deeplearningcufall2018.html) fancy course hosted online by Iddo Drori @Columbia CS department.
 * [Datacamp](https://www.datacamp.com/groups/8702c0fa3e62145fd1a543715dddc3a3645cd03c/invite), online programming courses for data science. Available for free using links on Moodle.
 
-<img src= "/img/Data_science.jpg" style="width:190px; height:89px;">
+<img src= "/img/Data_science.jpg" style="width:210px; height:89px;">
 
-### Statistics & Quantative Methods 
+### Statistics & Quantative Methods
 
 #### Top R packages
 
@@ -47,11 +47,11 @@ Computation and experiment design capabilities are Two major components I acquir
 
 #### Computational resources
 
-* [Five Thirty Eight](https://fivethirtyeight.com/) for political data visualization hosted by ABC news. 
-* [Introduction to Educational and Psychological Measurement Using R](https://www.thetaminusb.com/intro-measurement-r/) a hands-on book introducing SEM, factor analysis techniques by using R. 
+* [Five Thirty Eight](https://fivethirtyeight.com/) for political data visualization hosted by ABC news.
+* [Introduction to Educational and Psychological Measurement Using R](https://www.thetaminusb.com/intro-measurement-r/) a hands-on book introducing SEM, factor analysis techniques by using R.
 * [Working Group on Computational Social Science @Columbia](http://css.iserp.columbia.edu/)
 * [Generalized Linear models](https://data.princeton.edu/wws509/sets)Statistical Models: Most popular model in sociology, log-linear model.
-* [2019 Summer Institutes for Computational Social Science](https://compsocialscience.github.io/summer-institute/2019/) Cool workshop held multi-centered by scholars and researchers from political science, sociology, psychology and other social science departments. Great resources for fans of computational methods. 
+* [2019 Summer Institutes for Computational Social Science](https://compsocialscience.github.io/summer-institute/2019/) Cool workshop held multi-centered by scholars and researchers from political science, sociology, psychology and other social science departments. Great resources for fans of computational methods.
 
 #### Blogs and online books
 
@@ -73,11 +73,9 @@ Computation and experiment design capabilities are Two major components I acquir
 
 A regular review of popular journals is a nice inspiration and refreshment.
 
-#### Editing and writing Templates 
+#### Editing and writing Templates
 
 * [LaTeX Templates and Styles](https://github.com/kjhealy/latex-custom-kjh)
 * [Resume Format](http://kjhealy.github.io/kjh-vita/)
 * [Pandoc Templates](https://github.com/kjhealy/pandoc-templates)
-* [Beamer](http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf) is a powerful and flexible $LaTeX$ class to create great looking presentations. 
-
-
+* [Beamer](http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf) is a powerful and flexible $LaTeX$ class to create great looking presentations.

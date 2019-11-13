@@ -2,11 +2,11 @@
 title: Projects
 layout: page
 header-img: "./img/projects.jpg"
-description: Where my time goes? Get a hint below.
+description: Where my time goes? Get a hint from below.
 ---
 
 This website is for presentation of samples on some of the cool side-projects I've been working on
-Last updated: *August 2019*
+Last updated: *Nov. 2019*
 
 <!-- Prepare a container for your calendar. -->
 <script
@@ -31,22 +31,25 @@ Last updated: *August 2019*
 </script>
 
 
-### Ongoing Projects
+### Projects
 
-* [Energy Insecurity Instrument Scaling](#Energy Insecurity Scaling)
-* [Social network Analysis visualization](#Social Network Analysis)
-* [Bangledesh Migrants Study](#Bangledesh Migrants Study)
+Below is an incomplete list of projects I have been working on and contributed to.
 
-### Previous projects
+* [Data science jobs outlook](#data-science-jobs-outlook-NLP-using-R)
+* [Bangledesh Migrants Study](#bangledesh-migrants-study)
+* [Social network Analysis visualization](#social-network-analysis-visualization)
+* [Energy Insecurity Instrument Scaling](#Energy-Insecurity-Scaling)
 
-Below is an incomplete list of projects I have worked on.
+
+#### Data science jobs outlook (NLP using R)
+
+<tr>
+   <td> <img src="../img/job_outlook.png" alt="Drawing" style="width: 550px;"/> </td>
+   </tr>
 
 
-#### 1. NLP: Data science jobs outlook
 
-[Data science jobs outlook-based on text mining analysis](https://shanjiang21.github.io/P8105_final_website.io/)
-
-Two datasets were adopted for our data science job analysis.
+[Click Here](https://shanjiang21.github.io/P8105_final_website.io/) for a the full introduction for the project.
 
 Data Scientist Job Posts in the U.S on Indeed Website in 2018 August. This Indeed dataset originates from Indeed website, containing 7,000 data scientist jobs around the U.S. by August 3rd, 2018. Main variables include Company Name, Position Name,  Location, Job Description, and Number of Reviews of the Company. We mainly squared at the job description column that contains information such as a short description of company and position, requirement and route of application.
 
@@ -56,16 +59,52 @@ Comparison of top-500 companies and non-top 500 companies are based on Data from
 Given that differences of preference of these big-names and small companies may have for employees, we will combine the Fortune 500 company list and our Indeed dataset by company name. Through creating a new logical variable named flag to indicate whether each company falls into Fortune 500 companies category or not, this full dataset will be adopted for our Exploratory analysis.
 
 
-#### 2. Social Network Analysis
+#### Social Protest Analysis
 
-I've started doing computational social network analysis for a while, recently I helped with one project on the flow of officials from different positions in China with policy reform.
+How can you map news media Bias on Protest Events in China? Among the goals of demonstrators, media coverage is always treated as the priority and embedded as one of the most crucial objectives. It is not uncommon to see that protests usually involve an enduring contest on the control of media between the challengers and authorities, which precedingly shapes the public opinion along political process (Tarrow 1998; Oliver & Maney 2000). However, news is not fixed, the dynamic flow of information in an ordinary day have become a mix of multi-level sources in recent decade. Increasingly polarized political environments and declining social trust level have also transformed the public perceptions of news, in particular, protests, online activisms and also the diffusion patterns of events (Scheufele & Krause 2019).
+Which protest is Newsworthy? Will the continuing coverage or tracking of long-lasting protests more frequent in local-circulated print-news than national-circulated papers?
 
-#### 3. Bangladesh Migrants Study
+I am trying to answer these questions by applying an examination of WiseNews data, a Hong Kong based newspaper database, which covers around 1,500 newspapers from mainland China, Hong Kong and Taiwan (Chu et al. 2009), and social media data with the application of CASM algorithm (Zhang & Pan 2019).
 
-The project is aiming at evaluate the living conditions of Bangladesh Domestic Migrants.
+
+#### Bangladesh Migrants Study
+
+The project is aiming at evaluate the living conditions of Bangladesh Domestic Migrants for offering financial-aid policy consultation for USAID evaluation.
+
+<td> <img src="../img/dhs_t6_1.png" alt="Drawing" style="width: 800px;"/> </td>
+Our analysis shows that, in general, migrant households are poorer on average than urban non-migrant households. Specifically, as measured by wealth index, migrant households are more likely to be in the two poorest wealth quintiles and less likely to be in the richer quintiles (Table 1). But at the same time, it is worth noting that the economic well-being of rural-urban migrants follow a bi-modal distribution: while many of them are in the poor quintiles, a large fraction of these migrants are in the two richest groups. Hence, it is important to examine migrants of different socioeconomic groups separately.
+
+<tr>
+   <td> <img src="../img/dhs_t1.png" alt="Drawing" style="width: 540px;"/> </td>
+   </tr>
+
 
 Several findings have beyond my expectation:
 
 * The minor marriage happens for more than half of the girls before 18 years old.
 * 22% girls needs to get their marriage before 15 years old.
-* The work-abuse are mainly focus on the verbal abuse. 
+* The work-abuse are mainly focus on the verbal abuse.
+
+ <td> <img src="../img/dhs_t6_2.png" alt="Drawing" style="width: 670px;"/> </td>
+
+#### Social network Analysis visualization
+
+I've started doing computational social network analysis for a while, recently I helped with one project on the flow of officials from different positions in China with policy reform.
+
+Here is one visualization result conducted in Gephi.
+
+<td> <img src="../img/proj-100city.png" alt="Drawing" style="width: 670px;"/> </td>
+
+Here is the micro-scope plot:
+
+<td> <img src="../img/proj-2.png" alt="Drawing" style="width: 590px;"/> </td>
+
+The visualization result clearly presents the significant difference of policy attitudes among different geolocations.
+
+####  Energy Insecurity Instrument Scaling
+
+For the past year I’ve also worked with Professor Hernandéz on developing a robust scale for quantifying Energy Insecurity (EI) based on the original 54-item instrument. By applying the dimension reduction techniques, I successfully applied the PCA analysis and multidimensional Rasch model to successfully validate the 29-item structure, which not only provides the measurement tool for EI, but also complements a data-driven conceptual framework for the 3-dimensions scheme.
+
+<td> <img src="../img/wright.jpg" alt="Drawing" style="width: 570px;"/> </td>
+
+For assessing Energy Insecurity, a shorter-version 29-item instrument from the original 54-item HEII is developed, and validated its multidimensionality in clinical settings using Classical Test Theory and Rasch model analysis. Items are screened before using the psychometrical statistics, then filtered 32 items respectively enter the three models: unidimensional, 3-dimension and 7-dimension Rasch models, together with a contrast of 7-dimension consecutive analysis. Final scale is established on item statistics and conceptual fit. Consistency and reliability of scale are validated.

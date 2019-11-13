@@ -32,7 +32,7 @@ sidebar-avatar: /img/avatar.jpg
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1.3              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 1.2              # A tag will be featured if the size of it is more than this condition value
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -71,3 +71,18 @@ service-worker: true
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: True
+
+
+gallery:
+  - url: ../img/3.jpg
+    image_path: ../img/3.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /img/8.jpg
+    image_path: ../img/8.jpg
+    alt: "placeholder image 8"
+    title: "Image 8 title caption"
+  - url: ../img/9.jpg
+    image_path: ../img/9.jpg
+    alt: "placeholder image 9"
+    title: "Image 3 title caption"

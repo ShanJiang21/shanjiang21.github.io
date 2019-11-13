@@ -11,7 +11,7 @@
     <meta name="theme-color" content="#000000">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="NLP Word Vectors - Love is a touch and yet not a touch">
+    <meta property="og:title" content="NLP neural networks - Love is a touch and yet not a touch">
     
     <meta property="og:type" content="article">
     <meta property="og:description" content="
@@ -32,10 +32,10 @@
     
     
     <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
-    <meta property="og:url" content="http://localhost:4000/2019/10/31/Python-text-processing-1/">
+    <meta property="og:url" content="http://localhost:4000/2019/10/31/NLP-neural-networks-1/">
     <meta property="og:site_name" content="Love is a touch and yet not a touch">
     
-    <title>NLP Word Vectors - Love is a touch and yet not a touch</title>
+    <title>NLP neural networks - Love is a touch and yet not a touch</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -44,7 +44,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2019/10/31/Python-text-processing-1/">
+    <link rel="canonical" href="http://localhost:4000/2019/10/31/NLP-neural-networks-1/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -186,11 +186,11 @@
     /**
      * Since Fastclick is used to delegate 'touchstart' globally
      * to hack 300ms delay in iOS by performing a fake 'click',
-     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * Using 'e.stopPropagation' to stop 'touchstart' event from
      * $toggle/$collapse will break global delegation.
-     * 
+     *
      * Instead, we use a 'e.target' filter to prevent handler
-     * added to document close HuxNav.  
+     * added to document close HuxNav.
      *
      * Also, we use 'click' instead of 'touchstart' as compromise
      */
@@ -235,7 +235,7 @@
                         <a class="tag" href="/archive/?tag=Computational+Social+Science" title="Computational Social Science">Computational Social Science</a>
                         
                     </div>
-                    <h1>NLP Word Vectors</h1>
+                    <h1>NLP neural networks</h1>
                     
                     <h2 class="subheading"></h2>
                     <span class="meta">Posted by Shan Jiang on October 31, 2019</span>
@@ -279,17 +279,19 @@
 
 <p>The hard task for us converts to the translation problem, how can we represent these word tokens into some vector that represents a point in some sort of “word” space, like <em>sample space</em> in probability. The intuition behind this is that perhaps there actually exists some <strong>N-dimensional space</strong> (such that N <script type="math/tex">\approx</script> 13 million) that is sufficient to encode all semantics of our language.</p>
 
-<p><strong>One-hot vector:</strong></p>
-
 <hr />
 
 <p>The term <strong>“one-hot”</strong> comes from digital circuit design, meaning “a group of bits among which the legal combinations of values are only those with a single high bit (1) and all the others low (0).</p>
 
 <hr />
 
-<p>Represent every word as an vector  with  all 0s and one 1 at the index of that word in the sorted english language.</p>
+<p>Represent every word as an vector with  all 0s and one 1 at the index of that word in the sorted english language.</p>
 
 <script type="math/tex; mode=display">R^{|V|×1}</script>
+
+<p>We represent each word as a completely independent entity.  This word representation does not give us directly any notion of similarity.</p>
+
+<p>For this class of methods to find word embeddings (otherwise known as word vectors), we first loop over a massive dataset and accumulate word co-occurrence counts in some form of a matrix X, and then perform Singular Value Decomposition on X to get a USVT decomposition.</p>
 
 <h3 id="application">Application</h3>
 
@@ -436,8 +438,8 @@
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "shanj";
-    var disqus_identifier = "/2019/10/31/Python-text-processing-1";
-    var disqus_url = "http://localhost:4000/2019/10/31/Python-text-processing-1/";
+    var disqus_identifier = "/2019/10/31/NLP-neural--networks-1";
+    var disqus_url = "http://localhost:4000/2019/10/31/NLP-neural-networks-1/";
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';

@@ -5,12 +5,12 @@
     <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 31 Oct 2019 19:09:21 -0400</pubDate>
-    <lastBuildDate>Thu, 31 Oct 2019 19:09:21 -0400</lastBuildDate>
+    <pubDate>Tue, 12 Nov 2019 21:54:14 -0500</pubDate>
+    <lastBuildDate>Tue, 12 Nov 2019 21:54:14 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>NLP Word Vectors</title>
+        <title>NLP neural networks</title>
         <description>&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot; async=&quot;&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;[TOC]&lt;/p&gt;
@@ -25,17 +25,19 @@
 
 &lt;p&gt;The hard task for us converts to the translation problem, how can we represent these word tokens into some vector that represents a point in some sort of “word” space, like &lt;em&gt;sample space&lt;/em&gt; in probability. The intuition behind this is that perhaps there actually exists some &lt;strong&gt;N-dimensional space&lt;/strong&gt; (such that N &lt;script type=&quot;math/tex&quot;&gt;\approx&lt;/script&gt; 13 million) that is sufficient to encode all semantics of our language.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;One-hot vector:&lt;/strong&gt;&lt;/p&gt;
-
 &lt;hr /&gt;
 
 &lt;p&gt;The term &lt;strong&gt;“one-hot”&lt;/strong&gt; comes from digital circuit design, meaning “a group of bits among which the legal combinations of values are only those with a single high bit (1) and all the others low (0).&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Represent every word as an vector  with  all 0s and one 1 at the index of that word in the sorted english language.&lt;/p&gt;
+&lt;p&gt;Represent every word as an vector with  all 0s and one 1 at the index of that word in the sorted english language.&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;R^{|V|×1}&lt;/script&gt;
+
+&lt;p&gt;We represent each word as a completely independent entity.  This word representation does not give us directly any notion of similarity.&lt;/p&gt;
+
+&lt;p&gt;For this class of methods to find word embeddings (otherwise known as word vectors), we first loop over a massive dataset and accumulate word co-occurrence counts in some form of a matrix X, and then perform Singular Value Decomposition on X to get a USVT decomposition.&lt;/p&gt;
 
 &lt;h3 id=&quot;application&quot;&gt;Application&lt;/h3&gt;
 
@@ -95,8 +97,8 @@
 
 </description>
         <pubDate>Thu, 31 Oct 2019 10:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/10/31/Python-text-processing-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/10/31/Python-text-processing-1/</guid>
+        <link>http://localhost:4000/2019/10/31/NLP-neural-networks-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/10/31/NLP-neural-networks-1/</guid>
         
         <category>Text Analysis</category>
         
@@ -156,15 +158,9 @@
 
 &lt;hr /&gt;
 
+&lt;p&gt;Infertility is also on the rise, and in Asia there’s still a stigma about it, but attitudes are changing as more couples take fertility tests. 															 –&lt;em&gt;South China Morning Post&lt;/em&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
-
-&lt;p&gt;–&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;../img/&quot; alt=&quot;The Great Good Place&quot; style=&quot;zoom:33%;&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 22 Oct 2019 03:32:24 -0400</pubDate>

@@ -14,7 +14,7 @@
     <meta property="og:title" content="Projects - Love is a touch and yet not a touch">
     
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Where my time goes? Get a hint below.">
+    <meta property="og:description" content="Where my time goes? Get a hint from below.">
     
     <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
     <meta property="og:url" content="http://localhost:4000/projects/">
@@ -171,11 +171,11 @@
     /**
      * Since Fastclick is used to delegate 'touchstart' globally
      * to hack 300ms delay in iOS by performing a fake 'click',
-     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * Using 'e.stopPropagation' to stop 'touchstart' event from
      * $toggle/$collapse will break global delegation.
-     * 
+     *
      * Instead, we use a 'e.target' filter to prevent handler
-     * added to document close HuxNav.  
+     * added to document close HuxNav.
      *
      * Also, we use 'click' instead of 'touchstart' as compromise
      */
@@ -203,7 +203,7 @@
         <div class="site-heading">
         
           <h1>Projects</h1>
-          <span class="subheading">Where my time goes? Get a hint below.</span>
+          <span class="subheading">Where my time goes? Get a hint from below.</span>
         </div>
       </div>
     </div>
@@ -226,7 +226,7 @@
                 postlist-container
             ">
     			<p>This website is for presentation of samples on some of the cool side-projects I’ve been working on
-Last updated: <em>August 2019</em></p>
+Last updated: <em>Nov. 2019</em></p>
 
 <!-- Prepare a container for your calendar. -->
 <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
@@ -245,23 +245,24 @@ Last updated: <em>August 2019</em></p>
     new GitHubCalendar(".calendar", "shanjiang21");
 </script>
 
-<h3 id="ongoing-projects">Ongoing Projects</h3>
+<h3 id="projects">Projects</h3>
+
+<p>Below is an incomplete list of projects I have been working on and contributed to.</p>
 
 <ul>
-  <li><a href="#Energy Insecurity Scaling">Energy Insecurity Instrument Scaling</a></li>
-  <li><a href="#Social Network Analysis">Social network Analysis visualization</a></li>
-  <li><a href="#Bangledesh Migrants Study">Bangledesh Migrants Study</a></li>
+  <li><a href="#data-science-jobs-outlook-NLP-using-R">Data science jobs outlook</a></li>
+  <li><a href="#bangledesh-migrants-study">Bangledesh Migrants Study</a></li>
+  <li><a href="#social-network-analysis-visualization">Social network Analysis visualization</a></li>
+  <li><a href="#Energy-Insecurity-Scaling">Energy Insecurity Instrument Scaling</a></li>
 </ul>
 
-<h3 id="previous-projects">Previous projects</h3>
+<h4 id="data-science-jobs-outlook-nlp-using-r">Data science jobs outlook (NLP using R)</h4>
 
-<p>Below is an incomplete list of projects I have worked on.</p>
+<tr>
+   <td> <img src="../img/job_outlook.png" alt="Drawing" style="width: 550px;" /> </td>
+   </tr>
 
-<h4 id="1-nlp-data-science-jobs-outlook">1. NLP: Data science jobs outlook</h4>
-
-<p><a href="https://shanjiang21.github.io/P8105_final_website.io/">Data science jobs outlook-based on text mining analysis</a></p>
-
-<p>Two datasets were adopted for our data science job analysis.</p>
+<p><a href="https://shanjiang21.github.io/P8105_final_website.io/">Click Here</a> for a the full introduction for the project.</p>
 
 <p>Data Scientist Job Posts in the U.S on Indeed Website in 2018 August. This Indeed dataset originates from Indeed website, containing 7,000 data scientist jobs around the U.S. by August 3rd, 2018. Main variables include Company Name, Position Name,  Location, Job Description, and Number of Reviews of the Company. We mainly squared at the job description column that contains information such as a short description of company and position, requirement and route of application.</p>
 
@@ -270,13 +271,23 @@ Last updated: <em>August 2019</em></p>
 <p>Comparison of top-500 companies and non-top 500 companies are based on Data from The 500 Largest Industrial Corporations in the U.S., Published by Fortune magazine (updated by October 5, 2018)
 Given that differences of preference of these big-names and small companies may have for employees, we will combine the Fortune 500 company list and our Indeed dataset by company name. Through creating a new logical variable named flag to indicate whether each company falls into Fortune 500 companies category or not, this full dataset will be adopted for our Exploratory analysis.</p>
 
-<h4 id="2-social-network-analysis">2. Social Network Analysis</h4>
+<h4 id="social-protest-analysis">Social Protest Analysis</h4>
 
-<p>I’ve started doing computational social network analysis for a while, recently I helped with one project on the flow of officials from different positions in China with policy reform.</p>
+<p>How can you map news media Bias on Protest Events in China? Among the goals of demonstrators, media coverage is always treated as the priority and embedded as one of the most crucial objectives. It is not uncommon to see that protests usually involve an enduring contest on the control of media between the challengers and authorities, which precedingly shapes the public opinion along political process (Tarrow 1998; Oliver &amp; Maney 2000). However, news is not fixed, the dynamic flow of information in an ordinary day have become a mix of multi-level sources in recent decade. Increasingly polarized political environments and declining social trust level have also transformed the public perceptions of news, in particular, protests, online activisms and also the diffusion patterns of events (Scheufele &amp; Krause 2019).
+Which protest is Newsworthy? Will the continuing coverage or tracking of long-lasting protests more frequent in local-circulated print-news than national-circulated papers?</p>
 
-<h4 id="3-bangladesh-migrants-study">3. Bangladesh Migrants Study</h4>
+<p>I am trying to answer these questions by applying an examination of WiseNews data, a Hong Kong based newspaper database, which covers around 1,500 newspapers from mainland China, Hong Kong and Taiwan (Chu et al. 2009), and social media data with the application of CASM algorithm (Zhang &amp; Pan 2019).</p>
 
-<p>The project is aiming at evaluate the living conditions of Bangladesh Domestic Migrants.</p>
+<h4 id="bangladesh-migrants-study">Bangladesh Migrants Study</h4>
+
+<p>The project is aiming at evaluate the living conditions of Bangladesh Domestic Migrants for offering financial-aid policy consultation for USAID evaluation.</p>
+
+<td> <img src="../img/dhs_t6_1.png" alt="Drawing" style="width: 800px;" /> </td>
+<p>Our analysis shows that, in general, migrant households are poorer on average than urban non-migrant households. Specifically, as measured by wealth index, migrant households are more likely to be in the two poorest wealth quintiles and less likely to be in the richer quintiles (Table 1). But at the same time, it is worth noting that the economic well-being of rural-urban migrants follow a bi-modal distribution: while many of them are in the poor quintiles, a large fraction of these migrants are in the two richest groups. Hence, it is important to examine migrants of different socioeconomic groups separately.</p>
+
+<tr>
+   <td> <img src="../img/dhs_t1.png" alt="Drawing" style="width: 540px;" /> </td>
+   </tr>
 
 <p>Several findings have beyond my expectation:</p>
 
@@ -285,6 +296,30 @@ Given that differences of preference of these big-names and small companies may 
   <li>22% girls needs to get their marriage before 15 years old.</li>
   <li>The work-abuse are mainly focus on the verbal abuse.</li>
 </ul>
+
+<td> <img src="../img/dhs_t6_2.png" alt="Drawing" style="width: 670px;" /> </td>
+
+<h4 id="social-network-analysis-visualization">Social network Analysis visualization</h4>
+
+<p>I’ve started doing computational social network analysis for a while, recently I helped with one project on the flow of officials from different positions in China with policy reform.</p>
+
+<p>Here is one visualization result conducted in Gephi.</p>
+
+<td> <img src="../img/proj-100city.png" alt="Drawing" style="width: 670px;" /> </td>
+
+<p>Here is the micro-scope plot:</p>
+
+<td> <img src="../img/proj-2.png" alt="Drawing" style="width: 590px;" /> </td>
+
+<p>The visualization result clearly presents the significant difference of policy attitudes among different geolocations.</p>
+
+<h4 id="energy-insecurity-instrument-scaling">Energy Insecurity Instrument Scaling</h4>
+
+<p>For the past year I’ve also worked with Professor Hernandéz on developing a robust scale for quantifying Energy Insecurity (EI) based on the original 54-item instrument. By applying the dimension reduction techniques, I successfully applied the PCA analysis and multidimensional Rasch model to successfully validate the 29-item structure, which not only provides the measurement tool for EI, but also complements a data-driven conceptual framework for the 3-dimensions scheme.</p>
+
+<td> <img src="../img/wright.jpg" alt="Drawing" style="width: 570px;" /> </td>
+
+<p>For assessing Energy Insecurity, a shorter-version 29-item instrument from the original 54-item HEII is developed, and validated its multidimensionality in clinical settings using Classical Test Theory and Rasch model analysis. Items are screened before using the psychometrical statistics, then filtered 32 items respectively enter the three models: unidimensional, 3-dimension and 7-dimension Rasch models, together with a contrast of 7-dimension consecutive analysis. Final scale is established on item statistics and conceptual fit. Consistency and reliability of scale are validated.</p>
 
     		</div>
     <!-- Sidebar Container -->
