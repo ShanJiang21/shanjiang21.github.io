@@ -1,5 +1,5 @@
 
-<blockquote class="full-width"><p> A student, runner and a reader who don't always give .</p></blockquote>
+<blockquote class="full-width"><p> A student, runner and a not that lovely reader, who don't always give comments.</p></blockquote>
 
 I am  *@Shan*(<span lang="zh">姜珊</span>), now a pre-final year master student at the Department of biostatistics, from [Columbia University](https://www.mailman.columbia.edu/become-student/departments/biostatistics).
 
