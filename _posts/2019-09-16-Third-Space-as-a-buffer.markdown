@@ -16,7 +16,7 @@ He failed to get in the local SOE when he was about 35 years old, while that imp
 
 Have you ever given a thought to the rotisserie chicken sold in Walmart/Costco? 
 
-Some of the unnoticable detail
+Some of the unnoticable details from the vendor along the street are always the source of happiness. 
 
 ### Trickle-down Economics
 
@@ -26,9 +26,6 @@ Before Reagon came to power, there is high unemployment and persistently high in
 
 It advocates cuts to the tax, which goes to the weathy and celebrities who are at the top of the pyrimaid. 
 
-
---
-
 ### Loneliness in Collectivism
 
 >  Scourage of the South Korea.
@@ -37,16 +34,16 @@ These who are close to him are even more surprised than the fans.
 
 I hate the labelling, it attaches atigma, ignores the heterogenity of the individual and often is the source of bias and hatred, no matter how strong you try to deny the fact.
 
-Can you imagine, it’s neither Canada nor Sweden, these previously “freezing hell” has the highest suicide rate, it is South Korea, the sense of shame deeply rooted in the asian culture has shaped the thinking style of the 
+Can you imagine, it’s neither Canada nor Sweden, these previously “freezing hell” which has the highest suicide rate, it is South Korea, the sense of shame deeply rooted in the asian culture has shaped the mindset of young people in the most beautiful country. 
 
-
+The suicide appeared on media and the influence of celebrity suicide were investigated a lot, while in China, a systematic channel or access to psychological heal is hard to find.
 
 
 **Third Space sociology**
 
 > The term **Third Space** or **Third Place** was coined by the sociologist Ray Oldenburg in the early 90s in his book *The Great Good Place*.
 
-<img src="../img/GGP.jpg" alt="The Great Good Place" style="zoom:23%;" />
+<img src="../img/GGP.jpg" alt="The Great Good Place" style="zoom:18%;" />
 
 *Farmers' Market*
 
