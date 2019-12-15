@@ -1,32 +1,44 @@
 ---
 layout: post
-title: NLP = No loser Permitted?
+title: 
 date: 2019-12-09 19:32:24.000000000 +09:00
 author: Shan J.
 ---
 
+> GMT+8，2019.09.15, My grandma slept forever, aged 86<br>GMT+8，2019.11.27, Godfrey left us, aged 35<br>
+> GMT-5，2019.12.12, Tessa was stabbed and dead, aged 18
+>
+> 从此以后再别愁了，我只告诉你一句总话：活着，咱们在一处活着；不活着，咱们一处化灰化烟，如何？
 
+Death must be a perennial conundrum, troubles everyone from time to time and eversince I know that the *temporality nature* of my life, I have been always soaking in a sense of anxiety. I count down each days of life, try to calculate how many words I can rememer in a certain period of time, and pushed myself to tolerate all the pain caused by the supression of eager, anger or sadness.
 
-How will you represent the semantic meanings of word in a sentence, sounds challenging right?
+It has not changed too much since the middle school year. After I entered the college, the objectivity requirement in sociology, again, reinforced the alienation of myself, as an emotional human being and as a girl with unique personality. 
 
-### Curse of dimensionality
+Every culture has its own characteriscs, and some toxic elements. How lucky I am to have experienced two divergent culture in the youth, and these tiny reflections do help me understand how the culture kidnapped individuals and kills the Intellectual creativity.
 
-Humans have rich representations of words that let us extract the features, the simplest might be the one-hot representation, it treats the word completely independent of each other. For example, the feature of word in “**word** is‘dog’ ” is as dis-similar to “**word** is ‘thinking’ ” than it is to “**word** is ‘cat’ ”.
+I love Chinese poems, especially the ones appeared in Tang and Song Dynasty, when the poets have their romantized feelings expressed 
 
-The dense-feature representation tried to solve this problem by representing the core feature with a vector. Each feature corresponds to several input vector entries. No explicit encoding of feature combinations. One NLP scholar have shared the summarization of feature extraction magic in the field. 
+Human beings are just a collection of bag of gases.
 
-Instead of seeking the help from external knowledge base, just vector addition and subtraction with cosine similarity is enough for solving the problem. This trick works in a few different flavors:
+### The absence of Meso Level space
 
-### Word Embedding Flavors
+虽然如今在资本的驱动下，在中国涌现了大量的纯娱乐文化产品。
 
-* SVD-based vectors
-* Word2vec
-* GloVe (hybrid) 
+形式娱乐-内容娱乐本身就是两种不同的层次。
 
-The Word embeddings have already become the de facto standard in NLP and the vector representations are: 
+中国精神生活的极致空虚，在近些年的舆论环境下，显得愈发的急迫。
 
-* Distributed: Rather than sparse in the linear model, distributed throughout all the indices; 
-* Distributional: The word distribution is derived from a corpus.
+But what are the social forces that shape this consequence? 
+
+- The comedy types are repetitious and monotonous, the “content ” is more focused on using the physical, for the scripted dialogue to make people laugh, for example, in many popular sitcoms broadcasted in recent years, the background music will autoplay the *laugh* sound of a dozen of people, which is a typical way for affecting the emotions of the audience by using sound effects. But if you just take a step further, you may simply notice that, your smile may just come from the biological influence and probably you would never acknowledge this kind of thing as a intellectual enjoyment. 
+
+- Not being able to engage political life, makes the situation even worse; 
+
+- The fast growing population of **feral dogs** 
+
+  > A **feral dog** is a **dog** that has not had any interaction with humans for the majority of its life, especially during the critical puppy development phases. One of the main characteristics of a **feral dog** is an extreme fear of humans. ... **Feral dogs** often travel in packs.
+
+* Collective sentiments of malevolence, hatred and 
 
 ### Basic Naming rules in Data Science
 
@@ -73,19 +85,8 @@ Learning statistics or jump into medical field does strike my hope and faith in 
 
 The 
 
+
 People skip, fake and lie to questions, they give whatever the society wants to hear about and sometimes they go too cared nothing about the 
-
-
-
-
-
-## 生存空间的挤压
-
-项目制对于人的精神健康造成的巨大威胁，我想，已经在很多学生，建筑师，IT工程师中引发强烈共鸣，
-
-纽约时报形容在中国的社交媒体上，这个
-
-没有什么想说的，嗯就这样吧。
 
 <sup>[1](#myfootnote1)</sup>
 
