@@ -77,7 +77,7 @@ I still remeber the shocking truth of interpretation of $$R^2$$ during one of my
 
 Hey, bro. If you have ever looked at the harsh life of statistician in social science,  you will know how lucky you are for now.
 
-
+> 渺万里层云，千山暮雪，只影向谁去？
 
 ### The Frustration towards the subject itself 
 
