@@ -85,8 +85,19 @@ Learning statistics or jump into medical field does strike my hope and faith in 
 
 The 
 
-
 People skip, fake and lie to questions, they give whatever the society wants to hear about and sometimes they go too cared nothing about the 
+
+
+
+## 生存空间的挤压
+
+项目制对于人的精神健康造成的巨大威胁，我想，已经在很多学生，建筑师，IT工程师中引发强烈共鸣，
+
+纽约时报形容在中国的社交媒体上，这个
+
+没有什么想说的，嗯就这样吧。
+
+
 
 <sup>[1](#myfootnote1)</sup>
 

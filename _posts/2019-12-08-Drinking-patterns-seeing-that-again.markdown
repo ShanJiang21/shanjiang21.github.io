@@ -3,11 +3,12 @@ layout: post
 title: NLP = No loser Permitted?
 date: 2019-12-09 19:32:24.000000000 +09:00
 author: Shan J.
+tags:
+    - NLP
 ---
 
 
-
-How will you represent the semantic meanings of word in a sentence, sounds challenging right?
+How will you represent the semantic meanings of word in a sentence, sounds challenging, and you may have multiple ways to go right?
 
 ### Curse of dimensionality
 
@@ -34,7 +35,7 @@ In Columbia, courses with certain key words are pretty popular these days. Espec
 
 1. **Deep Learning**: In neural network models, when we have more than one hidden layer, then it is said that we are having a deep network, so we call the architecture ***Deep Learning***.
 2. **Machine Learning**: 
-3. **Data Mining**:
+3. **Data Mining**: is considered the process of extracting useful information from a vast amount of data. It’s used to discover new, accurate, and useful patterns in the data, looking for meaning and relevant information for the organization or individual who needs it. 
 
 
 ### Experiment for social studies
@@ -77,22 +78,5 @@ People skip, fake and lie to questions, they give whatever the society wants to 
 
 
 
-
-
-## 生存空间的挤压
-
-项目制对于人的精神健康造成的巨大威胁，我想，已经在很多学生，建筑师，IT工程师中引发强烈共鸣，
-
-纽约时报形容在中国的社交媒体上，这个
-
-没有什么想说的，嗯就这样吧。
-
-<sup>[1](#myfootnote1)</sup>
-
-<sup>[2](#myfootnote2)</sup>
-
-<a name="myfootnote1">1</a>: Tufekci,	Zeynep.	2014. [Hollaback	and	Why	Everyone	Needs	Better	Research Methods:	And	Why	All	Data Needs Theory](https://medium.com/message/that-catcalling-video-and-why-researchmethods-is-such-an-exciting-topic-really-32223ac9c9e8)
-
-<a name="myfootnote2">2</a>: Jamieson, Dave. The Life and Death of an Amazon Warehouse Temp. What the future of low-wage work really looks like. https://highline.huffingtonpost.com/articles/en/life-and-death-amazon-temp/
 
 
