@@ -5,12 +5,22 @@ date: 2019-12-09 19:32:24.000000000 +09:00
 author: Shan J.
 ---
 
-> GMT+8，2019.09.15, My grandma slept forever, aged 86<br>GMT+8，2019.11.27, Godfrey left us, aged 35<br>
-> GMT-5，2019.12.12, Tessa was stabbed and dead, aged 18
->
-> 从此以后再别愁了，我只告诉你一句总话：活着，咱们在一处活着；不活着，咱们一处化灰化烟，如何？
+> GMT+8，2019.09.15, my grandma slept forever, aged 86<br>GMT+8，2019.11.27, Godfrey left us, aged 35<br>
+> GMT -5，2019.12.12, Tessa was stabbed and dead, aged 18
 
-Death must be a perennial conundrum, troubles everyone from time to time and eversince I know that the *temporality nature* of my life, I have been always soaking in a sense of anxiety. I count down each days of life, try to calculate how many words I can rememer in a certain period of time, and pushed myself to tolerate all the pain caused by the supression of eager, anger or sadness.
+Death must be a perennial conundrum, troubles everyone from time to time and eversince I know that the *temporality nature* of my life, I have been always soaking in a sense of anxiety. I start to be worried about the dark days in a late night as I was lying down on my bed when I was about seven. It is like seperate some parts from your body, and the feeling of being hurted can really leave someone in a trap for a long while, hopeless and feeling meaningless. 
+
+When counting down how many days of life one may have for their own, the process of quantifying sometimes makes it clearer for us to reflect on the valuable treasure we have, that is, time.  
+
+
+
+
+
+
+
+
+
+, try to calculate how many words I can rememer in a certain period of time, and pushed myself to tolerate all the pain caused by the supression of eager, anger or sadness.
 
 It has not changed too much since the middle school year. After I entered the college, the objectivity requirement in sociology, again, reinforced the alienation of myself, as an emotional human being and as a girl with unique personality. 
 
