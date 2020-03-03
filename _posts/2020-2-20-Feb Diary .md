@@ -1,4 +1,4 @@
-Feb. 19 2020 Diary 
+### Feb. 19 2020 Diary 
 
 **「大梦谁先觉，平生我自知」**
 
@@ -16,11 +16,17 @@ Feb. 19 2020 Diary
 
 The virus, together with the hatred, doubts, furies and disppointments have raced across the globe. 
 
-Feb. 20 2020 Diary 
+**Feb. 20 2020 Diary** 
 
 **「黑夜白天」**
 
 终于在我熬夜到四点，不去上班，下定决心要开始我的project，坐定Butler一层的时候。哥大直直的朝我丢了一封拒信，没有意外，毫无悬念，正式宣告北美申请的满盘皆输。但是真正让我害怕，焦虑和恐惧的，却不是申请的失意，而是失去方向和动力的前所未有的迷惘。思而不学则殆，宁愿自己在概率论中挣扎许久，也不愿在寂静黑夜，看着别人的梦想发光。
+
+**Feb. 28 2020 Friday** 
+
+「*Technophile* vs *Technophobe*」
+
+在看*The Fourth Revolution*, 其中提到了techonophobe, 在YouTube看到
 
 
 
