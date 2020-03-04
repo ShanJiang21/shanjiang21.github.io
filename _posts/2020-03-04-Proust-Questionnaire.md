@@ -1,12 +1,22 @@
 It has been a while since I reviewed the course of Dr.Sun from NTU. Recently, the Knowledge of sociology was updated which targets at the graduate school student.In the syllabus lecture, he introduced a list of to-do’s including one of the interesting task, to complete the Proust Questionnaire. 
 
-*The Basic Proust Questionnaire is organized as below:* 
+After doing some research on this scale, I found that some prestigious figures have also completed this questionnaire, including Karl Marx, whose answer is not quite shocking and Oscar Wilde, who also confessed his parsonal traits in his album. 
 
-__1.__What is your idea of perfect happiness?
+> In 1865, [Karl Marx confessed](https://www.marxists.org/archive/marx/works/1865/04/01.htm) that he considered his chief characteristic “singleness of purpose,” and that his favorite occupation was “bookworming.”
+>
+> Oscar Wilde wrote in an album called “Mental Photographs, an Album for Confessions of Tastes, Habits, and Convictions” that his distinguishing feature was “inordinate self-esteem.”
+
+So, I also tried to fill in this form to recall some of my hobbies, preferences, hopefully it will be a good reflection of my personal traits.
+
+<u>The Basic Proust Questionnaire is organized as below:*</u> 
+
+**1**.What is your idea of perfect happiness?
+
+To have a loving family, children surrounded me and sitting in a 
 
 __2.__What is your greatest fear?
 
-To have something to expect while getting a terrible result.
+To have something to expect while knowing I will get a terrible result, sort of imposter syndryom.
 
 __3.__What is the trait you most deplore in yourself?
 
@@ -64,6 +74,8 @@ __26.__What do you most value in your friends?
 
 __27.__Who are your favorite writers?
 
+The poet [Su Shi](http://www.chinaonlinemuseum.com/calligraphy-su-shi.php), in chinese 蘇軾, courtesy name 子瞻, art name 东坡, and he is also a pharmacologist.
+
 __28.__Who is your hero of fiction?
 
 __29.__Which historical figure do you most identify with?
@@ -72,7 +84,7 @@ __30.__Who are your heroes in real life?
 
 __31.__What are your favorite names?
 
-Jo.
+Jo, and Alex.
 
 __32.__What is it that you most dislike?
 
