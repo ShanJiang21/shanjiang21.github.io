@@ -14,19 +14,19 @@ So, I also tried to fill in this form to recall some of my hobbies, preferences,
 
 To have a loving family, children surrounded me and sitting in a 
 
-__2.__What is your greatest fear?
+**2.**What is your greatest fear?
 
 To have something to expect while knowing I will get a terrible result, sort of imposter syndryom.
 
-__3.__What is the trait you most deplore in yourself?
+**3.**What is the trait you most deplore in yourself?
 
 __4.__What is the trait you most deplore in others?
 
-__5.__Which living person do you most admire?
+**5.**Which living person do you most admire?
 
 __6.__What is your greatest extravagance?
 
-__7.__What is your current state of mind?
+**7.**What is your current state of mind?
 
 __8.__What do you consider the most overrated virtue?
 
@@ -34,7 +34,9 @@ __9.__On what occasion do you lie?
 
 __10.__What do you most dislike about your appearance?
 
-__11.__Which living person do you most despise?
+Perhaps the round face?
+
+**11.** Whichliving person do you most despise?
 
 __12.__What is the quality you most like in a man?
 
@@ -82,21 +84,21 @@ __29.__Which historical figure do you most identify with?
 
 __30.__Who are your heroes in real life?
 
-__31.__What are your favorite names?
+**31**.What are your favorite names?
 
 Jo, and Alex.
 
-__32.__What is it that you most dislike?
+**32.**What is it that you most dislike?
 
 Being pushed to do administrative work which is of non-sense. 
 
-__33.__What is your greatest regret?
+**33.**What is your greatest regret?
 
 Not being to have a lover in the high school.
 
-__34.__How would you like to die?
+**34**.How would you like to die?
 
 In a second, not being killed by chronic disease. 
 
-__35.__What is your motto?
+**35**.What is your motto?
 
