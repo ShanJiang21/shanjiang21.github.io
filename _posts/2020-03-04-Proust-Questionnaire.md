@@ -24,7 +24,9 @@ __4.__What is the trait you most deplore in others?
 
 **5.**Which living person do you most admire?
 
-__6.__What is your greatest extravagance?
+**6.**What is your greatest extravagance?
+
+To Travel to different places with my friends and family members.
 
 **7.**What is your current state of mind?
 

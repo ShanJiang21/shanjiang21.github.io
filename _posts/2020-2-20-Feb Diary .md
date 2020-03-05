@@ -26,7 +26,9 @@ The virus, together with the hatred, doubts, furies and disppointments have race
 
 「*Technophile* vs *Technophobe*」
 
-在看*The Fourth Revolution*, 其中提到了techonophobe, 在YouTube看到
+在看*The Fourth Revolution*, 其中提到了techonophobe, 在YouTube看到一个十分有趣的techonophobe的小影片，链接在此：
+
+
 
 
 

@@ -10,8 +10,6 @@ With all honesty, every little bit gonna be alright.
 
 Sometimes I am just sort of Dorky, but just like the boy in the Circle said, the God gives me the confidence. 
 
-
-
 中国知识分子的共同命运：
 
 SUBMIT（服从）、SUSTAIN（坚持）、SURVIVE（生存）、SUCCUMB（死亡）
