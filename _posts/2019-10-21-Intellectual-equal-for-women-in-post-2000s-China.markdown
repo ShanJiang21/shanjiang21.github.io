@@ -22,7 +22,7 @@ Interestingly, this study just include the in-depth interview results from Japan
 
 
 
-*Harsh Truth and Education Inequality*
+***Harsh Truth and Education Inequality***
 
 In nearaly all OECD countries, the eduacation rate of women has surpassed men.
 
