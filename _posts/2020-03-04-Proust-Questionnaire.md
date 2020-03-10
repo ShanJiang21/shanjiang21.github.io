@@ -1,6 +1,6 @@
-It has been a while since I reviewed the course of Dr.Sun from NTU. Recently, the Knowledge of sociology was updated which targets at the graduate school student.In the syllabus lecture, he introduced a list of to-do’s including one of the interesting task, to complete the Proust Questionnaire. 
+It has been a while since I reviewed the course of Dr.Sun from NTU. Recently, the Knowledge of sociology was updated which targets at the graduate school student.In the syllabus lecture, he introduced a list of to-do’s including one of the interesting task, to complete the Proust Questionnaire.
 
-After doing some research on this scale, I found that some prestigious figures have also completed this questionnaire, including Karl Marx, whose answer is not quite shocking and Oscar Wilde, who also confessed his parsonal traits in his album. 
+After doing some research on this scale, I found that some prestigious figures have also completed this questionnaire, including Karl Marx, whose answer is not quite shocking and Oscar Wilde, who also confessed his parsonal traits in his album.
 
 > In 1865, [Karl Marx confessed](https://www.marxists.org/archive/marx/works/1865/04/01.htm) that he considered his chief characteristic “singleness of purpose,” and that his favorite occupation was “bookworming.”
 >
@@ -8,11 +8,11 @@ After doing some research on this scale, I found that some prestigious figures h
 
 So, I also tried to fill in this form to recall some of my hobbies, preferences, hopefully it will be a good reflection of my personal traits.
 
-<u>The Basic Proust Questionnaire is organized as below:*</u> 
+<u>The Basic Proust Questionnaire is organized as below:*</u>
 
 **1**.What is your idea of perfect happiness?
 
-To have a loving family, children surrounded me and sitting in a 
+To have a loving family, children surrounded me and sitting in a
 
 **2.**What is your greatest fear?
 
@@ -20,9 +20,10 @@ To have something to expect while knowing I will get a terrible result, sort of 
 
 **3.**What is the trait you most deplore in yourself?
 
-__4.__What is the trait you most deplore in others?
+**4.**What is the trait you most deplore in others?
 
 **5.**Which living person do you most admire?
+
 
 **6.**What is your greatest extravagance?
 
@@ -36,9 +37,9 @@ __9.__On what occasion do you lie?
 
 __10.__What do you most dislike about your appearance?
 
-Perhaps the round face?
+Perhaps the round face? I am not quite confident in my appearance since my teenager years.
 
-**11.** Whichliving person do you most despise?
+**11.** Which iving person do you most despise?
 
 __12.__What is the quality you most like in a man?
 
@@ -92,7 +93,7 @@ Jo, and Alex.
 
 **32.**What is it that you most dislike?
 
-Being pushed to do administrative work which is of non-sense. 
+Being pushed to do administrative work which is of non-sense.
 
 **33.**What is your greatest regret?
 
@@ -100,7 +101,6 @@ Not being to have a lover in the high school.
 
 **34**.How would you like to die?
 
-In a second, not being killed by chronic disease. 
+In a second, not being killed by chronic disease.
 
 **35**.What is your motto?
-
