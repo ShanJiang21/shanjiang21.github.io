@@ -28,8 +28,6 @@ Meanwhile the past field experience and training in Sociology push me to gain mo
 Beside, I think the capability to accept that not everything you want to do in your life will go straight to you after your endless effort. To appreciate the imprefectness and the missed parts, it demands the mindset of not pushing things or behaviors to extremes and care less about something you messed up instead of focusing on the mistakes. The harsh life experience for Prof. Bavel inspired my reflections and I hope you can find some power in these unofficial but thought-provoking [bio](http://www.psych.nyu.edu/vanbavel/lab/lab-members.html).
 
 
-
-
 ### Statistical Programming Tutorial
 
 * [Python in Economics Tutorial@Solan Foundation](https://lectures.quantecon.org/py/)

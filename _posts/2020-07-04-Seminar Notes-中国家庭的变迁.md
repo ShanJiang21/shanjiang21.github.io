@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Life is a maze
+title: 中国家庭的变迁
 date: 2020-07-04 13:32:24.000000000 +09:00
 author: Shan J.
 ---
 
-### 中国家庭的变迁
 Princeton University Yu Xie
 
 > 人的思辨能力是有限的，社会科学的益处在于，帮助我们认识自己认知的局限性，统计的稳健性和意义能够帮助我们刻画异质性。
