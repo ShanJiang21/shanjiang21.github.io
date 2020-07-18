@@ -1,14 +1,9 @@
 > 拧不开的MAC后盖，解不完的人生谜题。  
 
-Hi，我是姜珊，朋友们叫我Shan，一个从社会学转统计的女生。
-常活跃于[博客](https://shanj.tk)、[微博](weibo.com/jason96026)、[知乎](https://www.zhihu.com/people/jiang-shan-59/pins/posts)、[Github](http://github.com/ShanJiang21)等地带.
+吾生皖南，少时慕书画文法，后习格物之学。岁在甲午，至央财，习社会学，四人居一狭仄之室，寒暑往来，旦暮晨昏，始觉珍贵。戊戌年，渡海至美东，折节向生物统计之学，求经世致用之道，增广见闻，欲以此驰骋当世，及至大疫，感与惭并。每有所得，思之于心，则存之于目。 闲时常恣情山水，穷览朔漠，行幽谷大都；常著文章自娱，忘怀得失。
 
-目前在哥大修炼内功中，在做Energy Insecurity问卷scale计量，尚未跳脱象牙塔。
+* 执着于追求理想状态的**平衡**，极力对抗消费主义导向，不太相信所谓**常识**。
 
-曾有过短暂的工作经验：当过GE的医疗咨询实习生，也在度娘家做过Excel表妹，最近在哥大给老师们搬砖。
+* 一直喜欢用文字记录流淌的情绪，并数字和精密的模型让自己获得安全感, 修炼内功后跳脱象牙塔。有过短暂的工作经验：当过GE的医疗咨询实习生，也在度娘家做过Excel表妹，在哥大给老师们搬砖。
 
-一直喜欢用文字记录流淌的情绪，并数字和精密的模型让自己获得安全感。
-
-执着于追求理想状态的**平衡**，极力对抗消费主义导向，不太相信所谓**常识**。
-
-崇尚互联网空间中的侠客情结，常分享一些新鲜的可视化技术或统计tutorial，有需要请👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/shanjiang21)、[zhihu.io](https://www.zhihu.com/people/jiang-shan-59/pins/posts)。
+* 崇尚互联网空间中的侠客情结，常分享一些新鲜的可视化技术或统计tutorial，如果你想知道更多，有需要请👉戳 [Portfolio](/portfolio)、[Github](http://github.com/shanjiang21)、[zhihu.io](https://www.zhihu.com/people/jiang-shan-59/pins/posts)。
