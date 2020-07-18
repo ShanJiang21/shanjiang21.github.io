@@ -5,7 +5,7 @@ This is Shan's personal website for displaying projects and blog posts, welcome 
 ### Remain unsolved 
 - Support for bilingual settings; 
 - Easier ways to support the math equations; 
-
+- Markdown Post header problem.
 
 ### For Fun
 
