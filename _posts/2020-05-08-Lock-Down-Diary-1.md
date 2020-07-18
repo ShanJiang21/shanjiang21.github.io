@@ -1,7 +1,14 @@
+---
+layout: post
+title: Is it a social experiment?
+date: 2020-05-13 06:32:24.000000000 +09:00
+author: Shan J.
+tags:
+    - intellectual
+    - Covid-19
+---
 
-
-
-## 为将之道，当先治心
+### 为将之道，当先治心
 
 **我想你知道，可怕的并不是不幸福、不快乐，而是知道他们不会永远。**
 
