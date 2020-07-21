@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Life is a maze
+title: Propganda and social control
 date: 2020-05-01 16:32:24.000000000 +09:00
 author: Shan J.
 ---
 
 
-### Propganda and social control
+> Propganda and social control
 
 **Parsons**'s quotes:
 
