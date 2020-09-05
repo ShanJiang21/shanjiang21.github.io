@@ -4,7 +4,6 @@ title: Small Town Straight-A student
 date: 2020-06-22 16:32:24.000000000 +09:00
 author: Shan J.
 tags:
-    - Intellectual
     - Social Inequality
 ---
 Sign of Times can be a good song.
