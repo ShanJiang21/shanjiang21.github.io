@@ -7,7 +7,7 @@ author: Shan J.
 
 > I haven’t really thought of living a life, Because I’m building something, and before I finish it, there won’t be anything else on my mind.
 
-Recently there is a viral suddenly spread on github among Chinese computer engineers, on which they set up a project for protesting against the 996 work mode, which is a common practice in Internet
+Recently there is a viral suddenly spread on Github among Chinese computer engineers, on which they set up a project for protesting against the 996 work mode, which is a common practice in Internet
 
 **996 vs. ICU**
 

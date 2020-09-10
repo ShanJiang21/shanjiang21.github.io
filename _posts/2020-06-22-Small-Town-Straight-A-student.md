@@ -5,6 +5,7 @@ date: 2020-06-22 16:32:24.000000000 +09:00
 author: Shan J.
 tags:
     - Social Inequality
+    - Gen Z.
 ---
 Sign of Times can be a good song.
 

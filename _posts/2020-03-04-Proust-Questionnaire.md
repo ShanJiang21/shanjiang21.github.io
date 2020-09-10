@@ -1,9 +1,17 @@
+---
+layout: post
+title: My trial answer to Proust Questionnaire
+date: 2019-03-04 10:32:24.000000000 +09:00
+author: Shan J.
+
+---
+
 It has been a while since I reviewed the course of Dr.Sun from NTU. Recently, the Knowledge of sociology was updated which targets at the graduate school student.In the syllabus lecture, he introduced a list of to-do’s including one of the interesting task, to complete the Proust Questionnaire.
 
 After doing some research on this scale, I found that some prestigious figures have also completed this questionnaire, including Karl Marx, whose answer is not quite shocking and Oscar Wilde, who also confessed his parsonal traits in his album.
 
 > In 1865, [Karl Marx confessed](https://www.marxists.org/archive/marx/works/1865/04/01.htm) that he considered his chief characteristic “singleness of purpose,” and that his favorite occupation was “bookworming.”
->
+
 > Oscar Wilde wrote in an album called “Mental Photographs, an Album for Confessions of Tastes, Habits, and Convictions” that his distinguishing feature was “inordinate self-esteem.”
 
 So, I also tried to fill in this form to recall some of my hobbies, preferences, hopefully it will be a good reflection of my personal traits.
