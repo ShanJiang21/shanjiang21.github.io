@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A spectre is haunting:-Covid-19
+title: A spectre is haunting: Covid-19
 date: 2020-04-17 21:32:24.000000000 +09:00
 author: Shan Jiang
 tags:
@@ -11,7 +11,7 @@ tags:
 
 A spectre is haunting Europe – the spectre of coronavirus. The glimmer of hope is destructed because of the comments and the power dynamics in the academia, I always throw myself in some dilemma and it cannot be worked out without the help of myself.
 
-You know what?
+### You know what?
 
 Life is not always happy as it should be. I failed all my phd applications, and fail to meet the expectations, how to respond to that in trying period? I can only study more to overcome the loneliness of quarantine. The changing world order described by bridgewater CEO is hard to be gripped with. The only one thing I can invest in is myself, given the current situation. Layoffs hitting more white collar jobs — and even health care workers, I found it hard for me to enter the job market without knowing the economics principles and got a better sense of the whole world.
 
