@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Inside the Harsh Truth Tacky, cheesy and Corny emotions
+title: Inside the Harsh Truth Tacky and Corny emotions
 date: 2020-09-13 21:01:24.000000000 +01:00
 author: Shan J.
 tags:
