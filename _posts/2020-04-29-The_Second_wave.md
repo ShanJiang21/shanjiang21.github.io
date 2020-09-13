@@ -7,9 +7,6 @@ tags:
     - Lock down
 ---
 
-
-
-
 People love to be special, especially special gifts, special honors, and  special edition albums. However, this year’s special moments have left me life-long impressions without any doubt.
 
 In the unprecedented public health crisis, the roles I played have become unique in many aspects. I am not only a biostatistics graduate studying in the public health crisis, the only three classes who have no commencement ceremonies in the history of

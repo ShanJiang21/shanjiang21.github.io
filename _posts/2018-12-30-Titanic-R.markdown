@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Titanic"
-author: "Shan"
+author: "Shan J."
 date: 2018-12-30 15:32:24.000000000 +09:00
 tags:
     - Python
