@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 梦想的知识考古学
+title: Stand by me:梦想的知识考古学
 date: 2020-08-27 10:32:24.000000000 +01:00
 author: Shan J.
 ---
