@@ -7,9 +7,13 @@ tags:
     - Side notes for work
     - New Boy
     - Gen Z
+
 ---
 
+
 > 白衫，蓝裙，不知名姓，黄昏好风景。
+
+
 
 ### 1010
 
@@ -47,5 +51,20 @@ tags:
 
 阎连科对于女性的观察是否过于身体化？ 
 
+### 1001
+
+* Take-away: with or without
+
+  - A world without us; 切尔诺贝利的严重核辐射，生态的另一种恢复
+  - A world without work; 人工智能对于劳动的期待
+  - Oral tradition; 当没有文字的社会，如何撰写历史
+  - Mutual Aid; 没有政府的世界，无政府主义者
+  - 贫民窟的麻木亲人去世的时候没有动容
+  - Europe and People without history: North American Indians cultural circle
+
+* 有/无的探讨：
+  - 社会排斥： 权益、尊严、意向、参政、议政
+  - 社会剥夺：社会经济地位、社会一体化、社会性异化, 科层冷淡
+  - 主体性：False consciousness 虚无意识的普遍化
 
 
