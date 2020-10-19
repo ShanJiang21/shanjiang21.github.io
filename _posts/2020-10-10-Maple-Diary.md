@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Maple Diary: 枫叶尚未红遍
-date: 2020-10-10 21:01:24.000000000 +01:00
+date: 2020-10-10 21:01:24.000000000
 author: Shan J.
 tags:
     - Side notes for work
-    - New Boy
     - Gen Z
 ---
 

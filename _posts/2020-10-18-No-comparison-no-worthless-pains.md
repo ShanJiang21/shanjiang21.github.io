@@ -1,12 +1,11 @@
 ---
 layout: post
 title: No comparison, no worthless pains: 比较是原罪
-date: 2020-10-18 18:47:24.000000000 +09:00
+date: 2020-10-18 18:47:24.000000000
 author: Shan J.
 tags:
-   - Side notes for work
-   - Adulting
-   - Gen Z
+    - Side notes for work
+    - Adulting
 ---
 
 刚毕业的孩子，都想做一些事情来证明自己与众不同，对么？我似乎对于这一点没那么执着，但是也不是得过且过的状态，还保持着高度的情感敏锐？没有。能让我为之兴奋的事情，似乎越来越少，负面的情绪总是此起彼伏出现，周末接触自然，似乎会好些。

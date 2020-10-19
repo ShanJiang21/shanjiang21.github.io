@@ -1,18 +1,14 @@
-
+> No one likes to think of death as preventable, and yet so many of these are.
 
 200,000 deaths, 911 deathtoll of 66 days, a sum of of tally for 5 wars in the US history.
 
-> No one likes to think of death as preventable, and yet so many of these are.
-
-Simple public health knowledge and the capability to implement, that seems to be
-
-Preventing transmission and
-
-![funeral](https://media.newyorker.com/photos/5f779e0003b0c2fb28e74cba/master/w_2560%2Cc_limit/201012_r37176web_rd.jpg)
+Simple public health knowledge and the capability to implement, that seems to be an unreachable actions to the splitted nation. Preventing transmission is not a job being appreciated, while there are many healthcare workers who are fully committed to it.
 
 ### Paying tribute to RBG
 
 Being inspired by Ruth. // 吾辈爱自由。
+
+![funeral](https://media.newyorker.com/photos/5f779e0003b0c2fb28e74cba/master/w_2560%2Cc_limit/201012_r37176web_rd.jpg)
 
 0918, when RBG was hospitalized at Baltimore for months, finally she died at 87. Hundreds of clerks dropped everything and headed to Washington DC. for a final mission: honoring their beloved boss. // 九月十八，当金斯伯格在巴尔的摩的霍普金斯医院逝世的时候，一百多名她曾经的助理们都放下了手边的工作，前往DC去最高法院进行悼念。
 
@@ -26,10 +22,12 @@ Back to the 60s, the way women fight against the reality is by doing it and show
 
 While now, I am gonna tweet about it once I saw it. // 而这个时代，当看到不公，我的第一反应可能就是转发。
 
+The fun fact is that in 2019, I also witnessed the strike for Grad school of Mailman as Columbia is reluctant to offer a decent pay for the young, even if they have contributed much time and effort than these experienced. And we are not the only generation, RBG mentioned the same story back into 1970s, when she was teaching in the Columbia Law. It seems that the blind spot is still there, but the good news is that it became less and less.
 
 
 ### Stunning Male Gaze
-How to embrace the changes, distinct perspectives and
+
+How to embrace the changes, distinct perspectives and behave under males' gaze are not easy to answer.
 
 Quoting two messages from RBG's mom who died at 47 for reminding myself:
 > Do not be distracted by emotions like: anger, envy and resentment.These just zap energy and waste time.
