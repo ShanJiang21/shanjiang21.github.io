@@ -1,6 +1,6 @@
 ---
 layout: post
-title: No comparison, no worthless pains: 比较是原罪
+title: No comparison and no worthless pains: 比较是原罪
 date: 2020-10-18 18:47:24.000000000
 author: Shan J.
 tags:
