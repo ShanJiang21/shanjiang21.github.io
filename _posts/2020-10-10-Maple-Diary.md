@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Maple Diary: 枫叶尚未红遍
+title: Maple Diary | 枫叶尚未红遍
 date: 2020-10-10 21:01:24.000000000
 author: Shan J.
 tags:
     - Side notes for work
     - Gen Z
+    - Autumn
 ---
 
 > 白衫，蓝裙，不知名姓，黄昏好风景。

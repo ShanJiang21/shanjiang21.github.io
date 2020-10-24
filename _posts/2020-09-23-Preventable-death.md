@@ -1,3 +1,14 @@
+---
+layout: post
+title: Preventable Death and tribute to RBG
+date: 2020-09-23 21:01:24.000000000 +01:00
+author: Shan J.
+tags:
+    - Side notes for work
+    - New Boy
+    - Gen Z
+---
+
 > No one likes to think of death as preventable, and yet so many of these are.
 
 200,000 deaths, 911 deathtoll of 66 days, a sum of of tally for 5 wars in the US history.
