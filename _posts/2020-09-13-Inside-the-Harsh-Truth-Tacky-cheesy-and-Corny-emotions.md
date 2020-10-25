@@ -5,7 +5,6 @@ date: 2020-09-13 21:01:24.000000000 +01:00
 author: Shan J.
 tags:
     - Side notes for work
-    - New Boy
     - Gen Z
 ---
 
