@@ -1,15 +1,17 @@
 ---
 layout: post
-title: Adds some creative zing to life:活力满满
+title: Adding some creative Zing to life | 平淡中 +1s 活力 
 date: 2020-10-24 18:47:24.000000000
 author: Shan J.
+tags:
+    - Adulting
+    - Gen Z
+    - Fall
 ---
 
 ### 1019
 
-*Dance Monkey* is a really nice song that attracts me, especially when I get to know that it is for grandpa. Always have someone to challenge myself is always a good start, I would not feel bored by this.
-
-Spreading obscenity and immorality.
+*Dance Monkey* is a really nice song that attracts me, especially when I get to know that it is for grandpa. Always have someone to challenge myself is always a good start, I would not feel bored with it. However, trust someone takes time and effort. We are all afraid of being cheated. I view fidelity the most important thing in the relationship.
 
 Lifehacks are hard to grasp, just like picking up a suitable city to live in.
 
@@ -42,14 +44,13 @@ Usually, I don't care what the material wealth that some one possessed or owned,
 Involution was once in a while a heated topic in my tiny New York apartment, however, now it became popular again, used for describing the state of over-competition for these elite walks of life.
 
 
-
 ### 1023
 
 Beautifully expose some of the underlying concerns and problems in the relationships accidentally happens to me. As a quasi-christian,  [SEX BEFORE MARRIAGE IS A SIN](https://corechristianity.com/resource-library/articles/9-bible-verses-that-teach-that-sex-before-marriage-is-a-sin/) is no stranger to me, I read it from Exodus and Hebrew, from these lines I got to know it is a commitment and matters. But for the Christian, marriage has never been the goal. Biblical marriage and sexuality are meant to point us to the God who ordained it all in the first place (Ephesians 5:31-31; Revelation 19:6-8).
 
 This op-ed from [*New York times*](https://www.nytimes.com/2019/06/15/opinion/sunday/sex-christian.html) discussed this question and proposed some possible ways of having sex for christians.
 
-ʕ̢̣̣̣̣̩̩̩̩˄·͈༝·͈˄Ɂ̡̣̣̣̣̩̩̩̩◞ ̑̑ 🌱 the new post on Columbia's website attracted me. Professor Andrew Rundle did some mix for his intro of the course, [funny design](https://www.publichealth.columbia.edu/public-health-now/news/professor-adds-some-creative-zing-his-zoom-classroom?utm_source=43588874_467959527&utm_medium=email&utm_campaign=784008575_).
+ʕ̢̣̣̣̣̩̩̩̩˄·͈༝·͈˄Ɂ̡̣̣̣̣̩̩̩̩ ̑̑🌱the new post on Columbia's website attracted me. Professor Andrew Rundle did some mix for his intro of the course, [funny design](https://www.publichealth.columbia.edu/public-health-now/news/professor-adds-some-creative-zing-his-zoom-classroom?utm_source=43588874_467959527&utm_medium=email&utm_campaign=784008575_).
 
 * Celibacy: Be willing to be unmarried for the whole life
 * Op-ed: Opposite the editorial, articles initiated by commentors who hold a different view
