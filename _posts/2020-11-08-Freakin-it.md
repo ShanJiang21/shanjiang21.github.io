@@ -66,7 +66,7 @@ QPS每秒查询率（Query Per Second）
 2. 十一月真的是个离别的月份，和过去告别，即便最后是锋利的回忆和模糊的眼睛，但是放手就不会回头了，也更理解可能每一次相见都是最后一次的擦肩了。
 3. https://thedispatch.com/p/the-1619-project-an-autopsy
 
-![refund](img/Screen Shot 2020-11-03 at 10.52.18 AM.png)
+<img src="/images/Screen Shot 2020-11-03 at 10.52.18 AM.png", alt ="refund" width="400" height="250">
 
 ### 1105
 
@@ -84,7 +84,7 @@ QPS每秒查询率（Query Per Second）
 
 3. 是新冠后遗症么？我不知道。而且也不清楚从什么时候开始，看问题总习惯去看最消极的一面，虽然这样可以为自己预期到可能会发生的最坏的后果，可能是大学以来，一直被碾压，不够自信的一种内心反击吧，怎么改变呢？我也不知道，可能只是到了个新环境，也可能从学校出来的不适，不给自己找借口了，还是要成长的。但是我相信日子会慢慢变好的，即使不会，我也会试着拥抱阳光。
 
-   I was broken when I return from the States, I need some time to recover, and I am gonna make it.
+> I was broken when I return from the States, I need some time to recover, and I am gonna make it.
 
 ### 1108
 
@@ -94,7 +94,7 @@ Father, father, help us, send some guidance above.
 
 Let's watch some blue wave (credit to a friend from CUNY):
 
-<video src="img/f435ef3c5d0efd5659dfa879930830.mp4", height = 700
+<video src="/img/f435ef3c5d0efd5659dfa879930830.mp4", height = 750
        weight = 400></video>
 
 The daily 7pm clapping from our windows all across *NYC to* thank our first responders, healthcare *and* essential workers makes me so proud during the dark times. This time, even the death toll has climbed over 200K, the excitement and claps are echoed in every street in the NYC.
