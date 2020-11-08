@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Freakin'it
-date: 2020-09-05 21:09:24.000000000
+date: 2020-11-08 11:09:24.000000000
 author: Shan J.
 tags:
     - Troubleshooting
@@ -94,7 +94,7 @@ Father, father, help us, send some guidance above.
 
 Let's watch some blue wave (credit to a friend from CUNY):
 
-<video src="/img/f435ef3c5d0efd5659dfa879930830.mp4", height = 700
+<video src="img/f435ef3c5d0efd5659dfa879930830.mp4", height = 700
        weight = 400></video>
 
 The daily 7pm clapping from our windows all across *NYC to* thank our first responders, healthcare *and* essential workers makes me so proud during the dark times. This time, even the death toll has climbed over 200K, the excitement and claps are echoed in every street in the NYC.
