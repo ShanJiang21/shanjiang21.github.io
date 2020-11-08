@@ -9,7 +9,6 @@ tags:
     - Love story
 ---
 
-* TOC
 {:toc}
 
 ### 1025
@@ -66,7 +65,7 @@ QPS每秒查询率（Query Per Second）
 2. 十一月真的是个离别的月份，和过去告别，即便最后是锋利的回忆和模糊的眼睛，但是放手就不会回头了，也更理解可能每一次相见都是最后一次的擦肩了。
 3. https://thedispatch.com/p/the-1619-project-an-autopsy
 
-<img src="/img/Screen Shot 2020-11-03 at 10.52.18 AM.png", alt ="refund" width="400" height="250">
+<img src="/img/Screen Shot 2020-11-03 at 10.52.18 AM.png" alt ="refund" width="400" height="250">
 
 ### 1105
 
@@ -94,7 +93,7 @@ Father, father, help us, send some guidance above.
 
 Let's watch some blue wave (credit to a friend from CUNY):
 
-<video width="400" controls>
+<video width="300" height ="750" controls>
   <source src="/img/f435ef3c5d0efd5659dfa879930830.mp4" type="video/mp4">
 </video>
 
