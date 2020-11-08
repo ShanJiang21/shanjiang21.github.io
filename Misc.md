@@ -14,7 +14,7 @@ multilingual: true
   --<i> Blowin' in the Wind </i>, Bob Dylan
 </p>
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="510" height="390"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="640" height="480"></iframe>
 
 Computation and experiment design capabilities are two major components I acquired along the way studying the Biostatistics, and I believe they are the fundamental elements for research in this digital age.
 
