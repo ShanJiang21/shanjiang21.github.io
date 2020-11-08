@@ -66,7 +66,7 @@ QPS每秒查询率（Query Per Second）
 2. 十一月真的是个离别的月份，和过去告别，即便最后是锋利的回忆和模糊的眼睛，但是放手就不会回头了，也更理解可能每一次相见都是最后一次的擦肩了。
 3. https://thedispatch.com/p/the-1619-project-an-autopsy
 
-![Screen Shot 2020-11-03 at 10.52.18 AM](/Users/johnsonpie/Library/Application Support/typora-user-images/Screen Shot 2020-11-03 at 10.52.18 AM.png)
+![refund](img/Screen Shot 2020-11-03 at 10.52.18 AM.png)
 
 ### 1105
 
