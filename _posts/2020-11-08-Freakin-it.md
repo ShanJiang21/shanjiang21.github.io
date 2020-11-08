@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Freakin' it：?
+title: Freakin'it
 date: 2020-09-05 21:09:24.000000000
 author: Shan J.
 tags:
