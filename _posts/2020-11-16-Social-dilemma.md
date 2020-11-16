@@ -8,11 +8,9 @@ tags:
     - Social Networks
 ---
 
-> *Do not let the behavior of others destroy your inner peace.”* ― **Jane Austen,** *[Sense and Sensibility](https://www.goodreads.com/work/quotes/2809709)*
+> *Do not let the behavior of others destroy your inner peace.* ― **Jane Austen,** *[Sense and Sensibility](https://www.goodreads.com/work/quotes/2809709)*
 
-`社交媒体成瘾性 ++`：被算法带进深渊中，似乎是手机行为的无目的性，但是却给我无比深刻的不适感。
-
-以一个算法的形式，丢给创作者一种垂直的奖惩机制，这是一种畸形的文章。
+`社交媒体成瘾性 ++`：被算法带进深渊中，似乎是手机行为的无目的性，但是却给我无比深刻的不适感。我不喜欢以一个算法的形式，丢给创作者一种垂直的奖惩机制，创造出畸形的文章的APP，我也不喜欢一直被喂食。
 
 我不断地在肯定和否定之中，审视自己，反思社交媒体对于自己的影响，这是一种真实的生活影响，没有很多的答案。但是社交媒体，谁在给你影响别人生活的权力？这个单向的触角延伸到世界的每一个角落，但是当人在面对这个黑盒，实在是有一种由衷的无力感。
 
