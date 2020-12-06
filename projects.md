@@ -6,7 +6,7 @@ description: Where my time goes? Get a hint from below.
 ---
 
 This website is for presentation of samples on some of the cool side-projects I've been working on
-Last updated: *Nov. 2019*
+Last update: *Nov. 2019*
 
 <!-- Prepare a container for your calendar. -->
 <script
@@ -31,6 +31,54 @@ Last updated: *Nov. 2019*
 </script>
 
 
+<img src= "/img/Data_science.jpg" style="width:245px; height:89px;">
+
+### Statistics & Quantative Methods
+
+#### Top R packages
+
+* [Rcpp](http://adv-r.had.co.nz/Rcpp.html), provides a combination of R and C++.
+* [stringr](https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html), extremely useful for text mining.
+* [ggplot](https://www.mailman.columbia.edu/sites/default/files/media/fdawg_ggplot2.html), a well-known package for data visualization.
+* [Table 1](https://cran.r-project.org/web/packages/table1/vignettes/table1-examples.html), extremely useful for organizing tables for publish on journals.
+* [TAM](https://www.edmeasurementsurveys.com/TAM/Tutorials/), written by authors of ConQuest, which is a popular software for fitting Rasch model, partial credit model and its extended multidimensional models.
+
+#### Computational resources
+
+* [Five Thirty Eight](https://fivethirtyeight.com/) for political data visualization hosted by ABC news.
+* [Introduction to Educational and Psychological Measurement Using R](https://www.thetaminusb.com/intro-measurement-r/) a hands-on book introducing SEM, factor analysis techniques by using R.
+* [Working Group on Computational Social Science @Columbia](http://css.iserp.columbia.edu/)
+* [Generalized Linear models](https://data.princeton.edu/wws509/sets)Statistical Models: Most popular model in sociology, log-linear model.
+* [2019 Summer Institutes for Computational Social Science](https://compsocialscience.github.io/summer-institute/2019/) Cool workshop held multi-centered by scholars and researchers from political science, sociology, psychology and other social science departments. Great resources for fans of computational methods.
+
+#### Blogs and online books
+
+* [Matthew Salganik](http://www.princeton.edu/~mjs3/)
+* [Yihui Xie's Blog](https://yihui.name/)
+* [Text Mining](https://github.com/dgrtwo/tidy-text-mining)
+* [R Markdown Fixes](https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/edit)
+* [Word count add-in](https://github.com/benmarwick/wordcountaddin)
+* [Quantative Economics Notes](https://notes.quantecon.org/)
+
+
+#### Sociology Journal
+
+* [The American Sociological Review](https://journals.sagepub.com/home/asr)
+* [The American Journal of Sociology](https://www.journals.uchicago.edu/toc/ajs/current)
+* [Social Forces](https://academic.oup.com/sf/issue)
+* [Social Networks](https://www.journals.elsevier.com/social-networks)
+* [Peers at work](https://eml.berkeley.edu/~moretti/text20.pdf)
+
+A regular review of popular journals is a nice inspiration and refreshment.
+
+#### Editing and writing Templates
+
+* [LaTeX Templates and Styles](https://github.com/kjhealy/latex-custom-kjh)
+* [Resume Format](http://kjhealy.github.io/kjh-vita/)
+* [Pandoc Templates](https://github.com/kjhealy/pandoc-templates)
+* [Beamer](http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf) is a powerful and flexible $LaTeX$ class to create great looking presentations.
+
+
 ### Projects
 
 Below is an incomplete list of projects I have been working on and contributed to.
@@ -42,7 +90,7 @@ Below is an incomplete list of projects I have been working on and contributed t
 * [Energy Insecurity Instrument Scaling](#Energy-Insecurity-Instrument-scaling)
 
 
-#### Data science jobs outlook(NLP using R)
+#### Data science jobs outlook (NLP using R)
 
 <tr>
    <td> <img src="../img/job_outlook.png" alt="Drawing" style="width: 550px;"/> </td>
