@@ -45,10 +45,12 @@ Below is an incomplete list of projects I have been working on and contributed t
 
 #### Pending-phd-program
 
-The year of 2020 marks a critical turning point in my life, and I believe it also applies to many grad school students. Last year around late Nov., I was struggling hard in the Butler library, relying heavily on coffee beans to stay until late night. This year I witnessed how an individual's fate can be tweaked and the unintended consequences changed my life. Thus, I made this dashboard to update stakeholders up-to-date suspending social science PhD programs in the US, stay tuned, spring will come. 
 
-<iframe src="https://shanj21.shinyapps.io/Pending_PhD_program_2021/" width=1000 height=800></iframe>
+<iframe src="https://shanj21.shinyapps.io/Pending_PhD_program_2021/" width=900 height=800></iframe>
 
+The year of 2020 marks a critical turning point in my life, and I believe it also applies to many grad school students. Last year around late Nov., I was struggling hard in the Butler library, relying heavily on coffee beans to stay until late night. This year I witnessed how an individual's fate can be tweaked and the unintended consequences changed my life. Thus, I made this dashboard to update stakeholders up-to-date suspending social science PhD programs in the US, stay tuned, spring will come.
+
+---
 
 #### Data science jobs outlook (NLP using R)
 
@@ -66,6 +68,7 @@ Based on the ranking of total revenues of each company’s retrospective fiscal 
 Comparison of top-500 companies and non-top 500 companies are based on Data from The 500 Largest Industrial Corporations in the U.S., Published by Fortune magazine (updated by October 5, 2018)
 Given that differences of preference of these big-names and small companies may have for employees, we will combine the Fortune 500 company list and our Indeed dataset by company name. Through creating a new logical variable named flag to indicate whether each company falls into Fortune 500 companies category or not, this full dataset will be adopted for our Exploratory analysis.
 
+---
 
 #### Social Protest Analysis
 
@@ -73,6 +76,8 @@ How can you map news media Bias on Protest Events in China? Among the goals of d
 Which protest is Newsworthy? Will the continuing coverage or tracking of long-lasting protests more frequent in local-circulated print-news than national-circulated papers?
 
 I am trying to answer these questions by applying an examination of WiseNews data, a Hong Kong based newspaper database, which covers around 1,500 newspapers from mainland China, Hong Kong and Taiwan (Chu et al. 2009), and social media data with the application of CASM algorithm (Zhang & Pan 2019).
+
+---
 
 
 #### Bangladesh Migrants Study
@@ -95,6 +100,9 @@ Several findings have beyond my expectation:
 
  <td> <img src="../img/dhs_t6_2.png" alt="Drawing" style="width: 690px;"/> </td>
 
+ ---
+
+
 #### Social network Analysis visualization
 
 I've started doing computational social network analysis for a while, recently I helped with one project on the flow of officials from different positions in China with policy reform.
@@ -109,6 +117,8 @@ Here is the micro-scope plot:
 
 The visualization result clearly presents the significant difference of policy attitudes among different geolocations.
 
+---
+
 ####  Energy Insecurity Instrument Scaling
 
 For the past year I’ve also worked with Professor Hernandéz on developing a robust scale for quantifying Energy Insecurity (EI) based on the original 54-item instrument. By applying the dimension reduction techniques, I successfully applied the PCA analysis and multidimensional Rasch model to successfully validate the 29-item structure, which not only provides the measurement tool for EI, but also complements a data-driven conceptual framework for the 3-dimensions scheme.
@@ -119,7 +129,9 @@ For assessing Energy Insecurity, a shorter-version 29-item instrument from the o
 
 <img src= "/img/Data_science.jpg" style="width:245px; height:89px;">
 
-### Statistics & Quantative Methods
+---
+
+### Statistics & Quantative Methods Resources
 
 #### Top R packages
 
