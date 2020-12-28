@@ -9,7 +9,7 @@ tags:
     - Python
     - Mplus
     - SEM
-    - latent variable
+    - Latent variable
     - Tutorial
 ---
 
