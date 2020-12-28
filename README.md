@@ -5,6 +5,8 @@ This is Shan's personal website for displaying projects and blog posts, welcome 
 
 ### Remain unsolved 
 
+- [x] Add catalogue for posts in blog;
+- [x] Removed the page visit widget;
 - [ ] Support for bilingual settings; 
 - [ ] Easier ways to support the math equations; 
 - [ ] Markdown Post header problem 
@@ -14,9 +16,7 @@ This is Shan's personal website for displaying projects and blog posts, welcome 
 
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu"></a>
 
-
 This website also support for [996 vs ICU project](https://github.com/996icu/996.ICU/tree/master/blacklist) as I believe all lives matter.
-
 
 
 #### Licence
