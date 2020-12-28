@@ -8,6 +8,10 @@
 
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+                    <br>
+                    <a href="mailto:sj2921@columbia.edu">Contact</a>
+                    <br>
+                    <img src="/img/icon_wechat.png" alt="Girl in a jacket" width= "28%" height="13%">
                 </p>
             </div>
         </div>
@@ -281,7 +285,7 @@
         json: '/search.json',
         searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
         noResultsText: 'No results',
-        limit: 50,
+        limit: 30,
         fuzzy: false,
         // a hack to get escaped subtitle unescaped. for some reason,
         // post.subtitle w/o escape filter nuke entire search.
