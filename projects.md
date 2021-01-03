@@ -5,7 +5,8 @@ header-img: "./img/projects.jpg"
 description: Where my time goes? Get a hint from below.
 ---
 
-This website is for presentation of samples on some of the cool side-projects I've been working on
+This website is for presentation of samples on some of the cool side-projects I've been working on.
+<br>
 Last update: *Dec. 2020*
 
 <!-- Prepare a container for your calendar. -->
