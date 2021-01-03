@@ -35,13 +35,13 @@ author: Shan J.
 ----
 
 
-#### New Year Principles' Resolution
+#### New Year Principles
 
 **Lazy days**: Dozens of arguments have lead me to a terrible situation, **waking** me from my sleep at the same time in the late night time, which should have been the golden time to take a rest. Emotions drive me nuts, and that is not what I am looking for, and that is not love.
 
 The odds of finding someone you really love is just like, I am afraid to say so, but it is snowball’s chance in hell. Romantic love or passionate love are not the same, and these emotions only happen for a reason.
 
-* Stick to your principles | 坚持原则和底线：遇到一些困惑和挑战，不可怕，可怕的是**轻易**被他人改变；
+* Stick to your principles 坚持原则和底线：遇到一些困惑和挑战不可怕，可怕的是**轻易**被他人改变；
 * Appreciate myself: 一直保持对于自我价值的认可；
 * Empathy can hurt: 外冷内热，有理解力，但不要泛滥的同情心;
 * You deserve someone better: 认识到廉价的付出，实际上付出多少并不是等价交换;
