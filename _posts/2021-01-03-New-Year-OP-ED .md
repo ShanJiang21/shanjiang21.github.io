@@ -20,15 +20,15 @@ author: Shan J.
 
 我承认我是鸵鸟，从来不会努力去面对这些非常血淋淋的现实，身不由己的感受太过尖刻。在我眼中，还希望自己是个孩子，还存在着那一线对于美好的向往【甚至有一些fantasy】即便不是风花雪月的事，也是平淡为真的温馨，心底里不想面对分离，死亡和亏欠，也不愿意把**生活**活成**生存**。
 
-回溯从我出生那年到如今的当代中国，一切都变了，我成长了，我看问题的角度也变了，但这个世界似乎甩开了我的脚步，猝不及防，又跌跌撞撞，我终于还是被一双更大的手慢慢推到这些现实面前了。
+回溯从我出生那年到如今的当代中国，一切都变了，我逐渐长大，去过的地方也多了，见到的形形色色的人突然也多了。慢慢地，我看问题的角度也变了，但这个世界似乎甩开了我的脚步，猝不及防，又跌跌撞撞，终于还是被一双更大的手慢慢推到这些现实面前了。
 
-96‘年，是千禧年的开始，也是科技改变生活世界的开始，从考学到出国，互联网确实弥补了我的信息鸿沟，而我也一直以来，都是父母眼中和同学眼中那个能按照世俗价值不断往上爬阶梯的孩子，驯服的绵羊收敛了自己的脾气，藏起了自己尖利的牙齿。
+96‘年，是千禧世代的开始，也是互联网科技改变生活世界的开始，也是监视资本主义逐步侵入个人生活的开始。从考学到出国，互联网确实弥补了我的信息鸿沟，但也侵蚀了我对这个世界的信任。一直以来，我都是父母眼中和同学眼中那个能按照世俗价值不断往上爬阶梯的孩子，驯服的绵羊收敛了自己的脾气，藏起了自己尖利的牙齿，社交媒体加深了我极端主义的情绪，却也让我找到了一些可爱的niche。
 
-但是世界变了，不是改变我的理由，虽然会撞得头破血流。这个寒冷的冬天，活得有些恍惚，也许我个性的底色，还是有一种对于简单生活的向往，对于人性善良的坚信，还有对于爱的渴望吧，这没什么shameful的，但是因为我在社会化中被驯服太久，承认这一点就已经很难。
+无论什么时候，世界变了，不是改变我的理由，虽然会撞得头破血流。这个寒冷的冬天，活得有些恍惚。也许我个性的底色，还是有一种对于简单生活的向往，对于人性善良的坚信，还有对于爱的渴望吧，这没什么shameful的，但是因为我在社会化中被驯服太久，承认这一点就已经很难。
 
 《一把青》里，人人为命运玩弄，不胜唏嘘悲凉。活着的人在时代的大洪流下，失去了本来的面目，只为着适应坎坷和不平。似乎我该对那堆被留在冰天雪地的东北中的废铁感到庆幸……「他跌得粉身碎骨哪里还有知觉？他倒好，轰的一下就没知觉了——我也死了，可我还有知觉呢」未亡人的控诉让人心疼，飘萍无依，面目狰狞。
 
-也许有一天，我也会见到，或者自己体味到被命运连根拔起的样子，但是希望我能在每天的mundane life中，不断进化，直到足够勇敢，接受「人会来，就会离开」的现实。
+也许有一天，我也会见到，或者亲身体味到被命运连根拔起的样子，但是希望我能在每天的mundane life中，不断进化，直到足够勇敢，接受「人会来，就会离开」的现实。
 
 “有时候，我真的挺想郭轸的”。
 
@@ -37,7 +37,9 @@ author: Shan J.
 
 #### New Year Principles
 
-**Lazy days**: Dozens of arguments have lead me to a terrible situation, **waking** me from my sleep at the same time in the late night time, which should have been the golden time to take a rest. Emotions drive me nuts, and that is not what I am looking for, and that is not love.
+Encounters are hard to chew, and the only easy way to efficiently deal with these awkward situations are to navigate while holding to the fundamental principles.
+
+Dozens of arguments have lead me to a terrible situation, **waking** me from my sleep at the same time in the late night time, which should have been the golden time to take a rest. Emotions drive me nuts, and that is not what I am looking for, and that is not love.
 
 The odds of finding someone you really love is just like, I am afraid to say so, but it is snowball’s chance in hell. Romantic love or passionate love are not the same, and these emotions only happen for a reason.
 
