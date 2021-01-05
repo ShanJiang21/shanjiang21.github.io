@@ -13,9 +13,6 @@ tags:
     - Tutorial
 ---
 
-* TOC
-{:toc}
-
 ## Lec 1  Introduction
 
 ### Motivating Examples
