@@ -3,14 +3,14 @@
 This is Shan's personal website for displaying projects and blog posts, welcome to share your ideas with me.The theme is forked from [Vno Jekyll](https://github.com/onevcat/vno-jekyll), you can also choose an easier Wordpress or Hexo support for hosting your blog, so that you can avoid from the annoying debugging process.
 
 
-### Remain unsolved 
+### Remain unsolved
 
 - [x] Add catalogue for posts in blog;
 - [x] Removed the page visit widget;
-- [ ] Support for bilingual settings; 
-- [ ] Easier ways to support the math equations; 
-- [ ] Markdown Post header problem 
-- [ ] Image organization; 
+- [ ] Support for bilingual settings;
+- [ ] Easier ways to support the math equations;
+- [x] Markdown Post header problem;
+- [ ] Image organization;
 
 #### For Fun
 
