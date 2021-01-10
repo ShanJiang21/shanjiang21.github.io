@@ -11,7 +11,29 @@ tags:
     - SEM
     - Latent variable
     - Tutorial
+    - PM side notes
 ---
+## As a PM, what I need to know
+
+#### Mission Statement & Vision Statement
+
+To write the roadmap for my work, I need some big visions. 
+
+```
+1. Google’s corporate mission is “to organize the world’s information and make it universally accessible and useful.”
+2. Google’s corporate vision is “to provide access to the world’s information in one click.”
+3. Facebook mission statement is “to give people the power to share and make the world more open and connected.”
+4. Facebook vision statement is “People use Facebook to stay connected with friends and family, to discover what’s going on in the world, and to share and express what matters to them.”
+
+```
+
+#### Agile Framework
+
+Agile represents an overarching philosophy for software development, emphasizing the value of iterating quickly and often to satisfy customers. An agile framework can be defined as a specific software-development approach based on the agile philosophy articulated in the [Agile Manifesto](https://agilemanifesto.org/).
+
+
+I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.zh-cn.html).
+
 
 ## Lec 1  Introduction
 
