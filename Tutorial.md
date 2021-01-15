@@ -12,9 +12,9 @@ tags:
     - Latent variable
     - Tutorial
     - PM side notes
-    
+
 ---
-## As a PM, what I need to know
+# As a PM, what I need to know
 
 #### Mission Statement & Vision Statement
 
