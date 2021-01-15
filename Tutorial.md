@@ -12,12 +12,13 @@ tags:
     - Latent variable
     - Tutorial
     - PM side notes
+    
 ---
 ## As a PM, what I need to know
 
 #### Mission Statement & Vision Statement
 
-To write the roadmap for my work, I need some big visions. 
+To write the roadmap for my work, I need some big visions.
 
 ```
 1. Google’s corporate mission is “to organize the world’s information and make it universally accessible and useful.”
@@ -34,6 +35,22 @@ Agile represents an overarching philosophy for software development, emphasizing
 
 I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.zh-cn.html).
 
+
+#### 常用术语 ｜ Jargons
+
+* 增刪查改- crud (Create, read, update and delete)
+* http://www.woshipm.com/pd/3104737.html
+* https://bytedance.feishu.cn/docs/doccnRkYwt0udcYpdj8fs6eyzPg
+
+
+1. 了解简单的技术实现方式，后端前端是怎么协作的，api接口的传参和入参等
+2. 明确需求的目标，为什么做，说出对需求预估的效果
+3. 方案尽可能详细，列举各种可能和结果
+4. 考虑到功能的复用性和扩展性，让技术框架提前做好准备
+
+---
+
+# SEM
 
 ## Lec 1  Introduction
 
