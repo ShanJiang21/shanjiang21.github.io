@@ -1,16 +1,15 @@
 ---
 layout: post
-title:  🚀💎🙌Wandering in a blistering-hot Stonk Market
+title:  💎🙌Wandering in a blistering-hot Stonk Market
 subtitle: Is it a Class Warfare or Gamma squeeze?
-header-img: None
-date: 2021-1-31 20:40:24.000000000 +08:00
+header-img: "img/post_0131.jpg"
+date: 2021-2-01 10:59:24.000000000 +08:00
 author: Shan J.
 tags:
     - Adulting
     - Side notes for work
     - Capital markets
     - WSB
-
 ---
 
 #### 01/26/2021
@@ -73,11 +72,11 @@ Slog. Maybe the PhD is the Your worst work.
 
 > A kernel panic is a computer error from which the operating system (OS) cannot quickly or easily recover. The term applies primarily to Unix-based systems and to Mac OS X
 
-系统性风险发生的可能性似乎没有那么高，是时候有下一次的占领花街运动了，出来散步吧……
+系统性风险发生的可能性似乎没有那么高，是时候有下一次的占领花街运动了，出来散步吧…… 🚀
 
 #### 01/30/2021
 
-<img src="/img/5_Si_winter.jpg" alt="plant_revised" width = "560", height = "369">
+<img src="/img/post_winter.jpg" alt ="plant_revised" width="560" height="320">
 
 看杂志的幽默版真的很解压, 我的澳洲腊梅也收到了，非常治愈的蓝色，干花也一样charming。
 
