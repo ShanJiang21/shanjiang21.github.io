@@ -14,7 +14,8 @@ tags:
     - PM side notes
 
 ---
-# As a PM, what I need to know
+
+## As a PM, what I need to know
 
 #### Mission Statement & Vision Statement
 
@@ -213,11 +214,11 @@ How many continuous latent variables are being measured by the items;
 
 ##### Cronbach’s alpha
 
-Generally,  $$\alpha$$ is a measure if how correlated the items in the scale are with each other.
+Generally,  $$ \alpha $$ is a measure if how correlated the items in the scale are with each other.
 
-$$\alpha$$ is measure of the lower bound for the reliability of a simple sum or average scale under the important assumption that the items are **reflective** and are **unidimensional**.
+$$ \alpha $$ is measure of the lower bound for the reliability of a simple sum or average scale under the important assumption that the items are **reflective** and are **unidimensional**.
 
-Generally $$\alpha$$ increases as the number of items increases.
+Generally $$ \alpha $$ increases as the number of items increases.
 
 ````SAS
 Proc corr data = a alpha nomiss;
@@ -227,6 +228,7 @@ run;
 
 $$ \alpha $$ = Intraclass correlation
 
+
 ## Lec 3 Factor Analysis Part I
 
 ### General Theory and Exploratory Factor Analysis
@@ -235,10 +237,10 @@ $$ \alpha $$ = Intraclass correlation
 
 > All models are wrong, but some are useful. — Geogre Box
 
-$$y = v + \beta f + e$$,
+$$ y = v + \beta f + e $$,
 
-* $$f$$: often called "common factors";
-* $$v$$: intercept, for EFA, v = 0, and for CFA often directly model v
+* $$ f $$: often called "common factors";
+* $$ v $$: intercept, for EFA, v = 0, and for CFA often directly model v
 * Var(e) = $$ \Theta $$
 
 ##### Commonly used cut-offs indicating "good fit" of the model
@@ -255,7 +257,7 @@ $$y = v + \beta f + e$$,
 
 #### Model comparison
 
-* **Goal**: More pasimonous model is just as good as the more complicated model.
+* **Goal**: More parsimonious model is just as good as the more complicated model.
 * Two ways:
   1. **Chi-square** difference test for nested models;
   2. information criterion: **AIC, BIC** for non-nested models(or nested models)
@@ -272,7 +274,7 @@ $$y = v + \beta f + e$$,
 
 #### Rotation
 
-In EFA, because we have no restricitions on variance, there is more than one estimate for variance that can give us the same model covariance matrix model.
+In EFA, because we have no restrictions on variance, there is more than one estimate for variance that can give us the same model covariance matrix model.
 
 Intuitively, this shows two different estimates can fit the data exactly the same way.
 
@@ -345,9 +347,9 @@ Rotation is the technique we use to specify which variance we want to estimate.
 
 #### Degrees of Freedom
 
-In EFA  d.f. =   $\frac{P * (p+1)}{2} - p * q - p + \frac{q *(q-1)}{2}$
+In EFA  d.f. =   $ \frac{P * (p+1)}{2} - p * q - p + \frac{q *(q-1)}{2} $
 
-In CFA d.f. =  $\frac{P * (p+1)}{2} - No. of$ parameters est.
+In CFA d.f. =  $ \frac{P * (p+1)}{2} - No. of $ parameters est.
 
 #### Standardized and Unstandardized
 
@@ -399,7 +401,7 @@ Each path that has not been included in the model has an associated "**modificat
 
 Two parameter:
 
-$logit(\pi_{ij}) = \beta_j(\theta_i - \alpha_j)$
+$ logit(\pi_{ij}) = \beta_j(\theta_i - \alpha_j) $
 
 If fix all $\beta $ =1, then it is "**Rasch Model**"
 
@@ -471,8 +473,6 @@ You can regard it as how well the item discriminates among participants located 
 
 The probability of choosing a correct answer by chance.
 
-
-
 - Estimation
 - Choice of K
 - Predicting the class membership
@@ -524,9 +524,7 @@ Structural Equation Model: often made up of two parts:
 
 ## Lec 10 SEM
 
-
-
-
+WIP
 
 ### Appendix
 
@@ -539,5 +537,3 @@ WITH: allow correlation
 * Errors are uncorrelated by default;
 * Factors are correlated by default;
   1. [Latent variable Analysis with R](<https://blogs.baylor.edu/rlatentvariable/>), *A Step-By-Step Guide*written by Beaujean
-
-# Python Basics
