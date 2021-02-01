@@ -28,7 +28,7 @@ VAT可能三项并两项。
 
 #### 01/27/2021
 
-所以即便是二手车，如果是 $$ CO_2 $$ > 110 per kilometre, 在英国也是算高排放机动车，需要交高额税的鸭～
+所以即便是二手车，如果是 $ CO_2 $ > 110 per kilometre, 在英国也是算高排放机动车，需要交高额税的鸭～
 
 > `Tax Written-down value` is the value of an asset after accounting for depreciation or amortization.短命资产账面余额，从哪里来，回哪里去
 
