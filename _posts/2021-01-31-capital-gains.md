@@ -11,6 +11,7 @@ tags:
     - Capital markets
     - WSB
 ---
+{%- include mathjax_support.html -%}
 
 #### 01/26/2021
 
