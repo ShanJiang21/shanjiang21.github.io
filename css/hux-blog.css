@@ -186,7 +186,7 @@
     Multi-line snackbar height: 80 dp
     Text: Roboto Regular 14 sp
     Action button: Roboto Medium 14 sp, all-caps text
-    Default background fill: #323232 100%  
+    Default background fill: #323232 100%
   */
     left: 0px;
     right: 0px;
@@ -308,8 +308,11 @@ button.paper-button {
 }
 .highlight,
 pre.highlight {
-  background: #282c34;
-  color: #abb2bf;
+    background: rgb(230, 230, 230);
+    max-height: 300px;
+    overflow: scroll;
+    border: 1px #C1C1C1;
+    border-radius: 3px;
 }
 .highlight pre {
   background: #282c34;
@@ -684,7 +687,7 @@ h6 {
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
-  line-height: 1.7;
+  line-height: 1.5;
   line-height: 1.1;
   font-weight: bold;
 }
@@ -709,7 +712,7 @@ blockquote {
   color: gray;
   font-style: italic;
   font-size: 0.95em;
-  margin: 20px 0 20px;
+  margin: 15px 0 15px;
 }
 blockquote p {
   margin: 0;
@@ -771,7 +774,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "Fira Code", Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: "monospace","Fira Code", Menlo, Monaco, Consolas, "Courier New";
 }
 .postlist-container {
   margin-bottom: 15px;
