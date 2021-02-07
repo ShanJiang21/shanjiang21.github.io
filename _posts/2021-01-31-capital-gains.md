@@ -5,6 +5,7 @@ subtitle: Is it a Class Warfare or Gamma squeeze?
 header-img: "img/post_0131.jpg"
 date: 2021-2-01 10:59:24.000000000 +08:00
 author: Shan J.
+excerpt: This week I witnessed some of the most volatile stonks on my first journey in the Dow.
 tags:
     - Adulting
     - Side notes for work
@@ -94,4 +95,4 @@ Fung Bro的30箴言确实hit my points.
 #### 02/01/2021
 
 花了很长时间debug MathJax, 虽然发现了问题在哪，但还没有非常彻底的解决办法，V2 --> V3 的过渡还是稳定复现问题。
-加班文化真的恐怖，it's just like a little hell. 
+加班文化真的恐怖，it's just like a little hell.
