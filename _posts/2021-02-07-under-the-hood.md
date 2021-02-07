@@ -65,6 +65,9 @@ kuaishou surges by 181% on their Debut in HongKong Capital market, though I neve
 
 because she is tall and blonde? [欧洲中心主义审美]
 
+Side Notes: "*7 Rings*" interpolates the melody of "*My Favourite Things*," an iconic song
+**romantic self-saboteur**.
+
 
 
 #### 0207
@@ -83,8 +86,7 @@ because she is tall and blonde? [欧洲中心主义审美]
 >
 
 > What would that feel like? To have access, to know what it’s like in someone else’s head. To rely on someone else, have him rely on you. That’s not a biological connection like the one between parents and children. This kind of relationship would be **chosen**. It would be something cooler, harder to achieve than one built on biology and shared genetics. I think that’s it. Maybe that’s how we know when a relationship is real. When someone else previously unconnected to us **knows us in a way we never thought or believed possible**.”
-
-> 																						― **Iain Reid,** [I'm Thinking of Ending Things](https://en.wikipedia.org/wiki/I%27m_Thinking_of_Ending_Things)
+― **Iain Reid,** [I'm Thinking of Ending Things](https://en.wikipedia.org/wiki/I%27m_Thinking_of_Ending_Things)
 
 事实上,有一句关于 Mussolini 的老话是这样说的:"Mussolini 让火车准时运行了。" 这些人的想法是:即使是独裁者也会有优点。
 
