@@ -1,6 +1,6 @@
 ---
 title:
-subtitle:
+subtitle: The power of leaning-in-action
 author: "Shan J."
 header-img: "img/post_love_0214.jpg"
 date: 2021-2-21 11:29:24.000000000 +08:00
@@ -9,24 +9,27 @@ layout: post
 categories:
   - Side notes for work
   - YOLO
-  -
+  - Learning-in-Actions
+  - Nihilism
 ---
 
-#### “Rick and Morty” Is Just the Show We Need for the American Apocalypse
+#### Nihilism: 我们不可能拥有所有好的东西
 
 那一刻，我想挣脱现实世界的约束，想从玻璃幕墙的大楼往外跑。
 
-在假期工作(摸鱼)的最后几个小时，读了一篇纽约客的review，奉献给这部引发我思考的动画片*Rick and Morty*, 这篇文章发表于2017年的十月份，那个时候我还在申请学校，期待着研究生的美好生活。但如今，当我成为一名寻找自身意义的社畜时，回望这篇文章似乎让我有更多的启发。
+在假期工作(摸鱼)的最后几个小时，读了一篇纽约客的[review](https://www.newyorker.com/culture/cultural-comment/rick-and-morty-is-just-the-show-we-need-for-the-american-apocalypse)，这篇影评是奉献给这部引发一部名叫*Rick and Morty*的动画, 这篇文章发表于2017年的十月份，那个时候我还在申请学校，期待着研究生的美好生活。但如今，当我成为一名寻找自身意义的社畜时，回望这篇文章似乎让我有更多的启发。
 
 *Rick and Morty* really supplies an artful answer to the question of what follows postmodernism.
 
 2017年的早些时候，*Rick and Morty*的第三季在Adult Swim频道完结了。Adult Swim是一个是一個以成人观众(大概是18-34岁左右) 为主要受众的美国电视频道，主要播放动画节目。完结篇吸引了大概260万观众，这是一个生动的虚无主义动画，你可说他是闹剧连篇，并因时空的影响而很难理解，但其中折射出来的哲学思考，却让人非常high，毕竟是个人也不会爱教条的说教，但在这个动画中我看到了编剧的神奇想象力，把那些抽象的概念变成一个小小的故事，整合起了严肃哲学，平行宇宙，克隆灵魂那些庞大的概念，还有家庭中的沟通小闹剧，真的很喜欢，哈哈哈。
 
+
+
 #### Where's the anger coming from?
 
 > There is always something that is not teachable, cuz you can only know the essence of the thing by experiencing it.
 
-每天进步一点点，也挺快乐 | Keep calm, the work has not make me who I am, I am who I am, and this is something myself need to insist：
+思考的：每天进步一点点，也挺快乐 | Keep calm, the work has not make me who I am, I am who I am, and this is something myself need to insist：
 
 1. 很多事情，很多人都需要经历过才知道，所以只能边做边学，想通过提前知道一条公理，然后去面对这些纷繁之事，是不太可能的，因为people shall change.
 
