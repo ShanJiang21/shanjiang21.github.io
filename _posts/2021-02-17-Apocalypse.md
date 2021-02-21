@@ -1,10 +1,10 @@
 ---
-title:
-subtitle: The power of leaning-in-action
+title: 缩小意义参考的比例尺
+subtitle: What if Adolf Hitler cures cancer?
 author: "Shan J."
-header-img: "img/post_love_0214.jpg"
+header-img: "img/post-Allenby-InnerChildInnerAdult.jpg"
 date: 2021-2-21 11:29:24.000000000 +08:00
-excerpt: "We die. That may be the meaning of life."
+excerpt: "What if Adolf Hitler cures cancer? The power of leaning-in-action"
 layout: post
 categories:
   - Side notes for work
@@ -12,6 +12,8 @@ categories:
   - Learning-in-Actions
   - Nihilism
 ---
+
+> Enjoy the Sea shanty~
 
 #### Nihilism: 我们不可能拥有所有好的东西
 
@@ -23,19 +25,19 @@ categories:
 
 2017年的早些时候，*Rick and Morty*的第三季在Adult Swim频道完结了。Adult Swim是一个是一個以成人观众(大概是18-34岁左右) 为主要受众的美国电视频道，主要播放动画节目。完结篇吸引了大概260万观众，这是一个生动的虚无主义动画，你可说他是闹剧连篇，并因时空的影响而很难理解，但其中折射出来的哲学思考，却让人非常high，毕竟是个人也不会爱教条的说教，但在这个动画中我看到了编剧的神奇想象力，把那些抽象的概念变成一个小小的故事，整合起了严肃哲学，平行宇宙，克隆灵魂那些庞大的概念，还有家庭中的沟通小闹剧，真的很喜欢，哈哈哈。
 
+Pray for Texas, pray for the poor and starving
 
 
-#### Where's the anger coming from?
+#### 溯源: Where's the anger coming from?
 
 > There is always something that is not teachable, cuz you can only know the essence of the thing by experiencing it.
 
 思考的：每天进步一点点，也挺快乐 | Keep calm, the work has not make me who I am, I am who I am, and this is something myself need to insist：
 
 1. 很多事情，很多人都需要经历过才知道，所以只能边做边学，想通过提前知道一条公理，然后去面对这些纷繁之事，是不太可能的，因为people shall change.
-
 2. 另外，能够正确归因很多暂时无法解释的事情，即便不能完全理顺事情发展的整体脉络，也是这周我学到的一个非常重要的点。
-
 3. 还有就是用不同的沟通方式去表述同一份统计结果，其实在学校我们花了很多年做的事情，就是能将事情说清楚，所以不要小瞧了这一点。keep the statement defensive and also intuitive is the only way for communicating statistical results. Don't judge, the communication does matter in the giant organization.
+4. 我做的每一件事情/每一个选择不需要都去justify, the only thing that matters is this spectacular moment.
 
 说完振奋人心的，说说这大半年观察到的情感劳动。机器学习中那些自杀自残的画面，那些血腥暴力的场景何尝不是一种对于人性的挑战？
 > PTSD symptoms resulting from indirect trauma exposure through work is common enough that in the literature there are a number of terms to describe these mental health consequences, including “secondary traumatic stress”, “compassion fatigue”, and “vicarious traumatization”.
@@ -43,14 +45,11 @@ categories:
 #### I hear something：新的表达
 
 1. Sturm und Drang: (German: “Storm and Stress”), German literary movement of the late 18th century that exalted nature, feeling, and human individualism and sought to overthrow the Enlightenment cult of Rationalism. Goethe and Schiller began their careers as prominent members of the movement.
-
 2. **Diction** is a writer or speaker's word choice that helps define the written or spoken word and expresses personal style.
-
-3. The Lingua Franca (通用语) serves as one of the most significant bridge language for communication, NYT even called it as the common store of wit and wisdom.
+3. The `Lingua Franca(通用语)` serves as one of the most significant bridge language for communication, NYT even called it as the common store of wit and wisdom.
    * You dirty rat -- Taxis in NYC
    * Greed, for lack of a better word, is good - Wall Street
-
-4. **男言之瘾（Mansplaining）**，是一个英语的复合词，由man（人或[男人](https://zh.wikipedia.org/wiki/男人)）与splaining（explaining，一词的[动名词](https://zh.wikipedia.org/wiki/動名詞)态）组合而成，经常带有[贬义](https://zh.wikipedia.org/wiki/貶義)，意指“以居高临下的说教姿态向他人解释，且认定对方所知甚少[[1\]](https://zh.wikipedia.org/zh-cn/Mansplaining#cite_note-:0-1)（或不把对方的见解当一回事）”，有时又特指男人向[女人](https://zh.wikipedia.org/wiki/女人)解释她已知的事物.
+4. **男言之瘾(Mansplaining)**，是一个英语的复合词，由man（人或[男人](https://zh.wikipedia.org/wiki/男人)）与splaining（explaining，一词的[动名词](https://zh.wikipedia.org/wiki/動名詞)态）组合而成，经常带有[贬义](https://zh.wikipedia.org/wiki/貶義)，意指“以居高临下的说教姿态向他人解释，且认定对方所知甚少[[1\]](https://zh.wikipedia.org/zh-cn/Mansplaining#cite_note-:0-1)（或不把对方的见解当一回事）”，有时又特指男人向[女人](https://zh.wikipedia.org/wiki/女人)解释她已知的事物.
 
 ![people are looking at books](https://media.newyorker.com/photos/603045d722fd37fd38e692fb/master/w_2560%2Cc_limit/210301_r37974web.jpg)
 
