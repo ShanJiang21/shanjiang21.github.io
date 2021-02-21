@@ -2,7 +2,7 @@
 title: 缩小意义参考的比例尺
 subtitle: What if Adolf Hitler cures cancer?
 author: "Shan J."
-header-img: "img/post-Allenby-InnerChildInnerAdult.jpg"
+header-img: "img/post-Kalb-GrandmaCalls.jpg"
 date: 2021-2-21 11:29:24.000000000 +08:00
 excerpt: "What if Adolf Hitler cures cancer? The power of leaning-in-action"
 layout: post
@@ -14,6 +14,8 @@ categories:
 ---
 
 > Enjoy the Sea shanty~
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8ZY-3onZfnw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Nihilism: 我们不可能拥有所有好的东西
 
@@ -44,14 +46,13 @@ Pray for Texas, pray for the poor and starving
 
 #### I hear something：新的表达
 
-1. Sturm und Drang: (German: “Storm and Stress”), German literary movement of the late 18th century that exalted nature, feeling, and human individualism and sought to overthrow the Enlightenment cult of Rationalism. Goethe and Schiller began their careers as prominent members of the movement.
+1.`Sturm und Drang`: (German: “Storm and Stress”), German literary movement of the late 18th century that exalted nature, feeling, and human individualism and sought to overthrow the Enlightenment cult of Rationalism. Goethe and Schiller began their careers as prominent members of the movement.
 2. **Diction** is a writer or speaker's word choice that helps define the written or spoken word and expresses personal style.
 3. The `Lingua Franca(通用语)` serves as one of the most significant bridge language for communication, NYT even called it as the common store of wit and wisdom.
    * You dirty rat -- Taxis in NYC
    * Greed, for lack of a better word, is good - Wall Street
 4. **男言之瘾(Mansplaining)**，是一个英语的复合词，由man（人或[男人](https://zh.wikipedia.org/wiki/男人)）与splaining（explaining，一词的[动名词](https://zh.wikipedia.org/wiki/動名詞)态）组合而成，经常带有[贬义](https://zh.wikipedia.org/wiki/貶義)，意指“以居高临下的说教姿态向他人解释，且认定对方所知甚少[[1\]](https://zh.wikipedia.org/zh-cn/Mansplaining#cite_note-:0-1)（或不把对方的见解当一回事）”，有时又特指男人向[女人](https://zh.wikipedia.org/wiki/女人)解释她已知的事物.
 
-![people are looking at books](https://media.newyorker.com/photos/603045d722fd37fd38e692fb/master/w_2560%2Cc_limit/210301_r37974web.jpg)
 
 #### Podcast Snippets
 
