@@ -13,7 +13,7 @@ categories:
 
 #### Some personal feelings as a junior tech employee
 
-TBH, ByteDance is actually an easy option for me, as it enjoys a good reputation on the labor market. The daily life is well-managed: each meal is ordered from vendors, prearranged and distributed in the office, every festival you will see celebration decorations and get the small free gifts. ByteDance also provides living bonus to move close to the office the and I can still work with many US colleagues who graduated from top universities.
+TBH, ByteDance is actually an easy option for me, as it enjoys a good reputation on the labor market. The daily life is well-managed: each meal is ordered from vendors, prearranged and distributed in the office, every festival you will see celebration decorations and get the small free gifts. ByteDance also provides living bonus to move close to the office and I can still work with many US colleagues who graduated from top universities. All in all, as a new grad I should have no regrets while I still do.
 
 While all seems to be fantastic. I should have no excuse to complain, there is still underlying paradox.
 
