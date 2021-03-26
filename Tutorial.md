@@ -10,12 +10,11 @@ tags:
     - Mplus
     - SEM
     - Latent variable
-    - Tutorial
     - PM side notes
 
 ---
 
-## As a PM, what I need to know
+## Shan's pick-up from PM life
 
 #### Mission Statement & Vision Statement
 
@@ -33,9 +32,7 @@ To write the roadmap for my work, I need some big visions.
 
 Agile represents an overarching philosophy for software development, emphasizing the value of iterating quickly and often to satisfy customers. An agile framework can be defined as a specific software-development approach based on the agile philosophy articulated in the [Agile Manifesto](https://agilemanifesto.org/).
 
-
 I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.zh-cn.html).
-
 
 #### 常用术语 ｜ Jargons
 
@@ -43,11 +40,18 @@ I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.
 * http://www.woshipm.com/pd/3104737.html
 * https://bytedance.feishu.cn/docs/doccnRkYwt0udcYpdj8fs6eyzPg
 
-
 1. 了解简单的技术实现方式，后端前端是怎么协作的，api接口的传参和入参等
 2. 明确需求的目标，为什么做，说出对需求预估的效果
 3. 方案尽可能详细，列举各种可能和结果
 4. 考虑到功能的复用性和扩展性，让技术框架提前做好准备
+
+
+#### 常用指标 | Indicators
+
+1. **Bounce rate** is calculated by the total number of one-page visits divided by the total number of entries to a website.
+* As a good rule of thumb, the bounce rate rambles under 40%. Between 40% and 55% is usually okay.
+
+
 
 ---
 
