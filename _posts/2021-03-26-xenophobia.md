@@ -32,7 +32,7 @@ May the worst of your today's be the best of your tomorrows.
 
 ---
 
-Sometimes I use another language to cover myself, here are some clips that triggers me to write a memo.
+Sometimes I use another language to cover myself, here are some clips that trigger me to write a memo.
 
 #### Clip 0: A story of myself: How I fell into love with running
 
