@@ -57,7 +57,7 @@ Pray for Texas, pray for the poor and starving
 #### Podcast Snippets
 
 **听了两年多的播客|Podcasts**
-1. **[鼓腹而游](https://www.xiaoyuzhoufm.com/podcast/5f2162169504bbdb772facc3):** 出自《庄子》“含哺而熙，鼓腹而游”，是被小镇做题家那期吸引，其实最早这个节目脱胎于忽左忽右，几个anchor都来自于文化圈/出版行业
+1. **[鼓腹而游](https://www.xiaoyuzhoufm.com/podcast/5f2162169504bbdb772facc3):** 出自《庄子》“含哺而熙，鼓腹而游”，是被小镇做题家那期吸引，其实最早这个节目脱胎于忽左忽右，几个anchor都来自于文化圈/出版行业.
 2. **[小声喧哗](https://loudmurmursfm.com/):** 四个旅美new tech从业女生，从影视和文化产品出发，探讨生活方式，文化冲击和人生价值的节目
 3. **[一天世界](http://yitianshijie.net):** 没办法，李如一的聪明和美学感受力就是让我着迷
 
