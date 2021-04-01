@@ -16,7 +16,7 @@ categories:
 
 讨厌周一的沙尘暴，免不了俗：有了太阳心情才能很好。毕竟，来人间一趟，就是要看看太阳。
 
-周二下午因为Foster的离职，深深地shock了我，而且顺带发现了自己的华点。在组织内部，存在不同的分工，有的部门为产品功能，用户留存和活跃度指标负责，但是作为身处安全部门的我，需要有自己非常坚定的立场，为自己的目标负责，而不能像曾经在academia一样，做到价值中立和纯粹客观。Intrinsically, 就难免会和其他部门产生冲突，好为自己着急，来了这么久，都不清楚架构 (其实对大多数人依旧是个myth)，我的mindset真的需要改一改。
+周二下午因为Foster的转岗，深深地shock了我，而且顺带发现了自己的华点。在组织内部，存在不同的分工，有的部门为产品功能，用户留存和活跃度指标负责，但是作为身处安全部门的我，需要有自己非常坚定的立场，为自己的目标负责，而不能像曾经在academia一样，做到价值中立和纯粹客观。Intrinsically, 就难免会和其他部门产生冲突，好为自己着急，来了这么久，都不清楚架构 (其实对大多数人依旧是个myth)，我的mindset真的需要改一改。
 
 另外就是在整个产品的迭代过程中，如果有着强烈的需求，那么我们必须说服合规方和相关stakeholders，站在我们一边，很多时候就被不得不放弃采取一种`客观分析`的价值中立立场去做事，这其中必须存在有妥协和放弃。因为在一个非常急迫的DDL面前，bearable minimal viable product 才是折衷主义下的win-win solution, 作为一个Idealist, 这可能是最近学到的最重要的一课了。
 
@@ -28,7 +28,7 @@ categories:
 
 三周前，rifle和weapon的escalation让我被迫加班；三周后，大洋彼岸的无差别枪击和Asian hate事件此起彼伏地发生。作为一个公卫学院的毕业生，真心希望惨剧少一些，love & peace多一些，春天来了，无战止争吧。
 
-May the worst of your today's be the best of your tomorrows.
+May the best of your today's be the worst of your tomorrows.
 
 ---
 
