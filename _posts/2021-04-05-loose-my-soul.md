@@ -15,9 +15,8 @@ categories:
 
 在上海出差这一周，见到了很多老朋友，也认识了一些有趣的新朋友，与人交谈，就像读一本标题未知的书，有人像是米兰 · 昆德拉般的深邃无比，但有人却能保持一种干净的轻盈，灵动的有趣，所以这个世界，真的很奇妙。
 
-#### 老友记
-
-##### Chapter 1 流水十年间
+### 老友记
+#### Chapter 1 流水十年间
 
 不知不觉，认识轩也有十年时间了。真的非常珍惜当年高三一起放学时，路灯下昏黄的剪影，在彼此低潮期的互相安慰，在异国他乡的温暖鼓励。这次吃饭，我们翻出三年前大学毕业的照片，发现那个时候，两个人在迪士尼的门口，两个人的傻笑真的是土土的，但又无比的纯真，就像那些我们奋力争取，却始终留不住的往昔时光。
 
@@ -29,7 +28,7 @@ categories:
 
 真希望事情都能像我们梦想中的那样发展，一路走下去，我要努力减肥，争取去冰岛做你美美的伴娘。
 
-##### Chapter 2 隔壁班的老朋友
+#### Chapter 2 隔壁班的老朋友
 
 来上海，真的没想到能遇到斌旭。现在已经记不得我们当年是怎么熟悉起来的了，一直以来，我们都不算是正式的同学，很少在一起，或许是因为性格相似吧，一遇到，想说的话就滔滔不绝。
 
@@ -39,7 +38,7 @@ categories:
 
 不出意外，在她家又夜聊到凌晨时分。我们一致同意的一点是：少年感和校园中的学生气的丢失，绝不是突然发生的。那些眼神里的率真，就像是滴水穿石的潜移默化，一丝一丝的在工作中被消融：之前我一直不懂自己在奋力抵抗些什么，但现在好像懂了，虽然市场是一双无形的手，但在中国社会，还有一双更恐怖的`社会之手`，包裹着(sugarcoated) 他人的评价，父母的期待和过于单一的以`钞能力`为唯一准则的评价体系。这些都是我一直努力在默默抵抗的，但是似乎谁也不能从中抽离，即便逃到大洋彼岸，还是会依旧遭遇这些文化上的父权控制，真的很想知道，该怎么解？
 
-#### 和不同城市碰撞
+### 和不同城市碰撞
 
 > I'd rather be a hammer than a nail.
 
@@ -57,7 +56,6 @@ categories:
 
 为了保护自己，先增加一些钝感力吧～忘掉那些让人难受的片段。毕竟抗争着，只为了微笑的离去。
 
-
 #### Feel the weight of the world
 
 Now, I am a breadwinner for myself, which means I have to give up my relaxing time and contribute more in developing skills, a sad story, aha? But one thing I do really appreciate is that I can enjoy daydreaming for relieving.
@@ -66,7 +64,7 @@ If Something is like divisionary, so it means it is not like a hardcore. The PM:
 
 Thus, stop wasting my time on these tiny covered-up moments. I'm kinda different to the girl-next-door, I am looking for something more. I have to find a way for loosing my soul by myself.
 
-##### Random words
+#### Random words
 
 1. `Pun`: a joke exploiting the different possible meanings of a word or the fact that there are words which sound alike but have different meanings.
 2. `Homebody`: this new word is learnt from my colleague, I do enjoy the simple pleasure from staying with family members.
