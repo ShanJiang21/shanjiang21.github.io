@@ -2,7 +2,7 @@
 title: Loose my soul
 subtitle: 多想拥抱这清澈的蓝天
 author: "Shan J."
-header-img: "img/post_apr_2021.jpg"
+header-img: "img/post_apr_2021.JPG"
 date: 2021-04-05 22:18:24.000000000 +08:00
 layout: post
 categories:
