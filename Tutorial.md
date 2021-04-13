@@ -353,14 +353,14 @@ Rotation is the technique we use to specify which variance we want to estimate.
 
 #### Degrees of Freedom
 
-In EFA  d.f. =   $ \frac{P * (p+1)}{2} - p * q - p + \frac{q *(q-1)}{2} $
+In EFA  d.f. =   $ \frac{P * (p+1)}{2} - p * q - p + \frac{q *(q-1)}{2}$
 
 In CFA d.f. =  $ \frac{P * (p+1)}{2} - No. of $ parameters est.
 
 #### Standardized and Unstandardized
 
 * **Standardized**: fix the variance to be 1.0.
-* **Unstandardized:** fix one factor loadings to be 1.0
+* **Unstandardized**: fix one factor loadings to be 1.0
 
 Most of time, *STDYX* is used, while for including dichotomous X, we often use STDY for meaningful interpretation.
 
@@ -407,11 +407,12 @@ Each path that has not been included in the model has an associated "**modificat
 
 Two parameter:
 
-$ logit(\pi_{ij}) = \beta_j(\theta_i - \alpha_j) $
+$logit(\pi_{ij}) = \beta_j(\theta_i - \alpha_j)$
 
 If fix all $\beta $ =1, then it is "**Rasch Model**"
 
-$\beta_j$: **discrimination** parameter;   $\alpha_j$: **severity** parameter
+- $\beta_j$: **discrimination** parameter;   
+- $\alpha_j$: **severity** parameter
 
 #### Discrimination
 
@@ -420,10 +421,9 @@ item characteristic curve
 #### Severity
 
 
-
 ### Measurement invariance using MIMIC
 
-One must assume that the numerical values under consideration are on the same measurement scale (Drasgow, 1984, 1987). That is, one must assumethat the test has "**measurement invariance**" across groups.
+One must assume that the numerical values under consideration are on the same measurement scale (Drasgow, 1984, 1987). That is, one must assume that the test has "**measurement invariance**" across groups.
 
 ##### Differential item Functioning
 
@@ -439,17 +439,16 @@ Testing for Measurement invariance
 
 ### Bifactor modeling
 
-There is an overall factor generally underlying every observed varaible. Also, there is domain specific factors of cognition, vitality, and so on.
+There is an overall factor generally underlying every observed varible. Also, there is domain specific factors of cognition, vitality, and so on.
 
 It also assumes that the relations among the general and domain specific factors are **orthogonal**.
 
 ##### Second-order factor model
 
 
-
 ##  Lec 6 Latent Class Analysis
 
-### Item  Response Theory: Catrgorical latent variable modeling
+### Item  Response Theory: Categorical latent variable modeling
 
 #### LCA general Theory
 
@@ -463,13 +462,13 @@ For both CTT and IRT, the observed variables are <u>**Continuous**</u>.
 
 Latent variable is hypothesized as <u>**Categorical**</u>.
 
-##### Item Difficulty
+##### Item-Difficulty
 
 <u>How difficult the item is.</u>
 
 When conducting social science studies, sometimes people call it "item endorsability". (Some items are more readily endorsed than others, you are more likely to say Yes or No on some items.)
 
-##### Item Discrimination
+##### Item-Discrimination
 
 <u>How Strongly related the response on the item is on the undelying latent trait</u>.
 
