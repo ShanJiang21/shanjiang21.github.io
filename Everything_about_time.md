@@ -1,1 +1,0 @@
-“*Dandelion*” is the nickname affectionately given to Piper Chapman by Suzanne Warren (aka Crazy Eyes), her unwanted admirer.
