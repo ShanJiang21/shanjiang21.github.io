@@ -3,6 +3,7 @@ layout: post
 title: Tutorial
 date: 2019-04-13 21:32:24.000000000 +09:00
 author: Shan J.
+mathjax: true
 header-img: "img/head_1.jpg"
 tags:
     - Statistics
@@ -44,6 +45,7 @@ I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.
 2. 明确需求的目标，为什么做，说出对需求预估的效果
 3. 方案尽可能详细，列举各种可能和结果
 4. 考虑到功能的复用性和扩展性，让技术框架提前做好准备
+
 
 
 #### 常用指标 | Indicators
