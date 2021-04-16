@@ -133,23 +133,6 @@
 {% endif %}
 
 
-<!-- Baidu Tongji -->
-{% if site.ba_track_id %}
-<script>
-    // dynamic User by Hux
-    var _baId = '{{ site.ba_track_id }}';
-
-    // Originial
-    var _hmt = _hmt || [];
-    (function () {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?" + _baId;
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
-{% endif %}
-
 
 <!-- Side Catalog -->
 {% unless page.no-catalog %}
@@ -284,8 +267,8 @@
         json: '/search.json',
         searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
         noResultsText: 'No results',
-        limit: 30,
-        fuzzy: false,
+        limit: 40,
+        fuzzy: True,
         // a hack to get escaped subtitle unescaped. for some reason,
         // post.subtitle w/o escape filter nuke entire search.
         templateMiddleware: function (prop, value, template) {
