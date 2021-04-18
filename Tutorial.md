@@ -3,18 +3,61 @@ layout: post
 title: Tutorial
 date: 2019-04-13 21:32:24.000000000 +09:00
 author: Shan J.
+mathjax: true
 header-img: "img/head_1.jpg"
 tags:
     - Statistics
     - Python
     - Mplus
     - SEM
-    - latent variable
-    - Tutorial
+    - Latent variable
+    - PM side notes
+
 ---
 
-* TOC
-{:toc}
+## Shan's pick-up from PM life
+
+#### Mission Statement & Vision Statement
+
+To write the roadmap for my work, I need some big visions.
+
+```
+1. Google’s corporate mission is “to organize the world’s information and make it universally accessible and useful.”
+2. Google’s corporate vision is “to provide access to the world’s information in one click.”
+3. Facebook mission statement is “to give people the power to share and make the world more open and connected.”
+4. Facebook vision statement is “People use Facebook to stay connected with friends and family, to discover what’s going on in the world, and to share and express what matters to them.”
+
+```
+
+#### Agile Framework
+
+Agile represents an overarching philosophy for software development, emphasizing the value of iterating quickly and often to satisfy customers. An agile framework can be defined as a specific software-development approach based on the agile philosophy articulated in the [Agile Manifesto](https://agilemanifesto.org/).
+
+I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.zh-cn.html).
+
+#### 常用术语 ｜ Jargons
+
+* 增刪查改- crud (Create, read, update and delete)
+* http://www.woshipm.com/pd/3104737.html
+* https://bytedance.feishu.cn/docs/doccnRkYwt0udcYpdj8fs6eyzPg
+
+1. 了解简单的技术实现方式，后端前端是怎么协作的，api接口的传参和入参等
+2. 明确需求的目标，为什么做，说出对需求预估的效果
+3. 方案尽可能详细，列举各种可能和结果
+4. 考虑到功能的复用性和扩展性，让技术框架提前做好准备
+
+
+
+#### 常用指标 | Indicators
+
+1. **Bounce rate** is calculated by the total number of one-page visits divided by the total number of entries to a website.
+* As a good rule of thumb, the bounce rate rambles under 40%. Between 40% and 55% is usually okay.
+
+
+
+---
+
+# SEM
 
 ## Lec 1  Introduction
 
@@ -177,11 +220,11 @@ How many continuous latent variables are being measured by the items;
 
 ##### Cronbach’s alpha
 
-Generally,  $$\alpha$$ is a measure if how correlated the items in the scale are with each other.
+Generally,  $$ \alpha $$ is a measure if how correlated the items in the scale are with each other.
 
-$$\alpha$$ is measure of the lower bound for the reliability of a simple sum or average scale under the important assumption that the items are **reflective** and are **unidimensional**.
+$$ \alpha $$ is measure of the lower bound for the reliability of a simple sum or average scale under the important assumption that the items are **reflective** and are **unidimensional**.
 
-Generally $$\alpha$$ increases as the number of items increases.
+Generally $$ \alpha $$ increases as the number of items increases.
 
 ````SAS
 Proc corr data = a alpha nomiss;
@@ -191,6 +234,7 @@ run;
 
 $$ \alpha $$ = Intraclass correlation
 
+
 ## Lec 3 Factor Analysis Part I
 
 ### General Theory and Exploratory Factor Analysis
@@ -199,10 +243,10 @@ $$ \alpha $$ = Intraclass correlation
 
 > All models are wrong, but some are useful. — Geogre Box
 
-$$y = v + \beta f + e$$,
+$$ y = v + \beta f + e $$,
 
-* $$f$$: often called "common factors";
-* $$v$$: intercept, for EFA, v = 0, and for CFA often directly model v
+* $$ f $$: often called "common factors";
+* $$ v $$: intercept, for EFA, v = 0, and for CFA often directly model v
 * Var(e) = $$ \Theta $$
 
 ##### Commonly used cut-offs indicating "good fit" of the model
@@ -219,7 +263,7 @@ $$y = v + \beta f + e$$,
 
 #### Model comparison
 
-* **Goal**: More pasimonous model is just as good as the more complicated model.
+* **Goal**: More parsimonious model is just as good as the more complicated model.
 * Two ways:
   1. **Chi-square** difference test for nested models;
   2. information criterion: **AIC, BIC** for non-nested models(or nested models)
@@ -236,7 +280,7 @@ $$y = v + \beta f + e$$,
 
 #### Rotation
 
-In EFA, because we have no restricitions on variance, there is more than one estimate for variance that can give us the same model covariance matrix model.
+In EFA, because we have no restrictions on variance, there is more than one estimate for variance that can give us the same model covariance matrix model.
 
 Intuitively, this shows two different estimates can fit the data exactly the same way.
 
@@ -309,14 +353,14 @@ Rotation is the technique we use to specify which variance we want to estimate.
 
 #### Degrees of Freedom
 
-In EFA  d.f. =   $\frac{P * (p+1)}{2} - p * q - p + \frac{q *(q-1)}{2}$
+In EFA  d.f. =   $ \frac{P * (p+1)}{2} - p * q - p + \frac{q *(q-1)}{2}$
 
-In CFA d.f. =  $\frac{P * (p+1)}{2} - No. of$ parameters est.
+In CFA d.f. =  $ \frac{P * (p+1)}{2} - No. of $ parameters est.
 
 #### Standardized and Unstandardized
 
 * **Standardized**: fix the variance to be 1.0.
-* **Unstandardized:** fix one factor loadings to be 1.0
+* **Unstandardized**: fix one factor loadings to be 1.0
 
 Most of time, *STDYX* is used, while for including dichotomous X, we often use STDY for meaningful interpretation.
 
@@ -367,7 +411,8 @@ $logit(\pi_{ij}) = \beta_j(\theta_i - \alpha_j)$
 
 If fix all $\beta $ =1, then it is "**Rasch Model**"
 
-$\beta_j$: **discrimination** parameter;   $\alpha_j$: **severity** parameter
+- $\beta_j$: **discrimination** parameter;   
+- $\alpha_j$: **severity** parameter
 
 #### Discrimination
 
@@ -376,10 +421,9 @@ item characteristic curve
 #### Severity
 
 
-
 ### Measurement invariance using MIMIC
 
-One must assume that the numerical values under consideration are on the same measurement scale (Drasgow, 1984, 1987). That is, one must assumethat the test has "**measurement invariance**" across groups.
+One must assume that the numerical values under consideration are on the same measurement scale (Drasgow, 1984, 1987). That is, one must assume that the test has "**measurement invariance**" across groups.
 
 ##### Differential item Functioning
 
@@ -395,17 +439,16 @@ Testing for Measurement invariance
 
 ### Bifactor modeling
 
-There is an overall factor generally underlying every observed varaible. Also, there is domain specific factors of cognition, vitality, and so on.
+There is an overall factor generally underlying every observed varible. Also, there is domain specific factors of cognition, vitality, and so on.
 
 It also assumes that the relations among the general and domain specific factors are **orthogonal**.
 
 ##### Second-order factor model
 
 
-
 ##  Lec 6 Latent Class Analysis
 
-### Item  Response Theory: Catrgorical latent variable modeling
+### Item  Response Theory: Categorical latent variable modeling
 
 #### LCA general Theory
 
@@ -419,13 +462,13 @@ For both CTT and IRT, the observed variables are <u>**Continuous**</u>.
 
 Latent variable is hypothesized as <u>**Categorical**</u>.
 
-##### Item Difficulty
+##### Item-Difficulty
 
 <u>How difficult the item is.</u>
 
 When conducting social science studies, sometimes people call it "item endorsability". (Some items are more readily endorsed than others, you are more likely to say Yes or No on some items.)
 
-##### Item Discrimination
+##### Item-Discrimination
 
 <u>How Strongly related the response on the item is on the undelying latent trait</u>.
 
@@ -434,8 +477,6 @@ You can regard it as how well the item discriminates among participants located 
 ##### Pseudo-change parameter
 
 The probability of choosing a correct answer by chance.
-
-
 
 - Estimation
 - Choice of K
@@ -488,9 +529,7 @@ Structural Equation Model: often made up of two parts:
 
 ## Lec 10 SEM
 
-
-
-
+WIP
 
 ### Appendix
 
@@ -503,5 +542,3 @@ WITH: allow correlation
 * Errors are uncorrelated by default;
 * Factors are correlated by default;
   1. [Latent variable Analysis with R](<https://blogs.baylor.edu/rlatentvariable/>), *A Step-By-Step Guide*written by Beaujean
-
-# Python Basics

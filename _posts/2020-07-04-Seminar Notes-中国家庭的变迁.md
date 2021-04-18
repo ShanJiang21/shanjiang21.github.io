@@ -3,9 +3,13 @@ layout: post
 title: 中国家庭的变迁
 date: 2020-07-04 13:32:24.000000000 +09:00
 author: Shan J.
+tags:
+    - Lecture Notes
+    - Marriage and Family 
 ---
 
-Princeton University Yu Xie
+### Princeton University
+#### Lecturer: Yu Xie
 
 > 人的思辨能力是有限的，社会科学的益处在于，帮助我们认识自己认知的局限性，统计的稳健性和意义能够帮助我们刻画异质性。
 
@@ -39,9 +43,7 @@ Princeton University Yu Xie
 
     (6) 单亲家庭子女（中国不太**普遍**）
 
-
-
-  ##### 教育领域的性别不平等
+#### 教育领域的性别不平等
 
   * 家庭变化的重要原因，**女性地位**的变化：
   * 中国可能在长远的未来，**低生育率**会一直持续，

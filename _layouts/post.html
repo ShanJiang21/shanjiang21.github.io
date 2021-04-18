@@ -15,7 +15,6 @@ layout: default
         <div class="row">
 
     <!-- Post Container -->
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
@@ -65,7 +64,7 @@ layout: default
             </div>
 
     <!-- Side Catalog Container -->
-        {% if page.catalog %}
+        {% unless page.no-catalog %}
             <div class="
                 col-lg-2 col-lg-offset-0
                 visible-lg-block
@@ -79,7 +78,7 @@ layout: default
                     <ul class="catalog-body"></ul>
                 </div>
             </div>
-        {% endif %}
+        {% endunless %}
 
     <!-- Sidebar Container -->
             <div class="
@@ -92,6 +91,9 @@ layout: default
 
                 <!-- Friends Blog -->
                 {% include friends.html %}
+
+                  <!-- Visits -->
+                {% include visit.html  %}
             </div>
         </div>
     </div>
@@ -101,7 +103,6 @@ layout: default
 {% if page.mathjax %}
   {% include mathjax_support.html %}
 {% endif %}
-
 
 {% if site.netease_comment %}
 <!-- 网易云跟帖JS代码 start -->
@@ -127,6 +128,7 @@ layout: default
     var disqus_shortname = "{{site.disqus_username}}";
     var disqus_identifier = "{{page.id}}";
     var disqus_url = "{{site.url}}{{page.url}}";
+
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';

@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Beautiful Days in California
+subtitle: 加州四月
+author: "Shan J."
 date: 2019-04-02 10:32:24.000000000 +09:00
-author: Shan J.
+tags:
+    - Travel
 ---
 
 > California is where you get to start over.     

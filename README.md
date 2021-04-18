@@ -1,17 +1,25 @@
-# Shan's personal website
+# Intro: Shan's personal website
 
-This is Shan's personal website for displaying projects and blog posts, welcome to share your ideas with me.The theme is forked from [Vno Jekyll](https://github.com/onevcat/vno-jekyll),you can also choose a easier wordpress or github support for hosting your blog, but the thing is that sometimes the debugging process is annoying.
+This is Shan's personal website for displaying projects and blog posts. Welcome to share your ideas with me. The theme is forked from [Vno Jekyll](https://github.com/onevcat/vno-jekyll), you can also choose an easier Wordpress or Hexo support for hosting your blog, so that you can escape from the annoying debugging process.
 
-### Remain unsolved 
-- Support for bilingual settings; 
-- Easier ways to support the math equations; 
-- Markdown Post header problem.
-- Image organization; 
+
+### Remain unsolved
+
+- [x] Add catalogue for posts in blog;
+- [x] Removed the page visit widget;
+- [x] Easier ways to support the math equations;
+- [x] Markdown Post header problem;
+- [ ] Mathjax Configuration issue;
+- [ ] Revise CSS for Code chunk; 
+- [ ] Image organization;
+- [ ] Support for bilingual settings;
+
 
 #### For Fun
 
-This website also support for [996 vs ICU project](https://github.com/996icu/996.ICU/tree/master/blacklist) as I believe all lives matter.
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu"></a>
+
+I personally strongly support this project: [996 vs ICU project](https://github.com/996icu/996.ICU/tree/master/blacklist) as I believe all lives matter.
 
 
 #### Licence
