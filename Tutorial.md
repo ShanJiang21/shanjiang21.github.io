@@ -21,12 +21,11 @@ tags:
 
 To write the roadmap for my work, I need some big visions.
 
-```
+```C
 1. Google’s corporate mission is “to organize the world’s information and make it universally accessible and useful.”
 2. Google’s corporate vision is “to provide access to the world’s information in one click.”
 3. Facebook mission statement is “to give people the power to share and make the world more open and connected.”
 4. Facebook vision statement is “People use Facebook to stay connected with friends and family, to discover what’s going on in the world, and to share and express what matters to them.”
-
 ```
 
 #### Agile Framework
@@ -35,7 +34,16 @@ Agile represents an overarching philosophy for software development, emphasizing
 
 I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.zh-cn.html).
 
-#### 常用术语 ｜ Jargons
+#### How can I localize Transitioning words in Virtual meetings?
+
+- 拎一下: Lead something/ take ownership of something
+- 碰一下: touch base with sb on sth
+- 做会议记录: take meeting minutes;I was jotting down some important highlights
+- 插一嘴: Let me chime in here
+- 点名同事回答下: Sorry to put you on the spotlight; Sorry to call you out
+- 总结一下: Let's call it a day
+
+---
 
 * 增刪查改- crud (Create, read, update and delete)
 * http://www.woshipm.com/pd/3104737.html
@@ -45,7 +53,6 @@ I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.
 2. 明确需求的目标，为什么做，说出对需求预估的效果
 3. 方案尽可能详细，列举各种可能和结果
 4. 考虑到功能的复用性和扩展性，让技术框架提前做好准备
-
 
 
 #### 常用指标 | Indicators
@@ -355,7 +362,7 @@ Rotation is the technique we use to specify which variance we want to estimate.
 
 In EFA  d.f. =   $ \frac{P * (p+1)}{2} - p * q - p + \frac{q *(q-1)}{2}$
 
-In CFA d.f. =  $ \frac{P * (p+1)}{2} - No. of $ parameters est.
+In CFA d.f. =  $\frac{P * (p+1)}{2} - No. of$ parameters est.
 
 #### Standardized and Unstandardized
 
