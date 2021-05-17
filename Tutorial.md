@@ -63,13 +63,13 @@ I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.
 
 开放性问题在企业里简直就是个灾难。
 
----
 
-# SEM
+
+## latent variable SEM course(credit to [Dr.Melanie Wall](http://www.columbia.edu/~mmw2177/ColumbiaBiostatisticsLVcourse/Syllabus%20LV%20and%20SEM%20in%20Health%20Sciences%20-%202018updated.pdf))
 
 ## Lec-1 Introduction
 
-*Motivating Examples*
+**Motivating Examples**
 
 > You are a sociologist who has collected a social network and various attributes about each person. You use a latent variable model to discover the underlying communities in this population and to characterize the kinds of people that participate in each. The discovered communities help you understand **the structure of the network** and help predict “missing” edges, such as people who know each other but are not yet linked or people who would enjoy meeting each other.
 
