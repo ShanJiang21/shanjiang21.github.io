@@ -14,11 +14,19 @@ multilingual: true
   --<i> Blowin' in the Wind </i>, Bob Dylan
 </p>
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="700" height="500"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="500" height="400"></iframe>
 
-Computation and experiment design capabilities are two major components I acquired along the way studying the Biostatistics, and I believe they are the fundamental elements for research in this digital age.
+```c
+Beijing: 39.9042° N, 116.4074° E
+Shanghai: 31.2304° N, 121.4737° E
+Nanjing: 32.0603° N, 118.7969° E
+New York City: 40.7128° N, 74.0060° W
+Hometown: 30.6392° N, 117.8474° E
+```
 
-Meanwhile the past field experience and training in Sociology push me to gain more insights into the historical and institutionalized context of issues, I really love such kind of logical analysis, which are uttered with good story telling skills or videos, and they are just like the travel experience I have had.  The more cities I have been to, the more I have met and seen, the the more likely I am able to find the one I love most.
+Computation and experiment design capabilities are two major components I acquired along the way studying biostatistics, and I believe they are the fundamental elements for research in this digital-era.
+
+Meanwhile my past field experience and training in sociology also push me to gain more insights into the historical and institutionalized context of social issues, I really enjoy such kind of logical analysis, which are uttered with good story telling skills or videos, and they are just like the travel experience I have had. The more cities I have been to, the more I have met and seen, the the more likely I am able to find the one I love most.
 
 
 ---

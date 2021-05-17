@@ -46,7 +46,7 @@ Below is an incomplete list of projects I have been working on and contributed t
 
 #### Pending-phd-program
 
-<iframe src="https://shanj21.shinyapps.io/Pending_PhD_program_2021/" width=900 height=800></iframe>
+<iframe src="https://shanj21.shinyapps.io/Pending_PhD_program_2021/" width=800 height=700></iframe>
 
 The year of 2020 marks a critical turning point in my life, and I believe it also applies to many grad school students. Last year around late Nov., I was struggling hard in the Butler library, relying heavily on coffee beans to stay until late night. This year I witnessed how an individual's fate can be tweaked and the unintended consequences changed my life. Thus, I made this dashboard to update stakeholders up-to-date suspending social science PhD programs in the US, stay tuned, spring will come.
 

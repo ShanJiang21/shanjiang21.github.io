@@ -12,7 +12,6 @@ tags:
     - SEM
     - Latent variable
     - PM side notes
-
 ---
 
 ## Shan's pick-up from PM life
@@ -21,7 +20,7 @@ tags:
 
 To write the roadmap for my work, I need some big visions.
 
-```C
+```SAS
 1. Google’s corporate mission is “to organize the world’s information and make it universally accessible and useful.”
 2. Google’s corporate vision is “to provide access to the world’s information in one click.”
 3. Facebook mission statement is “to give people the power to share and make the world more open and connected.”
@@ -45,15 +44,6 @@ I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.
 
 ---
 
-* 增刪查改- crud (Create, read, update and delete)
-* http://www.woshipm.com/pd/3104737.html
-* https://bytedance.feishu.cn/docs/doccnRkYwt0udcYpdj8fs6eyzPg
-
-1. 了解简单的技术实现方式，后端前端是怎么协作的，api接口的传参和入参等
-2. 明确需求的目标，为什么做，说出对需求预估的效果
-3. 方案尽可能详细，列举各种可能和结果
-4. 考虑到功能的复用性和扩展性，让技术框架提前做好准备
-
 
 #### 常用指标 | Indicators
 
@@ -61,14 +51,25 @@ I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.
 * As a good rule of thumb, the bounce rate rambles under 40%. Between 40% and 55% is usually okay.
 
 
+#### 时间管理术｜Master Distraction
+
+##### 1. 定期清理消息
+
+公司内部沟通的时候，因为节奏快，喜欢DM类型的直接私信，而不是邮件沟通，因此我会时刻保持对于消息的alert，但是这样既耗时，也容易分散精力，之前和supervisor交流过这个问题，没有得到很好的解答，但是最近在一个研发小哥的working log中看到了一种可能的解法：
+* 定下固定的时间窗口，清理Lark聊天软件上的记录；
+* 定下focus mind专心画图/写文档的slot
+
+##### 2. 给出问题选项，少问开放性问题
+
+开放性问题在企业里简直就是个灾难。
 
 ---
 
 # SEM
 
-## Lec 1  Introduction
+## Lec-1 Introduction
 
-### Motivating Examples
+*Motivating Examples*
 
 > You are a sociologist who has collected a social network and various attributes about each person. You use a latent variable model to discover the underlying communities in this population and to characterize the kinds of people that participate in each. The discovered communities help you understand **the structure of the network** and help predict “missing” edges, such as people who know each other but are not yet linked or people who would enjoy meeting each other.
 
