@@ -11,7 +11,7 @@ tags:
 
 						<center>1</center>  
 
-It may be strange to be offering an exposition of the ideas of Marx, Weber and Durkheim in an era when, so it is argued by some in the discpline, the 'grand narratives' of thought, as Lyotard (1984) terms overarching theoretical schemes, have lost their validity. New identities, new forms of knowledge, new patterns of social relationships, new sources of division and more, are all forcing a break, it is claimed that, with a past shaped by modes of thought originating over three hundred years ago during the Enlightenment. Marx, Weber and Durkheim are Victorian scholars and it is perhaps hard to grasp that they have anything of relevance to say to a world which has dramatically changed since their time.
+It may be strange to be offering an exposition of the ideas of Marx, Weber and Durkheim in an era when, so it is argued by some in the discipline, the 'grand narratives' of thought, as Lyotard (1984) terms overarching theoretical schemes, have lost their validity. New identities, new forms of knowledge, new patterns of social relationships, new sources of division and more, are all forcing a break, it is claimed that, with a past shaped by modes of thought originating over three hundred years ago during the Enlightenment. Marx, Weber and Durkheim are Victorian scholars and it is perhaps hard to grasp that they have anything of relevance to say to a world which has dramatically changed since their time.
 
 Of course, there has been a prominent strand in sociological thought which is sensitive to the idea that the world and/or the discipline are both in an impending state of crisis. Indeed, a strong case can be made that such a sense was critical in the very formation of the discipline in the early nineteenth century as industrialism began to effect major changes in patterns of life throughout Europe. Later in that century, a young French Philosophy teacher was particular concerned with what he saw as the growing instability of social life. Long-established values and ways of life seemed to be breaking down as industrialization and urbanization transformed the society of his day. Where once the authority of church and monarchy had gone unquestioned, there now seemed to be <u>no authority which could hold society together</u>.
 
@@ -41,7 +41,7 @@ Widely regarded as 'founding fathers' of sociology, indeed, it would be hard to 
 
 Weber was no less commited to the development of sociology. He expressed concerns for the validity of viewing the societies as structures, as wholes which had properties independent of elements which composed of them. He also inaugurated a **tradition of 'interpretative' sociology** which takes human individuals, their ideas and their actions, as the starting point for sociological analysis. Weber's rather pessimistic conclusions about the future industrilised, rationalized modern societies have echoed throughout the years, notably in the work of the Frankfurt School of critical theorists, such as Adorno, Maruse, Horkheimer and others, more recently, in the thought of **habermas**, widely regarded as their intellectual heir.
 
-#### 6  	Counterparts
+#### 6  Counterparts
 
 It is important, to bear in mind, that there are other scholars also have the same contribution like these three thinkers, figures such as **Pareto, Spencer** were influential in their day even if they are uncelebrated now. By contrast **Georg Simmel** and **George Herbert Mead** are begining to attract more attention than before.  
 
