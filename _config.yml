@@ -24,6 +24,7 @@ highlighter: rouge
 permalink: pretty
 paginate: 6
 #specifies how many items should be displayed per page
+paginate_path: "/blog/page:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true
 
@@ -54,9 +55,9 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
   syntax_highlighter_opts:
     span:
-      line_numbers: false
+      line_numbers: true
     block:
-      line_numbers: false
+      line_numbers: true
       start_line: 1
 
 
