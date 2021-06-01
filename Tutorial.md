@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: Default
 title: Tutorial
 date: 2019-04-13 21:32:24.000000000 +09:00
 author: Shan J.
