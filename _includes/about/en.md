@@ -1,6 +1,6 @@
 > Your time is limited, so don’t waste it living someone else’s life.
 
-Hi, I am Shan, a [TikTok](https://www.tiktok.com/) product specialist and a degreed sociology lover.
+Hi, I am Shan, now I am working in [TikTok](https://www.tiktok.com/) as a product specialist, however, this occupational identity is just a tiny facet of me. I am also a degreed sociology lover.
 
 * **Biological Structure:** A five-foot-six girl (she/her/hers).
 * **Social identity**: a daughter, runner and an annoying reader who gives harsh comments.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Classical sociology theory"
-author: "Shan"
+author: "Shan J."
 date: 2019-01-05 15:32:24.000000000 +09:00
 tags:
     - Sociology
@@ -25,21 +25,21 @@ From pieces of works from Durkheim, we see the motivation of sociological thinki
 
 mIt is perhaps to Marx, Weber and Durkheim we owe the greatest debt for the most systematic attempts to set out just how the question might be addressed. Their ideas are of enduring concern and relevance.
 
-When post-structunists told us that we need to abandon 'meta narratives', that is, the great theoretical schemes which attempt to comprehend **vast tracts** of reality, we also heard echos from Weber saying such schemes are indeed unsustainable, these knowledge contained is limited, provisional and they are  generated from just in some particular point of view.
+When post-structuralists told us that we need to abandon 'meta narratives', that is, the great theoretical schemes which attempt to comprehend **vast tracts** of reality, we also heard echos from Weber saying such schemes are indeed unsustainable, these knowledge contained is limited, provisional and they are  generated from just in some particular point of view.
 
 #### 3	Durkheim
 
-Employers and workers confronted each other with undisguised hostility, rates of crime were rising and individuals tend to see each other simply as means to achiveve their own selfish ends. Suicides, too, were increasing as the old links to family and community grew weaker. The young Frenchman, says one commentator, was 'haunted by the thought that modern society ... was a fragile affair, a potentially unstable mix of elements that was always on the verge of dissolving into chaos'. His writings were an effort to try to understand how this state of affairs  had risen so that it could be put right, stressing the 'urgency of this task, as though he saw himself in a race against time with the gathering forces of **anarchy**'. The worried young thinker was Emile Durkheim, who addressed these problems in his first major work, *on the Division of Labour in Society*, published in 1893.
+Employers and workers confronted each other with undisguised hostility, rates of crime were rising and individuals tend to see each other simply as means to achieve their own selfish ends. Suicides, too, were increasing as the old links to family and community grew weaker. The young Frenchman, says one commentator, was 'haunted by the thought that modern society ... was a fragile affair, a potentially unstable mix of elements that was always on the verge of dissolving into chaos'. His writings were an effort to try to understand how this state of affairs  had risen so that it could be put right, stressing the 'urgency of this task, as though he saw himself in a race against time with the gathering forces of **anarchy**'. The worried young thinker was Emile Durkheim, who addressed these problems in his first major work, *on the Division of Labour in Society*, published in 1893.
 
-As we shall all see that, Functionalism fundamentally reflects thoughts of Durkheim whose assumptions are about nature of sociology and social life. It is Durkheim who **pioneered the use of quantitative analysis**, using statistical analysis to enhance the role of socioogy as a rigorous science compared with speculations and impressions adopted by other social thinkers before him.
+As we shall all see that, Functionalism fundamentally reflects thoughts of Durkheim whose assumptions are about nature of sociology and social life. It is Durkheim who **pioneered the use of quantitative analysis**, using statistical analysis to enhance the role of sociology as a rigorous science compared with speculations and impressions adopted by other social thinkers before him.
 
 #### 4 	Marx
 
-Widely regarded as 'founding fathers' of sociology, indeed, it would be hard to underestimate the influence of Marx in fields such as social stratification and mobility, education, political economy, the state, ideaology, culture and media among others. Even non-marxist sociologists have been using the approaches of class analysis, repeatedly presenting concepts such as class consiousness, and alienation, in ways are clearly derived from marx's writings.
+Widely regarded as 'founding fathers' of sociology, indeed, it would be hard to underestimate the influence of Marx in fields such as social stratification and mobility, education, political economy, the state, ideology, culture and media among others. Even non-marxist sociologists have been using the approaches of class analysis, repeatedly presenting concepts such as class consiousness, and alienation, in ways are clearly derived from marx's writings.
 
 #### 5	Max Weber
 
-Weber was no less commited to the development of sociology. He expressed concerns for the validity of viewing the societies as structures, as wholes which had properties independent of elements which composed of them. He also inaugurated a **tradition of 'interpretative' sociology** which takes human individuals, their ideas and their actions, as the starting point for sociological analysis. Weber's rather pessimistic conclusions about the future industrilised, rationalized modern societies have echoed throughout the years, notably in the work of the Frankfurt School of critical theorists, such as Adorno, Maruse, Horkheimer and others, more recently, in the thought of **habermas**, widely regarded as their intellectual heir.
+Weber was no less committed to the development of sociology. He expressed concerns for the validity of viewing the societies as structures, as wholes which had properties independent of elements which composed of them. He also inaugurated a **tradition of 'interpretative' sociology** which takes human individuals, their ideas and their actions, as the starting point for sociological analysis. Weber's rather pessimistic conclusions about the future industrialized, rationalized modern societies have echoed throughout the years, notably in the work of the Frankfurt School of critical theorists, such as Adorno, Maruse, Horkheimer and others, more recently, in the thought of **habermas**, widely regarded as their intellectual heir.
 
 #### 6  Counterparts
 
@@ -53,6 +53,6 @@ Indeed one fundamental task of modern sociology is to **reconcile the individual
 
 #### 7 	Criticism
 
-In 1992, the new republican published an article called *The oldest Dead White European Males* by Knox, which ironically criticized preoccupations in western society. The canon, which governs the common thinking way in the western world, affects deeply for understanding of contemporarysociety and social life. This trap which is named as Dead White European Males, in short **DWEM**.
+In 1992, the new republican published an article called *The oldest Dead White European Males* by Knox, which ironically criticized preoccupations in western society. The canon, which governs the common thinking way in the western world, affects deeply for understanding of contemporary society and social life. This trap which is named as Dead White European Males, in short **DWEM**.
 
 It is also shown that none of these scholars, not even Marx, could pass contemporary tests of '**political correctness'**. We take the view, however, this does not invalidate their sociological ideas. For example, Marx and Engles, also have some ideas which can be linked with the contemporary critique of patriarchal society on the way in which capitalism depends on the unpaid but essential domestic work of women, or their reduction to status of property in the context of **bourgeois** family life.
