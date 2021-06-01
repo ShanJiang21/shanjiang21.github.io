@@ -55,15 +55,14 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
   syntax_highlighter_opts:
     span:
-      line_numbers: true
+      line_numbers: false
     block:
-      line_numbers: true
+      line_numbers: false # code chunk
       start_line: 1
 
 
 # Disqus settings
 disqus_username: shanj
-
 
 # Google Analytics
 ga_track_id: 'UA-138327408-1'            # Format: UA-xxxxxx-xx
