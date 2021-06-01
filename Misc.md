@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Misc
 description: "Miscellaneous"
 header-img: "img/about-bg-o.jpg"
