@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Misc.
 description: "Miscellaneous"
 header-img: "img/about-bg-o.jpg"
@@ -16,13 +16,12 @@ multilingual: true
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="500" height="400"></iframe>
 
-```c
-Beijing: 39.9042° N, 116.4074° E
-Shanghai: 31.2304° N, 121.4737° E
-Nanjing: 32.0603° N, 118.7969° E
-New York City: 40.7128° N, 74.0060° W
-Hometown: 30.6392° N, 117.8474° E
-```
+<hr>
+I was Born in Anhui, China(30.6392° N, 117.8474° E).
+<br>
+Once Studied in New York City, NY(40.7128° N, 74.0060° W).
+<br>
+Now Lives & works in Beijing, China(39.9042° N, 116.4074° E).
 
 Computation and experiment design capabilities are two major components I acquired along the way studying biostatistics, and I believe they are the fundamental elements for research in this digital-era.
 
