@@ -2,13 +2,12 @@
 #### Digital footprints
 
 ````SAS
-  How many roads must a man walk down<br>
-  Before you call him a man?<br>
-  --<i> Blowin' in the Wind </i>, Bob Dylan
-
+  How many roads must a man walk down
+  Before you call him a man?
+  -- Blowin' in the Wind, Bob Dylan
 ````
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="550" height="412"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="560" height="412"></iframe>
 
 I was Born in **Anhui, China**(30.64° N, 117.85° E).
 <br>
