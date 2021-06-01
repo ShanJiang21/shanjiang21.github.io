@@ -1,27 +1,20 @@
----
-layout: page
-title: Misc
-description: "Miscellaneous"
-header-img: "img/about-bg-o.jpg"
----
 
 #### Digital footprints
 
 ````SAS
-<p class="message" align="left">
   How many roads must a man walk down<br>
   Before you call him a man?<br>
   --<i> Blowin' in the Wind </i>, Bob Dylan
-</p>
+
 ````
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="550" height="412"></iframe>
 
-I was Born in **Anhui, China**(30.6392° N, 117.8474° E).
+I was Born in **Anhui, China**(30.64° N, 117.85° E).
 <br>
-Once Studied in **New York City, NY**(40.7128° N, 74.0060° W).
+Once Studied in **New York City, NY**(40.71° N, 74.01° W).
 <br>
-Now Lives & works in **Beijing, China**(39.9042° N, 116.4074° E).
+Now Lives & works in **Beijing, China**(39.90° N, 116.41° E).
 <hr>
 
 > Your time is limited, so don’t waste it living someone else’s life.
