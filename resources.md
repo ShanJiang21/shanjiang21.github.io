@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Resources
 author: Shan J.
 mathjax: true
@@ -554,17 +554,12 @@ variable only has one indicator
 
 Structural Equation Model: often made up of two parts:
 
-1. **latent variable measurement model** (e.g. confirmatory factor
-
-   analysis, latent class analysis)
+1. **latent variable measurement model** (e.g. confirmatory factor analysis, latent class analysis)
 
 2. **Path analysis model** (structural model) – model for assumed causal relationships
 
+## Lec 10 SEM (WIP)
 
-
-## Lec 10 SEM
-
-WIP
 
 ### Appendix
 
