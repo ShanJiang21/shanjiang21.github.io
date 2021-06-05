@@ -1,7 +1,6 @@
 ---
-layout: Page
+layout: default
 title: Resources
-date: 2019-04-13 21:32:24.000000000 +09:00
 author: Shan J.
 mathjax: true
 header-img: "img/head_1.jpg"
@@ -15,7 +14,7 @@ tags:
 ---
 
 ````SAS
- Industry:Shan's pick-up from PM life
+ Industry: Shan's pick-up from PM life
 ````
 
 #### Mission Statement & Vision Statement
@@ -67,7 +66,7 @@ I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.
 ##### 3. 黑白选项
 Instead of giving the black/white options for a product solution, a bearable minimum product design is always a good start if you need to buy in multiple stakeholders.  
 
-##### 4. 产品设计的精细化和精密仪器设计不一致
+##### 4. 降低预期：产品设计的精细化和精密仪器设计不一致
 
 穷举选项给用户不一定是一件好事，因为设计者常常站在自己的角度在给使用者挖坑。
 
@@ -147,7 +146,6 @@ The process is generally as follows:
      techniques are applied, and
 
    - **<u>Clustering</u>**, a broad class of methods for discovering unknown subgroups in data.
-
 
 
 ### Software Usage

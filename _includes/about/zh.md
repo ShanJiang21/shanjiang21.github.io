@@ -12,7 +12,7 @@
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="550" height="412"></iframe>
 
 📍目前的物理活动范围主要在 39.90° N, 116.40° E，崇尚互联网空间的侠客情结，常分享一些新鲜的可视化技术或统计tutorial，有需要请戳
-`sj2921@caa.columbia.edu`.
+`[sj2921@columbia.edu](mailto:sj2921@columbia.edu)`.
 
 #### 新時代宣言二零二零 *Adapted from Yiru Chen*
 

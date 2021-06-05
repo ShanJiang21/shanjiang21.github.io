@@ -48,7 +48,6 @@ South Korea = 50 out of the 100,000
 
   新家庭主义观 - 阎云翔：妇女地位的变化和个人主义的抬头
 
-* 
 
 ![Screen Shot 2020-09-17 at 8.16.25 PM](/Users/johnsonpie/Library/Application Support/typora-user-images/Screen Shot 2020-09-17 at 8.16.25 PM.png)
 

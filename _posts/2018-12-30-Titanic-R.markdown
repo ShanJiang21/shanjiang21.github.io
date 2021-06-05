@@ -8,12 +8,10 @@ tags:
 ---
 
 ```{r}
-
 # Load packages
 library(tidyverse)
 library(formattable)
 library(gmodels)
-
 ```
 
 ## Import web-based API
