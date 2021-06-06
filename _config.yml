@@ -73,20 +73,9 @@ ga_domain: shanj21.com
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
-gallery:
-  - url: ../img/3.jpg
-    image_path: ../img/3.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
-  - url: /img/8.jpg
-    image_path: ../img/8.jpg
-    alt: "placeholder image 8"
-    title: "Image 8 title caption"
-  - url: ../img/9.jpg
-    image_path: ../img/9.jpg
-    alt: "placeholder image 9"
-    title: "Image 3 title caption"
-
+## Gallery Base URL
 thumbsurl: "../img/thumbs/"
-imagesurl: "/mysite/img/"
+imagesurl: "../img/"
+
+
+exclude: [README.md, search.json]
