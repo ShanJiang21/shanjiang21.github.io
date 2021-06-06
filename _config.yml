@@ -87,3 +87,6 @@ gallery:
     image_path: ../img/9.jpg
     alt: "placeholder image 9"
     title: "Image 3 title caption"
+
+thumbsurl: "../img/thumbs/"
+imagesurl: "/mysite/img/"
