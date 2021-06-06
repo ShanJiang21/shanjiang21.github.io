@@ -1,6 +1,6 @@
 # Intro: Shan's personal website
 
-This is Shan's personal website for displaying projects and blog posts. Welcome to share your ideas with me. The theme is forked from [Vno Jekyll](https://github.com/onevcat/vno-jekyll), you can also choose an easier Wordpress or Hexo support for hosting your blog, so that you can escape from the annoying debugging process.
+This is Shan's personal website for displaying projects and blog posts. Welcome to share your ideas with me. The theme is forked from [Vno Jekyll](https://github.com/onevcat/vno-jekyll), you can also choose an easier Wordpress or Hexo framework for hosting your blog, so that you can escape from the annoying debugging process :).
 
 
 ### Remain unsolved
@@ -10,12 +10,13 @@ This is Shan's personal website for displaying projects and blog posts. Welcome 
 - [x] Easier ways to support the math equations;
 - [x] Markdown Post header problem;
 - [ ] Mathjax Configuration issue;
-- [ ] Revise CSS for Code chunk; 
+- [ ] Updating the gallery border css;
+- [ ] Revise CSS for Code chunk;
 - [ ] Image organization;
-- [ ] Support for bilingual settings;
+- [ ] Support for bilingual settings
 
 
-#### For Fun
+#### Community Responsibility
 
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu"></a>
 
