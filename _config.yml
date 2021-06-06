@@ -76,6 +76,3 @@ service-worker: true
 ## Gallery Base URL
 thumbsurl: "../img/thumbs/"
 imagesurl: "../img/"
-
-
-exclude: [README.md, search.json]
