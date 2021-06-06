@@ -10,9 +10,8 @@ This is Shan's personal website for displaying projects and blog posts. Welcome 
 - [x] Easier ways to support the math equations;
 - [x] Markdown Post header problem;
 - [ ] Mathjax Configuration issue;
-- [ ] Updating the gallery border css;
+- [ ] Updating the gallery border css for image organization;
 - [ ] Revise CSS for Code chunk;
-- [ ] Image organization;
 - [ ] Support for bilingual settings
 
 
@@ -20,7 +19,7 @@ This is Shan's personal website for displaying projects and blog posts. Welcome 
 
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu"></a>
 
-I personally strongly support this project: [996 vs ICU project](https://github.com/996icu/996.ICU/tree/master/blacklist) as I believe all lives matter.
+Personally, I strongly support this project: [996 vs ICU project](https://github.com/996icu/996.ICU/tree/master/blacklist) as I believe all lives matter.
 
 
 #### Licence
