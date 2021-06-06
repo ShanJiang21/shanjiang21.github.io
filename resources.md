@@ -13,13 +13,11 @@ tags:
     - PM side notes
 ---
 
-````SAS
- Industry: Shan's pick-up from PM life
-````
+## Section 1: Shan's pick-up from PM in tech industry
 
-#### Mission Statement & Vision Statement
+### Mission Statement & Vision Statement
 
-To write the roadmap for my work, I need some big visions.
+To write the roadmap for my work, I need some big visions, so here I collected some of the most well-known tech companies' mission statement for a better reference.
 
 ````SQL
 1. Google’s corporate mission is “to organize the world’s information and make it universally accessible and useful.”
@@ -28,30 +26,26 @@ To write the roadmap for my work, I need some big visions.
 4. Facebook vision statement is “People use Facebook to stay connected with friends and family, to discover what’s going on in the world, and to share and express what matters to them.”
 ````
 
-#### Agile Framework
+
+
+### Agile Framework
 
 Agile represents an overarching philosophy for software development, emphasizing the value of iterating quickly and often to satisfy customers. An agile framework can be defined as a specific software-development approach based on the agile philosophy articulated in the [Agile Manifesto](https://agilemanifesto.org/).
 
 I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.zh-cn.html).
 
-#### How can I localize Transitioning words in Virtual meetings?
 
-- 拎一下: Lead something/ take ownership of something
-- 碰一下: touch base with sb on sth
-- 做会议记录: take meeting minutes;I was jotting down some important highlights
-- 插一嘴: Let me chime in here
-- 点名同事回答下: Sorry to put you on the spotlight; Sorry to call you out
-- 总结一下: Let's call it a day
-
----
-
-#### 常用指标 | Indicators
+### 常用指标 | Indicators
 
 1. **Bounce rate** is calculated by the total number of one-page visits divided by the total number of entries to a website.
 * As a good rule of thumb, the bounce rate rambles under 40%. Between 40% and 55% is usually okay.
 
+2. **Short-term Engagement Metrics**: Playtime/U, Play/U and DAU.
 
-#### 时间管理术｜Master Distraction
+
+
+
+### 时间管理术｜Master Distraction
 
 ##### 1. 定期清理消息
 
@@ -63,7 +57,8 @@ I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.
 
 开放性问题在企业里简直就是个灾难。
 
-##### 3. 黑白选项
+#### 3. 黑白选项
+
 Instead of giving the black/white options for a product solution, a bearable minimum product design is always a good start if you need to buy in multiple stakeholders.  
 
 ##### 4. 降低预期：产品设计的精细化和精密仪器设计不一致
@@ -89,11 +84,21 @@ The process is generally as follows:
 
 ##### 3. `A/B Testing`
 
----
+#### 职业环境表达（职场话术）
 
-````SQL
- latent variable SEM course(credit to [Dr.Melanie Wall](http://www.columbia.edu/~mmw2177/ColumbiaBiostatisticsLVcourse/Syllabus%20LV%20and%20SEM%20in%20Health%20Sciences%20-%202018updated.pdf))
-````
+How can I localize Transitioning words in Virtual meetings?
+
+- 拎一下: Lead something/ take ownership of something
+- 碰一下: touch base with sb on sth
+- 做会议记录: take meeting minutes;I was jotting down some important highlights
+- 插一嘴: Let me chime in here
+- 点名同事回答下: Sorry to put you on the spotlight; Sorry to call you out
+- 总结一下: Let's call it a day
+
+<hr>
+
+## latent variable SEM course(credit to [Dr.Melanie Wall](http://www.columbia.edu/~mmw2177/ColumbiaBiostatisticsLVcourse/Syllabus%20LV%20and%20SEM%20in%20Health%20Sciences%20-%202018updated.pdf))
+
 
 ### Lec-1 Introduction
 
