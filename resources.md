@@ -26,8 +26,6 @@ To write the roadmap for my work, I need some big visions, so here I collected s
 4. Facebook vision statement is “People use Facebook to stay connected with friends and family, to discover what’s going on in the world, and to share and express what matters to them.”
 ````
 
-
-
 ### Agile Framework
 
 Agile represents an overarching philosophy for software development, emphasizing the value of iterating quickly and often to satisfy customers. An agile framework can be defined as a specific software-development approach based on the agile philosophy articulated in the [Agile Manifesto](https://agilemanifesto.org/).
@@ -43,26 +41,23 @@ I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.
 2. **Short-term Engagement Metrics**: Playtime/U, Play/U and DAU.
 
 
-
-
 ### 时间管理术｜Master Distraction
 
-##### 1. 定期清理消息
+1. 定期清理消息
 
 公司内部沟通的时候，因为节奏快，喜欢DM类型的直接私信，而不是邮件沟通，因此我会时刻保持对于消息的alert，但是这样既耗时，也容易分散精力，之前和supervisor交流过这个问题，没有得到很好的解答，但是最近在一个研发小哥的working log中看到了一种可能的解法：
 * 定下固定的时间窗口，清理Lark聊天软件上的记录；
 * 定下focus mind专心画图/写文档的slot
 
-##### 2. 给出问题选项，少问开放性问题
+2. 给出问题选项，少问开放性问题
 
 开放性问题在企业里简直就是个灾难。
 
-#### 3. 黑白选项
+3. 黑白选项
 
 Instead of giving the black/white options for a product solution, a bearable minimum product design is always a good start if you need to buy in multiple stakeholders.  
 
-##### 4. 降低预期：产品设计的精细化和精密仪器设计不一致
-
+4. 降低预期：产品设计的精细化和精密仪器设计不一致。
 穷举选项给用户不一定是一件好事，因为设计者常常站在自己的角度在给使用者挖坑。
 
 
@@ -84,10 +79,11 @@ The process is generally as follows:
 
 ##### 3. `A/B Testing`
 
+
+
 #### 职业环境表达（职场话术）
 
 How can I localize Transitioning words in Virtual meetings?
-
 - 拎一下: Lead something/ take ownership of something
 - 碰一下: touch base with sb on sth
 - 做会议记录: take meeting minutes;I was jotting down some important highlights
