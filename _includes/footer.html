@@ -4,13 +4,17 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <!-- SNS Link -->
-                <!-- {% include sns-links.html center=true %} */-->
-                <p class="copyright text-muted" padding: 0 7em 2em 0;">
-                    <img src="/img/icon_wechat.png" alt="Girl in a jacket" width= "20%" height="6%">
-                    <br>
-                    &copy {{ site.time | date: '%Y'}} Created by Shan Jiang. All rights reserved.
-                </p>
+                {% include sns-links.html center=true %}
 
+                <p class="copyright text-muted">
+                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+                    <br>
+                    Powered by <a href="http://huangxuan.me">Hux Blog</a> |
+                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
+                        height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true">
+                    </iframe>
+                </p>
             </div>
         </div>
     </div>
@@ -132,13 +136,30 @@
 {% endif %}
 
 
+<!-- Baidu Tongji -->
+{% if site.ba_track_id %}
+<script>
+    // dynamic User by Hux
+    var _baId = '{{ site.ba_track_id }}';
+
+    // Originial
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?" + _baId;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+{% endif %}
+
 
 <!-- Side Catalog -->
 {% unless page.no-catalog %}
 <script type="text/javascript">
     function generateCatalog(selector) {
 
-        // interop with multilangual
+        // interop with multilangual 
         if ('{{ page.multilingual }}' == 'true') {
             _containerSelector = 'div.post-container.active'
         } else {
@@ -231,7 +252,7 @@
             $en.style.display = "none";
             $en.classList.remove("active");
         }
-        // interop with catalog
+        // interop with catalog 
         generateCatalog(".catalog-body");
     }
 
@@ -266,9 +287,9 @@
         json: '/search.json',
         searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
         noResultsText: 'No results',
-        limit: 40,
-        fuzzy: True,
-        // a hack to get escaped subtitle unescaped. for some reason,
+        limit: 50,
+        fuzzy: false,
+        // a hack to get escaped subtitle unescaped. for some reason, 
         // post.subtitle w/o escape filter nuke entire search.
         templateMiddleware: function (prop, value, template) {
             if (prop === 'subtitle' || prop === 'title') {
@@ -300,7 +321,7 @@
                 $searchClose.on('click', function (e) {
                     e.preventDefault();
                     $searchPage.removeClass('search-active');
-                    $body.attr('class', prevClasses);  // from closure
+                    $body.attr('class', prevClasses);  // from closure 
                 });
                 $searchInput.focus();
             }
