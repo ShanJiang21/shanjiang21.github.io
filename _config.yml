@@ -3,9 +3,9 @@ title: Shan's hub
 SEOTitle: Shan Jiang -- A salarygirl, daughter & life-learner
 header-img: img/home-bg.jpg
 email: sj2921@columbia.edu
-keyword: Previous New Yorker, Blog writter, Novelist
-welcome_message: Now I am working on Energy insecuirity and applications of data visulization on social science topics, for more information, <a href="https://shanjiang21.github.io/sociology.html">click here</a>
-description: Hi, I am Shan(@shanjiang21), a master student at Columbia University.
+keyword: Previous New Yorker, a small-town blog writter
+welcome_message: Now I am working in TikTok for bridging gaps of Machine Learning models and Business.
+description: Hi, I am Shan(@shanjiang21).
 url: "https://shanj21.com/"
 baseurl: ""
 
@@ -22,7 +22,7 @@ twitter_username: Alexand43261453
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 6
+paginate: 7
 #specifies how many items should be displayed per page
 paginate_path: "/blog/page:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
