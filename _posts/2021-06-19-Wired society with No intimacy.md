@@ -36,10 +36,9 @@ My Higher-ups 今天和我one on one，倒是坦诚清晰地, 鼓起勇气说出
 
 Today Google Earth recommends a nice picture of Nagqu, Tibet for me. Suddenly, I got caught up by the beautiful and grand lake scenes.
 
-<img src="/img/yuhan.jpg" alt ="yuhan" width="460" height="310">
+<img src="/img/yuhan.jpg" alt ="yuhan" width="440" height="320">
 
 总有告别的一天，祝我们中最年轻的98生人老马前程似锦！还记得去你家的那个晚上，聊了好多～江湖再见啦！
-
 
 #### 2021-06-22
 
@@ -49,11 +48,10 @@ Today Google Earth recommends a nice picture of Nagqu, Tibet for me. Suddenly, I
 
 所谓事业，不就是搞几个臭钱，然后让那几个傻子知道么？
 
-> 我的思维：我哪里做得不够好？
-> 别人的思维：去问整个事情怎么样可以做到更好？
+> 我的思维：我哪里做得不够好？而别人的思维：去问整个事情怎么样可以做到更好？
 
 身上待改进的点：
-* **合作上**更加自信： 不要太犹豫，需要更加坚定
+* **合作上**更加自信：不要太犹豫，需要更加坚定
 * **产品规划**
   * 产品细节处理不清楚
   * 明确产出目标和背景
@@ -61,7 +59,6 @@ Today Google Earth recommends a nice picture of Nagqu, Tibet for me. Suddenly, I
 同时，问问自己，为了Inner Peace 和 热爱之事，我愿意付出什么代价？每天的难受和焦虑都来自哪里？这不快乐，是来自身份撕裂的痛苦，来自潜意识对于同辈职业流向的认同和中国社会政治精英阶层游戏规则的背离，来自对于自我的追寻的不完满，那么还有呢？
 
 纵有千古，横有八荒。前途似海，来日方长。
-
 
 #### 2021-06-24
 

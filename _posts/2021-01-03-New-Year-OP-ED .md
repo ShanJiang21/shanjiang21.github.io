@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 2021 New Year OP-ED | 学着勇敢
+title: 2021 New Year OP-ED
+subtitle: 学着勇敢
 header-img: "img/ny_2021.jpg"
 date: 2021-1-03 11:49:24.000000000 +09:00
 author: Shan J.
@@ -33,7 +34,6 @@ author: Shan J.
 “有时候，我真的挺想郭轸的”。
 
 ----
-
 
 #### New Year Principles
 

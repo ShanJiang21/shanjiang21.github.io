@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Act my age | 是冰风暴
+title: Act my age
+subtitle: 是冰风暴
 date: 2020-12-13 17:53:24.000000000 +09:00
 author: Shan J.
 tags:
