@@ -36,7 +36,7 @@ My Higher-ups 今天和我one on one，倒是坦诚清晰地, 鼓起勇气说出
 
 Today Google Earth recommends a nice picture of Nagqu, Tibet for me. Suddenly, I got caught up by the beautiful and grand lake scenes.
 
-<img src="/img/post_yuhan.jpg" alt ="yuhan" width="440" height="320">
+<img src="/img/post_yuhan.jpg" alt ="yuhan" width="510" height="320">
 
 总有告别的一天，祝我们中最年轻的98生人老马前程似锦！还记得去你家的那个晚上，聊了好多～江湖再见啦！
 
