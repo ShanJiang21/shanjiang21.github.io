@@ -2,7 +2,7 @@
 title: Freedom ain't free
 subtitle: 洞悉所有，贴近生活
 author: "Shan J."
-header-img: "img/enlight85.jpg"
+header-img: "img/enlight85.png"
 date: 2021-06-06 20:08:24.000000000 +08:00
 layout: post
 categories:
