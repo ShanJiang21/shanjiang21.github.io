@@ -5,6 +5,7 @@ author: "Shan J."
 header-img: "img/beer.JPG"
 date: 2021-06-24 0:38:24.000000000 +08:00
 layout: post
+location: Beijing, China
 categories:
   - Side notes for work
   - PM life
@@ -21,7 +22,7 @@ categories:
 
 > 看待同一事物的角度不一样，得到的结果可能完全不同。
 
-最近的All-hands上对于大小周（Odd-Even week) 的争论在公司内部甚嚣尘上，才了解到原来华为是真的晚上八点左右就可以下班，只是周六需要加班而已，「三分之一的字节人」不同意取消大小周，其实我一点都不惊讶。
+最近的All-hands上对于大小周（Odd-Even week) 的争论在公司内部甚嚣尘上，才了解到原来华为是真的晚上八点左右就可以下班，只是周六需要加班而已，「三分之一的字节人」不同意取消大小周，其实我一点都不惊讶。I accepted it with no questions while now reckon back, probably I was treating it as an reliable hallmark of the workaholic organization.
 
 二更视频最近模仿日本《我可以和你一起回家吗？》搞了一个“最后一班地铁”栏目，在杭州拍摄，其中一个在大厂做UR的海归小姐姐密密的生活状态也让我觉得很有共鸣：
 
@@ -36,8 +37,6 @@ My Higher-ups 今天和我one on one，倒是坦诚清晰地, 鼓起勇气说出
 
 Today Google Earth recommends a nice picture of Nagqu, Tibet for me. Suddenly, I got caught up by the beautiful and grand lake scenes.
 
-<img src="/img/post_yuhan.jpg" alt ="yuhan" width="510" height="320">
-
 总有告别的一天，祝我们中最年轻的98生人老马前程似锦！还记得去你家的那个晚上，聊了好多～江湖再见啦！
 
 #### 2021-06-22
@@ -46,7 +45,7 @@ Today Google Earth recommends a nice picture of Nagqu, Tibet for me. Suddenly, I
 
 #### 2021-06-23
 
-所谓事业，不就是搞几个臭钱，然后让那几个傻子知道么？
+所谓事业，不就是搞几个臭钱，然后让那几个傻子知道么？-- 王朔
 
 > 我的思维：我哪里做得不够好？而别人的思维：去问整个事情怎么样可以做到更好？
 
@@ -62,7 +61,8 @@ Today Google Earth recommends a nice picture of Nagqu, Tibet for me. Suddenly, I
 
 #### 2021-06-24
 
-我的室友挺让人抓狂的：微信找不到人，就用公司的飞书直接骚扰我？我是表现得太善良了还是太好欺负了？凭什么不经过我同意就用我的东西……巨差的卫生习惯，我真的是很难忍了
+我的室友挺让人抓狂的：微信找不到人，就用公司的飞书直接骚扰我？我是表现得太善良了还是太好欺负了？凭什么不经过我同意就用我的东西……巨差的卫生习惯，我真的是很难忍了, 就离谱，真的很想吐槽。
+
 >I know these are just tiny stuff, simple things, but he just shows no respect.
 
 今天又是高考放榜日，现在回头看，发现很多事情中途放弃，不是能力不行，而是心态被搞崩了。但是问问自己，我有表达了么？正常人，有50%～60%的聊天内容都是吐槽。
