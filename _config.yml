@@ -76,3 +76,7 @@ service-worker: true
 ## Gallery Base URL
 thumbsurl: "../img/thumbs/"
 imagesurl: "../img/"
+
+## SASS configuration
+sass:
+    style: compressed
