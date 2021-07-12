@@ -114,10 +114,9 @@ Young people are chilling, and Beijing is not happy about it. Both the economist
 
 “Lying flat” went viral and has since become a broader statement about Chinese society. Endless stress from social norms has pushed them to their limit. The "Lying flat" lifestyle delineates some basic standards: forgo marriage, [not have children](https://www.nytimes.com/2021/06/01/world/asia/china-vasectomies.html), stay unemployed and **eschew material wants** such as a house or a car. This seems to be a betray of the traditional work ethic and a backlash against China’s [hypercompetitive work environment](https://www.nytimes.com/2010/12/12/world/asia/12beijing.html).
 
-上一代中国人(或者说)的成功哲学：辛勤工作，立业成家，子孙满堂。而如今，a growing share is giving up on marriage.
+上一代中国人(或者说80后前的长辈们)的主流成功哲学为：辛勤工作，立业成家，子孙满堂。而如今，a growing share is giving up on marriage.
 
 I have decided to carry out an experiment: stay away from Wechat Moments and this will continue for 28 days as the phase I, and I would write down some personal reflections after it in early August.
-
 
 
 #### 2021-07-06
@@ -133,7 +132,6 @@ https://www.washingtonpost.com/opinions/2020/06/07/michelle-obama-graduates-dont
 https://www.fenjlin.com/ 希望10年之后我也可以自在 hiking。
 
 
-
 #### 2021-07-07
 
 ```R
@@ -142,9 +140,7 @@ https://www.fenjlin.com/ 希望10年之后我也可以自在 hiking。
 503 - 服务器超时
 总是503，时常404，偶尔200.
 ```
-
 Non-technical musings shall be put aside when writing down technical Knowledge.
-
 
 #### 2021-07-09
 
