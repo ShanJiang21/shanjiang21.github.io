@@ -1,5 +1,5 @@
 ---
-title: Amateur in new metaverse
+title: Amateur in a new metaverse
 subtitle: 我们不是只有现在么？
 author: "Shan J."
 header-img: "img/post_pandemic_0821.JPEG"
@@ -13,7 +13,7 @@ categories:
 
 #### 07/20/2021
 
-My data analyst was questioning me for the North Star metrics that they can provide for model training.
+My data analyst was questioning me for the North Star metrics that they can provide for model training, which made me reckon the past motives and feasibility check I did for this seemingly-magnificent project.
 
 #### 07/21/2021
 
@@ -39,7 +39,8 @@ Sick of the politics.
 
 #### 07/26/2021
 
-Another day of Sun.  现在的目标就是随遇而安。
+Another day of Sun.  
+Settle down在新的城市，现在的目标就是随遇而安。
 
 #### 08/04/2021
 
