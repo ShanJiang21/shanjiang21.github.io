@@ -2,7 +2,7 @@
 title: Amateur in a new metaverse
 subtitle: 我们不是只有现在么？
 author: "Shan J."
-header-img: "img/post_pandemic_0821.JPEG"
+header-img: "img/enlight_85.png"
 date: 2021-08-08 11:48:24.000000000 +08:00
 layout: post
 categories:
