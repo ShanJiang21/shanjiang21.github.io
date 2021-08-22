@@ -12,7 +12,7 @@ categories:
  - Shanghai
 ---
 
-#### 人生海海，与城市同在
+### 人生海海，与城市同在
 
 > *你待过的城市*
 > *都会成为你性格的一部分*
@@ -89,7 +89,7 @@ Dyadic formation theory：According to the **theory of dyadic formation**, when 
 
 On a personal level, I feel great if I am being acknowledged. However, it is usually awkward for me to respond to such appreciation or compliments upon the moment.
 
-#### Musings
+### Musings
 
 最近突然冒出一本小说大纲的想法，有空可以书写一下「隔离期的异国亲情和爱情」。2020，将我们放置于互联网的生态中，改变了固有的生活方式，但同时也带来了无尽的现代病，不同时区下彼此陪伴的深夜和虚拟会议的距离感，都是很好的元素。
 
