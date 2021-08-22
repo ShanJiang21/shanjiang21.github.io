@@ -3,7 +3,7 @@ title: Practicing self love
 subtitle: 他卷任他卷，躺平不丢脸
 author: "Shan J."
 header-img: "img/iron_sh.jpeg"
-date: 2021-08-21 21:48:24.000000000 +08:00
+date: 2021-08-22 21:48:24.000000000 +08:00
 layout: post
 categories:
  - Side notes for work
@@ -108,11 +108,8 @@ However, do not Playing nice anymore.
 #### New come-alongs
 
 1. `Explanatory Comma`*: National Public Radio’s (NPR)* [*Code Switch*](http://www.npr.org/podcasts/510312/codeswitch) *podcast tackles issues of race and identity and I love to listen regularly. Not only does the podcast provide a window into perspectives and experiences different from my own, but it also has helped to remove the blinders to some (many!) of the privileges that I have. One such privilege – the result of white privilege – is the ability to consume media and entertainment and understand, most of the time, what is being discussed. An “explanatory comma” is rarely needed for the references that pop up in my everyday life.*
-
 2.  `Resting bitch face`*: also known as* *****RBF\******, or bitchy resting face (BRF).*
-
 3.  `A Cappella music`*: originally from the religious scenario as people are singing without instruments. There is also a similar type of music in the lslamic world, which is called* `nasheed`*.*
 4. `Joss paper`: also known as ghost or spirit **money**, are paper-crafts or sheets of paper made into **burnt** offerings common in Chinese ancestral worship Worship of their ancestors.
-
 5.  `人生海海`: 闽南话，是形容人生复杂多变但又不止这意思，它的意思像大海一样宽广，但总是教人好好活, 而不是去死的意思。
 6. https://michaelxander.com/writing/
