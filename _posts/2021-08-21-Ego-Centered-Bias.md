@@ -93,10 +93,6 @@ On a personal level, I feel great if I am being acknowledged. However, it is usu
 
 最近突然冒出一本小说大纲的想法，有空可以书写一下「隔离期的异国亲情和爱情」。2020，将我们放置于互联网的生态中，改变了固有的生活方式，但同时也带来了无尽的现代病，不同时区下彼此陪伴的深夜和虚拟会议的距离感，都是很好的元素。
 
-> 湿漉漉的雾气让眼镜模糊起来，林白戴起了黑色冲锋衣的帽子，远方的汽笛声响起。和众多996的互联网大厂相比，设计院的工作，似乎没有那么繁重，但日日夜夜的琐碎，也让人在反复的推拉中感到倦怠。
->
-> 反复的劳动也让
-
 Today, I’ve picked up a  fun word spelled as `supercalifragilisticexpialidocious` to express the appreciation from a child.
 
 * 性格的中性不应该成为职场上的blocker，仅有的女性性格优势应该助力我们，而是应该成为加速器“。
