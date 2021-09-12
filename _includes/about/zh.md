@@ -13,19 +13,19 @@
 
 日常生活光影记录👉：[Gallery](https://shanj21.com/gallery/)
 
-<img src="/img/gallery.jpg" alt ="Template" width ="60%">
+<img src="/img/gallery.jpeg" alt ="Template" width="500" height="300">
 
 ### Life-Journey
 
 𓅷𓆏𓃰𓃠𓅿𓂻𓃱𓃗𓅓𓃯𓃰𓃱𓃲𓃵
 <br>
-生于皖南(30.64° N, 117.85° E)，
+生于皖南(30.64° N, 117.85° E)
 <br>
-学于北京(39°57′N, 116°17′E)
+学于北京海淀(39°57′N, 116°17′E)
 <br>
-和纽约都会(40.71° N, 74.01° W)
+和美国纽约(40.71° N, 74.01° W)
 <br>
-如今物理活动范围主要在闵行漕河泾，非常崇尚互联网空间的侠客情结，常分享一些新鲜的可视化技术或统计tutorial，有需要请戳
+如今工作和生活的物理活动范围，主要在闵行漕河泾，非常崇尚互联网空间的侠客情结，常分享一些新鲜的可视化技术或统计tutorial，有需要请戳
 [sj2921@columbia.edu](mailto:sj2921@columbia.edu).
 
 
