@@ -22,7 +22,7 @@ twitter_username: Alexand43261453
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 7
+paginate: 10
 #specifies how many items should be displayed per page
 paginate_path: "/blog/page:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
@@ -74,8 +74,8 @@ chrome-tab-theme-color: "#000000"
 service-worker: true
 
 ## Gallery Base URL
-thumbsurl: "../img/thumbs/"
-imagesurl: "../img/"
+#thumbsurl: "../img/thumbs/"
+#imagesurl: "../img/"
 
 ## SASS configuration
 sass:
