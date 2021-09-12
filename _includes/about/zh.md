@@ -12,7 +12,6 @@
 ### 摄影小集
 
 日常生活光影记录👉：[Gallery](https://shanj21.com/gallery/)
-
 <img src="/img/gallery.jpeg" alt ="Template" width="500" height="300">
 
 ### Life-Journey
