@@ -9,11 +9,15 @@
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="560" height="412"></iframe>
 
-I was Born in **Anhui, China**(30.64° N, 117.85° E).
+I was Born and raised up in **Anhui, China**(30.64° N, 117.85° E),
 <br>
-Once Studied in **New York City, NY**(40.71° N, 74.01° W).
+Entered college in **Beijing, China**(39°57′N, 116°17′E) and enjoyed four years,
 <br>
-Now Lives & works in **Beijing, China**(39.90° N, 116.41° E).
+Then studied and interned in **New York City, NY**(40.71° N, 74.01° W) for two years,
+<br>
+In 2020, I returned **Beijing, China**(39°57′N, 116°17′E) and worked for a year,
+<br>
+Now I am living & working in **Shanghai, China**(31°13' N, 121° 28'E).
 <hr>
 
 > Your time is limited, so don’t waste it living someone else’s life.
