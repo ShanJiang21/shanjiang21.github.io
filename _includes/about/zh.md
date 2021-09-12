@@ -9,12 +9,11 @@
 闲时常恣情山水，穷览朔漠，行幽谷大都；常著文章自娱，忘怀得失。
 ````
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="550" height="412"></iframe>
+### 摄影小集
 
-
-### Gallery
 日常生活光影记录👉：[Gallery](https://shanj21.com/gallery/)
 
+<img src="/img/gallery.jpg" alt ="Template" width ="60%">
 
 ### Life-Journey
 
@@ -22,10 +21,12 @@
 <br>
 生于皖南(30.64° N, 117.85° E)，
 <br>
-学于北京(39°57′N, 116°17′E)和纽约(40.71° N, 74.01° W)
-<hr>
+学于北京(39°57′N, 116°17′E)
+<br>
+和纽约都会(40.71° N, 74.01° W)
+<br>
 如今物理活动范围主要在闵行漕河泾，非常崇尚互联网空间的侠客情结，常分享一些新鲜的可视化技术或统计tutorial，有需要请戳
-`[sj2921@columbia.edu](mailto:sj2921@columbia.edu)`.
+[sj2921@columbia.edu](mailto:sj2921@columbia.edu).
 
 
 #### 新時代宣言二零二零 *Adapted from Yiru Chen*
@@ -50,6 +51,7 @@
 <br>
 十. 为世界和平对人类同情且宽容。
 
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="550" height="420"></iframe>
 
 #### 我的2021年度小目标 (WIP 🚧)
 1. **学习**:情绪的辨识和正确表达？不要长期压抑负面情绪。意识我给身边人带来了压力之前，应该先考虑自己想要的，有没有被正确的表达出来。
