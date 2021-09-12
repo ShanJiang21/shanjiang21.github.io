@@ -26,7 +26,7 @@
 和美国纽约(40.71° N, 74.01° W)
 <br>
 如今工作和生活的物理活动范围，主要在闵行漕河泾，非常崇尚互联网空间的侠客情结，常分享一些新鲜的可视化技术或统计tutorial，有需要请戳
-[sj2921@columbia.edu](mailto:sj2921@columbia.edu).
+[我的邮箱](mailto:sj2921@columbia.edu)，不定时查看。
 
 
 #### 新時代宣言二零二零 *Adapted from Yiru Chen*
