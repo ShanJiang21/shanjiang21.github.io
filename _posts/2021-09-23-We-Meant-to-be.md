@@ -2,7 +2,7 @@
 title: Be a cool long ranger  
 subtitle: 26岁你好
 author: "Shan J."
-header-img: "img/Harbin_sophia_yuhan.jpg"
+header-img: "img/songhua_river.jpeg"
 date: 2021-09-22 22:01:24.000000000 +08:00
 layout: post
 categories:
@@ -14,15 +14,13 @@ categories:
 
 ````SAS
 1. 空心汤圆：指徒有虚名，并无实利可图的东西，有点洋泾浜。
+
 2. 东兔西乌：古代神话传说中说，月亮里有玉兔，太阳里有三足金乌，所以用乌、兔代表日月。月亮东升，太阳西落。表示时光不断流逝。
+
 3. 冬烘先生，汉语成语，拼音dōng hōng xiān shēng，指昏庸浅陋的知识分子。
 ````
 
 #### 2021-08-27
-
-> Even if your heart has been sheltered.
-
-> Love is still the answer.
 
 > CNN was airing 'WE LOVE NYC concert 5 days ago, I happened to see the ads on TV around a month ago. You know what? sometimes I just feel that the grey color does make me feel depressed. When I open my eyes everyday, I has no refreshment and i have long been drowning in the mood as an old soul.
 
@@ -237,6 +235,9 @@ I am a girl spent time rovering to all amazing cities.
 
 
 #### 2021-09-22
+
+> Even if your heart has been sheltered.
+> Love is still the answer.
 
 从昨天的中秋之夜到现在，简直像是过山车的一晚。爸妈觉得我不应该乱跑，表姐和姐夫言语中或多或少都有些担心，所以最后在这个月圆之夜，默默走回家，享受黑暗。
 
