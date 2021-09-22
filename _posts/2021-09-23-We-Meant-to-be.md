@@ -12,6 +12,8 @@ categories:
  - Harbin
 ---
 
+> The wound is where light enters you.  -- Rumi
+
 ````SAS
 1. 空心汤圆：指徒有虚名，并无实利可图的东西，有点洋泾浜。
 
@@ -32,8 +34,6 @@ I was just speaking up the things that make me feel uncomfortable with, instead 
 
 I am taking back the control and the right to write the story of my own, no matter it is a period or an exclamation mark, the ending does come.
 
-> The wound is where light enters you.  -- Rumi
-
 There are a series of struggles and traumas that may pop up to u, just accept it. Develop a better skill of pain tolerance.
 
 Question 1: What sticks in my mind?
@@ -49,10 +49,7 @@ After learning to let it go, knowing that you have no power to change the past, 
 
 最近处在一种摇摇欲坠的状态。
 
-导致我在perf的投入度里yygq地抱怨了几句：
-> 长期隐形加班：坚持早会 + 经常熬夜，直接引发了饮食不规律，睡眠失调和焦虑. 「力微任重久神疲，再竭衰庸定不支」, 真的超级非常希望团队之后能够建立起比较完善的培训体系，能够让新人尽快上手，保证大家的身心健康。
-
-> Kevin Morgan 借用了指环王中的quote，表达了他对于structure的评价：“I feel thin, sort of stretched, like butter scraped over too much bread.”
+导致我在perf的投入度里yygq地抱怨了几句：长期隐形加班：坚持早会 + 经常熬夜，直接引发了饮食不规律，睡眠失调和焦虑. 「力微任重久神疲，再竭衰庸定不支」, 真的超级非常希望团队之后能够建立起比较完善的培训体系，能够让新人尽快上手，保证大家的身心健康。
 
 Second puberty did come to me.
 
@@ -100,6 +97,8 @@ https://anchor.fm/twocircles24/episodes/Vol-21--Best-etjpsn/a-a52l319
 
 
 #### 2021-09-15
+
+> Kevin Morgan 借用了指环王中的quote，表达了他对于混乱的组织架构 structure的评价：“I feel thin, sort of stretched, like butter scraped over too much bread.”
 
 This morning, WSJ fires on TikTok and Facebook again as their series investigation.
 
@@ -180,7 +179,6 @@ yuhan订的酒店在西三道儿街上，令我们惊喜的是软装和服务真
 好好过好每一天，并且低期待，公司没了我，team没了我，第二天都能继续好好运转，把自己的位置看清了，就是一场优雅的支配与抵抗艺术的表演，fuck the job～
 
 
-
 <关于生活 ｜ Per Life>
 
 9月份一直在做空中飞人和熬夜达人，Skateboard 已经在家睡了不止3周了；
@@ -236,8 +234,7 @@ I am a girl spent time rovering to all amazing cities.
 
 #### 2021-09-22
 
-> Even if your heart has been sheltered.
-> Love is still the answer.
+> Even if your heart has been sheltered. Love is still the answer.
 
 从昨天的中秋之夜到现在，简直像是过山车的一晚。爸妈觉得我不应该乱跑，表姐和姐夫言语中或多或少都有些担心，所以最后在这个月圆之夜，默默走回家，享受黑暗。
 
