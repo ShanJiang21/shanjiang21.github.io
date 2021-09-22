@@ -213,6 +213,8 @@ When he told me that's because the crush in the night, I don't even know how to 
 
 所以我很爱提前买机票、买火车票、买门票，订酒店，订住宿、订未来的计划，也是不折不扣的计划依赖症患者。
 
+I am a girl spent time rovering to all amazing cities.
+
 心里不是不想回家的，上海千般好，可终究留不住我的吧？
 
 但是未知段落的生活谁又知道呢？
@@ -223,13 +225,9 @@ When he told me that's because the crush in the night, I don't even know how to 
 
 也没有想到在这个场域里面的我，会被压缩，扭曲，逼着成长，往前一直大步走，直到今天，
 
-「脑海始终是哪一首歌？」
+「我的脑海始终是哪一首歌？」
 
-Lucky or The woman I love? Jason Mraz is the only one who is always by my side.
-
-And the winner is la vie, and the winner is L‘Amour.
-
-I am a girl spent time rovering to all amazing cities.
+*Lucky* or *The woman I love*? There is no question that Jason Mraz is the only one who is always by my side since my early teenager time.
 
 
 #### 2021-09-22
