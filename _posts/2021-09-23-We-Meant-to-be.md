@@ -133,7 +133,7 @@ Now I am a rookie Product Manager working on Content Safety in TikTok.
 A girl always chewing mishmash culture products.
 
 
-#### 2021-09-17
+#### 2021-09-18
 
 今天Shuaiding提了一个非常好的问题：因为*Wall Street Journal*的深度报道，TikTok对于未成年人的保护被放在了聚光灯下。
 
