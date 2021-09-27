@@ -126,12 +126,6 @@ Boost自己的Aloha精神。
 
 《小声喧哗》最新这期真的超有共鸣：[女性教授的边缘地位](https://loudmurmursfm.com/episodes/-thechair)
 
-I was a graduate school student, and I was tossed into the University of Reality in the Year of 2020.
-
-Now I am a rookie Product Manager working on Content Safety in TikTok.
-
-A girl always chewing mishmash culture products.
-
 
 #### 2021-09-18
 
@@ -155,6 +149,9 @@ yuhan订的酒店在西三道儿街上，令我们惊喜的是软装和服务真
 
 
 #### 2021-09-20
+
+I was a graduate school student, and I was tossed into the University of Reality in the Year of 2020.
+Now I am a rookie Product Manager working on Content Safety in TikTok, a tech-savvy girl always chewing mishmash culture products.
 
 今夜，就要跨过25岁的大关，迈向26的新征程，哈尔滨回上海的舷窗外，一轮明月高挂。
 

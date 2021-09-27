@@ -4,7 +4,7 @@ title: Is it a social experiment?
 date: 2020-05-13 06:32:24.000000000 +09:00
 author: Shan J.
 tags:
-    - intellectual
+    - Lock-down Diary
     - Covid-19
 ---
 
@@ -36,7 +36,7 @@ tags:
 
 我上Quora（美国版逼乎）瞅了瞅，当有人询问“什么使你爱上了纽约？”高赞答案提出了一个很好玩却又是让人感同身受的概念：“New York Effect”(纽约效应)--来到这里的人们，都会在他们的人生中留下深刻的印象，而这样的体验在他们离开纽约的时候也不会磨灭，会伴随他们一辈子。我们每个人只是努力工作的普通人，只有可怜的休息时间。电影，真人秀和富裕的孩子们使这座城市看起来比实际的要多了很多光环，但光环背后的真实人生却更动人。
 
-### 
+### Migrants for an endless climbing of social ladder
 
 "30年来她戴着黄金的枷。她用那沉重的枷角劈杀了几个人，没死的也送了半条命。"
 
