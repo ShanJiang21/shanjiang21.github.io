@@ -22,7 +22,7 @@ Now I am living & working in **Shanghai, China**(31°13' N, 121° 28'E).
 
 > Your time is limited, so don’t waste it living someone else’s life.
 
-In 2020, I graduated from Mailman school of Public Health, Columbia University. Currently, I am working for [TikTok](https://www.tiktok.com/) as a product specialist, however, this occupational identity is merely a tiny facet of me:
+In 2020, I graduated from Mailman school of Public Health, Columbia University. Currently, I am working for [TikTok](https://www.tiktok.com/) as a rookie product manager, however, this occupational identity is merely a tiny facet of me:
 * **Biological Structure:** A five-foot-six girl (she/her/hers).
 * **Social identity**: a daughter, runner and an annoying reader who gives harsh comments.
 * **A Critical Don Quixote**: An Anti-social tomboy.
