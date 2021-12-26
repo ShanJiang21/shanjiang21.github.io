@@ -103,7 +103,7 @@ Today my colleague shared a link with me saying that it can help me to determine
 
 Learning Resources
 
-问题意识 + 叙述
+怎么培养问题意识, 把问题真实地描述出来，确实很难。
 
 #### 10-14
 
