@@ -24,19 +24,15 @@ categories:
 我在探索，但尚未知。“尽管有无数肯载你渡河的马、桥和半神，但必须以你自己为代价，你将抵押和丧失你自己。世上有一条唯一的路，除你之外无人能走。它通往何方？不要问，走便是了。”
 
 #### 11-28-2021
-
 征求职业建议，家人和亲人，可能是最不合适的人。
 
 我们都是树，都要找到自己需要的土，而每个人需要的健康土壤不一样。我很羡慕能长时间待在城市并且享受钢筋水泥的人，因为我的土在山里、在海里。当我不得不在混凝土中的时候，我很痛苦，我想要亲近自己。
 
 #### 11-29-2021
-
 Seismic events are happening.
-
 Today, I have had a chance to conduct a cross-functional interview for a candidate from NUS. She is applying for a job opening as policy manager.
 
 #### 11-30-2021
-
 **can’t-say-no workhorse** will be abused to death, so that is why sometimes I felt burned-out in recent days, writing memos for delegating the tasks to my colleagues remind me of the endless nights and trying moments when I generated hatred and disappointments towards myself. Such negative feelings are not hollow or meaningless, they are answering the push-backs from stakeholders.
 
 > that rare moment of unity between conscience, fear, and action, when something deep within us strikes the flint of love, of honor, of duty, to make the spark that fires our resolve.
@@ -44,25 +40,16 @@ Today, I have had a chance to conduct a cross-functional interview for a candida
 How would you deal with push backs?
 
 #### 12-01-2021
-
 人的情感选择是，内在的召唤。
-
 当代价值观，贴近自己的最对的方式，what is it?
-
 连接大脑 还是 连接心灵？
-
 高耗能和低效的状态，即便下班了，但是大脑的后台还在执行。
-
 身体在发出信号：this is not right.
-
 对于心智的伤害，把人摁在生存层面的瞎忙，才是最大的浪费。
 
 #### 12-02-2021
-
 Divvy up the duties and tasks within a team fairly is extremely important for us.
-
-Leading a cross-functional project within the exploding organization also
-
+Leading a cross-functional project within the exploding organization is also painful.
 工作和生活笛卡尔式的二元论完全分开，是完全违背人性的。
 牺牲健康，牺牲生活，牺牲自己，没有任何意义。
 需要重建行为和生活的秩序，即便在这个经济收缩，灰心失意的年代。
@@ -85,12 +72,12 @@ https://personplacething.org/
 多些包容，多些同理心，脚步慢一些，don't worry.
 
 #### 12-08-2021
-
 前车之鉴 = lessons drawn from others' mistakes.
 GSS data just sent me the notification for their latest data updates, and that can a good kick-off point for me to launch my journey for the future work.
 Gender equality is a long way ahead of us.
 > more Rimowa than Samsonite, more Apple than [Motorola](https://www.wsj.com/market-data/quotes/MSI).
 This is a metaphor for the design of Bala Bangles.
+
 #### 12-09-2021
 
 This is life and all boho days are coming like floods.
@@ -209,7 +196,7 @@ when organization grows, questions are getting more and more counter intuitive.�
 
 It turns out I am not alone, reckon the past half year, the so-called spirit has collapsed. No wonder Xinyu told me she has been hidden in the telephone room and crying for a while. I know it's unhealthy for my long-term growth, but where should I go?
 
-````S`AS
+````SAS
 我一人在为这离职率奇高的部门买单
 同样的一个问题
 问一遍我可以理解
@@ -222,11 +209,9 @@ mercy别人 谁来可怜我？
 ````
 
 一个产品对于用户的关怀，对于精神健康的重视，对于用户安全感的照料，是获得长久留存的基础。
-
 那么，先争取日光权吧，多晒晒太阳。
 
 #### 12-26-2021
-
 好久没听李如一出来发言了，他在描述着互联网幻灭的此刻和对于方便的不信任，方便，并不是唯一重要的东西。「在现有社交媒体便利性下，是一种自我原生能动性的消解」 。突然让我想起今年六月份，欣然和我说起在用地图找餐馆时，她男朋友的过度依赖症，我不大喜欢依赖地图从头指路，再加上对于北京非常熟悉，方向感不差，往往是看一眼经过哪几条路，往哪个方向走，就放下手机，按照咀嚼好的指引到了目的地，彼时她表现出对于我这种做法的艳羡我不是不奇怪的，现在回想起来，似乎可以理解了，这是一种前技术时代对于空间，时间的自我把控，这种能力如果不做留存，那么人只会离自己原来的自然属性越来越远。
 
 大海上暴风雨，如何找到超越互联网行业的可能性？
