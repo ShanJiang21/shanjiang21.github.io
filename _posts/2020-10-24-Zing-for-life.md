@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Adding some creative Zing to life | 平淡中 +1s 活力
+title: Adding some creative Zing to life
+subtitle: 平淡中 +1s 活力
 date: 2020-10-24 18:47:24.000000000
 author: Shan J.
 tags:
