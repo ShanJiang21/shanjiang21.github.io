@@ -14,23 +14,21 @@ categories:
 
 ### 2022 Lunar New Year's Bit by bit
 
-#### Random Thoughts
-
 今天终于找到时间来做2022新年的年度规划，写到一半发现还是得为队友考虑考虑，于是才有了以下的**精神分裂版**新年想法💡：
 
-1.Be soft and embrace the ease of life is a great lesson to be learned in 2022.
+**1.Be soft and embrace the ease of life is a great lesson to be learned in 2022.**
 
 首先无需要面对的一个真实生活真相是，在目前的生活状态和工作场景中，似乎已经不能够很简单地找到一个，足够我长久发展的可切入的立足点了。作为一个有一些些焦虑，同时也有些完美主义的个体，我承认，在很长一段时间里，我都没有能够很好地 buy in “work hard, play harder” 这样的思维模式，因为处在系统里的我，也存在着工作日的惯性（更形象点来说，是一种在前进的过程中无法从容积累和放手的自如）
 
-下午三点的烦躁是对于工作本身的厌恶么？
+下午三点的烦躁是对于工作本身的厌恶么？如果让我归因的话，工作里的杂事/琐事/复杂事确实会让我厌烦，相较而言，在种种繁芜杂事之中人与人之间过于精明的算计，才让我非常sick。
 
-如果让我归因的话，工作里的杂事/琐事/复杂事确实会让我厌烦，相较而言，在种种繁芜杂事之中人与人之间过于精明的算计，才让我非常sick。
-
->  偶然读到一个NYC的瑜伽姑娘的文章，被她的坦率和她对于自我的探索和认知精神折服了。在她的博客中，她写道：“Coincidence is a gentle push/pull from the universe”.
+>  偶然读到一个NYC的瑜伽姑娘的文章，被她的坦率和她对于自我的探索和认知精神折服了。在她的博客中，她写道：“Coincidence is a gentle push/pull from the universe”. 
 
 How amazing it is that she incorporate herself into such a giant space and feeding herself with the nutritions that are coming from the wind goes through, from the bright sunshine on her faces and from all loverly/messy things that originates from wild nature.
 
-2.Expose myself to common challenges of work and reducing the times when losing faith.
+自己身上的最大毛病是：自以为足够多元，足够兼容，可是对于与自己内在价值认同不同之人，却无法给予正常的对待和评价，或许今年可以开始从回避的态度慢慢走出来，看看信息茧房之外的这些人，这些事，生长出一些对于生活本身遭遇的悦纳和对于与自己认同所不同之事的包容，可能会有更多新的启发吧……
+
+**2.Expose myself to common challenges of work and reducing the times when losing faith.**
 
 想起2016年上证券投资学课老师的话，那个时候北京到波士顿的飞行时长14hrs，而他却不满于此，那时他和我们提到超音速飞机，也提到他眼里对于2020s年代的设想，转眼间，如今这个10年已经过去了两年，大多数时候我看事情都还沉湎于within-covid时代的生活局限，把那曾经对于过往科技进步和世界公民的求职想法都尘封在了心底的角落。
 
@@ -38,17 +36,19 @@ How amazing it is that she incorporate herself into such a giant space and feedi
 
 保证自己有产出pipeline，无论是继续互联网PM，还是拣回科研生涯的未竟之事，要能够保证足够的思考时间和沉淀输出。
 
-3.Be present with my own, gazing at the gratitude and this exact moment.
+**3.Be present with my own, gazing at the gratitude and this exact moment.**
 
    > As I enter my early adulthood, I’m proud of the work I’ve done to cope with pressure by bolstering my self-esteem and minimizing my need for external validation. I focus on gratitude, perspective, and on the joy this sport brings me, regardless of whether I’m alone or in front of a worldwide TV audience. Though my views of myself and the world are constantly evolving, one thing is for certain: no matter how much time passes, I’ll always be a hopeless romantic when it comes to fear.
 
 虽然对于Eileen Gu的态度有些复杂，但是她的这番发言确实让我很受启发，和滑板一样，最开心的时刻是放松身体，在那一个专注的时刻，而且往往这个时候最不容易摔，恰恰是当我把注意力放在记动作技巧，想着怎么变得cool一些的时候，会摔到很惨。所以，更明晰自己当下和未来1-2年的最想做的事，不害怕地放手去做，那么很多时候结果可能会出乎意料。
 
-4.Balancing independence, solitude, and interdependence. Try to learn and embrace a healthy relationship with my beloved.
+**4.Balancing independence, solitude, and interdependence. Try to learn and embrace a healthy relationship with my beloved.**
 
    > 我们无法谈论“爱情”，我们以“孤独”来谈论“爱情”。
    > 一个永恒的悖论，就是一个永恒的距离，一个永恒孤独的现实。
    > 永恒的距离，才能引导永恒的追寻。永恒孤独的现实，才能承载永恒爱情的理想。所以在爱的路途上，永恒的不是孤独也不是团聚，而是祈祷。  -- *《爱情问题》1994，史铁生*
+
+
 
 #### Sketches of Life for new me in 2022
 
@@ -56,7 +56,7 @@ How amazing it is that she incorporate herself into such a giant space and feedi
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m8mZaVCy2Pg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-|      | Becoming A 务实的浪漫主义者 / 勤劳勇敢的打工小妹 / 更用心生活一些的世界公民/ 学习讲故事的业余researcher|
+|      | Becoming A 务实的浪漫主义者 / 勤劳勇敢的打工小妹 / 更用心生活一些的世界公民/ 学习讲故事的业余researcher |
 | ---- | :----------------------------------------------------------- |
 |      | 传统上，人类一直基于四大学问——**哲学、科学、宗教、艺术**——来寻求亚里士多德问题的答案“一个人应当如何度过他的一生”<br />但如今，如果不是为了应付考试，谁还会去读黑格尔或康德？科学曾经是最伟大的阐述者，如今却将人生解释得支离破碎、艰深复杂、令人困惑。谁还会不带讥诮地去倾听经济学家、社会学家和政治家的高谈阔论？宗教对于许多人来说已经变成了一种掩饰虚伪的空洞仪式。**随着我们对传统意识形态的信仰日益削减，人们转而寻求我们依然相信的源泉：故事的艺术。**——罗伯特·麦基 |
 | 1    | 精神上的安宁是一种很昂贵的东西: When you love someone, your feet can feel the ground. |
@@ -67,6 +67,8 @@ How amazing it is that she incorporate herself into such a giant space and feedi
 | 6    | 多关心身边人，爱护队友，不吝啬表达，遇事不要预设，多些勇气和信心，即便害怕也有人一起share。 |
 | 7    | 在最糟糕的时候，记得回来读一读，别忘了，做一切事情的基础是信任。<br />“吃好喝好睡好”，love is still the answer，退一步也没什么大不了。 |
 | 8    | 植物可以给人极大的治愈感，照顾好一株植物，带它们晒够太阳。   |
+
+
 
 #### 2022-01-03
 
@@ -219,16 +221,15 @@ The Maxpooling:
 2. Identifying the horizontal structure of the graph
 3. Conductng a combination/mix of the above two structures
 
-#### 2022-02-13
+#### 2022-02-13 写作的艺术：彩色玻璃和透明窗扉
 
 阴雨绵绵的周日下午，送别队友，回公司看到王成军2021年版课程syllabus中的一个章节:《写作是门手艺》， 受到了不少启发，摘抄一些放在这里：
-
-##### 写作的艺术：色玻璃和透明窗扉
 
 > George Orwell once wrote that 'Good prose is like a window pane.'
 
 阿西莫夫《人生舞台》第72章的题目就叫写作风格。这里同样用到了窗户玻璃的比喻：
 有的作品就像你在有色玻璃橱窗里看到的镶嵌玻璃，这种玻璃橱窗本身很美丽，在光照下色彩斑斓，却无法看透它们。同样，有的诗作本身很美丽，很容易打动人，但是如果你想弄明白怎么回事的话，这类作品可能很晦涩，很难懂。
+
 至于说平板玻璃，它本身并不美丽。理想的平板玻璃，根本看不见它，却可以透过它看见外面发生的事。这相当于直白朴素、不加修饰的作品，理想的情况是，阅读这种作品甚至不觉得是在阅读，理念和事件似乎只是从作者的心头流淌到读者的心田，中间全无遮拦。
 
 Always treat myself as a neophyte writer, and adopting a measured tone when writing.
