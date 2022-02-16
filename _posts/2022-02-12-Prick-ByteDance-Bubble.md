@@ -22,7 +22,7 @@ categories:
 
 下午三点的烦躁是对于工作本身的厌恶么？如果让我归因的话，工作里的杂事/琐事/复杂事确实会让我厌烦，相较而言，在种种繁芜杂事之中人与人之间过于精明的算计，才让我非常sick。
 
->  偶然读到一个NYC的瑜伽姑娘的文章，被她的坦率和她对于自我的探索和认知精神折服了。在她的博客中，她写道：“Coincidence is a gentle push/pull from the universe”. 
+>  偶然读到一个NYC的瑜伽姑娘的文章，被她的坦率和她对于自我的探索和认知精神折服了。在她的博客中，她写道：“Coincidence is a gentle push/pull from the universe”.
 
 How amazing it is that she incorporate herself into such a giant space and feeding herself with the nutritions that are coming from the wind goes through, from the bright sunshine on her faces and from all loverly/messy things that originates from wild nature.
 
@@ -51,9 +51,6 @@ How amazing it is that she incorporate herself into such a giant space and feedi
 
 
 #### Sketches of Life for new me in 2022
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m8mZaVCy2Pg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 |      | Becoming A 务实的浪漫主义者 / 勤劳勇敢的打工小妹 / 更用心生活一些的世界公民/ 学习讲故事的业余researcher |
@@ -114,6 +111,8 @@ what my duties will entail as a platform product manager in 2022?
 Over the past few months, I have witnessed a giant transition from a singular and small team to the multitudes of back-end engineers, front-end designers and algorithm ML engineers. To be honest, the current living conditions for newbies in TikTok are harsh and it requires extra effort being paid and more active engagements to be committed.
 
 #### 2021-01-24
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m8mZaVCy2Pg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 是做一个未来的主人翁还是电脑儿童？
 
