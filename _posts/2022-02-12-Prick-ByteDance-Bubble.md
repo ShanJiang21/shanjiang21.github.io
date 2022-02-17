@@ -211,7 +211,7 @@ The normal pace interrupted by Chinese Lunar New Year is flooding me. I have to 
 
 周五晚上，即便下雨，身边人的态度却总能让感染我，就像是春雨里洗过的小太阳。
 
-### 2022-02-12
+#### 2022-02-12
 
 Today I happened to encounter a document providing an awesome tutorial for social-science background researchers on how we can understand the convolutionary layers in an intuitive way.
 
@@ -222,7 +222,7 @@ The Maxpooling:
 
 #### 2022-02-13 写作的艺术：彩色玻璃和透明窗扉
 
-阴雨绵绵的周日下午，送别队友，回公司看到王成军2021年版课程syllabus中的一个章节:《写作是门手艺》， 受到了不少启发，摘抄一些放在这里：
+阴雨绵绵的周日下午，送别队友，回公司看到王成军2021年版课程syllabus中的一个章节:《写作是门手艺》，受到了不少启发，摘抄一些放在这里：
 
 > George Orwell once wrote that 'Good prose is like a window pane.'
 
