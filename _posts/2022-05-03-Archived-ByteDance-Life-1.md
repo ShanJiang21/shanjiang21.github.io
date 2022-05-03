@@ -12,7 +12,7 @@ categories:
  - bio
 ---
 
-#### Archived — Blogging Culture
+#### Archived Post 1 — Blogging Culture
 来字节，用飞书。
 在飞书，挂Bio。
 Lark’个性签名这个feature，在内部其实使用的非常普遍。
@@ -49,6 +49,7 @@ Lark’个性签名这个feature，在内部其实使用的非常普遍。
 其实这小小一栏签名档，本没有被我注意过，可渐渐地两年时间，回顾过去工作以来的情绪体验和成长，才知道，这小小一行字，好似晨间一滴露，you will never fully grasp the world in a drop of dew and soon it’s gone.
 
 最后的最后，来个我的签名存档：
+
 ````SAS
 <aside>
 💉 WFH | 回复慢就是在做核酸
