@@ -24,29 +24,25 @@ categories:
 
 Nothing really matters.
 
-Too late, my time has gone, since the shievers are goodb
-
 在上海都能耳闻目睹北京组里的是非，真的就离谱。
-
-providing everyone a seamless experience for, especially as more of those experiences are powered by machine learning and natural language processing (NLP) at TikTok scale.
 
 #### 2022-02-16
 
 经济学人强调的谷爱凌身上的美国性 和 中文媒体所报道的谷爱凌身上的华人特征，在global环境下，弹性公民和不同的政治立场碰撞让所有人变得不再那么平面。
 
-想起三年前，2019年八月份的一个午后，在NYC K-town的一件小咖啡馆里，我当时见到了siqi。
+想起三年前，2019年八月份的一个午后，在NYC K-town的一件小咖啡馆里，我当时见到了[siqi](https://shanghai.nyu.edu/academics/faculty/directory/siqi-tu)。
 
-没想到今年她已经从德国回到了上海纽约大学继续Post-doc，她的研究方向即
+没想到一转眼时间，她已经从德国读完博后，回到了上海纽约大学继续Post-doc，当时印象深刻，她的研究方向即transnational elite education（跨国精英教育）和阶层流动。
 
-华裔家长的教养方式，由于受到自身职业发展“竹天花板”的限制，大部分中产家庭的华裔家长都将自身的资源，育儿思路
+在她播客华裔家长的教养方式，由于受到自身职业发展“竹天花板”的限制，大部分中产家庭的华裔家长都有着极为相似的育儿思路。
+
+这是一套自身的资源再生产过程，
 
 打破和重构曾经的威权式的东方教育方式，拥抱“白人中产”式的语境，而传统意义上应试教育式的社会上升通道的比拼。
 
  `bamboo ceiling` refers to the processes and barriers that serve to exclude Asians and Asian-Americans from executive positions on the basis of subjective factors such as "lack of leadership potential" and "lack of communication skills" that cannot actually be
 
-承认个体作为人的多重性，而非依赖身份政治的标签搞对立
-
-释放焦虑，而非传染焦虑，以人为镜，为文化讨论的起点，而非戾气冲天的垃圾处理站。
+承认个体作为人的多重性，而非依赖身份政治的标签搞对立。
 
 #### 2022-02-17
 
@@ -99,9 +95,11 @@ on the Indian market, the TakaTak Short Video App has attracted millions of down
 
 There is a single thread of videos that are quite popular on TikTok, *Dialogue* Dubbing for TV dramas or series. **Dubbing**, **mixing** or **re-recording**, is a [post-production](https://en.wikipedia.org/wiki/Post-production) process.
 
-OMTM =  One Metric That Matters (最为重要的关键性指标)
+释放焦虑，而非传染焦虑，以人为镜，为文化讨论的起点，而非戾气冲天的垃圾处理站。
 
-Estimable speaker = 备受尊崇的guest speaker
+1. OMTM =  One Metric That Matters (最为重要的关键性指标)
+2. Estimable speaker = 备受尊崇的guest speaker
+
 
 #### 2022-02-24
 
