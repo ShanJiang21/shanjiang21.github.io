@@ -27,7 +27,6 @@ Lark’个性签名这个feature，在内部其实使用的非常普遍。
 
 3. **实用解释型：**
 > 初入部门bio上挂个人的one-pager（xxx 使用手册）
-
 > 事情实在赶不过来：只能和大家抱歉的说一句：假期回来，补作业中。
 
 4. **温柔可爱型：食堂吐槽**
@@ -50,7 +49,7 @@ Lark’个性签名这个feature，在内部其实使用的非常普遍。
 其实这小小一栏签名档，本没有被我注意过，可渐渐地两年时间，回顾过去工作以来的情绪体验和成长，才知道，这小小一行字，好似晨间一滴露，you will never fully grasp the world in a drop of dew and soon it’s gone.
 
 最后的最后，来个我的签名存档：
-
+````SAS
 <aside>
 💉 WFH | 回复慢就是在做核酸
 
@@ -172,8 +171,7 @@ Lark’个性签名这个feature，在内部其实使用的非常普遍。
 
 <aside>
 🎅🏻 Feliz Navidad.
-
 </aside>
+````
 
---
-Cover: Zilla Leutenegger, *Untitled*,2019
+Cover Image credit to: Zilla Leutenegger, *Untitled*,2019
