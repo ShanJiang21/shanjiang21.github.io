@@ -1,6 +1,6 @@
 ---
 title: Archived ByteDance Life 1 — Blogging Culture
-subtitle: 字节生活存档小记1 - 博客文化
+subtitle: 字节生活存档小记1 - 签名文化
 author: "Shan J."
 header-img: "img/Zilla.jpeg"
 date: 2022-05-03 17:37:24.000000000 +08:00
@@ -12,7 +12,7 @@ categories:
  - bio
 ---
 
-#### Archived Post 1 — Blogging Culture
+#### Archived Post 1 — Bio Culture
 来字节，用飞书。
 在飞书，挂Bio。
 Lark’个性签名这个feature，在内部其实使用的非常普遍。

@@ -50,24 +50,18 @@ Nothing really matters.
 
 俳(pái) 句: Haiku. Traditional and structured, this short form of [Japanese poetry](https://en.wikipedia.org/wiki/Haiku) is well-known for its rule of 5/7/5. Because of its minimal nature, the Haiku has the ability to paint a vivid picture in just a few words.
 
-> **“A World of Dew” by Kobayashi Issa**
->
-> *A world of dew,**
->
-> **And within every dewdrop*
->
-> *A world of struggle.*
+> A World of Dew by Kobayashi Issa
+> A world of dew,
+> And within every dewdrop
+> A world of struggle.
 
 #### 2022-02-18
 
 The troops are amassed near the border of Ukriane and Russia two weeks ago.
 
- Image-in-Image video models and pre-processing(trimming and cropping) features are embedded  
-
 #### 2022-02-21
 
 1. Lower ping is better than high ping, because low ping means less lag.
-
    There are two standards:  t < 50ms;   t > 100ms
 
 [SupChina | Reporting on China without fear or favor](https://supchina.com/)
@@ -76,7 +70,7 @@ The troops are amassed near the border of Ukriane and Russia two weeks ago.
 
 ![middle_img_v2_42e39e43-f548-4189-904f-79dcf369f87g](/Users/johnsonpie/Library/Application Support/LarkShell/sdk_storage/5cba36dca5833b75c032750867734eef/resources/images/middle_img_v2_42e39e43-f548-4189-904f-79dcf369f87g.png)
 
-3. Seemless Experience Design
+3. Seem-less Experience Design
 
 
 #### 2022-02-23
@@ -236,7 +230,6 @@ Editors：
 2. https://hemingwayapp.com/
 
 New words:
-
 1. evangelist = 布道者
 2. Bunk down = 睡觉
 3. Quadrangles (四合院)
@@ -281,12 +274,13 @@ HAIZ means "Sigh".
 
 ####  2022-03-28
 
-今天是WFH开启的第18天，也是被封闭管理（软禁）在小区的第10天。没有想到躲过了2020年年初的国内隔离，在三年后的上海，历史还在不断地重演。普通人的生活，似乎还是被卡在了一种巨大的不确定性之中，在Google上查询Lock down，出来的结果全是shanghai封城的消息，这个承载2,600万人口的世界性经济大都会，在此刻，似乎也是如此脆弱不堪，从来不存在什么魔都的特殊性，举国体制之下，哪有什么例外？![Screen Shot 2022-03-28 at 9.14.49 PM](/Users/johnsonpie/Library/Application Support/typora-user-images/Screen Shot 2022-03-28 at 9.14.49 PM.png)
+今天是WFH开启的第18天，也是被封闭管理（软禁）在小区的第10天。没有想到躲过了2020年年初的国内隔离，在三年后的上海，历史还在不断地重演。普通人的生活，似乎还是被卡在了一种巨大的不确定性之中，在Google上查询Lock down，出来的结果全是shanghai封城的消息，这个承载2,600万人口的世界性经济大都会，在此刻，似乎也是如此脆弱不堪，从来不存在什么魔都的特殊性，举国体制之下，哪有什么例外?
+
+
 
 #### 2022-03-29
 
 在不确定感中衍生出来的焦虑，渐渐像是潮水淹没了我。
-
 1. 情绪化：极度焦虑和对于自己非常失望，对身边人发脾气，迁怒他人。
 2. 想躲起来，没有前进的勇气，像是溺水的人，自己的问题似乎总要怪罪于他人才让自己没有那么无地自容。
 3. 对于现有项目和工作的模糊认知，对于未来没有期待，失去了对于前进的十足渴望。
@@ -310,7 +304,6 @@ Day 19 继续在家上班的节奏似乎逐渐慢下，但也逐渐让人失序�
 今天在看US Flow of funds 2021, 脚注上有一个缩写之前还没怎么接触过，对于上一财年12个月的业绩指标进行衡量，简单且好记：Trailing 12 months  =  TTM, refers to the past 12 consecutive months of a company's performance data.
 
 `belle of the ball`: 舞池中最靓丽的女孩子；
-
 Inflation-protected bond funds were the belle of the fixed-income ball in 2021.
 
 #### 2022-04-12
@@ -357,7 +350,7 @@ What is exactly happening in Shanghai? Different people hold their own unique op
 
 How ''Zero-covid" is working here?
 
-I just don't feel comfortable doingMainstream Media narratives.
+I just don't feel comfortable doing Mainstream Media narratives.
 
 
 1. `Running-gag`/`running joke` =反复出现的笑话
