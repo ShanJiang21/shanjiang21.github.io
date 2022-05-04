@@ -185,14 +185,13 @@ Flat is better than nested.
 #### 2022-03-07
 
 ##### A reflection on the moving-in
-
-Today, as a ByteDancer, I moved into the new `ground scrapper` near Caohejin, Xuhui. Instead of the ginormous factory-like campus we had, now we are forced to take the elevator to the seventeenth floor to knock everything down and hang around in the shopping mall.
+Today, as an relocated ByteDancer, I moved into the new `ground scrapper` near Caohejin, Xuhui. Instead of the ginormous factory-like campus we had, now we are forced to take the elevator to the seventeenth floor to knock everything down and hang around in the shopping mall.
 
 The word `ground scrapper`  can be traced back at least to the nineteen-twenties, Russian artist and designer El Lissitzky, who [argued](https://archidialog.com/2012/01/17/steven-holl-el-lissitzky-and-the-horizontal-skyscrapers/) that **moving horizontally** is more natural for humans than moving **vertically**.
 
 "Go as high as possible, because altitude equals value"  -- I strongly disagree with this principle since it ignores the importance of human ecology and the tight connection of individuals with nature that humans born to bear.
 
-I am also against  “elevator culture,” and wanting to avoid such a downgrade of Green Area Ratio.
+I am also against “elevator culture,” and wanting to avoid such a downgrade of Green Area Ratio.
 
 While on the other hand, the environmental, social, and governance criteria, as opposed to strictly financial concerns are becoming more popular for
 
