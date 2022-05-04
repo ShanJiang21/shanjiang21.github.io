@@ -1,5 +1,5 @@
 ---
-title: Archived ByteDance Life 1 — Blogging Culture
+title: Archived ByteDance Life 1 — Bio Culture
 subtitle: 字节生活存档小记1 - 签名文化
 author: "Shan J."
 header-img: "img/Zilla.jpeg"
@@ -11,6 +11,8 @@ categories:
  - Modern Love
  - bio
 ---
+
+> Your social media bios are your audience's first impression of your personal brand.
 
 #### Archived Post 1 — Bio Culture
 来字节，用飞书。
