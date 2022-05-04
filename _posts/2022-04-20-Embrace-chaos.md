@@ -340,7 +340,6 @@ Hustle life paces continue.
 
 
 #### New words column
-
 1. `Running-gag`/`running joke` =反复出现的笑话
 2. `Pendo ` = Latin word of `Value`
 3. `relaying context to the engineering team` ~ relay means passing the information received.  
@@ -361,10 +360,18 @@ Hustle life paces continue.
 
 
 #### Editors：
-
 1. https://www.deepl.com/en/translator
 2. https://hemingwayapp.com/
 
-#### Podcast:
-1. [SupChina | Reporting on China without fear or favor](https://supchina.com/)
+#### Podcasts:
+1. [SupChina: Reporting on China without fear or favor](https://supchina.com/)
 2. [文化有限](https://www.xiaoyuzhoufm.com/podcast/5e4515bd418a84a046e2b11a)
+
+#### Cartoonists:
+漫画真的是隔离生活中一种慰藉的神奇存在。
+
+漫画家：
+* Tango
+* Jean Jullien https://www.jeanjullien.com/
+* Christoph Niemannn
+* keigo
