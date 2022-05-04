@@ -12,6 +12,11 @@ categories:
  - covid
 ---
 
+> 世界上一无所有的人，只要有片刻的时间思念爱人，那么他就可以领悟幸福的真谛。<br>
+                                    -- **活出生命的意义**
+> 仅满足于勤快高效的做事，而不去思考今日的努力将带来怎样的明天，这是对人性的背叛。<br>
+                    -- **写给未出世的你** by 阿尔贝·雅卡尔
+
 #### 2022-02-14
 
 有些书就像壁炉里的火苗：我们将它从邻居家借来，在自己家点燃，并与他人分享，那么它就属于我们大家了。——伏尔泰
@@ -64,8 +69,6 @@ The troops are amassed near the border of Ukriane and Russia two weeks ago.
 1. Lower ping is better than high ping, because low ping means less lag.
    There are two standards:  t < 50ms;   t > 100ms
 
-[SupChina | Reporting on China without fear or favor](https://supchina.com/)
-
 2. rather than roped into the details of every deliverable.
 
 ![middle_img_v2_42e39e43-f548-4189-904f-79dcf369f87g](/Users/johnsonpie/Library/Application Support/LarkShell/sdk_storage/5cba36dca5833b75c032750867734eef/resources/images/middle_img_v2_42e39e43-f548-4189-904f-79dcf369f87g.png)
@@ -85,7 +88,7 @@ The troops are amassed near the border of Ukriane and Russia two weeks ago.
 
 切忌在乎他人评价。
 
-on the Indian market, the TakaTak Short Video App has attracted millions of downloads. At the first glimpse I have noticed the
+on the Indian market, the TakaTak Short Video App has attracted millions of downloads.
 
 There is a single thread of videos that are quite popular on TikTok, *Dialogue* Dubbing for TV dramas or series. **Dubbing**, **mixing** or **re-recording**, is a [post-production](https://en.wikipedia.org/wiki/Post-production) process.
 
@@ -156,9 +159,6 @@ According to the Bark's report, **68.97%** of tweens and **90.73%** of teens enc
 
 下定决心，就要速战速决。
 
-1. `stay above the fray`: **not directly involved in an angry or difficult struggle or disagreement** His political aides handled the controversy while he remained above the fray.
-2. `Chronos`: Greek word for `time`.
-
 #### 2022-03-05
 
 We are plunging the entire country into war, and the boycott shall support.
@@ -173,14 +173,14 @@ TT产品feature新动向：
 
 1. [plans to add labels to ‘some’ state-controlled media](https://www.theverge.com/2022/3/4/22962289/tiktok-misinformation-state-media-labels-rollout-russia-ukraine) TikTok will apply the label for misinformation on Russian
 
-```python
+````python
 >>> import this
 The Zen of Python, by Tim Peters
 Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
 Flat is better than nested.
-```
+````
 
 #### 2022-03-07
 
@@ -224,22 +224,6 @@ As a cyclical pattern, the problems facing us are deep and structural—not the 
 
 Suddenly, we've entered a semi-lockdown status, all the employees are fleeing back to work from home. Voluminous conspiracy gossips are flying in the air.
 
-Editors：
-
-1. https://www.deepl.com/en/translator
-2. https://hemingwayapp.com/
-
-New words:
-1. evangelist = 布道者
-2. Bunk down = 睡觉
-3. Quadrangles (四合院)
-4. Sand the tension down 减少冲突
-5. Apostrophe = 撇号(making u look stupid)
-6. Dew = 露水
-7. Primer = 入门书
-8. weed out/wipe out = remove from the group 移除
-
-
 #### 2022-03-17
 
 1. `Ikigai`: Discover the reason for being.
@@ -262,8 +246,6 @@ HAIZ means "Sigh".
 
 #### 2022-03-21
 
-`Low-fi`: more like a general sketch on a product
-
 **pitch book** (or **pitch deck**), also called a **Confidential Information Memorandum**,
 
 最近整个世界似乎都处在一种on fire的状态，飙升的油价，同族的杀戮，还有令人震怖的空难事件，隔着屏幕都能感到灾难情绪。
@@ -275,8 +257,6 @@ HAIZ means "Sigh".
 ####  2022-03-28
 
 今天是WFH开启的第18天，也是被封闭管理（软禁）在小区的第10天。没有想到躲过了2020年年初的国内隔离，在三年后的上海，历史还在不断地重演。普通人的生活，似乎还是被卡在了一种巨大的不确定性之中，在Google上查询Lock down，出来的结果全是shanghai封城的消息，这个承载2,600万人口的世界性经济大都会，在此刻，似乎也是如此脆弱不堪，从来不存在什么魔都的特殊性，举国体制之下，哪有什么例外?
-
-
 
 #### 2022-03-29
 
@@ -302,9 +282,6 @@ Day 19 继续在家上班的节奏似乎逐渐慢下，但也逐渐让人失序�
 #### 2022-04-09
 
 今天在看US Flow of funds 2021, 脚注上有一个缩写之前还没怎么接触过，对于上一财年12个月的业绩指标进行衡量，简单且好记：Trailing 12 months  =  TTM, refers to the past 12 consecutive months of a company's performance data.
-
-`belle of the ball`: 舞池中最靓丽的女孩子；
-Inflation-protected bond funds were the belle of the fixed-income ball in 2021.
 
 #### 2022-04-12
 
@@ -353,17 +330,41 @@ How ''Zero-covid" is working here?
 I just don't feel comfortable doing Mainstream Media narratives.
 
 
-1. `Running-gag`/`running joke` =反复出现的笑话
-2. `Pendo ` = Latin word of `Value`
-3. `relaying context to the engineering team` ~ relay means passing the information received.  
-4. Fast-moving consumer goods (FMCG) = 快消品
-5. Learn the ropes =  learn or understand the basic details of how to do or perform a job, task, or activity.
-
-
 #### 2022-04-24
 
 Day 39.
 
 Hustle life paces continue.
 
-愈发感觉生活像是美剧梦魇绝镇里展现的那样，大家都渐渐的被恐惧吞噬。
+愈发感觉生活像是美剧[梦魇绝镇](https://www.imdb.com/title/tt9813792/)里展现的那样，大家都渐渐的被恐惧吞噬。
+
+
+#### New words column
+
+1. `Running-gag`/`running joke` =反复出现的笑话
+2. `Pendo ` = Latin word of `Value`
+3. `relaying context to the engineering team` ~ relay means passing the information received.  
+4. Fast-moving consumer goods (FMCG) = 快消品
+5. Learn the ropes =  learn or understand the basic details of how to do or perform a job, task, or activity.
+6. `Belle of the ball`: 舞池中最靓丽的女孩子; `Inflation-protected bond funds were the belle of the fixed-income ball in 2021.`
+7. `Low-fi`: more like a general sketch on a product.
+8.  evangelist = 布道者
+9. Bunk down = 睡觉
+10. Quadrangles (四合院)
+11. Sand the tension down 减少冲突
+12. Apostrophe = 撇号(making u look stupid)
+13. Dew = 露水
+14. Primer = 入门书
+15. weed out/wipe out = remove from the group 移除
+16. `stay above the fray`: **not directly involved in an angry or difficult struggle or disagreement** His political aides handled the controversy while he remained above the fray.
+17. `Chronos`: Greek word for `time`.
+
+
+#### Editors：
+
+1. https://www.deepl.com/en/translator
+2. https://hemingwayapp.com/
+
+#### Podcast:
+1. [SupChina | Reporting on China without fear or favor](https://supchina.com/)
+2. [文化有限](https://www.xiaoyuzhoufm.com/podcast/5e4515bd418a84a046e2b11a)
