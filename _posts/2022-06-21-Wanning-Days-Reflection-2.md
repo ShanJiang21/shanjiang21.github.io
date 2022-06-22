@@ -1,5 +1,5 @@
 ---
-title: Archived ByteDance Life 2 — Bio Culture
+title: Archived ByteDance Life 2 — Workaholic Culture
 subtitle: 字节生活存档小记2 - 早C晚A文化
 author: "Shan J."
 header-img: "img/Dayan-Green-Field.jpeg"
@@ -7,12 +7,15 @@ date: 2022-06-21 17:37:24.000000000 +08:00
 layout: post
 categories:
  - Side notes for work
- - workaholic culture
+ - Workaholic culture
  -
 ---
 > 早C晚A：
 >一解为某🍠吹捧的早上服用维生素 C，晚上服用维生素 A的生活方式；
+
 >又解为早上 Coffee，晚上 Alcohol的打工模式。
+
+>本文所涉及和探讨的主要是后者。
 
 ### 即时回复习惯
 
@@ -28,7 +31,6 @@ Email culture instead of instant-messaging culture。
 有一个做研发的同事，因为被猫抓伤去医院打狂犬疫苗，请了病假，但还是在不停回复飞书上的工作消息。大部分字节的同学不论休假与否，只要在飞书上被cue，都会习惯性地尽快回复。
 
 其实这是个可怕的习惯，会一直延续到生活里，即便对方不重要，你还是习惯看到就第一时间给予反馈。
-
 
 
 99%你正在走的路，都是前人们曾经走过的路。
@@ -66,7 +68,6 @@ Ownership 意识在学术界 和 Industry同等重要，这样产出才会有自
 95%的时间在做产出，但实际上学习曲线越来越缓慢，能够专注的时间越来越短暂，
 
 
-
 和我在master同期毕业在美国工作的同学们，或多或少也都步入了自己的第二份工作，但是中美两国整个社会的形态和结构差异都太大了，无法作为直接参考。相同的点可能在于，在这样的fast-changing society，成长在跨文化/跨代际中的中国年轻人，其选择的可能性似乎被covid-19的阴影遮蔽了太多。
 
 “尽管有无数肯载你渡河的马、桥和半神，但必须以你自己为代价，你将抵押和丧失你自己。世上有一条唯一的路，除你之外无人能走。它通往何方？不要问，走便是了。”
@@ -76,7 +77,6 @@ Ownership 意识在学术界 和 Industry同等重要，这样产出才会有自
 Golden handcuffs — when you stay at a job that you’d rather quit only for the money.
 
 For house, for money, staying at a poor job means nothing just ![Screen Shot 2022-06-22 at 11.14.30](/Users/johnsonpie/Library/Application Support/typora-user-images/Screen Shot 2022-06-22 at 11.14.30.png)
-
 
 
 
