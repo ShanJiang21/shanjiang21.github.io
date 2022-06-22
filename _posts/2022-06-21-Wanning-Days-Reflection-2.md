@@ -2,7 +2,7 @@
 title: Archived ByteDance Life 2 — Bio Culture
 subtitle: 字节生活存档小记2 - 早C晚A文化
 author: "Shan J."
-header-img: "img/.jpeg"
+header-img: "img/Dayan-Green-Field.jpeg"
 date: 2022-06-21 17:37:24.000000000 +08:00
 layout: post
 categories:
@@ -11,8 +11,8 @@ categories:
  -
 ---
 > 早C晚A：
->一解为早上维生素 C，晚上服用维生素 A；
->又解为早上 Coffee，晚上 Alcohol。
+>一解为某🍠吹捧的早上服用维生素 C，晚上服用维生素 A的生活方式；
+>又解为早上 Coffee，晚上 Alcohol的打工模式。
 
 ### 即时回复习惯
 
@@ -70,3 +70,15 @@ Ownership 意识在学术界 和 Industry同等重要，这样产出才会有自
 和我在master同期毕业在美国工作的同学们，或多或少也都步入了自己的第二份工作，但是中美两国整个社会的形态和结构差异都太大了，无法作为直接参考。相同的点可能在于，在这样的fast-changing society，成长在跨文化/跨代际中的中国年轻人，其选择的可能性似乎被covid-19的阴影遮蔽了太多。
 
 “尽管有无数肯载你渡河的马、桥和半神，但必须以你自己为代价，你将抵押和丧失你自己。世上有一条唯一的路，除你之外无人能走。它通往何方？不要问，走便是了。”
+
+#### 黄金手铐
+
+Golden handcuffs — when you stay at a job that you’d rather quit only for the money.
+
+For house, for money, staying at a poor job means nothing just ![Screen Shot 2022-06-22 at 11.14.30](/Users/johnsonpie/Library/Application Support/typora-user-images/Screen Shot 2022-06-22 at 11.14.30.png)
+
+
+
+
+
+https://michaellin.io/
