@@ -17,9 +17,11 @@ categories:
 
 >本文所涉及和探讨的主要是后者。
 
-### 即时回复习惯
+今天不能理解当下的所有，可能只是身在此山中。
 
-Email culture instead of instant-messaging culture。
+#### 即时回复习惯
+
+Here you are embracing an instant-messaging culture instead of email culture. 
 
 至今还记得，大学四年级上学期投完所有的学校的申请之后，在那个寒假等待结果的焦虑，伤心，激动，兴奋。
 那个时候，因为时差原因，每天早上我都会
@@ -74,11 +76,23 @@ Ownership 意识在学术界 和 Industry同等重要，这样产出才会有自
 
 #### 黄金手铐
 
+潮流变得太快，物质主义和消费文化，商业道德和制度力量都淬炼成为了这一镣铐的一部分。
+
 Golden handcuffs — when you stay at a job that you’d rather quit only for the money.
 
 For house, for money, staying at a poor job means nothing just ![Screen Shot 2022-06-22 at 11.14.30](/Users/johnsonpie/Library/Application Support/typora-user-images/Screen Shot 2022-06-22 at 11.14.30.png)
+
+#### 解构式集体表达
+
+恢复人的原始状态，以治愈被劈成两半的伤痛。
+
+
+
+
 
 
 
 
 https://michaellin.io/
+
+`混成字:portmanteau `-- a word blending the sounds and combining the meanings of two others, for example *motel* or *brunch* and *frenemy*, *bodacious* (bold + audacious), edutainment, ginormous (giant + enormous).

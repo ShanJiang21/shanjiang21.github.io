@@ -109,6 +109,27 @@ Apartment hunting is exhausting
 A milling crowd.
 Milling: moving around in a confused mass.
 
+
+
+#### 2022-06-27
+
+已经想好了走的日子，或许是时候去一个新的环境，来一段新的开始。
+
+现在回顾大四以来的每一年几乎都在搬家：
+
+* 17年7月 昌平沙河校区 -> 海淀学院南路
+* 18年7月 海淀学院南路  -> 老家
+* 19年5月 168th st uptown -> 108th st. Mahattan 
+* 20年5月 逃回国内 丢盔弃甲 -> 老家
+* 20年8月 结束WFH 正式进入人生第一份工 老家 -> 北三环
+* 21年8月 一年多的北京生涯结束  -> 来到服务端上海分部 漕宝路安营扎寨
+
+
+
+
+
+
+
 1. herculean = 大力神
 2. dud = 哑弹
 3. notched up = attain
