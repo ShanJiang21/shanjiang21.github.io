@@ -8,23 +8,23 @@ layout: post
 categories:
  - Side notes for work
  - Workaholic culture
- -
+ - Collect myself
 ---
 > 早C晚A：
 >一解为某🍠吹捧的早上服用维生素 C，晚上服用维生素 A的生活方式；
 
->又解为早上 Coffee，晚上 Alcohol的打工模式。
-
->本文所涉及和探讨的主要是后者。
+>又解为早上 Coffee，晚上 Alcohol的打工模式。本文所涉及和探讨的主要是后者。
 
 今天不能理解当下的所有，可能只是身在此山中。
 
 #### 即时回复习惯
 
-Here you are embracing an instant-messaging culture instead of email culture. 
+Here you are embracing an instant-messaging culture instead of email culture.
 
 至今还记得，大学四年级上学期投完所有的学校的申请之后，在那个寒假等待结果的焦虑，伤心，激动，兴奋。
-那个时候，因为时差原因，每天早上我都会
+那个时候，因为时差原因，每天早上我都会不停地check邮箱，希望能够收到哪怕是一封congrats的邮件。
+就像是人被吊着一口仙气儿，等真正尘埃落定时，反而失去了每天的那种期待感。
+
 
 “非常优秀的一帮人，非常无奈的被绑在了飞书上，非常遗憾。”
 

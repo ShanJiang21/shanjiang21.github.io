@@ -1,5 +1,9 @@
 Last Days in Shanghai
 
+Collect myself
+
+
+
 #### 2022-05-04
 
 ![img](https://wx4.sinaimg.cn/mw2000/74284001ly1h1wefzd7rhj20zj1be47r.jpg)
@@ -119,11 +123,13 @@ Milling: moving around in a confused mass.
 
 * 17年7月 昌平沙河校区 -> 海淀学院南路
 * 18年7月 海淀学院南路  -> 老家
-* 19年5月 168th st uptown -> 108th st. Mahattan 
+* 19年5月 168th st uptown -> 108th st. Mahattan
 * 20年5月 逃回国内 丢盔弃甲 -> 老家
 * 20年8月 结束WFH 正式进入人生第一份工 老家 -> 北三环
 * 21年8月 一年多的北京生涯结束  -> 来到服务端上海分部 漕宝路安营扎寨
+* 22年7月 上海浦东 -> 蕉风椰雨之地 至此将息
 
+#### 2022-06-28
 
 
 
