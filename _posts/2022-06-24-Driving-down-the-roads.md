@@ -13,9 +13,9 @@ categories:
 
 Memos on my last few days in Shanghai City.
 
-#### 2022-05-04
+<img src="https://wx4.sinaimg.cn/mw2000/74284001ly1h1wefzd7rhj20zj1be47r.jpg” alt=“diverge” width=“470” height=“760”>
 
-![img](https://wx4.sinaimg.cn/mw2000/74284001ly1h1wefzd7rhj20zj1be47r.jpg)
+#### 2022-05-04
 
 愈发相信，简体中文媒体对于信息的过滤，删减和处理，极大地增加了有效信息获取的难度，也浇灭了大家对于特定议题的关注热情。
 
