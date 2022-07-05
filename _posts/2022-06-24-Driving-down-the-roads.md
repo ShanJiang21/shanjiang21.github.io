@@ -1,5 +1,5 @@
 ---
-title:
+title: 出上海记
 subtitle: Jump into my finale episode @SH
 author: "Shan J."
 header-img: "img/LIF.png"
