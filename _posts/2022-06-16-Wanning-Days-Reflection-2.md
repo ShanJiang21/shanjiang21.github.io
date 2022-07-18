@@ -84,6 +84,9 @@ For house, for money, staying at a poor job means nothing just ![Screen Shot 202
 
 #### 解构式集体表达
 
+遵循常规解法，收获常规思路可能往往不能获得大家的青睐。
+
+
 恢复人的原始状态，以治愈被劈成两半的伤痛。
 
 
