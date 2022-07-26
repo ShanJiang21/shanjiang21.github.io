@@ -13,7 +13,7 @@ categories:
 
 Memos on my last few days in Shanghai City.
 
-<img src="https://wx4.sinaimg.cn/mw2000/74284001ly1h1wefzd7rhj20zj1be47r.jpg” alt=“diverge” width=“470” height=“760”>
+<img src="https://wx4.sinaimg.cn/mw2000/74284001ly1h1wefzd7rhj20zj1be47r.jpg">
 
 #### 2022-05-04
 
@@ -130,7 +130,7 @@ Milling: moving around in a confused mass.
 * 21年8月 一年多的北京生涯结束  -> 来到服务端上海分部 漕宝路安营扎寨
 * 22年7月 上海浦东 -> 蕉风椰雨之地 至此将息
 
----
+--
 
 Simple Notes:
 1. herculean = 大力神
@@ -141,6 +141,6 @@ Simple Notes:
 6. entente 协约，协定
 7. goof-off 摸鱼
 8. Muppets 布偶
-9. blunders. 严重失误
+9. blunders 严重失误
 10. code smells: result of poor or misguided programming.
 11. Scope creep: a failure in project management
