@@ -2,8 +2,8 @@
 title: Embark on a new journey
 subtitle: 依依旧楚，邈邈西云
 author: "Shan J."
-header-img: "img/"
-date: 2022-07-23 17:37:24.000000000 +08:00
+header-img: "img/IMG_5779.jpeg"
+date: 2022-07-26 17:37:24.000000000 +08:00
 layout: post
 categories:
  - Farewell
