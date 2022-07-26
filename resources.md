@@ -51,7 +51,7 @@ I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.
 
 2. 给出问题选项，少问开放性问题
 
-* 开放性问题在企业里简直就是个灾难。
+开放性问题在企业里简直就是个灾难。
 
 3. 黑白选项
 
