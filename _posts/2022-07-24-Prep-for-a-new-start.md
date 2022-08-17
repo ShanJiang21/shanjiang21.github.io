@@ -2,15 +2,14 @@
 title: Embark on a new journey
 subtitle: 依依旧楚，邈邈西云
 author: "Shan J."
-header-img: "img/IMG_5779.jpeg"
+header-img: "img/Zilla.jpeg"
 date: 2022-07-26 17:37:24.000000000 +08:00
 layout: post
 catalog: false
 categories:
  - Farewell
  - Transition
- - Roaming
-
+ - ByteDance
 ---
 
 2022-07-25号当天，没打一声招呼，飞书账户就彻底与我告别了。
