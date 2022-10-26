@@ -13,6 +13,8 @@ tags:
 
 #### Sun Dappled // 阳光斑驳
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mNEUkkoUoIA" title="I ain't worried" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 在小破岛的第二个周末踏进许久未去的影院里，非常之开心。Top Gun'Maverick确实是一部值得在大荧幕观看的电影，不管是多角度空中袭击，还是烈日下加州的沙滩排球，或是Tom Cruise的帅气颜值，都一下子把我拉回了大学时代的无忧无虑畅想的日子。
 
 看完解说才知道，原来这么完美无瑕的结局，可能只是我的misinterpretation。在开头的超音速飞行中，Captain疯狂加了10马赫的速率，最终导致飞机解体，也许是在生命的最后一段时光里，思及内心遗憾，才会有后来的故事。
