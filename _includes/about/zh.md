@@ -36,7 +36,7 @@
 
 #### 2023年度小目标
 1. **Health**:用好Class-pass，周末运动至少1 hr
-2. **Emotions**:
+2. **Emotions**:适度的peer pressure或许可以帮助自省，但over-thinking就不必了哦
 
 #### 2022年度小目标
 
