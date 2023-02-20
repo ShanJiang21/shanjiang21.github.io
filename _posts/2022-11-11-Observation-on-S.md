@@ -1,5 +1,5 @@
 ---
-title: 在步入衰退公司的人类学观察1
+title: 步入衰退公司的人类学观察
 subtitle: Facing recession like an anthropologist
 author: "Shan J."
 header-img: "img/post_street4_2020_view2.jpg"
