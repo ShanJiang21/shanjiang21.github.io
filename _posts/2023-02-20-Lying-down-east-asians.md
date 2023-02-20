@@ -1,6 +1,6 @@
 ---
 title: 每个年纪都必须先爱自己
-subtitle: Say your age，fuck age crisis
+subtitle: Say your age, f**k age crisis
 author: "Shan J."
 header-img: "img/home.jpg"
 date: 2023-02-20 21:46:24.000000000 +08:00
