@@ -2,8 +2,10 @@
 layout: post
 title: Sharing
 author: Shan J.
+subtitle: 
 mathjax: true
 header-img: "img/head_1.jpg"
+date: 2023-02-26 10:32:24.000000000 +09:00
 tags:
     - PM side notes
     - Trust and Safety
