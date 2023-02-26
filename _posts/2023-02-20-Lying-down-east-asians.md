@@ -1,5 +1,5 @@
 ---
-title: 每个年纪都必须先爱自己
+title: 拒绝年龄歧视
 subtitle: Say your age, f**k age crisis
 author: "Shan J."
 header-img: "img/home.jpg"
