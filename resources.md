@@ -9,8 +9,6 @@ tags:
     - Trust and Safety
 ---
 
-{:toc}
-
 Here are some of my pick-up from my past PM life in tech industry, as most of the time, I use Chinese and English simultaneously to cater the needs of such giant cross-border organizations. Thus, I would like to log down some useful tips.
 
 ### 1. Communication ｜ 跨文化交际
@@ -88,10 +86,13 @@ Kick off from the MVP version.
 
 ### 3.2.3 Indicators/Metrics | 常用指标
 
+##### E-commerce:
 1. **Bounce rate** is calculated by the total number of one-page visits divided by the total number of entries to a website.
 * As a good rule of thumb, the bounce rate rambles under 40%. Between 40% and 55% is usually okay.
+2. **CTR*CR**: Click-through rate and order conversion rate, which is used for measuing how efficient the traffic can be turned into actual orders.
 
-2. **Short-term Engagement Metrics**: Playtime/U, Play/U and DAU.
+##### Content:
+1. **Short-term Engagement Metrics**: Playtime/U, Play/U and DAU.
 
 
 ### 4. Product ROI validation
@@ -100,12 +101,12 @@ ROI高不高往往是决定产品feature是否能够上线的重要因素。但�
 
 #### Evaluation Methods
 
-1. `Canary Deployment`
+##### 1. `Canary Deployment`
 A canary deployment, or canary release, is a deployment pattern that allows you to roll out new code/features to a subset of users as an initial test.
 
 Fun fact: This technique is called `“canary” releasing` is because just like canaries that were once used in coal mining to alert miners when toxic gases reached dangerous levels, a small set of end users selected for testing act as the canaries and are used to provide an early warning
 
-2. `BlueGreen Deployment`
+##### 2. `BlueGreen Deployment`
 Blue-green release means keeping the old version, deploying the new version then testing for problems, then switching the traffic to the new version.
 
 The process is generally as follows:
@@ -114,5 +115,5 @@ The process is generally as follows:
 * Step 3: Switch traffic from version 1 to version 2, that is, v1:v2 traffic goes from 100:0 to 0:100.
 * Step 4: If there is a problem with version 2, you need to roll back to version 1, v1:v2 traffic is switched back to 100:0.
 
-3. `A/B Testing`
+##### 3. `A/B Testing`
 This is frequently used in search & recommendation feature validation. Traffic distribution, AA sanity check are always necessary to keep the experiment fair enough to be trusted.
