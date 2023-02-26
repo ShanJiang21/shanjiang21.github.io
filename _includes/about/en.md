@@ -3,7 +3,7 @@
 
 In 2020, I graduated from Mailman school of Public Health, Columbia University. During 2020-2022, I worked in [TikTok](https://www.tiktok.com/) as a rookie product manager, after being locked down in Shanghai for 2 months, I decided to seek a new place to continue my professional life.
 
-Currently, I am working in Shopee as a PM, focused on recommendation strategy design, if you think I am a good fit, please hit my [curriculum vitae](./shan_CV_2023.pdf).
+Currently, I am working in Shopee as a PM, focused on recommendation strategy design, if you think I am a good fit, please hit my [curriculum vitae](./Shan_CV_2023.pdf).
 
 However, I do believe the occupational identity is merely a tiny facet of me:
 * **Biological Structure:** A five-foot-six girl (she/her/hers).
@@ -34,3 +34,8 @@ Now I am living & working in *Singapore, China*(1°17′N, 103°50′E).
 <hr>
 
 > Your time is limited, so don’t waste it living someone else’s life.
+
+### Blogroll
+* [袁凡](https://yuanfan.rbind.io/)
+* [谢益辉](https://yihui.org/)
+* [R weekly](https://rweekly.org/)
