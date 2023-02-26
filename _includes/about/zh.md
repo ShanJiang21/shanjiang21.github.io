@@ -1,6 +1,8 @@
 
 #### 个人简介
 
+中文简历，有需要请戳[邮箱](mailto:johnsonpiecufe@gmail.com)，不定时查看。
+
 ````SAS
 吾生皖南，少时慕书画文法，后习格物之学。
 岁在甲午，习社会学，四人居一狭仄之室，寒暑往来，旦暮晨昏，始觉珍贵。
@@ -17,20 +19,11 @@
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="550" height="420"></iframe>
 <br>
-生于皖南(30.64° N, 117.85° E)
-<br>
-学于北京海淀(39°57′N, 116°17′E)
-<br>
-美国纽约(40.71° N, 74.01° W)
-<br>
-浪迹过上海漕河泾(31° 14'N and 121° 29'E)
-
-如今工作和生活的物理活动范围，主要在墙外，非常崇尚互联网空间的侠客情结，常分享一些新鲜的可视化技术或统计tutorial，有需要请戳[邮箱](mailto:sj2921@columbia.edu)，不定时查看。
+生于皖南，学于北京和纽约，浪迹过上海，如今工作和生活的物理活动范围，主要在赤道旁的小破岛(1°17′N, 103°50′E)，非常崇尚互联网空间的侠客情结，常分享一些新鲜的可视化技术或统计tutorial。
 
 #### Blogroll / 有趣的博客
 [袁凡](https://yuanfan.rbind.io/)
 [谢益辉](https://yihui.org/)
-
 
 -----------------
 ### Milestone

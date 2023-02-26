@@ -22,15 +22,15 @@ In my spare time, I enjoy coffee beans, kebabs, mixed with running along the Hud
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="560" height="412"></iframe>
 
-I was Born and raised up in **Anhui, China**(30.64° N, 117.85° E),
+I was Born and raised up in *Anhui, China*(30.64° N, 117.85° E),
 <br>
-Entered college in **Beijing, China**(39°57′N, 116°17′E) and enjoyed four years,
+Entered college in *Beijing, China*(39°57′N, 116°17′E) and enjoyed four years,
 <br>
-Then studied and interned in **New York City, NY**(40.71° N, 74.01° W) for two years,
+Then studied and interned in *New York City, NY*(40.71° N, 74.01° W) for two years,
 <br>
-In 2020, I returned **Beijing, China**(39°57′N, 116°17′E) and worked for a year,
+In 2020, I returned *Beijing, China*(39°57′N, 116°17′E) and worked for a year,
 <br>
-Now I am living & working in **Shanghai, China**(31°13' N, 121° 28'E).
+Now I am living & working in *Singapore, China*(1°17′N, 103°50′E).
 <hr>
 
 > Your time is limited, so don’t waste it living someone else’s life.
