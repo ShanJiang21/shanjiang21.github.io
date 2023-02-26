@@ -19,16 +19,18 @@ Coffee chats may seem easy for PM, however, I never think it is easy for approac
 
 #### 1.1 Chinese Internet Industry Phrases 101 | 中文互联网PM职业环境表达101
 How can I localize Transitioning words in Virtual meetings?
+These frequently used phrases can help Chinese PMs to talk more smoothly.  
+
 - 拎一下: Lead something/ take ownership of something
 - 碰一下: touch base with sb on sth
-- 做会议记录: take meeting minutes;I was jotting down some important highlights
+- 做会议记录: take meeting minutes; I was jotting down some important highlights
 - 插一嘴: Let me chime in here
 - 点名同事回答下: Sorry to put you on the spotlight; Sorry to call you out
 - 总结一下: Let's call it a day
 - 不太难/很容易: it's a walk in the park
 
 ### 2. Master Distraction | 项目时间管理术
-Project management is being used and heard in so many places. I cannot remember how many times I saw the title `Scrum Master` on LinkedIn. Indeed,
+Project management is being used and heard in so many places. I cannot remember how many times I saw the title `Scrum Master` on LinkedIn. Indeed, different organizations lean on their own methodologies to help grow their business. No matter what type of methodology you are using: Scrum, Kanban and Agile, always find the good fit should not be errant.
 
 #### 2.0 Methods - Agile Framework
 
