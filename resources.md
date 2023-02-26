@@ -8,6 +8,9 @@ tags:
     - PM side notes
     - Trust and Safety
 ---
+Table of contents
+
+{:toc}
 
 ## Section 1: Shan's pick-up from PM in tech industry
 
@@ -76,8 +79,14 @@ The process is generally as follows:
 ##### 3. `A/B Testing`
 
 
-#### 职业环境表达（职场话术）
 
+### 3. Communication ｜ 跨文化交际
+
+Coffee chats may seem easy for PMs
+
+
+
+#### 职业环境表达（职场话术）
 How can I localize Transitioning words in Virtual meetings?
 - 拎一下: Lead something/ take ownership of something
 - 碰一下: touch base with sb on sth
