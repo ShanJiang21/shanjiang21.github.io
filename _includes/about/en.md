@@ -39,3 +39,4 @@ Now I am living & working in *Singapore, China*(1°17′N, 103°50′E).
 * [袁凡](https://yuanfan.rbind.io/)
 * [谢益辉](https://yihui.org/)
 * [R weekly](https://rweekly.org/)
+* [Eugene wei](https://www.eugenewei.com/) 

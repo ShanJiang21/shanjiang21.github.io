@@ -48,3 +48,4 @@
 * [袁凡](https://yuanfan.rbind.io/)
 * [谢益辉](https://yihui.org/)
 * [R weekly](https://rweekly.org/)
+* [Eugene wei](https://www.eugenewei.com/) 
