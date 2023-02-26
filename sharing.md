@@ -2,7 +2,7 @@
 layout: post
 title: Sharing
 author: Shan J.
-subtitle: 
+subtitle:
 mathjax: true
 header-img: "img/head_1.jpg"
 date: 2023-02-26 10:32:24.000000000 +09:00
@@ -28,6 +28,7 @@ These frequently used phrases can help Chinese PMs to talk more smoothly.
 - 点名同事回答下: Sorry to put you on the spotlight; Sorry to call you out
 - 总结一下: Let's call it a day
 - 不太难/很容易: it's a walk in the park
+- 突然想到的: off the cuff thoughts 
 
 ### 2. Master Distraction | 项目时间管理术
 Project management is being used and heard in so many places. I cannot remember how many times I saw the title `Scrum Master` on LinkedIn. Indeed, different organizations lean on their own methodologies to help grow their business. No matter what type of methodology you are using: Scrum, Kanban and Agile, always find the good fit should not be errant.
