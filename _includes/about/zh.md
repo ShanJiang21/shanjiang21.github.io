@@ -1,7 +1,7 @@
 
 #### 个人简介
 
-中文简历，有需要请戳[邮箱](mailto:johnsonpiecufe@gmail.com)，不定时查看。
+现以产品经理身份于坡县讨生活，每日往来人情练达之间，。
 
 ````SAS
 吾生皖南，少时慕书画文法，后习格物之学。
@@ -47,5 +47,6 @@
 ### 有趣的博客
 * [袁凡](https://yuanfan.rbind.io/)
 * [谢益辉](https://yihui.org/)
+* [于淼](https://yufree.cn/cn/)
 * [R weekly](https://rweekly.org/)
-* [Eugene wei](https://www.eugenewei.com/) 
+* [Eugene wei](https://www.eugenewei.com/)
