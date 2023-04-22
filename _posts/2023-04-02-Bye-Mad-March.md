@@ -11,6 +11,8 @@ tags:
  - workspace murmur
 ---
 
+No one prepared me for my heartbreak job-hunting, but I do know this time I need to make a better decision. 
+
 #### 03-21-Emotionless is not a remedy
 
 生活的困惑，或者说在某种程度上目前严重影响幸福感的一个重要因素就是：Doing a dull job, receiving negative feedbacks, cold teammates, and no supportive culture here in this team. Comparatively speaking, I am grateful for the colloquial vibes I had previously, even though sometimes annoying, that can bring me a drop of happiness. I don't agree what Z said, trying to ignore the feedbacks & comments people had on you and becoming emotionless.
