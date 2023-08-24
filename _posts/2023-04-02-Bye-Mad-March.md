@@ -11,7 +11,7 @@ tags:
  - workspace murmur
 ---
 
-No one prepared me for my heartbreak job-hunting, but I do know this time I need to make a better decision. 
+No one prepared me for my heartbreak job-hunting, but I do know this time I need to make a better decision.
 
 #### 03-21-Emotionless is not a remedy
 
@@ -59,6 +59,7 @@ Awakened by the recent news series, seems everything is changing under the new S
 #### 03-28 Reliability testing
 
 一早上来公司，就被拉进bug review meeting; 盯着陡然下降的CTR指标，再看着RN 刚刚上线的bug修复，众人好一顿苦思冥想，却毫无头绪，最后还是草草收场。
+
 好不容易收拾好情绪，下午video的需求又让APP一整个大崩溃，不过也让我学到一点，对于东南亚用户们，即便在其他场景验证了低端机可用可实现，但是在具体落地上，不同平台的实现差异（Native vs RN）还是会影响到前端的用户体验，在基建不完备，同事无所谓的团队里，可以做的就是多测试，多测试，多测试； 以及少一点`应该` 的判断，多一点实然的测试，毕竟有empirical evidence，才有话语权。
 
 #### 03-29 Douchebag
