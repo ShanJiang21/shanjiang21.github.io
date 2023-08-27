@@ -47,6 +47,7 @@
 
 ### 有趣的博客
 * [新国志](https://xinguozhi.wordpress.com/)
+* [歪脑](https://www.wainao.me/)
 * [袁凡](https://yuanfan.rbind.io/)
 * [谢益辉](https://yihui.org/)
 * [于淼](https://yufree.cn/cn/)
