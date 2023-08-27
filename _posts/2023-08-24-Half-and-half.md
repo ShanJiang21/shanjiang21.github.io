@@ -33,7 +33,7 @@ To be honest, recommendation PM can easily be manipulated while the algo team is
 
 #### 16-Aug
 
-I feel extremely tired after a wasting few hours writing essays on wordpress and lost it in a second. How pricy is the lesson!
+I feel extremely tired after wasting a few hours writing essays on wordpress and lost it in a second. How pricy is the lesson!
 
 Will never try to deploy on the shitty webpage again.
 
@@ -66,6 +66,23 @@ hot-desking 带来的适应成本和切换成本还是很大的，尤其是在�
 #### 24-Aug
 
 Goodhart’s Law is expressed simply as: “When a measure becomes a target, it ceases to be a good measure.” 今天面试的时候当提及north-star metrics不经意间想起这句话，无论行业演变成什么样，我们的OKR最终都会变成枷锁，异化其中的每一个人。
+
+#### 27-Aug
+
+最近半年，因为牙齿的问题，前前后后跑了5，6次新山，这个马来西亚第二大城市，越走近马来，越感觉到自己对于东南亚华人认识的不足。
+
+尽管在马来西亚走在路上可以看到很多讲华文的华人脸庞，但实际上也存在两类华人，一类是15世纪就来到马来西亚和新加坡定居的华人后裔，他们拥有自己的独特菜系，穿着特色的族群服饰，也孕育出了峇峇与娘惹 (Baba and Nyonya)文化，免于了文化大革命的清洗，也让他们保有了文化上的传承。而另一类，才是我们一般意义上的新移民（1-2代移民）。
+
+> 娘惹指的是女性，半个世纪前外国人眼中南洋女子的化身。年纪小的女子称为小娘惹，年纪大的尊称为bibik，就像今日称呼auntie一样。至于男生，无论老幼都称为峇峇。所谓“三代成峇”，第一代移民漂洋过海，到南洋落地生根，多少保留着家乡的信仰与习俗。第二代吸收更多的在地元素，第三代已经完全融合于在地社会，文化语言等难免带有当地色彩，因此形成峇峇文化（或娘惹文化）。
+
+与活跃在公众视野中的北美移民不同，东南亚华人语言的多样性和在地的历史都长得多，也造就了大熔炉下崭新的文化身份。而与港澳台不同的是，马来西亚华人和新加坡华人都使用简体中文，与中国大陆是更亲近的同文同种，而马华文学最近这些年，更是在台湾文坛占有了自己的一席之地，但在中国大陆却鲜有人知。昨天回家路上在大众书局乱翻书，认识了一些马华文学的新作家：黄锦树，黎紫书，张贵兴，
+
+马来西亚的华文媒体经常将本国称为“大马”，而这个词主要是因为19
+这个热带岛
+
+
+
+
 
 #### New Words
 

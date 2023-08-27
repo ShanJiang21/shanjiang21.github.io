@@ -46,11 +46,9 @@
 6. **记录**：坚持每周记录一些工作/生活中的反思和感悟。
 
 ### 有趣的博客
+* [新国志](https://xinguozhi.wordpress.com/)
 * [袁凡](https://yuanfan.rbind.io/)
 * [谢益辉](https://yihui.org/)
 * [于淼](https://yufree.cn/cn/)
 * [R weekly](https://rweekly.org/)
 * [Eugene wei](https://www.eugenewei.com/)
-
-### 冷知识
-* [坡县都市传说]()
