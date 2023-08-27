@@ -8,13 +8,10 @@ layout: post
 tags:
  - lifestyle
  - Work notes
+ - movie comments
 ---
 
-#### 14-Aug
-
-The movie Barbie has triggered heated debates, discussions on and off the cyberspace. As it has become the ,
-
-The Barbie film has been banned in **Kuwait** and faces calls for a ban in Lebanon amid criticism in the Arab world of the movie's social values. Kuwait acted to protect "public ethics", the state news agency said.
+#### 13-Aug
 
 说实话，EP找工作真的是不停的试，比较高效的排除法就是看最近一周的post，因为往往linkedin上的JD都是明日黄花，时效性太差，以下请看8月投递拒信合集：
 
@@ -24,6 +21,11 @@ The Barbie film has been banned in **Kuwait** and faces calls for a ban in Leban
 * Agoda (唯一给我发非模版回复的大公司，好感+10086)
 * ielts idp (因为base在澳洲，所以拒绝了我，尽管也给我发了很长的email)
 * Airwallex （高冷且捉摸不定）
+
+
+#### 14-Aug
+
+The movie Barbie has triggered heated debates, discussions on and off the cyberspace. As it has become the trendy hashtag, more questions and facts about feminism surfaced. It was until recently did I eventually come to realize that not only China, North Korea has strict censorship for the mass media, the film Barbie has been officially banned in **Kuwait** and faces calls for a ban in Lebanon amid criticism in the Arab world of the movie's social values. Kuwait acted to protect "public ethics", the state news agency said.
 
 #### 15-Aug
 
