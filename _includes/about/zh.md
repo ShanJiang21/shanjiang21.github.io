@@ -45,7 +45,7 @@
 5. **阅读**：每周找个专属于我的小情绪出口：做饭，买彩票，还有看电影和zumba，今年两本原版书 + x本中文书，最近总是躺在《台北人》怀里睡着，中《一把青》的毒很深。
 6. **记录**：坚持每周记录一些工作/生活中的反思和感悟。
 
-### 有趣的博客
+#### 有趣的博客
 * [新国志](https://xinguozhi.wordpress.com/)
 * [歪脑](https://www.wainao.me/)
 * [袁凡](https://yuanfan.rbind.io/)
@@ -53,3 +53,6 @@
 * [于淼](https://yufree.cn/cn/)
 * [R weekly](https://rweekly.org/)
 * [Eugene wei](https://www.eugenewei.com/)
+
+##### Crypto
+* [Vryonis](https://blog.vrypan.net/)
