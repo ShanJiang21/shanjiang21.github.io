@@ -13,13 +13,49 @@ tags:
 Here are some of my pick-up from my past PM life in tech industry, as most of the time, I use Chinese and English simultaneously to cater the needs of such giant cross-border organizations. Thus, I would like to log down some useful tips.
 
 There are several threads of domain knowledge that are critical to becoming a qualified PM in the Internet industry:
-- 
-
 ### 1. Communication ｜ 跨文化交际
-Coffee chats may seem easy for PM, however, I never think it is easy for approaching people from a totally different culture.
 
+Coffee chats may not seem easy for a rookie PM, and learning how to talk will always be the first lesson in this industry. I never think it is easy for approaching people from a totally different culture, to learn where they came from when talking is top priority for kicking off your work.  
 
-#### 1.1 Chinese Internet Industry Phrases 101 | 中文互联网PM职业环境表达101
+(I will try to add up new stuff in this PM-focused dictionary) 
+
+#### 1.1 **Meetings/ 会议对对碰：**
+
+1. Resolve the deadlock
+
+2. Revisit / circle back to the pain-points discussed before.
+
+3. Legacy Version
+
+   Try to avoid using the term `old version` since the legacy may have more underlying meaning underneath it.
+
+4. Write the deck  = 写slides
+
+5. ****[Jam Sesh](https://www.urbandictionary.com/define.php?term=Jam+Sesh)  = [Jam session](https://en.wikipedia.org/wiki/Jam_session)** 来源于乐队进行即兴演奏，引申为一群人讨论一下解决方案
+
+6. Catch up with
+
+7. One on One 一对一交流
+
+8. tl;dr = too long; didn’t read
+
+9. Best practice 最佳实践
+
+10. Basic gist 基本主旨
+
+11. Narrow down / break down 拆分/拆解问题
+
+#### 1.2 **Coordinating with Dev/Algo:**
+
+1. Launch/release the feature 上线某个功能
+2. Sunset the feature 下线某个功能
+3. jointly debugging 联调
+4. Hardcode 写死
+5. Fine-tune models 调试模型
+6. CV models = Computer vision models
+
+#### 1.3 Transitional words/Phrases: 
+
 How can I localize Transitioning words in Virtual meetings?
 These frequently used phrases can help Chinese PMs to talk more smoothly.  
 
@@ -32,7 +68,7 @@ These frequently used phrases can help Chinese PMs to talk more smoothly.
 - 不太难/很容易: it's a walk in the park
 - 突然想到的: off the cuff thoughts
 
-### 2. Master Distraction | 项目时间管理术
+### 2. Master Distraction | 项目管理术
 Project management is being used and heard in so many places. I cannot remember how many times I saw the title `Scrum Master` on LinkedIn. Indeed, different organizations lean on their own methodologies to help grow their business. No matter what type of methodology you are using: Scrum, Kanban and Agile, always find the good fit should not be errant.
 
 #### 2.0 Methods - Agile Framework
@@ -57,6 +93,9 @@ I love what is defined in [Debian rules](https://www.debian.org/code_of_conduct.
 Instead of giving the black/white options for a product solution, a bearable minimum product design is always a good start if you need to buy in multiple stakeholders.  
 
 #### 2.4 降低预期
+
+Always set lower expectations and 
+
 穷举选项给用户不一定是一件好事，因为设计者常常站在自己的角度在给使用者挖坑。
 产品设计的精细化和精密仪器设计不一致，在bug常有的创业公司，不要给自己预设很多心理防线。
 
@@ -79,30 +118,45 @@ The purpose of this section is to make sure all are aligned to the same mission.
 
 #### Section 2: Milestones in Each Phase
 
+
+
 #### Section 3: Resource planning & Timeline
 Engineering source planning
 Prioritize the right features from the begining.
 
-Kick off from the MVP version.
+Kick off from the MVP version first, you'll never complete unless you start. 
+
+
 
 ### 3.2 How to write a PRD?
 
-### 3.2.1 Context(Business & Product)| 商业背景和产品上下文
+#### 3.2.1 Context(Business & Product)| 商业背景和产品上下文
 
-### 3.2.3 Indicators/Metrics | 常用指标
+1. **Version control:** Always put the change log above in the header part in case there are any changes after the feasibility study. 
+2. **Applicable Scenarios**: For many well-established companies, the targeted users are coming from various sources: Web, APP, and 
+
+#### 3.2.3 Indicators/Metrics | 常用指标
 
 ##### E-commerce:
-1. **Bounce rate** is calculated by the total number of one-page visits divided by the total number of entries to a website.
-* As a good rule of thumb, the bounce rate rambles under 40%. Between 40% and 55% is usually okay.
-2. **CTR*CR**: Click-through rate and order conversion rate, which is used for measuing how efficient the traffic can be turned into actual orders.
+1. **Bounce rate** is calculated by the total number of one-page visits divided by the total number of entries to a website. As a good rule of thumb, the bounce rate rambles under 40%. Between 40% and 55% is usually okay.
+2. **CTR**: The assumption is that the higher the clicks, the more relevant are the recommendations.
+
+3. **CTR*CR**: Click-through rate and order conversion rate, which is used for measuing how efficient the traffic can be turned into actual orders.
+
+   
 
 ##### Content:
 1. **Short-term Engagement Metrics**: Playtime/U, Play/U and DAU.
+1. **North-star Metrics:** Valid View users.
+
+
 
 
 ### 4. Product ROI validation
 
-ROI高不高往往是决定产品feature是否能够上线的重要因素。但是如何衡量收益呢？在工业界的验证也是通过实验的方法，拿到真实世界的用户数据反馈，在不断的迭代中，往前推进。
+Same like Clinical Trials, to evaluate the validity and effectiveness of a new feature/ function, a PM needs to make good judgements upon the ROI. Usually the ROI validation will be quite different depending on the stage of the company. For a start-up, the growth will be the key no matter how. For a mature listed company, the profitability might be the highlights that no one will miss when reviewing the annual report. 
+
+ROI高不高往往是决定产品feature是否能够上线的重要因素。但是如何衡量收益呢？和药物临床实验一样，在工业界的验证也是通过实验的方法，拿到真实世界的用户数据反馈，在不断的迭代中，往前推进。 
 
 #### Evaluation Methods
 
