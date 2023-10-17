@@ -10,7 +10,6 @@ However, I do believe the occupational identity is merely a tiny facet of me:
 * **Social identity**: a daughter, runner and an annoying reader who gives harsh comments.
 * **A Critical Don Quixote**: An Anti-social tomboy.
 
-
 #### Digital footprints
 
 ````SAS
