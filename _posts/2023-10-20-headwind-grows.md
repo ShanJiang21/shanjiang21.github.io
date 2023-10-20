@@ -1,5 +1,5 @@
 ---
-title: La comédie humaine: Why we are always getting better?
+title: Why we are always getting better?
 subtitle: 厉风济则众窍为虚
 author: "Shan J."
 header-img: "img/climb.png"
