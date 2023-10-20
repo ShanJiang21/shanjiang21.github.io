@@ -53,8 +53,7 @@
 * [R weekly](https://rweekly.org/)
 * [Eugene wei](https://www.eugenewei.com/)
 
-
-##### Singapore 
+##### Singapore
 * [新国志](https://xinguozhi.wordpress.com/)
 * [红蚂蚁](https://www.redants.sg/about-us)
 
