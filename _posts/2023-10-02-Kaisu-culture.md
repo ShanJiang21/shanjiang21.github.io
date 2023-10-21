@@ -1,6 +1,6 @@
 ---
-title: 新加坡人的怕输文化
-subtitle: Mr. Kiasu in Singapore
+title: Mr. Kiasu in Singapore
+subtitle: 新加坡人的怕输文化
 author: "Shan J."
 header-img: "img/eyes.png"
 date: 2023-10-02 16:46:24.000000000 +08:00
@@ -8,9 +8,10 @@ layout: post
 tags:
  - lifestyle
  - Singapore culture
+ - Kiasu
 ---
 
-#### Kiasu 文化
+#### 何为`怕输`文化
 
 2018年左右，BBC曾经写过一篇文章，名为[这是世界上最争强好胜的国家吗?](https://www.bbc.com/ukchina/trad/vert-tra-43642173) 简单说来，文章描述了在新加坡存在的一种`Kiasu`文化, 即 Scare to lose.
 
