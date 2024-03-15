@@ -13,37 +13,18 @@ tags:
 Here are some of my pick-up from my past PM life in tech industry, as most of the time, I use Chinese and English simultaneously to cater the needs of such giant cross-border organizations. Thus, I would like to log down some useful tips.
 
 There are several threads of domain knowledge that are critical to becoming a qualified PM in the Internet industry:
+
 ### 1. Communication ｜ 跨文化交际
 
 Coffee chats may not seem easy for a rookie PM, and learning how to talk will always be the first lesson in this industry. I never think it is easy for approaching people from a totally different culture, to learn where they came from when talking is top priority for kicking off your work.  
 
-(I will try to add up new stuff in this PM-focused dictionary) 
-
-#### 1.1 **Meetings/ 会议对对碰：**
+#### 1.1  **Deal with people 人际交往：**
 
 1. Resolve the deadlock
-
 2. Revisit / circle back to the pain-points discussed before.
-
-3. Legacy Version
-
-   Try to avoid using the term `old version` since the legacy may have more underlying meaning underneath it.
-
-4. Write the deck  = 写slides
-
-5. ****[Jam Sesh](https://www.urbandictionary.com/define.php?term=Jam+Sesh)  = [Jam session](https://en.wikipedia.org/wiki/Jam_session)** 来源于乐队进行即兴演奏，引申为一群人讨论一下解决方案
-
-6. Catch up with
-
-7. One on One 一对一交流
-
-8. tl;dr = too long; didn’t read
-
-9. Best practice 最佳实践
-
-10. Basic gist 基本主旨
-
-11. Narrow down / break down 拆分/拆解问题
+3. Write the deck  = 写slides
+4. ****[Jam Sesh](https://www.urbandictionary.com/define.php?term=Jam+Sesh)  = [Jam session](https://en.wikipedia.org/wiki/Jam_session)** 来源于乐队进行即兴演奏，引申为一群人讨论一下解决方案
+5. You Nailed it!  = 做的很棒
 
 #### 1.2 **Coordinating with Dev/Algo:**
 
@@ -53,8 +34,26 @@ Coffee chats may not seem easy for a rookie PM, and learning how to talk will al
 4. Hardcode 写死
 5. Fine-tune models 调试模型
 6. CV models = Computer vision models
+7. Silver bullet  = 灵丹妙药 （there is no silver bullet in solving this problem)
+8. Silver Lining = 一线希望 (Every cloud has a *silver lining*)
+9. Catch up with
+10. One on One 一对一交流
+11. tl;dr = too long; didn’t read
+12. Best practice 最佳实践
+13. Basic gist 基本主旨
+14. Legacy Version：Try to avoid using the term `old version` since the legacy may have more underlying meaning underneath it.
 
-#### 1.3 Transitional words/Phrases: 
+#### 1.3 **Personal Growth**
+Increase your visibility 增加自己的职业能见度
+  1. Boost your personal brand 打造个人品牌
+  2. Know what's on the top of mind in your key stakeholders' mind
+  3. Speak up in meetings
+  4. Consistently deliver quality work
+  5. Stay abreast with the market trends. 对市场趋势保持洞察；abreast = 并排/并肩
+  6. Having a clear feedback loop is critical for staying proactive. 拥有清晰及时的反馈路径对于主动的风险监控至关重要。
+  7. Narrow down / break down 拆分/拆解问题
+
+#### 1.4 **Meetings/ 会议对对碰：**
 
 How can I localize Transitioning words in Virtual meetings?
 These frequently used phrases can help Chinese PMs to talk more smoothly.  
@@ -67,6 +66,12 @@ These frequently used phrases can help Chinese PMs to talk more smoothly.
 - 总结一下: Let's call it a day
 - 不太难/很容易: it's a walk in the park
 - 突然想到的: off the cuff thoughts
+
+#### 1.5 **Data Analytics：**
+
+1. YOY = Year on year; MoM = Month on Month; WoW = Week on Week
+
+
 
 ### 2. Master Distraction | 项目管理术
 Project management is being used and heard in so many places. I cannot remember how many times I saw the title `Scrum Master` on LinkedIn. Indeed, different organizations lean on their own methodologies to help grow their business. No matter what type of methodology you are using: Scrum, Kanban and Agile, always find the good fit should not be errant.
@@ -94,7 +99,7 @@ Instead of giving the black/white options for a product solution, a bearable min
 
 #### 2.4 降低预期
 
-Always set lower expectations and 
+Always set lower expectations and be humble.
 
 穷举选项给用户不一定是一件好事，因为设计者常常站在自己的角度在给使用者挖坑。
 产品设计的精细化和精密仪器设计不一致，在bug常有的创业公司，不要给自己预设很多心理防线。
@@ -102,7 +107,27 @@ Always set lower expectations and
 
 ### 3. Writing | PM写作之术
 
+### 3.0 Overview: From Mindset to Essential types of Documentation
+
+Mindset: From <The Scope you own currently> to <Your Upstream/Downstream> to <The overall business>, what value you can bring to the organization?
+- Business Value (Matters most)
+- Social Value (e.g.: T&S industry)
+- Personal Value (For growth & promotion)
+
+### Types of Documentation in Tech
+
+There are numerous types of documentations in different industries. For various of purposes,
+
+1. Pitch Deck: to pitch yourself as a product manager. Audience: Upper Management.
+2. Primer: beginner's guidebook.
+
+
 ### 3.1 How to write Roadmap?
+
+- Logic: is the key to good article.
+- Structure: can be trained.
+- Words & Sentences: shall be smooth & natural.
+- Etiquette: usually be overlooked, but need to be highlighted.
 
 #### Section 1: Mission Statement & Vision Statement
 
@@ -124,48 +149,51 @@ The purpose of this section is to make sure all are aligned to the same mission.
 Engineering source planning
 Prioritize the right features from the begining.
 
-Kick off from the MVP version first, you'll never complete unless you start. 
-
+Kick off from the MVP version first, you'll never complete unless you start.
 
 
 ### 3.2 How to write a PRD?
 
 #### 3.2.1 Context(Business & Product)| 商业背景和产品上下文
 
-1. **Version control:** Always put the change log above in the header part in case there are any changes after the feasibility study. 
-2. **Applicable Scenarios**: For many well-established companies, the targeted users are coming from various sources: Web, APP, and 
+1. **Version control:** Always put the change log above in the header part in case there are any changes after the feasibility study.
+2. **Applicable Scenarios**: For many well-established companies, the targeted users are coming from various sources: Web, APP, and
 
 #### 3.2.3 Indicators/Metrics | 常用指标
 
-##### E-commerce:
+##### E-commerce Industry:
 1. **Bounce rate** is calculated by the total number of one-page visits divided by the total number of entries to a website. As a good rule of thumb, the bounce rate rambles under 40%. Between 40% and 55% is usually okay.
 2. **CTR**: The assumption is that the higher the clicks, the more relevant are the recommendations.
+3. **CTR*CR**: Click-through rate and order conversion rate, which is used for measuring how efficient the traffic can be turned into actual orders.
+4. **Customer churn rate**  as the rate of attrition or customer churn, is the rate at which customers stop doing business with an entity.顾客流失率,
 
-3. **CTR*CR**: Click-through rate and order conversion rate, which is used for measuing how efficient the traffic can be turned into actual orders.
-
-   
-
-##### Content:
+##### Content Industry:
 1. **Short-term Engagement Metrics**: Playtime/U, Play/U and DAU.
 1. **North-star Metrics:** Valid View users.
 
+
+#### 3.2.4 Terms & Glossary：
+1. “*In*-*app*” refers to actions that take place within a mobile application
+    常见搭配有：[In-App Purchase](https://developer.apple.com/in-app-purchase/), in-app announcements, in-app notifications 等。
+
+2. Banner: Banner ad units display rectangular ads that occupy a portion of an app's layout.
 
 
 
 ### 4. Product ROI validation
 
-Same like Clinical Trials, to evaluate the validity and effectiveness of a new feature/ function, a PM needs to make good judgements upon the ROI. Usually the ROI validation will be quite different depending on the stage of the company. For a start-up, the growth will be the key no matter how. For a mature listed company, the profitability might be the highlights that no one will miss when reviewing the annual report. 
+Same like Clinical Trials, to evaluate the validity and effectiveness of a new feature/ function, a PM needs to make good judgements upon the ROI. Usually the ROI validation will be quite different depending on the stage of the company. For a start-up, the growth will be the key no matter how. For a mature listed company, the profitability might be the highlights that no one will miss when reviewing the annual report.
 
-ROI高不高往往是决定产品feature是否能够上线的重要因素。但是如何衡量收益呢？和药物临床实验一样，在工业界的验证也是通过实验的方法，拿到真实世界的用户数据反馈，在不断的迭代中，往前推进。 
+ROI高不高往往是决定产品feature是否能够上线的重要因素。但是如何衡量收益呢？和药物临床实验一样，在工业界的验证也是通过实验的方法，拿到真实世界的用户数据反馈，在不断的迭代中，往前推进。
 
-#### Evaluation Methods
+### 4.1 Evaluation Methods
 
-##### 1. `Canary Deployment`
+#### 4.1.1. `Canary Deployment`
 A canary deployment, or canary release, is a deployment pattern that allows you to roll out new code/features to a subset of users as an initial test.
 
 Fun fact: This technique is called `“canary” releasing` is because just like canaries that were once used in coal mining to alert miners when toxic gases reached dangerous levels, a small set of end users selected for testing act as the canaries and are used to provide an early warning
 
-##### 2. `BlueGreen Deployment`
+#### 2. `BlueGreen Deployment`
 Blue-green release means keeping the old version, deploying the new version then testing for problems, then switching the traffic to the new version.
 
 The process is generally as follows:
@@ -174,5 +202,5 @@ The process is generally as follows:
 * Step 3: Switch traffic from version 1 to version 2, that is, v1:v2 traffic goes from 100:0 to 0:100.
 * Step 4: If there is a problem with version 2, you need to roll back to version 1, v1:v2 traffic is switched back to 100:0.
 
-##### 3. `A/B Testing`
+#### 3. `A/B Testing`
 This is frequently used in search & recommendation feature validation. Traffic distribution, AA sanity check are always necessary to keep the experiment fair enough to be trusted.

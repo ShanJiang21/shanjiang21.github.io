@@ -132,3 +132,6 @@ ggplot(train_df, aes(x = as.factor(pclass), stat = "count")) +
   ggtitle("Distribution of survival rate among 3 classes on Titanic")
 
 ```
+
+
+
