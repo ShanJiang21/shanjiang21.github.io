@@ -90,3 +90,11 @@ SMU校园小小的，公交站一下来，就是它们的会计学院。学校�
 #### March-9th 2024
 
 去看房，竟然在Holland village看到了扎哈的作品，D‘leedon, 想起来以前上学的时候超级迷建筑，甚至想要改行去学，而现在也不可免俗的只知道在彩色的网红屋子下拍拍照： Colorful Peranakan (峇峇娘惹)
+
+#### March-15th 2024
+
+Fun fact：First algorithm engineer | 轶闻趣事：世界上第一位程序员
+
+Ada Lovelace, who was the first inventor of algorithm around the world, was female. For the generative AI testing, people have adopted her name to call the test which can measure the intellectual level of various of AIs on the market.
+
+> Lovelace: “only when computers originate things should they be believed to have minds”
