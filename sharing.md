@@ -172,12 +172,16 @@ Kick off from the MVP version first, you'll never complete unless you start.
 1. **North-star Metrics:** Valid View users.
 
 
-#### 3.2.4 Terms & Glossary：
+#### 3.2.4 Terms & Glossary | 常见术语：
+
+##### UI/UX design | 前端相关
 1. “*In*-*app*” refers to actions that take place within a mobile application
     常见搭配有：[In-App Purchase](https://developer.apple.com/in-app-purchase/), in-app announcements, in-app notifications 等。
 
 2. Banner: Banner ad units display rectangular ads that occupy a portion of an app's layout.
 
+##### Project Management | 项目管理
+3. [Scrum Sprint] /sprɪnt/ **to run as fast as you can over a short distance, either in a race or because you are in a great hurry to get somewhere**
 
 
 ### 4. Product ROI validation
@@ -187,6 +191,8 @@ Same like Clinical Trials, to evaluate the validity and effectiveness of a new f
 ROI高不高往往是决定产品feature是否能够上线的重要因素。但是如何衡量收益呢？和药物临床实验一样，在工业界的验证也是通过实验的方法，拿到真实世界的用户数据反馈，在不断的迭代中，往前推进。
 
 ### 4.1 Evaluation Methods
+
+Quantative vs Qualitative
 
 #### 4.1.1. `Canary Deployment`
 A canary deployment, or canary release, is a deployment pattern that allows you to roll out new code/features to a subset of users as an initial test.
@@ -204,3 +210,22 @@ The process is generally as follows:
 
 #### 3. `A/B Testing`
 This is frequently used in search & recommendation feature validation. Traffic distribution, AA sanity check are always necessary to keep the experiment fair enough to be trusted.
+
+一般在工业界，除了AB实验，人们还会经常提到AA实验，这是为了观察实验平台的流量是否分配均匀而使用的一种方法，流量分配均匀是取得公正可信指标的前提。
+> 如何解释线上指标的波动？
+> 如何解释实验指标的波动？
+
+这几个问题是日常工作当中最常面对的几个关键问题，核心思路是：先分析指标是如何变动的（描述性统计），再分析变动程度，变动是否具有周期性，还是仅一次性的波动，以及变动的*绝对程度*（直接做差）和*相对程度*（计算变动的百分比）
+
+
+#### 5. Deal with people
+
+#### 5.1 How to give efficient and top-quality feedback?
+
+- Be specific on the issue.
+- Ask for permission before you explain.
+- **<u>Give a big picture</u>** for your subordinates.
+- Identify the success and challenges: we often focused on the negative, but we still need to mention the positive to <u>break the ice.</u>
+
+* Solve the Problem Collaboratively. (Always remeber your job is to develop people)
+* Establish Clear Next Steps
