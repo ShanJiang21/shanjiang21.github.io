@@ -2,7 +2,7 @@
 title: A man's Epic journey
 subtitle: 找寻真实的《灵山》
 author: "Shan J."
-header-img: "img/invisible.jpeg"
+header-img: "img/Greenpeace.png"
 date: 2024-05-19 15:06:24.000000000 +08:00
 layout: post
 tags:
