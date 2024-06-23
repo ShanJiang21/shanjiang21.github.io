@@ -1,5 +1,5 @@
 ---
-title: Yellow face: a book about theft and identity 
+title: Yellow face: a book about theft and identity
 subtitle: 《扮黄脸》-- 欺骗、嫉妒和白人至上
 author: "Shan J."
 header-img: "img/yellow.png"
@@ -31,7 +31,8 @@ I am rooted, but I flow. // 我扎根，却也漂流。
 
 推特揭秘，崩溃，2本书的阴影。
 
-这本书让我重新认识了小众的出版行业的另一面，也在种族议题上给我重新上了一课。
+这本书让我重新认识了小众的出版行业的另一面，也在种族议题上给我重新上了一课。这本书让我重新反思：白人来写亚洲人的历史，真的就罪不可恕么？谁拥有叙述的主体权？作家的种族是界限吗？传统基于经验的写作标准是否也是一种歧视性框架呢？
+
 
 //
 
