@@ -1,6 +1,6 @@
 ---
-title: Yellow face: a book about theft and identity
-subtitle: 《扮黄脸》-- 欺骗、嫉妒和白人至上
+title: Yellow face You and Me
+subtitle: 《扮黄脸》欺骗、嫉妒和白人至上
 author: "Shan J."
 header-img: "img/yellow.png"
 date: 2024-06-23 15:06:24.000000000 +08:00
@@ -23,7 +23,7 @@ I am rooted, but I flow. // 我扎根，却也漂流。
 
 > Writing is the closest thing we have to real magic.
 
-虽然Rebecca Kuang在江湖上早有耳闻，与我同样大的年纪，从出道以来就屡获大奖，Babel 是本大部头，不太适合最近忙碌的我，于是在今年儿童节，给了自己一份礼物 — Paper back *Yellow Face*
+虽然对于Rebecca Kuang在江湖上早有耳闻，她与我同样大的年纪，从出道以来就屡获大奖，可惜她广受好评的 Babel 是本大部头，不太适合最近忙碌的我，于是在今年儿童节，给了自己一份礼物 — Paper back *Yellow Face*来看一看。
 
 这本小说读起来真的很爽，尤其是主人公的心理描写已经是非常老练又辛辣，《扮黄脸》听说最近在台湾出了中文版，不知道如何，但是这本书叙述的方式和用词，还有作者本人的观点其实都值得细细思考和回味。
 
