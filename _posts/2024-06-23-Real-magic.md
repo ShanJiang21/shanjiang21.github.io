@@ -1,6 +1,6 @@
 ---
-title: 《扮黄脸》-- 欺骗、嫉妒和白人至上
-subtitle: A book about theft and identity 
+title: Yellow face: a book about theft and identity 
+subtitle: 《扮黄脸》-- 欺骗、嫉妒和白人至上
 author: "Shan J."
 header-img: "img/yellow.png"
 date: 2024-06-23 15:06:24.000000000 +08:00
