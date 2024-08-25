@@ -29,7 +29,7 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","READM
 anchorjs: true
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+sidebar: false                       # whether or not using Sidebar.
 sidebar-about-description: "Love is a touch <br>and yet not a touch<br>路过人间。"
 sidebar-avatar: /img/avatar.jpg
 
