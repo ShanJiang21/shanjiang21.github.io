@@ -3,55 +3,137 @@ layout: page
 description: "Love, live and lost."
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {% if post.lang == 'en' %}
-                {{ post.content | strip_html | truncate:200 }}
-            {% else %}
-                {{ post.content | strip_html | truncate:150 }}
-            {% endif %}
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description }}">
+    <title>{{ site.title }} - {{ page.description }}</title>
 
-<!-- Pager -->
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css">
+
+    <!-- Custom styles for this template -->
+    <style>
+        .post-preview {
+            margin-bottom: 2rem;
+        }
+        .post-title {
+            font-size: 1.75rem;
+            font-weight: bold;
+        }
+        .post-subtitle {
+            font-size: 1.25rem;
+            color: #555;
+        }
+        .post-meta {
+            font-size: 0.875rem;
+            color: #999;
+        }
+        .pager {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0;
+        }
+        .pager li {
+            flex: 1;
+        }
+        .pager a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .pager a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<section aria-label="Blog Posts">
+    {% for post in paginator.posts %}
+    <article class="post-preview">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            <h2 class="post-title">
+                {{ post.title }}
+            </h2>
+            {% if post.subtitle %}
+            <h3 class="post-subtitle">
+                {{ post.subtitle }}
+            </h3>
+            {% endif %}
+            <div class="post-content-preview">
+                {% if post.lang == 'en' %}
+                    {{ post.content | strip_html | truncate:200 }}
+                {% else %}
+                    {{ post.content | strip_html | truncate:150 }}
+                {% endif %}
+            </div>
+        </a>
+        <p class="post-meta">
+            Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        </p>
+    </article>
+    <hr aria-hidden="true">
+    {% endfor %}
+</section>
+
+<!-- Add the latest gallery section -->
+
+<div class="gallery-section">
+    <h2 class="wp-block-heading">Latest from the Blog</h2>
+
+    <div class="wp-block-kadence-posts kb-posts kb-posts-id-8259_acda4d-e3 content-wrap grid-cols kb-posts-style-unboxed grid-sm-col-2 grid-lg-col-3 item-image-style-above">
+        <article class="entry content-bg loop-entry post-28726 post type-post status-publish format-standard has-post-thumbnail hentry category-north-america category-reflections category-usa grow-content-body">
+            <a class="post-thumbnail kadence-thumbnail-ratio-2-3" href="https://the-shooting-star.com/the-journey-of-a-thousand-miles-began-with-curiosity/">
+                <div class="post-thumbnail-inner">
+                    <img decoding="async" width="300" height="225" src="https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-300x225.jpg" class="attachment-medium size-medium wp-post-image entered lazyloaded" alt="cycling copenhagen" data-lazy-srcset="https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-300x225.jpg 300w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-768x576.jpg 768w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-1536x1152.jpg 1536w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-2048x1536.jpg 2048w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-1024x768.jpg 1024w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-960x720.jpg 960w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-attachment-id="22453" data-permalink="https://the-shooting-star.com/?attachment_id=22453" data-orig-file="https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender.jpg" data-orig-size="3917,2938" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="cycling copenhagen" data-image-description="<p>cycling copenhagen</p>" data-image-caption="" data-medium-file="https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-300x225.jpg" data-large-file="https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-1024x768.jpg" data-lazy-src="https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-300x225.jpg" data-pin-description="cycling copenhagen" data-pin-title="The Shooting Star | Just a girl who travels" data-ll-status="loaded" sizes="(max-width: 300px) 100vw, 300px" srcset="https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-300x225.jpg 300w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-768x576.jpg 768w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-1536x1152.jpg 1536w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-2048x1536.jpg 2048w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-1024x768.jpg 1024w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-960x720.jpg 960w">
+                    <noscript>
+                        <img decoding="async" width="300" height="225" src="https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-300x225.jpg" class="attachment-medium size-medium wp-post-image" alt="cycling copenhagen" srcset="https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-300x225.jpg 300w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-768x576.jpg 768w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-1536x1152.jpg 1536w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-2048x1536.jpg 2048w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-1024x768.jpg 1024w, https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-960x720.jpg 960w" sizes="(max-width: 300px) 100vw, 300px" data-attachment-id="22453" data-permalink="https://the-shooting-star.com/?attachment_id=22453" data-orig-file="https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender.jpg" data-orig-size="3917,2938" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="cycling copenhagen" data-image-description="&lt;p&gt;cycling copenhagen&lt;/p&gt;" data-image-caption="" data-medium-file="https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-300x225.jpg" data-large-file="https://the-shooting-star.com/wp-content/uploads/2021/01/fullsizerender-1024x768.jpg" />
+                    </noscript>
+                </div>
+            </a><!-- .post-thumbnail -->
+            <div class="entry-content-wrap">
+                <header class="entry-header">
+                    <h2 class="entry-title"><a href="https://the-shooting-star.com/the-journey-of-a-thousand-miles-began-with-curiosity/" rel="bookmark">The Journey of a Thousand Miles Began With Curiosity.</a></h2>
+                </header><!-- .entry-header -->
+                <footer class="entry-footer">
+                </footer><!-- .entry-footer -->
+            </div>
+        </article>
+        <!-- Repeat for additional articles -->
+    </div>
+</div>
+
+<!-- Existing HTML content -->
+
+
+
+
+<!-- Pagination -->
 {% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
+<nav aria-label="Pagination">
+    <ul class="pager">
+        {% if paginator.previous_page %}
+        <li class="previous">
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        </li>
+        {% endif %}
+        {% if paginator.next_page %}
+        <li class="next">
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>
 {% endif %}
 
-<!-- Include the library. -->
-<script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
-></script>
+<!-- Include the library -->
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js" defer></script>
 
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link
-   rel="stylesheet"
-   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
+</body>
+</html>
+
+
+
