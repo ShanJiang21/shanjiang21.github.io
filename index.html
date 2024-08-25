@@ -47,6 +47,41 @@ description: "Love, live and lost."
         .pager a:hover {
             text-decoration: underline;
         }
+        nav[aria-label="Travel Categories"] {
+            background-color: #2c3e2e;
+            padding: 20px;
+            }
+
+        .pager.image-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        }
+
+        .image-item {
+        position: relative;
+        overflow: hidden;
+        }
+
+        .image-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        }
+
+        .caption {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        background-color: rgba(44, 62, 46, 0.8);
+        color: white;
+        padding: 5px 10px;
+        font-size: 14px;
+        font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -78,6 +113,45 @@ description: "Love, live and lost."
     <hr aria-hidden="true">
     {% endfor %}
 </section>
+
+<!-- Image Grid -->
+  <nav aria-label="Travel Categories">
+    <ul class="pager image-grid">
+      <li class="image-item">
+        <img src="img/Orchid_1.JPG" alt="Orchid 1">
+        <div class="caption">SLOW TRAVEL</div>
+      </li>
+      <li class="image-item">
+        <img src="img/Orchid_2.JPG" alt="Orchid 2">
+        <div class="caption">LIVING CULTURE</div>
+      </li>
+      <li class="image-item">
+        <img src="img/xmas_clothes.jpeg" alt="Land Journeys">
+        <div class="caption">LAND JOURNEYS</div>
+      </li>
+      <li class="image-item">
+        <img src="img/yellow.png" alt="Solo Travel">
+        <div class="caption">SOLO TRAVEL</div>
+      </li>
+      <li class="image-item">
+        <img src="img/cry.jpg" alt="Vegan Food">
+        <div class="caption">VEGAN FOOD</div>
+      </li>
+      <li class="image-item">
+        <img src="img/hi.jpg" alt="Digital Nomad Life">
+        <div class="caption">DIGITAL NOMAD LIFE</div>
+      </li>
+      <li class="image-item">
+        <img src="img/Yolo.JPG" alt="Conscious Living">
+        <div class="caption">CONSCIOUS LIVING</div>
+      </li>
+      <li class="image-item">
+        <img src="img/Zilla.jpeg" alt="Reflections">
+        <div class="caption">REFLECTIONS</div>
+      </li>
+    </ul>
+  </nav>
+
 
 <!-- Pagination -->
 {% if paginator.total_pages > 1 %}
