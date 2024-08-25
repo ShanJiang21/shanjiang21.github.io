@@ -52,43 +52,44 @@ description: "Love, live and lost."
             padding: 8px;
             }
 
-        .pager.image-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
+            .pager.image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
         }
 
         .image-item {
-        position: relative;
-        overflow: hidden;
-        height: 0;
-        padding-bottom: 75%; /* Maintain aspect ratio */
+            position: relative;
+            overflow: hidden;
+            height: 0;
+            padding-bottom: 75%; /* Maintain aspect ratio */
         }
 
         .image-item img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.3s ease;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+            transform: translate(-50%, -50%); /* Center the image */
+            object-fit: cover; /* Ensure the image covers the entire area */
+            transition: transform 0.3s ease;
         }
-
 
         .caption {
-        position: absolute;
-        bottom: 12px;
-        right: 10px;
-        background-color: rgba(44, 62, 46, 0.8);
-        color: white;
-        padding: 5px 8px;
-        font-size: 12px;
-        font-weight: bold;
+            position: absolute;
+            bottom: 12px;
+            right: 10px;
+            background-color: rgba(44, 62, 46, 0.8);
+            color: white;
+            padding: 5px 8px;
+            font-size: 12px;
+            font-weight: bold;
         }
+
 
         .caption:hover {
         background-color: rgb(166, 185, 227);
@@ -102,19 +103,19 @@ description: "Love, live and lost."
 <nav aria-label="Travel Categories">
     <ul class="pager image-grid">
       <li class="image-item">
-        <img src="img/yellow.png" alt="book">
+        <img src="img/yellow.png" alt="book" loading="lazy">
         <button class="caption" onclick="navigateTo('book')">Reading</button>
       </li>
       <li class="image-item">
-        <img src="img/home-bg-background.jpg" alt="home">
+        <img src="img/home-bg-background.jpg" alt="home" loading="lazy">
         <button class="caption" onclick="navigateTo('home')">Sketch</button>
       </li>
       <li class="image-item">
-        <img src="img/Columbia.gif" alt="Academia">
+        <img src="img/Columbia.gif" alt="Academia" loading="lazy">
         <button class="caption" onclick="navigateTo('Academia')">Academia</button>
       </li>
       <li class="image-item">
-        <img src="img/Dayan-Green-Field.jpeg" alt="Travel">
+        <img src="img/Dayan-Green-Field.jpeg" alt="Travel" loading="lazy">
         <button class="caption" onclick="navigateTo('Travel')">Travel</button>
       </li>
     </ul>
