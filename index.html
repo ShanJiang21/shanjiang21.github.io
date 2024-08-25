@@ -64,13 +64,20 @@ description: "Love, live and lost."
         .image-item {
         position: relative;
         overflow: hidden;
+        height: 0;
+        padding-bottom: 75%; /* Maintain aspect ratio */
         }
 
         .image-item img {
-        width: auto;
-        height: auto;
-        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
         }
+
 
         .caption {
         position: absolute;
@@ -95,24 +102,12 @@ description: "Love, live and lost."
 <nav aria-label="Travel Categories">
     <ul class="pager image-grid">
       <li class="image-item">
-        <img src="img/fireworks.JPG" alt="Singapore">
-        <div class="caption">SINGAPORE JOURNEYS</div>
-      </li>
-      <li class="image-item">
         <img src="img/yellow.png" alt="book">
         <button class="caption" onclick="navigateTo('book')">Reading</button>
       </li>
       <li class="image-item">
         <img src="img/home-bg-background.jpg" alt="home">
         <button class="caption" onclick="navigateTo('home')">Sketch</button>
-      </li>
-      <li class="image-item">
-        <img src="img/hi.jpg" alt="Digital Nomad Life">
-        <div class="caption">Skin Care</div>
-      </li>
-      <li class="image-item">
-        <img src="img/Yolo.JPG" alt="Conscious Living">
-        <div class="caption">CONSCIOUS LIVING</div>
       </li>
       <li class="image-item">
         <img src="img/Columbia.gif" alt="Academia">
