@@ -49,9 +49,9 @@ description: "Love, live and lost."
         }
         nav[aria-label="Travel Categories"] {
             background-color: #eceff1;
-            padding: 8px;
+            padding: 2px;
             }
-
+        
             .pager.image-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -63,19 +63,19 @@ description: "Love, live and lost."
 
         .image-item {
             position: relative;
-            overflow: hidden;
             height: 0;
             padding-bottom: 75%; /* Maintain aspect ratio */
+            background-color: #f0f0f0; /* Optional: Set a background color as a placeholder */
         }
 
         .image-item img {
             position: absolute;
-            top: 50%;
-            left: 50%;
+            top: 0;
+            left: 0;
             width: 100%;
-            height: auto; /* Maintain aspect ratio */
-            transform: translate(-50%, -50%); /* Center the image */
-            object-fit: cover; /* Ensure the image covers the entire area */
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the container without distortion */
+            object-position: center; /* Centers the image */
             transition: transform 0.3s ease;
         }
 
@@ -90,10 +90,9 @@ description: "Love, live and lost."
             font-weight: bold;
         }
 
-
         .caption:hover {
-        background-color: rgb(166, 185, 227);
-        }
+            background-color: rgb(166, 185, 227);
+        }   
     </style>
 </head>
 <body>
