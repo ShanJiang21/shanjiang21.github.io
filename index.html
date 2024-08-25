@@ -64,7 +64,7 @@ description: "Love, live and lost."
         .image-item {
             position: relative;
             height: 0;
-            padding-bottom: 75%; /* Maintain aspect ratio */
+            padding-bottom: 80%; /* Maintain aspect ratio */
             background-color: #f0f0f0; /* Optional: Set a background color as a placeholder */
         }
 
@@ -98,12 +98,25 @@ description: "Love, live and lost."
 <body>
 
 
+    <!-- seperate -->
+
+ <title></title>
+    <style>
+        /* Style the horizontal rule */
+        hr {
+            border: 0;
+            height: 1px;
+            background: #000; /* Color of the line */
+            margin: 10px 0;   /* Spacing above and below the line */
+        }
+    </style>
+
 <!-- Image Grid -->
 <nav aria-label="Travel Categories">
     <ul class="pager image-grid">
       <li class="image-item">
-        <img src="img/yellow.png" alt="book" loading="lazy">
-        <button class="caption" onclick="navigateTo('book')">Reading</button>
+        <img src="img/yellow.png" alt="reading" loading="lazy">
+        <button class="caption" onclick="navigateTo('reading')">Reading</button>
       </li>
       <li class="image-item">
         <img src="img/home-bg-background.jpg" alt="home" loading="lazy">
@@ -119,6 +132,19 @@ description: "Love, live and lost."
       </li>
     </ul>
   </nav>
+
+
+  <title>Latest updates from posts</title>
+  <style>
+      /* Style the horizontal rule */
+      hr {
+          border: 0;
+          height: 1px;
+          background: #000; /* Color of the line */
+          margin: 20px 0;   /* Spacing above and below the line */
+      }
+  </style>
+
 
 <section aria-label="Blog Posts">
     {% for post in paginator.posts %}
