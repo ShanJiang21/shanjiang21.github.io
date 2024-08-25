@@ -74,8 +74,8 @@ description: "Love, live and lost."
 
         .caption {
         position: absolute;
-        bottom: 10px;
-        left: 10px;
+        bottom: 12px;
+        right: 10px;
         background-color: rgba(44, 62, 46, 0.8);
         color: white;
         padding: 5px 10px;
@@ -91,10 +91,13 @@ description: "Love, live and lost."
 <body>
 
 
-
 <!-- Image Grid -->
 <nav aria-label="Travel Categories">
     <ul class="pager image-grid">
+        <li class="image-item">
+            <img src="img/milky_way.png" alt="milky_way">
+            <button class="caption" onclick="navigateTo('milky_way')">Nature</button>
+          </li>
       <li class="image-item">
         <img src="img/Orchid_1.JPG" alt="Orchid">
         <button class="caption" onclick="navigateTo('Orchid')">Flower</button>
