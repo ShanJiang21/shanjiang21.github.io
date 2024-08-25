@@ -1,5 +1,5 @@
 ---
-layout: keynote
+layout: post
 description: "Love, live and lost."
 ---
 
@@ -52,18 +52,18 @@ description: "Love, live and lost."
             padding: 2px;
             }
         
-            @media (max-width: 600px) {
-            .responsive-grid {
-                grid-template-columns: 1fr;
-            }
-            }
 
-            .responsive-grid {
+            .image-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(3, 1fr);
             grid-gap: 20px;
+            padding: 20px;
             }
 
+            .image-grid img {
+            width: 100%;
+            height: auto;
+            }
         .image-item {
             position: relative;
             height: 0;
