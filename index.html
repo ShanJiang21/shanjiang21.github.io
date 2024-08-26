@@ -47,6 +47,7 @@ description: "Love, live and lost."
         .pager a:hover {
             text-decoration: underline;
         }
+
         nav[aria-label="Travel Categories"] {
             background-color: #eceff1;
             padding: 2px;
@@ -82,9 +83,59 @@ description: "Love, live and lost."
             border: none;
             cursor: pointer;
         }
+
+        /* Main Title */
+        .main-title {
+            text-align: center;
+            font-size: 36px;
+            font-family: 'Georgia', serif;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        /* Image Gallery Container */
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Adjusts space between images */
+            padding: 0 20px;
+        }
+
+        /* Individual Image Items */
+        .image-item {
+            flex: 1;
+            text-align: center;
+        }
+
+        /* Image Styling */
+        .image-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+
+        /* Image Title */
+        .image-title {
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Image Subtitle */
+        .image-subtitle {
+            font-size: 16px;
+            color: #666;
+            font-family: 'Arial', sans-serif;
+        }
+
     </style>
 </head>
 <body>
+
+    
 
 
 <!-- Image Grid -->
@@ -118,7 +169,23 @@ description: "Love, live and lost."
 </section>
 
 <!-- New Title -->
-<h2 class="section-title">Latest from posts</h2>
+
+<h2 class="main-title">You are on the right track.</h2>
+
+<section class="image-gallery">
+    <div class="image-item">
+        <img src="img/yellow.png" alt="Blog Posts">
+        <h3 class="image-title">Blog Posts</h3>
+        <p class="image-subtitle">Details</p>
+    </div>
+    <div class="image-item">
+        <img src="img/home-bg-background.jpg" alt="On the Road">
+        <h3 class="image-title">On the Road</h3>
+        <p class="image-subtitle">Details</p>
+    </div>
+</section>
+
+
 
 
 
