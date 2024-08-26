@@ -73,6 +73,143 @@ blockquote {
   }
 }
 
+
+You said:
+can you help to add URLs to each images here? <!-- Image Grid -->
+<section aria-label="Travel Categories">
+    <ul class="pager image-grid">
+      <li class="image-item">
+        <img src="img/yellow.png" alt="reading" loading="lazy">
+        <button class="caption" onclick="navigateTo('reading')">Reading</button>
+      </li>
+      <li class="image-item">
+        <img src="img/home-bg-background.jpg" alt="home" loading="lazy">
+        <button class="caption" onclick="navigateTo('home')">Sketch</button>
+      </li>
+      <li class="image-item">
+        <img src="img/Columbia.gif" alt="Academia" loading="lazy">
+        <button class="caption" onclick="navigateTo('Academia')">Academia</button>
+      </li>
+      <li class="image-item">
+        <img src="img/Dayan-Green-Field.jpeg" alt="Travel" loading="lazy">
+        <button class="caption" onclick="navigateTo('Travel')">Travel</button>
+      </li>
+    </ul>
+  </section>
+ChatGPT said:
+ChatGPT
+To add URLs to each image, you can wrap the images or buttons in anchor (<a>) tags. Here's how you can do it:
+
+html
+Copy code
+<!-- Image Grid -->
+<section aria-label="Travel Categories">
+    <ul class="pager image-grid">
+      <li class="image-item">
+        <a href="URL_for_reading_page">
+          <img src="img/yellow.png" alt="reading" loading="lazy">
+          <button class="caption">Reading</button>
+        </a>
+      </li>
+      <li class="image-item">
+        <a href="URL_for_sketch_page">
+          <img src="img/home-bg-background.jpg" alt="home" loading="lazy">
+          <button class="caption">Sketch</button>
+        </a>
+      </li>
+      <li class="image-item">
+        <a href="URL_for_academia_page">
+          <img src="img/Columbia.gif" alt="Academia" loading="lazy">
+          <button class="caption">Academia</button>
+        </a>
+      </li>
+      <li class="image-item">
+        <a href="URL_for_travel_page">
+          <img src="img/Dayan-Green-Field.jpeg" alt="Travel" loading="lazy">
+          <button class="caption">Travel</button>
+        </a>
+      </li>
+    </ul>
+</section>
+Replace URL_for_reading_page, URL_for_sketch_page, URL_for_academia_page, and URL_for_travel_page with the actual URLs where you want each image to navigate.
+
+
+
+
+
+You said:
+
+can tell me how to write css code to achieve this effect?
+ChatGPT said:
+ChatGPT
+To achieve the design shown in the image, you can use the following CSS. This code covers the typography, the quote formatting, and the alignment of text elements:
+
+css
+Copy code
+/* General container styles */
+.quote-container {
+  max-width: 600px; /* Adjust based on your needs */
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Customize the font */
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Name and Location */
+.quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.quote-location {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 24px;
+}
+
+/* Quote Styles */
+.quote-content {
+  font-size: 20px;
+  font-style: italic;
+  position: relative;
+  padding: 0 40px;
+  margin-bottom: 24px;
+}
+
+.quote-content::before, .quote-content::after {
+  content: '“';
+  font-size: 40px;
+  color: #f2a900; /* Adjust color for quote marks */
+  position: absolute;
+  top: 0;
+}
+
+.quote-content::after {
+  content: '”';
+  right: 0;
+}
+
+/* Divider styles */
+.quote-divider {
+  width: 80%;
+  height: 2px;
+  background-color: #f2a900; /* Adjust color for divider */
+  margin: 0 auto 24px;
+}
+
+/* Additional Text */
+.additional-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+
+
+
 // Utils Style Class can be used in Markdown.
 small.img-hint {
   display: block;
