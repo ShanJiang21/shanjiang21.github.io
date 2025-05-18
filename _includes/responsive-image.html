@@ -1,0 +1,5 @@
+<img src="{{ src }}" 
+     srcset="{% for size in sizes %}{{ src | responsive_image: size }} {{ size.width }}w{% if forloop.last == false %}, {% endif %}{% endfor %}"
+     sizes="(max-width: 600px) 480px, 800px"
+     alt="{{ alt }}">
+     

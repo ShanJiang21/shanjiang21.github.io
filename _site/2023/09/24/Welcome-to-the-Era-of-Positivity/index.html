@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Hi, I am Shan(@shanjiang21).">
+    <meta name="keywords" content="Previous New Yorker, a small-town blog writter">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Open Graph -->
+    <meta property="og:title"
+        content="Contemplations on The Burnout Society - Shan Jiang -- A salarygirl, daughter & life-learner">
+    
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="These violent delights have violent ends - Shakespeare’s Romeo &amp; Juliet, act 2, scene 6.
+">
+    
+    <meta property="article:published_time" content=" 2023-09-24T17:46:24Z">
+    
+    
+    <meta property="article:author" content="Shan J.">
+    
+    
+    <meta property="article:tag" content="lifestyle">
+    
+    <meta property="article:tag" content="Essay critics">
+    
+    
+    <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
+    <meta property="og:url" content="http://localhost:4000/2023/09/24/Welcome-to-the-Era-of-Positivity/">
+    <meta property="og:site_name" content="Shan Jiang -- A salarygirl, daughter & life-learner">
+
+    <title>Contemplations on The Burnout Society - Shan Jiang -- A salarygirl, daughter & life-learner</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/2023/09/24/Welcome-to-the-Era-of-Positivity/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href=" /css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href=" /css/hux-blog.min.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Shan's hub</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="huxblog_navbar">
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/about/">About</a>
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/archive/">Archive</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/sharing/">Sharing</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li class="search-icon">
+                            <a href="javascript:void(0)">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <script>
+        // Drop Bootstarp low-performance Navbar
+        // Use customize navbar with high-quality material design animation
+        // in high-perf jank-free CSS3 implementation
+        var $body = document.body;
+        var $toggle = document.querySelector('.navbar-toggle');
+        var $navbar = document.querySelector('#huxblog_navbar');
+        var $collapse = document.querySelector('.navbar-collapse');
+
+        var __HuxNav__ = {
+            close: function () {
+                $navbar.className = " ";
+                // wait until animation end.
+                setTimeout(function () {
+                    // prevent frequently toggle
+                    if ($navbar.className.indexOf('in') < 0) {
+                        $collapse.style.height = "0px"
+                    }
+                }, 400)
+            },
+            open: function () {
+                $collapse.style.height = "auto"
+                $navbar.className += " in";
+            }
+        }
+
+        // Bind Event
+        $toggle.addEventListener('click', function (e) {
+            if ($navbar.className.indexOf('in') > 0) {
+                __HuxNav__.close()
+            } else {
+                __HuxNav__.open()
+            }
+        })
+
+        /**
+         * Since Fastclick is used to delegate 'touchstart' globally
+         * to hack 300ms delay in iOS by performing a fake 'click',
+         * Using 'e.stopPropagation' to stop 'touchstart' event from 
+         * $toggle/$collapse will break global delegation.
+         * 
+         * Instead, we use a 'e.target' filter to prevent handler
+         * added to document close HuxNav.  
+         *
+         * Also, we use 'click' instead of 'touchstart' as compromise
+         */
+        document.addEventListener('click', function (e) {
+            if (e.target == $toggle) return;
+            if (e.target.className == 'icon-bar') return;
+            __HuxNav__.close();
+        })
+    </script>
+    <!-- Search -->
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/burn.png" width="0" height="0"> -->
+
+<!-- Post Header -->
+
+
+
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/burn.png');
+        background: ;
+    }
+
+    
+</style>
+
+
+
+
+<header class="intro-header" >
+
+    <div class="header-mask"></div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/archive/?tag=lifestyle" title="lifestyle">lifestyle</a>
+                        
+                        <a class="tag" href="/archive/?tag=Essay+critics" title="Essay critics">Essay critics</a>
+                        
+                    </div>
+                    <h1>Contemplations on The Burnout Society</h1>
+                    
+                    <h2 class="subheading">一名大厂女工的自我反省--读完《倦怠社会》之后</h2>
+                    <span class="meta">Posted by Shan J. on September 24, 2023</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <!-- Multi-Lingual -->
+                
+
+				<p><em>These violent delights have violent ends</em> - Shakespeare’s Romeo &amp; Juliet, act 2, scene 6.</p>
+
+<p>最近在读韩炳哲的《倦怠社会》，薄薄的小册子其实是一本哲学思考文集，却启发了我，让我直面自己最近两年来最为困惑的问题和如今很多同业/同行的人生困境。因此，今天我重新整理了自己在阅读之中的感悟，并回答一些盘桓心中已久的问题：</p>
+
+<p>本文尝试回答一个问题：为什么在互联网大厂的员工会感受到前所未有的倦怠？</p>
+
+<p>很多人质疑他们什么都有了，为什么还是不幸福？</p>
+
+<p>确实，相对于传统社会中大多数人的缺失的痛苦而言（物质的不富足），这些大厂人面临的则是饱和性的痛苦，恰恰不是因为缺少资源，权力和欲望，而是由于过多的肯定权力，追逐财富和认可，并又因为身边人/事/物的过度同质化，会叠加更为强烈的疲倦，困乏和窒息感，才导致在狂热中燃尽了自身。</p>
+
+<p>从宏观社会体系上而言，如今全新的现代性社会降临。这一现代性社会在不断演化的过程中取消了否定性，人们不再是福柯眼中<strong>应当</strong>做什么的个体，需要一系列的监狱，疯人院，医院来管教和约束，但是敬畏只能产生服从，无法让人发挥潜能，因此这些否定性和强制性这些在规训社会占据主导地位的控制模式逐渐失效，禁令，戒律和法规都逐渐的失去在集体无意识中的延续，取而代之的则是功绩社会的积极属性。</p>
+
+<p>以下是我在读书的过程中，关于传统规训社会和现代功绩社会的差异总结：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>社会类型</th>
+      <th>规训社会</th>
+      <th>功绩社会</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>时代阶段</td>
+      <td>工业社会（19-20世纪）</td>
+      <td>后工业社会（21世纪-）</td>
+    </tr>
+    <tr>
+      <td>社会形态</td>
+      <td>“不允许”控制着一切</td>
+      <td>”能够“的肯定式模式</td>
+    </tr>
+    <tr>
+      <td>任务处理</td>
+      <td>单线程</td>
+      <td>多线程，并行处理</td>
+    </tr>
+    <tr>
+      <td>信息</td>
+      <td>简单明了</td>
+      <td>复杂多样，易产生信息过载</td>
+    </tr>
+    <tr>
+      <td>时间</td>
+      <td>条块化</td>
+      <td>碎片化</td>
+    </tr>
+    <tr>
+      <td>注意力</td>
+      <td>深刻/专一</td>
+      <td>宽广/肤浅</td>
+    </tr>
+    <tr>
+      <td>个体差异</td>
+      <td>相对较低</td>
+      <td>鼓励一定的差异和多样化</td>
+    </tr>
+    <tr>
+      <td>生产效率</td>
+      <td>驯化主体，效率较低</td>
+      <td>更加高效多产</td>
+    </tr>
+    <tr>
+      <td>副产品</td>
+      <td>疯人和罪犯</td>
+      <td>抑郁症患者，厌世者</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Note： 归纳自《超越规训社会》和《深度无聊》</p>
+
+<p>互联网大厂的管理体系即脱胎于此，熟练掌握人性本身和功绩社会优势的政策制定者们将OKR推向市场。“每个人都必须自发地行动，每个人都有义务去成就他自身”。现代功绩社会中人类更加相信自由和自愿的力量，工作的首要目的在于获得乐趣。而从谷歌风靡起来的OKR，就是典型的「功绩社会」中的工具。因为OKR这种目标第一是自上而下，逐层分解，每个人都有一定的自由权来决定自己在工作中的角色，任务和目标，并且能在其中找到目标的意义感，完成使命驱动，这可能就是为什么大厂员工们无一例外有着强烈的大厂自豪感，并在仪式性的物品上强化着自身的认同–如科技公司常见的SWAG：印有公司logo的包包，badge/工牌，贴纸，T恤等；同时，OKR又是一条缰绳，说好听是<strong>挑战自我能力的边际</strong>，但实际上KR是不可能一直完成的，公司期待你不止步于前，一直往前冲，但因此人在毫无外力压迫的情况下，还要拼命地积极工作，来投入生产，自我施暴。</p>
+
+<p>抑郁症患者和厌世者是功绩社会的副产品。因为功绩社会的个体不再臣服于各种统治机构的约束，没有人强迫你工作或者剥削你，你是自身的主人，但就是由于这种过度活跃/歇斯底里的工作投入，导致了无法抑制的疲倦感。</p>
+
+<p>从微观而言，目前这个体系下，筛选出来的都是对钱，社会认同，职业追逐认可的功绩社会群体，他们不仅是通过同样的标准化体系和学校教育培养出来，并且学习的领域大同小异，又因为过长的工作时间和充裕的劳动回报，让这个职业中的人长期（或主动/或被动）地将焦点放在了自己的工作成绩/物质回报上，而这一焦点又完美地契合了传统的东亚成功学定义，在这个逻辑缜密的闭环下，大厂的理性人们一路爬着梯子，追逐着更多的房子，车子和股票，却忘了作为人最宝贵的自由、闲适和安宁。</p>
+
+<p>一边是35岁失业的焦虑，这一柄悬在空中随时会下落的达摩克利斯之剑；一边是永远停止不了，却也无法叫停的OKR，在虚与委蛇，过度劳累的工作中，人一点点被抽干精神力，只留下疲惫、燃尽的心灵。</p>
+
+<p>在美丽新世界里，国家分发一种叫做“索玛”（soma）的药物，使每个人都感到快乐。想起作为厂妹的我，每一天在工作无比疲劳的闲暇片刻，却也不愿意放下手里的智能手机，眺望下远方，给自己半分钟的休憩，却在上瘾的信息流中，希望借由社交媒体/新闻信息来给我惊喜的刺激，但是在不断的反思中，我还是能感觉到，无论这些信息是什么，它给我的是与平静心态相反的东西，它不是压制，而是诱惑，刺激我不断地积极投入生产。</p>
+
+
+                <hr style="visibility: hidden;">
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2023/08/24/Half-and-half/" data-toggle="tooltip" data-placement="top" title="Auld Lang Syne">
+                        Previous<br>
+                        <span>Auld Lang Syne</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2023/10/02/Kaisu-culture/" data-toggle="tooltip" data-placement="top" title="Mr. Kiasu in Singapore">
+                        Next<br>
+                        <span>Mr. Kiasu in Singapore</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <hr style="visibility: hidden;">
+
+                
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
+
+                
+            </div>
+
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+
+
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- add support for mathjax by voleking-->
+
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "shanj";
+    var disqus_identifier = "/2023/09/24/Welcome-to-the-Era-of-Positivity";
+    var disqus_url = "http://localhost:4000/2023/09/24/Welcome-to-the-Era-of-Positivity/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'right',
+          // icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <!-- SNS Link -->
+              
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  <li>
+    <a href="https://twitter.com/Alexand43261453">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/shanjiang21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/shanj21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+                <p class="copyright text-muted">
+                      Powered by <a href="https://github.com/huxpro/huxpro.github.io">Jekyll</a>
+                    <br>Copyright &copy; Shan JIANG. 2025
+                    <br> <img src="/img/icon_wechat.png" alt="Girl in a jacket" width= "22%" height="10%">
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Simple Jekyll Search -->
+<script src="/js/simple-jekyll-search.min.js"></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+        var d = document, t = 'script',
+            o = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+        s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
+        var $nav = document.querySelector("nav");
+        if ($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-138327408-1';
+    var _gaDomain = 'shanj21.com';
+
+    // Originial
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        // interop with multilangual
+        if ('' == 'true') {
+            _containerSelector = 'div.post-container.active'
+        } else {
+            _containerSelector = 'div.post-container'
+        }
+
+        // init
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        // clean
+        $(selector).html('')
+
+        // appending
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Hux to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+<!-- Multi-Lingual -->
+
+
+<!-- Simple Jekyll Search -->
+<script>
+    // https://stackoverflow.com/questions/1912501/unescape-html-entities-in-javascript
+    function htmlDecode(input) {
+        var e = document.createElement('textarea');
+        e.innerHTML = input;
+        // handle case of empty input
+        return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+    }
+
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('search-results'),
+        json: '/search.json',
+        searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
+        noResultsText: 'No results',
+        limit: 50,
+        fuzzy: false,
+        // a hack to get escaped subtitle unescaped. for some reason,
+        // post.subtitle w/o escape filter nuke entire search.
+        templateMiddleware: function (prop, value, template) {
+            if (prop === 'subtitle' || prop === 'title') {
+                if (value.indexOf("code")) {
+                    return htmlDecode(value);
+                } else {
+                    return value;
+                }
+            }
+        }
+    });
+
+    $(document).ready(function () {
+        var $searchPage = $('.search-page');
+        var $searchOpen = $('.search-icon');
+        var $searchClose = $('.search-icon-close');
+        var $searchInput = $('#search-input');
+        var $body = $('body');
+
+        $searchOpen.on('click', function (e) {
+            e.preventDefault();
+            $searchPage.toggleClass('search-active');
+            var prevClasses = $body.attr('class') || '';
+            setTimeout(function () {
+                $body.addClass('no-scroll');
+            }, 400)
+
+            if ($searchPage.hasClass('search-active')) {
+                $searchClose.on('click', function (e) {
+                    e.preventDefault();
+                    $searchPage.removeClass('search-active');
+                    $body.attr('class', prevClasses);  // from closure
+                });
+                $searchInput.focus();
+            }
+        });
+    });
+</script>
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

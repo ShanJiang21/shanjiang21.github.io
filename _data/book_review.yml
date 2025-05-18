@@ -1,0 +1,20 @@
+# _data/books.yml
+- title: "大江大河1949"
+  cover: "/img/books/lyt_1949.jpg" # 书籍封面图片路径
+  rating: 4.8
+  review: "所有的颠沛流离，最终都由大江走向大海..."
+
+- title: "Pride and Prejudice"
+  cover: "/img/books/pride-and-prejudice.jpg"
+  rating: 4.0
+  review: "A witty and insightful commentary on 19th-century English society..."
+
+- title: "1984"
+  rating: 5.0
+  review: "A dystopian masterpiece that remains relevant today."
+  cover: "/img/books/1984.jpg"
+
+- title: "大江大河1949"
+  cover: "/img/books/lyt_1949.jpg" # 书籍封面图片路径
+  rating: 4.8
+  review: "所有的颠沛流离，最终都由大江走向大海..."

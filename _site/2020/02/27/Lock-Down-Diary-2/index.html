@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Hi, I am Shan(@shanjiang21).">
+    <meta name="keywords" content="Previous New Yorker, a small-town blog writter">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Open Graph -->
+    <meta property="og:title"
+        content="纽约金锁记--毕业前的纽约隔离记录 - Shan Jiang -- A salarygirl, daughter & life-learner">
+    
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="登高避疫
+">
+    
+    <meta property="article:published_time" content=" 2020-02-27T13:32:24Z">
+    
+    
+    <meta property="article:author" content="Shan J.">
+    
+    
+    <meta property="article:tag" content="NYC">
+    
+    <meta property="article:tag" content="Covid-19">
+    
+    
+    <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
+    <meta property="og:url" content="http://localhost:4000/2020/02/27/Lock-Down-Diary-2/">
+    <meta property="og:site_name" content="Shan Jiang -- A salarygirl, daughter & life-learner">
+
+    <title>纽约金锁记--毕业前的纽约隔离记录 - Shan Jiang -- A salarygirl, daughter & life-learner</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/2020/02/27/Lock-Down-Diary-2/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href=" /css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href=" /css/hux-blog.min.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Shan's hub</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="huxblog_navbar">
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/about/">About</a>
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/archive/">Archive</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/sharing/">Sharing</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li class="search-icon">
+                            <a href="javascript:void(0)">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <script>
+        // Drop Bootstarp low-performance Navbar
+        // Use customize navbar with high-quality material design animation
+        // in high-perf jank-free CSS3 implementation
+        var $body = document.body;
+        var $toggle = document.querySelector('.navbar-toggle');
+        var $navbar = document.querySelector('#huxblog_navbar');
+        var $collapse = document.querySelector('.navbar-collapse');
+
+        var __HuxNav__ = {
+            close: function () {
+                $navbar.className = " ";
+                // wait until animation end.
+                setTimeout(function () {
+                    // prevent frequently toggle
+                    if ($navbar.className.indexOf('in') < 0) {
+                        $collapse.style.height = "0px"
+                    }
+                }, 400)
+            },
+            open: function () {
+                $collapse.style.height = "auto"
+                $navbar.className += " in";
+            }
+        }
+
+        // Bind Event
+        $toggle.addEventListener('click', function (e) {
+            if ($navbar.className.indexOf('in') > 0) {
+                __HuxNav__.close()
+            } else {
+                __HuxNav__.open()
+            }
+        })
+
+        /**
+         * Since Fastclick is used to delegate 'touchstart' globally
+         * to hack 300ms delay in iOS by performing a fake 'click',
+         * Using 'e.stopPropagation' to stop 'touchstart' event from 
+         * $toggle/$collapse will break global delegation.
+         * 
+         * Instead, we use a 'e.target' filter to prevent handler
+         * added to document close HuxNav.  
+         *
+         * Also, we use 'click' instead of 'touchstart' as compromise
+         */
+        document.addEventListener('click', function (e) {
+            if (e.target == $toggle) return;
+            if (e.target.className == 'icon-bar') return;
+            __HuxNav__.close();
+        })
+    </script>
+    <!-- Search -->
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/home-bg.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+
+
+
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/home-bg.jpg');
+        background: ;
+    }
+
+    
+</style>
+
+
+
+
+<header class="intro-header" >
+
+    <div class="header-mask"></div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/archive/?tag=NYC" title="NYC">NYC</a>
+                        
+                        <a class="tag" href="/archive/?tag=Covid-19" title="Covid-19">Covid-19</a>
+                        
+                    </div>
+                    <h1>纽约金锁记--毕业前的纽约隔离记录</h1>
+                    
+                    <h2 class="subheading"></h2>
+                    <span class="meta">Posted by Shan J. on February 27, 2020</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <!-- Multi-Lingual -->
+                
+
+				<h3 id="登高避疫">登高避疫</h3>
+
+<p>1944年，张爱玲发表《金锁记》，文中的曹七巧在情欲和钱欲的枷锁中囚禁了一辈子，很多人为之惋惜，许子东说此书写尽了人间之恶，但却是一步一光明。而如今被困在疾病黑暗之下的人类世界，我仍然觉得，很多时候，可怕的并不是这不确定性本身，而是人与人之间的猜忌，彼此不信任，甚至是憎恶和恨意，年轻的孩子看童话，脑海中，意识里没有给这些现实留下位置，但看多了romantics才发现，过于理想化的期待往往带来更深重的失望，于是，提笔记录，即便不够勇敢，但却是self-care的重要步骤：1. 避免信息过载；2. 直面问题，持续输出。</p>
+
+<p>曾经一直笃信文字的力量，中二时代还对自己文笔颇有自信。后来上了大学，接触统计，发现数字或者说理性更深得我心，以至于回过头来，觉得平日里大多数的文章的重量不够，证据多是案例研究，细节又太过琐碎，逻辑没有说服力，但最近和Diana电话时，她一直鼓励我将自己的观察记录下来，她觉得我的经历比较独特，作为寒假回国经历过第一波疫情的孩子，来纽约放松了一个月之后，又看到了第二波的心情，自然是和他们地道的new yorker大相径庭，而她的这句话我一直记在心里，赶完毕业论文，果断开始营 (fei) 业(hua)。</p>
+
+<p>和她Facetime的时候，Diana正坐在院子里晒太阳，低头审视一下自己，待在二楼的我，因为住上西的筒子楼，没有阳台，常年见不到阳光，这样的pre-war(二战前修建) 的房子在曼哈顿不少，而且因为独特的产权制度 (condo / coop)，有些租金非常的便宜，虽然老旧，也没有doorman(安保较差)，何不从自己的房子谈起呢？我想。</p>
+
+<p>作为动物的人，不仅具有领地意识，还诞生出了其他生物没有的高级领地意识。小到三八线，大到市界，省界，国界，人人享有着边界内资源的便利，并试图不断地扩展边界，获得更多。房子，便是其中之关键，在中国文化里，其物质属性的价值不仅在当代扭曲的房地产市场中被无限放大，其作为嫁娶基础的文化符号的属性也不断地被社会强化。</p>
+
+<p>多少年轻人和我同样年纪，在这个房子的金锁里上下扑腾，只为北上广深安个家，或是在二线城市求得一席之地。年少时候频繁的搬家和求学阶段的流动让我突然有了些许感悟，过去的3年里我几乎每年都要搬一次家，而我也渐渐明白了一件事，那就是，在这个高速流动的社会形态中，从北漂到纽漂，人在异乡，难免漂泊感，从年幼一直内化着“向前看”的思维模式，但当有一天，社会的时钟按下暂停键，个人的计划淹没于时代的浪潮后，才发现，个人的无比渺小。无论是短期lease，还是长期rent，甚至是享有房间的所有权，很多时候我们对于居住空间的所有权的取得，并不总能根本改变生存的形态，个人的状态。<del>虽然很多人会反驳“户籍制”挂钩的隐形资源</del>.</p>
+
+<p>湛蓝天空，一望无际，饱满得像是要伸展到天的那一边去，耳边呼啸而过的风，热切地吻过哈德逊河两旁深棕色的树林，在北曼哈顿岛那逐渐变细的天鹅颈上，留下了自己的印记。哥大医学中心的三栋宿舍楼，孤零零地立在纽约这一畔，阳光遍洒，落在空旷的篮球场上，照进玻璃窗户里，躲在榕树荫下，暖暖的，不曾因为或高或低而有所差异。这片土地的名字叫做乔治 华盛顿高地，而这第一位总统的命运，听起来似乎与今天很多居住在这一片区域的人十分相似–他也是被赶出来的，但是并不是今天很多人常常面临的“人生危机”，犯罪或是由于士绅化带来的居住成本的上升。造成华盛顿将军的悲惨遭遇的主谋是英国人，他们不惜一切努力和代价来控制这些叛逃的殖民地，从长岛一路追踪华盛顿部队到此处。1847年，爱尔兰伤寒在北美肆虐，超过80%的确诊患者在横渡大西洋时所感染，147位患者在纽约医院，也就是我上了两年课的长老会医院中接受治疗。这次灾难中，著名的伤寒玛丽在27年的隔离生涯后，因肺炎结束了自己孤独的一生。</p>
+
+<p><img src="https://media.newyorker.com/photos/590965c66552fa0be682ee53/master/w_2560%2Cc_limit/Michaud-Washington-Heights.jpg" alt="Washington Heights 1986." style="zoom:16%;" /></p>
+
+<p>同时，这片社区很幸运，自1930年小洛克菲勒捐给纽约市以来，一直都有大型机构的持续运转来作为压舱石，其中包括哥大医学院，公共卫生学院，叶史瓦大学，大都会博物馆也在此处为中世纪艺术藏品开设分馆。从最初的二战时的德国移民，到如今的“多米尼加共和国”，华盛顿高地百年来经历了种族和经济的快速变迁，犯罪率也从60年代早期的每10万人中7.6人攀升到了80年代后期的每10万人中25.4人。1991年，一位社会工作者Jose Reyes在159街和broadway街口（也就是今天的麦当劳所在地）被杀，因为当时他挺身而出与毒品贩子缠斗。而我第一年的家，也就是曾经的哥大护理学院楼楼下的coogan’s餐馆，则成为了跨文化交流的缩影。</p>
+
+<p>第一年我在Washington heights 住的168街的学校宿舍，楼高七层，我住第七层。曾经是哥大的nursing school，现在一二层仍旧是医学中心HR和行政所在，不过依旧是一栋阴暗的大楼，虽然我拥有豪华18平的卧室和独立卫浴，只需要和我的美国室友share厨房，并额外附赠超豪华客厅，但因为对门(路的宽度不足15m)，实际上我们家和医院没有缓冲地带，甚至没有明显的界限，国内，大多数空间宽裕一些的医院，会设计非常宽大的门牌，在门牌的前面设计有绿化带，或是宽大的分流sign。</p>
+
+<p>但这里，像是最普通的曼岛，楼和楼之间几乎没有距离，路窄得可怜。其实很多时候，纽约都市的拥挤和空间的紧密，让这个城市愈发独特，所以常常有人说，NYC不是美国，和加州的松散的星罗棋布相比，纽约作为城市生态的一部分，一直适应着“都市”的自我设置，也造就了纽约学派对于阶级再生产，不平等和少数群体的关注的独特风格。而我也应当感恩，如果硬要说的话，可能我更像一个outsider，侵占了原本应该属于护士们的宿舍楼，还交着低于市场价的房租，最近covid-19情势紧张起来之后，曾经的宿舍终于交还给了医护人员，让他们免受通勤之苦，而我们毕业典礼的体育场也成了战地医院。</p>
+
+<p>因为单人床实在太窄，房间太过空旷，卧室没有顶灯，我到宿舍的第一周真的是有一种深陷恐怖片场景的恐惧。于是，种种因缘际会之下，我搬到了哥大主校区附近，虽然2019年的通勤没把我累成狗(暑假实习从主校区去医学院，常常走完 3.6 miles)，但那种横穿Harlem的勇气我想我之后应该都不会有了😂🤷‍♀️。</p>
+
+<p>但那宽敞的独处空间，也随之远去。自从去年五一搬离之后，一度我很讨厌的警笛(siren)声不再有了（纽约救护车电声警笛和警车电声警笛声音十分详细，不好区分），四月底还在呼呼吹气，叮咚作响的恼人的暖气片也和我告了别，但是警笛一直让我保持7点左右就起床的好习惯，甚至常常午夜惊醒，直到最近新冠愈发严重，复刻了喧天的救护车警笛声，拉回了我久远的记忆。</p>
+
+<p>从五月花号来到北美，新英格兰地区，就成为了如今美国文化和自由精神的起源地 (非印第安文化)，在美东，城市多分布在大西洋沿岸，与中国的东南沿海类似，美国的东部从北往南数，有博士屯(Boston), 纽约(New York City), 费城(Philly), 首都华盛顿 (DC) , 亚特兰大(Atlanta) 诸多赫赫有名的城市，很多人会问为什么纽约没有成为美国的首都，在乔治华盛顿当选第一任总统的时候，也就是1789年，纽约曾短暂的作为了首都，到他的第二任任期开始时（1792年)，事实上风头最劲的费城取代了纽约，成为了新的首都。但南方的蓄奴州认为费城和纽约的位置都太过偏北，权力会过分集中在北方，因此议员们同意拿出compromised的方案，在被蓄奴州环绕的马里兰和弗吉尼亚州选择一块新的土地作为新的首都，这才有了Washington, DC的成立。</p>
+
+<p>非政治中心却给了纽约更持久的商业繁荣，大约在19世纪30年代，纽约就变成了实际上的商业中心。关心生意多过关心其他，与其他世界性都市一样，这里的人们脚步匆匆，但这里与欧洲和中国的大都市相比，历史短暂（常常有欧洲人以此鄙视美国) 却有着众多的博物馆和美术馆，因为年轻，从过往衰落的帝国们身上，学到了感恩历史，妥善保存的重要。</p>
+
+<p>风继续吹，吹过华盛顿高地，吹过哈勒姆，直到晨边高地哥大主校区，纽约地名中总少不了高地，而之所以都以高地命名，是在中世纪发生黑死病和大规模瘟疫的时候，大家一般都跑到比较高的地方去，《十日谈》就是由几个到山上修道院躲避瘟疫的年轻人轮流讲述故事的形式开始的。最早来纽约的大多是欧洲移民，他们往往愿意在地势险要的地方构筑城堡，一是为了防御，二是为了有较好的空气。而后有钱的人的屋子往往也是修在当地地势最高的地方，这种传统一直传到北美大陆。</p>
+
+<p>而我也从华盛顿高地搬到了晨边高地，上西区的老式公寓二楼。离hudson river跑道两个街区，central park最北边3个街区，社区氛围非常好，但空间也极为狭小，认识了几个新朋友，也体会了很多不同文化，下次在娓娓道来吧～</p>
+
+<ol>
+  <li>AP (1991 Virginia Byrne) One Patrol Officer Faces Down Violent Drug Gang and Wins. https://apnews.com/bfc6a2d675c16960e440a9aff6e8f784</li>
+  <li>New Yorker (2015 <a href="https://www.newyorker.com/contributors/jon-michaud">Jon Michaud</a>) Walking the Heights.https://www.newyorker.com/books/page-turner/walking-heights</li>
+</ol>
+
+
+                <hr style="visibility: hidden;">
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2020/02/27/Social-Science-onestop-shop/" data-toggle="tooltip" data-placement="top" title="社科工作者的全家桶">
+                        Previous<br>
+                        <span>社科工作者的全家桶</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2020/02/27/%E7%B2%BE%E5%87%86%E5%9C%B0%E7%94%9F%E6%B4%BB-%E7%B2%BE%E8%87%B4%E7%9A%84%E7%89%A2%E7%AC%BC/" data-toggle="tooltip" data-placement="top" title="精准地生活 精致的牢笼">
+                        Next<br>
+                        <span>精准地生活 精致的牢笼</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <hr style="visibility: hidden;">
+
+                
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
+
+                
+            </div>
+
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+
+
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- add support for mathjax by voleking-->
+
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "shanj";
+    var disqus_identifier = "/2020/02/27/Lock-Down-Diary-2";
+    var disqus_url = "http://localhost:4000/2020/02/27/Lock-Down-Diary-2/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'right',
+          // icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <!-- SNS Link -->
+              
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  <li>
+    <a href="https://twitter.com/Alexand43261453">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/shanjiang21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/shanj21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+                <p class="copyright text-muted">
+                      Powered by <a href="https://github.com/huxpro/huxpro.github.io">Jekyll</a>
+                    <br>Copyright &copy; Shan JIANG. 2025
+                    <br> <img src="/img/icon_wechat.png" alt="Girl in a jacket" width= "22%" height="10%">
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Simple Jekyll Search -->
+<script src="/js/simple-jekyll-search.min.js"></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+        var d = document, t = 'script',
+            o = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+        s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
+        var $nav = document.querySelector("nav");
+        if ($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-138327408-1';
+    var _gaDomain = 'shanj21.com';
+
+    // Originial
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        // interop with multilangual
+        if ('' == 'true') {
+            _containerSelector = 'div.post-container.active'
+        } else {
+            _containerSelector = 'div.post-container'
+        }
+
+        // init
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        // clean
+        $(selector).html('')
+
+        // appending
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Hux to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+<!-- Multi-Lingual -->
+
+
+<!-- Simple Jekyll Search -->
+<script>
+    // https://stackoverflow.com/questions/1912501/unescape-html-entities-in-javascript
+    function htmlDecode(input) {
+        var e = document.createElement('textarea');
+        e.innerHTML = input;
+        // handle case of empty input
+        return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+    }
+
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('search-results'),
+        json: '/search.json',
+        searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
+        noResultsText: 'No results',
+        limit: 50,
+        fuzzy: false,
+        // a hack to get escaped subtitle unescaped. for some reason,
+        // post.subtitle w/o escape filter nuke entire search.
+        templateMiddleware: function (prop, value, template) {
+            if (prop === 'subtitle' || prop === 'title') {
+                if (value.indexOf("code")) {
+                    return htmlDecode(value);
+                } else {
+                    return value;
+                }
+            }
+        }
+    });
+
+    $(document).ready(function () {
+        var $searchPage = $('.search-page');
+        var $searchOpen = $('.search-icon');
+        var $searchClose = $('.search-icon-close');
+        var $searchInput = $('#search-input');
+        var $body = $('body');
+
+        $searchOpen.on('click', function (e) {
+            e.preventDefault();
+            $searchPage.toggleClass('search-active');
+            var prevClasses = $body.attr('class') || '';
+            setTimeout(function () {
+                $body.addClass('no-scroll');
+            }, 400)
+
+            if ($searchPage.hasClass('search-active')) {
+                $searchClose.on('click', function (e) {
+                    e.preventDefault();
+                    $searchPage.removeClass('search-active');
+                    $body.attr('class', prevClasses);  // from closure
+                });
+                $searchInput.focus();
+            }
+        });
+    });
+</script>
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

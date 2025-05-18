@@ -1,0 +1,162 @@
+<p>The word itself, as an atomic, was introduced in Naive Bayes model and n-gram POS Tagging models, while the word relations were not taking into consideration in these scenarios. Thus, we may need to turn to the structured pattern of <em>thesaurus/ corpus</em> to determine the meaning of words in the context.</p>
+
+<p>The section is called <strong>word embeddings</strong> .</p>
+
+<p><code class="language-plaintext highlighter-rouge">Word2vec</code> is a popular embedding method, it is fast to train and the code are available on the web, almost everywhere on the Github. The core idea is predict rather than count.</p>
+
+<p>The first question we need to deal with is:</p>
+
+<ol>
+  <li>
+    <p>How can we represent the meaning of words?</p>
+
+    <p>a. Usually we can use <strong>words, lemmas, senses, and definition.</strong></p>
+
+    <p><img src="../img/lemma.png" alt="The lemma" style="zoom:28%;" /></p>
+
+    <p>b. we establish the relationship between words and senses?</p>
+
+    <ul>
+      <li>Synomity: But there is <strong>no</strong> example of perfect synonymy.
+        <ul>
+          <li>Filbert/hazelnut</li>
+          <li>couch/sofa</li>
+          <li>Water/H2o</li>
+        </ul>
+      </li>
+      <li>Antonymy: Be opposite at the two end of a scale.</li>
+      <li>Similarity: words with similar meanings, not Synonnyms, but share similar element:
+        <ul>
+          <li>car, bicycle</li>
+          <li>cow and horse</li>
+        </ul>
+      </li>
+      <li>Word Relatedness
+        <ul>
+          <li>car, gasoline (related, not similar)</li>
+          <li>Subordinate/superordinate</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>c. Taxonomic relationships</p>
+
+    <ul>
+      <li>Semantic frames and roles
+        <ul>
+          <li>John hit Bill</li>
+          <li>Bill was hit by John</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>d. Connotation and sentiment</p>
+
+    <ul>
+      <li>Valence: pleasantness of the stimulus</li>
+      <li>Arousal: The intensity of emotion</li>
+      <li>Dominance: the degree of control exerted by the stimulus</li>
+    </ul>
+  </li>
+</ol>
+
+<blockquote>
+  <p>The most popular thesaurus for computational purposes is <em>WordNet</em>, a large online resource with versions in many languages.</p>
+</blockquote>
+
+<ul>
+  <li>One use of <em>WordNet</em> is to represent <strong>word senses</strong>;</li>
+  <li>Address the task of computing <strong>word similarity</strong>.</li>
+</ul>
+
+<p><em>Problems with Discrete representations</em></p>
+
+<ul>
+  <li>
+    <p>Too coarse</p>
+  </li>
+  <li>
+    <p>Sparse</p>
+  </li>
+  <li>
+    <p>Subjective</p>
+  </li>
+  <li>
+    <p>Expensive</p>
+  </li>
+  <li>
+    <p>Hard to compute</p>
+
+    <p>expert = \([0, 1, 0, 0, 0, 0, 0, 0]\)</p>
+
+    <p>skillful = \([0, 0, 0, 0, 0, 1, 0, 0]\)</p>
+  </li>
+</ul>
+
+<hr />
+
+<blockquote>
+  <p>The meaning of a word is in its use in the language. – Wittgenstenin <PI43></PI43></p>
+</blockquote>
+
+<p><strong>Model</strong> for Meaning focusing on similarity</p>
+
+<ul>
+  <li>Each word = a vector</li>
+  <li>Similar words are nearby in space</li>
+  <li>The standard way of representation</li>
+</ul>
+
+<p><strong>Three</strong> Kinds of word embeddings</p>
+
+<ol>
+  <li>Count-based: simple function of counts of nearby words.</li>
+  <li>Brown Clusters: Hierarchical clustering</li>
+  <li>Word2Vec: representation is by training a classifier to distinguish nearby and far-away words.</li>
+</ol>
+
+<p><code class="language-plaintext highlighter-rouge">SVD</code> used as a trick for dimension cut-down, this can give us best seperation between features.</p>
+
+<p><img src="../img/svd.png" alt="The lemma" style="zoom:48%;" /></p>
+
+<hr />
+
+<p>Basic Concepts in Linguistics:</p>
+
+<ol>
+  <li>
+    <p>A <strong><u>sense (or word sense)</u></strong> is a discrete representation of one aspect of the meaning of a word. Loosely following lexicographic tradition, we represent each sense by placing a superscript on the lemma as in \(bank_1\) and \(bank_2\).</p>
+  </li>
+  <li>
+    <p>From the sense, we define how the multiple senses are related with each other. <u>**Homonyms**,</u> and the relation between the senses is one of <u>**homonymy**</u>, refers to the  seem relatively unrelated relations between words. This also applies to the sense of <em>bat</em>,  meaning ‘club for hitting a ball’ and the one meaning ‘nocturnal flying animal’.</p>
+
+    <ol>
+      <li><em>homographs</em>: because they are written the same; (bat and bat, bank and bank)</li>
+      <li><em>homophones</em>: if they are spelled differently but pronounced the same(write and right, or piece and peace).</li>
+    </ol>
+  </li>
+</ol>
+
+<hr />
+
+<p>​																	<u>**Polysemy**</u> vs <u>**homonymy**</u></p>
+
+<hr />
+
+<ol>
+  <li><strong><em>Metonymy</em></strong> is the use of one aspect of a concept or entity to refer to other aspects of the entity or to the entity itself.</li>
+</ol>
+
+<h3 id="bugs-i-encountered-along-the-way">Bugs I encountered along the way</h3>
+
+<ol>
+  <li>
+    <p>How to fit the <code class="language-plaintext highlighter-rouge">synsets</code> to a <a href="http://www.nltk.org/api/nltk.tokenize.html#module-nltk.tokenize">list of words</a>, and not a single word?</p>
+
+    <p>try running <code class="language-plaintext highlighter-rouge">synsets</code> in a loop like so, better use <strong>list comprehensions</strong> to get a list of syns:</p>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">token</span> <span class="ow">in</span> <span class="p">:</span>
+    <span class="n">syn</span> <span class="o">=</span> <span class="n">wn</span><span class="p">.</span><span class="nf">synsets</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+</ol>

@@ -4,7 +4,7 @@ SEOTitle: Shan Jiang -- A salarygirl, daughter & life-learner
 header-img: img/home-bg.jpg
 email: sj2921@columbia.edu
 keyword: Previous New Yorker, a small-town blog writter
-welcome_message: Now I am working in TikTok for bridging gaps of Machine Learning models and Business.
+#welcome_message: Now I am working in TikTok for bridging gaps of Machine Learning models and Business.
 description: Hi, I am Shan(@shanjiang21).
 url: "https://shanj21.com/"
 baseurl: ""
@@ -15,7 +15,7 @@ future: true
 # SNS settings
 linkedin_username: shanj21
 github_username: shanjiang21
-zhihu_username: jiang-shan-59
+#zhihu_username: jiang-shan-59
 twitter_username: Alexand43261453
 
 # Build settings
@@ -44,6 +44,8 @@ featured-condition-size: 1             # A tag will be featured if the size of i
 plugins:
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-minifier
+  - jekyll-sitemap
 
 
 # Markdown settings
@@ -85,3 +87,17 @@ sass:
 ## Reduce responsive time
 exclude:
     - node_modules
+
+## Reduce the local rendering time
+incremental: true
+
+## Responsive_images
+plugins:
+  - jekyll-responsive-image
+
+responsive_image:
+  template: _includes/responsive-image.html
+  sizes:
+    - width: 480
+    - width: 800
+    - width: 1200

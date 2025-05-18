@@ -1,714 +1,590 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shan's hub</title>
-    <description>Hi, I am Shan(@shanjiang21), a master student at Columbia University.</description>
+    <title>Shan&apos;s hub</title>
+    <description>Hi, I am Shan(@shanjiang21).</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 12 Nov 2019 21:59:23 -0500</pubDate>
-    <lastBuildDate>Tue, 12 Nov 2019 21:59:23 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Mon, 12 May 2025 10:12:36 +0800</pubDate>
+    <lastBuildDate>Mon, 12 May 2025 10:12:36 +0800</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
     
       <item>
-        <title>NLP neural networks</title>
-        <description>&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot; async=&quot;&quot;&gt;&lt;/script&gt;
+        <title>Welcome to the new-themed website</title>
+        <description>&lt;p&gt;头疼脑热，休假一日，闲不住的我，终于将我的博客从 jekyll 迁移到了Hugo上。&lt;/p&gt;
 
-&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;之前写作最大的痛点是Jekyll 插图、i18n和&lt;/p&gt;
 
-&lt;h3 id=&quot;neural-networks-and-nlp&quot;&gt;Neural Networks and NLP&lt;/h3&gt;
-
-&lt;h4 id=&quot;word-vectors&quot;&gt;Word Vectors&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Feline to cat, hotel to motel? Love and like? there are around 13 miliion English language, are they are unrelated ? Definitely not!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The hard task for us converts to the translation problem, how can we represent these word tokens into some vector that represents a point in some sort of “word” space, like &lt;em&gt;sample space&lt;/em&gt; in probability. The intuition behind this is that perhaps there actually exists some &lt;strong&gt;N-dimensional space&lt;/strong&gt; (such that N &lt;script type=&quot;math/tex&quot;&gt;\approx&lt;/script&gt; 13 million) that is sufficient to encode all semantics of our language.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The term &lt;strong&gt;“one-hot”&lt;/strong&gt; comes from digital circuit design, meaning “a group of bits among which the legal combinations of values are only those with a single high bit (1) and all the others low (0).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Represent every word as an vector with  all 0s and one 1 at the index of that word in the sorted english language.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;R^{|V|×1}&lt;/script&gt;
-
-&lt;p&gt;We represent each word as a completely independent entity.  This word representation does not give us directly any notion of similarity.&lt;/p&gt;
-
-&lt;p&gt;For this class of methods to find word embeddings (otherwise known as word vectors), we first loop over a massive dataset and accumulate word co-occurrence counts in some form of a matrix X, and then perform Singular Value Decomposition on X to get a USVT decomposition.&lt;/p&gt;
-
-&lt;h3 id=&quot;application&quot;&gt;Application&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Beautiful Soup&lt;/code&gt; is a library that makes it easy to scrape information from web pages.&lt;/p&gt;
-
-&lt;p&gt;However, if you are transiting from &lt;code class=&quot;highlighter-rouge&quot;&gt;Python 2&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;Python 3&lt;/code&gt;, then you might need to change your code a little bit:&lt;/p&gt;
-
-&lt;h4 id=&quot;load-packages&quot;&gt;Load packages&lt;/h4&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;bs4&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;##For python 3
-&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;urllib.request&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;re&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;nltk&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word_tokenize&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;nltk&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bigrams&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;nltk&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trigrams&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;nltk&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ngrams&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;data-scapping&quot;&gt;Data scapping&lt;/h4&gt;
-
-&lt;p&gt;You can either use &lt;code class=&quot;highlighter-rouge&quot;&gt;urlopen&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;request.get&lt;/code&gt; while the latter one consist of two steps&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;## Source from Yale law center
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url1&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'http://avalon.law.yale.edu/19th_century/gettyb.asp'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;url2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;raw_input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter a website to extract the URL's from: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;## text cleaning
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;contents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;text_1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; 
-&lt;span class=&quot;n&quot;&gt;text_2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;W'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text_1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;wrangling-web-data&quot;&gt;Wrangling Web data&lt;/h4&gt;
-
-&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot; async=&quot;&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;strong&gt;Standardized Computing, Standardized Research&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Greatest scientific discovery of 20th Century: Powerful personal computer (standardize science)&lt;/p&gt;
-
-  &lt;p&gt;1956: Aound $10,000  per megabyte&lt;/p&gt;
-
-  &lt;p&gt;2015: &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-&lt;&lt; %]]&gt;&lt;/script&gt; $0.0001 per megabyte&lt;/p&gt;
-&lt;/blockquote&gt;
-
+&lt;p&gt;&lt;img src=&quot;/Users/loganzuo/Library/Application Support/typora-user-images/Screenshot 2025-03-18 at 4.42.15 PM.png&quot; alt=&quot;Screenshot 2025-03-18 at 4.42.15 PM&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 31 Oct 2019 10:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/10/31/NLP-neural-networks-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/10/31/NLP-neural-networks-1/</guid>
+        <pubDate>Tue, 18 Mar 2025 17:06:24 +0800</pubDate>
+        <link>http://localhost:4000/2025/03/18/Migration/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/03/18/Migration/</guid>
         
-        <category>Text Analysis</category>
-        
-        <category>Computational Social Science</category>
+        <category>writing</category>
         
         
       </item>
     
       <item>
-        <title>Intellectual Equal For Women In Post 2000s China</title>
-        <description>&lt;h4 id=&quot;duality-of-attitudes-towards-fertility-among-highly-educated-women-in-east-asian-society&quot;&gt;Duality of attitudes towards fertility among highly-educated women in East Asian Society&lt;/h4&gt;
+        <title>2024 in a wrap</title>
+        <description>&lt;h4 id=&quot;13月休息休息&quot;&gt;1～3月：休息，休息&lt;/h4&gt;
 
-&lt;p&gt;Recently the article published on &lt;em&gt;AJS&lt;/em&gt; has shed light on the dilemma faced by highly-educated women in east asian society. The imcompatibility of childbearing and the career development has increased the anxiety for white-collar ladies in the working places.&lt;/p&gt;
+&lt;p&gt;1月份在 Web 3 裸辞之后，我休息了近90天。&lt;/p&gt;
 
-&lt;p&gt;The typical labor force participation of  “M” shaped curve is a common life-cycle. The article claims that instead of choosing to bear no kid in the family, most of the couples voluntarily cut on the number of kid they can have in the family, a voluntary one-child pattern is then formulated in the process.&lt;/p&gt;
+&lt;p&gt;唯一后悔的事是，没有休息更长时间。说实话，如果不是新加坡签证问题，是真的不太愿意再去互联网为五斗米折腰了。毕竟，在这近90天的假期里，我做了人生最长时间的瑜伽，我裸辞期间读的书，也创了近些年之最：《灵山》、《Yellow Face》、《巨流河》、《Wednesday‘s child》等等，很多时候在图书馆乱翻书，书名也不记得了，只记得那时候下午日光熏熏的，日子很美好。&lt;/p&gt;
 
-&lt;p&gt;In reality, low fertility rate and attenuate aging in Japan is notorious for a long time, why the couples refuse or just hesitate to have a second baby?&lt;/p&gt;
+&lt;p&gt;不过我的意志力也是很薄弱的，休息的几十天里，作息也常常颠倒。说实在的，如果下一次再辞职，我希望能有个part-time job帮我整肃下作息，同时又能拥有自己的休息和思考时间，毕竟工作时间太满/太空，我都会觉得不是很舒服，微妙平衡才是上策。&lt;/p&gt;
 
-&lt;p&gt;The family power stucture affects the fertility decisions, and it varies between countries. Instead of a dual-earner arrangement, Japan has a long histroy of housekeeping wife. The distribution of household choose to  exist in all three countries.&lt;/p&gt;
+&lt;h4 id=&quot;47月回到职场&quot;&gt;4～7月：回到职场&lt;/h4&gt;
 
-&lt;p&gt;Interestingly, this study just include the in-depth interview results from Japan and Korea, while no other individual social-political economy has been given intension, especially China.&lt;/p&gt;
+&lt;p&gt;4月份又回了互联网，从 传统 To C 产品经理到 To B，真的是有点误入歧途。花了很长时间学习搭建推荐系统的这个平台，也第一次接触 SLA、Latency和P99这些性能要求，说实话，工作只能让我长结节。&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Harsh Truth and Education Inequality&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;忙着工作，忙着告别，也忙着看房，成年人的事情像处理不完的家务，总是一件跟着一件，甚至都不是接踵而至，而是一股脑儿地全涌过来，将我淹没在琐碎生活的汪洋里。&lt;/p&gt;
 
-&lt;p&gt;In nearaly all OECD countries, the eduacation rate of women has surpassed men.&lt;/p&gt;
+&lt;p&gt;七月中旬，时隔3年第一次回北京，该变的一样没变，大钟寺居然成了字节大本营，方恒抖音和大钟寺火山的两栋楼相看两不厌，学校后门的那条路变得热闹非凡，可依旧没能改变四道口的那些破败的店。&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Demographic&lt;/em&gt;&lt;/strong&gt; evidence accumulated shows that for education levels of women in China:&lt;/p&gt;
+&lt;p&gt;老旧小区、飞驰的外卖车、还有干燥的空气都无比熟悉和亲切。&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Breakdown Percentage (%)&lt;/th&gt;
-      &lt;th&gt;Urban&lt;/th&gt;
-      &lt;th&gt;Rural&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Percentage of women with &lt;strong&gt;No education&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;3.5&lt;/td&gt;
-      &lt;td&gt;6.6&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Percentage of women with &lt;strong&gt;Primary education&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;10.3&lt;/td&gt;
-      &lt;td&gt;29.4&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Percentage of women with &lt;script type=&quot;math/tex&quot;&gt;\geq&lt;/script&gt; &lt;strong&gt;Secondary Education&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;54.2&lt;/td&gt;
-      &lt;td&gt;18.2&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;可惜，北京食堂的味道好像并没有我预期的高，琳琅满目的食堂档口和新加坡的Hawker Center其实差异不大，论中餐的便利和性价比，非中国家和地区，新加坡和马来西亚应该算得上是头号种子选手。&lt;/p&gt;
 
-&lt;p&gt;Notes: Source from ACWF-2010. op. cit&lt;/p&gt;
+&lt;p&gt;北京的天，在我去的那一周，阴霾密布，空气质量实在让人苦不堪言。路上的司机还是一如既往的不客气，从未想过礼让行人，街边的共享单车还是一如即往的多、密密麻麻，散乱不堪。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;21年在方恒工区短暂呆过几次，从未想过方恒1楼还会有密不透风、昏暗如斯的办公室，真的震惊。&lt;/p&gt;
 
-&lt;p&gt;Infertility is also on the rise, and in Asia there’s still a stigma about it, but attitudes are changing as more couples take fertility tests. 															 –&lt;em&gt;South China Morning Post&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&quot;10月台湾之旅&quot;&gt;10月：台湾之旅&lt;/h4&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;台湾之旅，简而言之就是台北之旅，因为天气原因，6天我们就一直呆在台北市区，除了最后一天去了阳明山，呼吸新鲜空气。出了市区才发现，我对大自然是真爱。舍不得离开这么美好的阳明山……&lt;/p&gt;
+
+&lt;p&gt;几天里，台北书店我们也逛了个遍，联经、学林、诚品和金石堂，每个书店都各有千秋；也终于去了大学期间就梦想去到的醉月湖和罗斯福路，在台大校园到处乱逛。台北真的很有人情味，不过建筑也确实很老，杨德昌的胶片没有骗我，雨天的台北天桥下，到处是城市的混乱记忆。&lt;/p&gt;
+
+&lt;h4 id=&quot;12月尾牙之变&quot;&gt;12月：尾牙之变&lt;/h4&gt;
+
+&lt;p&gt;2024 Q4 本来是个井然有序的holiday season，尾牙大家开开心心过新年，可是安定的生活总是离我一尺三丈远，大模型的泡沫硬是挤得我喘不过气来，好端端的，换了汇报线，2025的产品规划已然泡汤。&lt;/p&gt;
+
+&lt;p&gt;过去两周，飞了深圳和上海，见了新老板，可依然能感受到边缘化的压力，像是潮水般涌过……&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;那些记忆如今被掀开来感觉依然湿淋淋，即便干了，也像泡了水的书本一样，纸张全荡起波纹，难以平复。 — 《流俗地》&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也许2024年领悟到的最深刻的道理就是，工作确实就只是人生道路上的非常狭窄的一部分，虽然如今工作本身占据了我醒着的大部分时间，但是它带给我的人生体验和感受，一定是生命里浅浅一层，不足道也。&lt;/p&gt;
+
+&lt;p&gt;可惜的是，工作把我啃噬地伤痕累累，也带走了我的少年心。组里刚刚本科毕业的新加坡小孩，无忧无虑，做事很有股冲劲，在他身上我看到了刚毕业的自己，对于不合理，不正确的feature 嫉恶如仇，对于乱糟糟的组内sop也非常不满，&lt;/p&gt;
+
+&lt;h4 id=&quot;but-i-also-have-my-dream-home&quot;&gt;But, I also have my dream home&lt;/h4&gt;
+
+&lt;p&gt;2024年也是四处奔波看房，终于下定决心买房的一年。&lt;/p&gt;
+
+&lt;p&gt;以前我憎恶国内的同事在午饭时间，不停地聊到房子、车子、票子，我喜欢聊一些有趣的、新鲜的玩意，可如今我也难以免俗地加入了看房大军，在新加坡的一个又一个区之间徘徊比较。&lt;/p&gt;
+
+&lt;p&gt;虽然过程曲折，也失败过一次，最终我们终于下定决心成为了新加坡东海岸居民。&lt;/p&gt;
+
+&lt;p&gt;希望新房子能带来新气象，新年也能带来新思想。&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 22 Oct 2019 03:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/10/22/Intellectual-equal-for-women-in-post-2000s-China/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/10/22/Intellectual-equal-for-women-in-post-2000s-China/</guid>
+        <pubDate>Sun, 29 Dec 2024 17:06:24 +0800</pubDate>
+        <link>http://localhost:4000/2024/12/29/2024-in-A-wrap/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/12/29/2024-in-A-wrap/</guid>
+        
+        <category>writing</category>
+        
+        <category>Reading</category>
+        
+        <category>reflections</category>
         
         
       </item>
     
       <item>
-        <title>Third Space As A Buffer</title>
-        <description>&lt;p&gt;From a young 6-year-old little girl to a 23-year-old adult woman, what and where has helped/benefitted me most?&lt;/p&gt;
-
-&lt;p&gt;I try to ask myself, the inclusive sets certainly my &lt;em&gt;family&lt;/em&gt;, &lt;em&gt;school&lt;/em&gt;, and the temporal phase in &lt;em&gt;professional occasions&lt;/em&gt;. If measured by the length of my life, so far the longest and the only thing I have insisted on doing is &lt;em&gt;staying at school&lt;/em&gt;, no matter doing courseworks or serving as a research assistant, the inner voice keeps talling me the campus is a &lt;strong&gt;safe bubble&lt;/strong&gt; for me, despite the compensation of getting a low-pay and intense burden sometimes, also the endless deadlines that never disappear even in my dream.&lt;/p&gt;
-
-&lt;p&gt;I still rememeber the noisy farmer’s market where I grew when I was young. As a veteran, my dad did what he can to best utilize the stipend he received when he retired from the army. He started a grocery store with my mom, operating from 4:00 am to 6:00 pm every day, except for the Spring Festival. Namely, they work almost 360 days each year for about 18 years until last year after I graduated from college.&lt;/p&gt;
-
-&lt;p&gt;He failed to get in the local SOE when he was about 35 years old, while that implies the door for uplifting for him.&lt;/p&gt;
-
-&lt;p&gt;Have you ever given a thought to the rotisserie chicken sold in Walmart/Costco?&lt;/p&gt;
-
-&lt;p&gt;Some of the unnoticable detail&lt;/p&gt;
-
-&lt;h3 id=&quot;trickle-down-economics&quot;&gt;Trickle-down Economics&lt;/h3&gt;
-
-&lt;p&gt;In economics history of U.S, there is once upon a time when Reaganomics were popular in the 1980s.&lt;/p&gt;
-
-&lt;p&gt;Before Reagon came to power, there is high unemployment and persistently high inflation. In other word, it was called stagnation.&lt;/p&gt;
-
-&lt;p&gt;It advocates cuts to the tax, which goes to the weathy and celebrities who are at the top of the pyrimaid.&lt;/p&gt;
-
-&lt;p&gt;–&lt;/p&gt;
-
-&lt;h3 id=&quot;loneliness-in-collectivism&quot;&gt;Loneliness in Collectivism&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Scourage of the South Korea.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;These who are close to him are even more surprised than the fans.&lt;/p&gt;
-
-&lt;p&gt;I hate the labelling, it attaches atigma, ignores the heterogenity of the individual and often is the source of bias and hatred, no matter how strong you try to deny the fact.&lt;/p&gt;
-
-&lt;p&gt;Can you imagine, it’s neither Canada nor Sweden, these previously “freezing hell” has the highest suicide rate, it is South Korea, the sense of shame deeply rooted in the asian culture has shaped the thinking style of the&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Third Space sociology&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The term &lt;strong&gt;Third Space&lt;/strong&gt; or &lt;strong&gt;Third Place&lt;/strong&gt; was coined by the sociologist Ray Oldenburg in the early 90s in his book &lt;em&gt;The Great Good Place&lt;/em&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;../img/GGP.jpg&quot; alt=&quot;The Great Good Place&quot; style=&quot;zoom:23%;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Farmers’ Market&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Every Tuesday there are tons of vegetables, bread and groceries freshly on sale in front of the Hammer library which is just a symbol of third space in the U.S., it diminished the distance from the food source to the consumers, increases the trust between individuals and also lifts the commerical value of the food produced. Historically, the market has been a great place for information transmission and construct of unique social networks, which has been reserved until now. While some places have similar functions just like the market, take a look at the Starbucks around the corner, you may have a better idea why it has made so big a profit.&lt;/p&gt;
-
-&lt;p&gt;Third space in urban life is common while more rely on the intentional maintainance and the conquer of capital is the biggest threat to the phenomenon.&lt;/p&gt;
-
-&lt;p&gt;Just as the headlines indicated: &lt;em&gt;Cafes, Coffee Shops, Bookstores, Bars, Hair Salons, and Other Hangouts&lt;/em&gt; at the Heart of a Community. Though home and workplace have been two places which take the dominant role in our daily life, these small stops on the road home are great buffer from the work and housekeeping duties.&lt;/p&gt;
-
-&lt;p&gt;It is not uncommon that East Asian societies, people pay a lot more attention to the pursuit of external judgment to avoid being pubnished while always they don’t even know how to care for themselves, even if that is considered as his/her right since the date of birth. Besides, society also labels personal care as high-end enjoyment or abuse of money, the betrayal of si mple and plain lifestyle.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 16 Sep 2019 03:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/09/16/Third-Space-as-a-buffer/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/16/Third-Space-as-a-buffer/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Love, Lust and Loneliness</title>
-        <description>&lt;p&gt;&lt;strong&gt;Cruel Truth about Love&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Never did I have think about being detached to my parents in such a short time, when all things are going smooth and quite well by normal standard.&lt;/p&gt;
-
-&lt;p&gt;However, when I stand by on the other side of the globe, hearing the quarrelling thousands miles away, even it’s a sunny Saturday, all the days have become grey.&lt;/p&gt;
-
-&lt;p&gt;This time, they did not have the chance to blow my mind, I clicked on the close button and quit Wechat as soon as possible, my dad might be experiencing one of the most challenging transition in his lifehood.&lt;/p&gt;
-
-&lt;p&gt;The big year for him has turned my mom into a part-time worker, with much more freedom in the name time for personal use.&lt;/p&gt;
-
-&lt;p&gt;The truth, however, I saw is exactly the opposite. She does have an increasing amount of time as the Mom-and-Papa ‘s store has shut down,  but the time allocated for herself is so limited that I don’t even know how she can balance the inner self both emotionally and intellectually.&lt;/p&gt;
-
-&lt;p&gt;As my dad is someone who just have no idea on how “the way of the world” works, my mom has to take on the role as the public relationship agent for him, and for the whole family.&lt;/p&gt;
-
-&lt;p&gt;Often times, in some occasion when my dad need to schemooze alone, confilcts are generated. The “Mianzi” maintained by my mom is exhausted easily by my dad.&lt;/p&gt;
-
-&lt;p&gt;The ineffective communication and the unwillingness to reveal some rules or social norms frequently lead them to a within-family arguments.&lt;/p&gt;
-
-&lt;p&gt;Culturally speaking, this kind of overwhelmed lifestyle mostly come from the dominant power of father in Asian society.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It all starts with boredom.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In China, I cannot imagine how many men are still soaking in the illusion of traditional family expectation and roles arrangement,the burdensome housekeeping and babysitting responsibilities are not the only causes that frustrate women, moreover, I should say, fatigue resulted from the emotional labor they devoted and inability to make any changes in the power dynamics structure.&lt;/p&gt;
-
-&lt;p&gt;But, I have to be frank, typical idea that the boredom comes from too much freetime available, in fact，things are not that simple as it was talked about.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Loneliness in Collectivism&lt;/strong&gt;&lt;/p&gt;
-
-&lt;iframe width=&quot;590&quot; height=&quot;330&quot; src=&quot;https://www.youtube.com/embed/nx2iLOvP0rM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;It reminds of the death of Avicii, who was a famous Nodiac music star. It happened on his trip to Oman, who killed himself when everyone else thinks that’s his highlighted moment in his life.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;All his notes were in happy mode.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;These who are close to him are even more surprised than the fans.&lt;/p&gt;
-
-&lt;p&gt;I hate the labelling, it attaches atigma, ignores the heterogenity of the individual and often is the source of bias.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;A little happiness&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/64.jpg&quot; alt=&quot;A little Happiness&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A little happiness is originated from the American literature while introduced to East Asia by Japanese Novelist Murakami Haruki, to denote the tender moments in life which shall be recognized and cherished.&lt;/p&gt;
-
-&lt;p&gt;A little bit sweet or kind from people can make me feel blessed and grateful for the whole day.&lt;/p&gt;
-
-&lt;p&gt;Sometimes, it is in the second culture do we find ourselves, who we are and why we try so hard: to heal a wound in the childhood, to earn the sense of belonging, or what’s more, to gain all the needs which satisfy themselves.&lt;/p&gt;
-
-&lt;p&gt;It is the tiny kind that makes the life looks better than it is.&lt;/p&gt;
-
-&lt;p&gt;We are normal people, normal to live and normal to die, always have no say for most of the time.&lt;/p&gt;
-
-&lt;p&gt;Bosses buy our time by using their power and money, we nod our head to earn a living. The reverse of attitudes and behaviors are also a crucial reason why we feel quite lonely in these days, we are given the chance to say No, but based on the optimization strategy, keeping quiet is always a better choice.&lt;/p&gt;
-
-&lt;p&gt;Egregious things never takes a dominant role in life, for individuals fall within the three-sigma range, what affect them most is how they treat their normal life, the working time and spare time, their food and sleep, also a tiny bit risky event may cross over a while in their life-course, maybe.&lt;/p&gt;
-
-&lt;p&gt;Will loneliness lead to more loneliness? Yes, just the same as “matthew effect”. Rich people always get richer and the poor tends to stay in the lower stack of the society and sometimes siginificant event will drag them into the abyss.&lt;/p&gt;
-
-&lt;p&gt;To be fair, by using a psychoanalysis for myself, I am the one who would priortize emotional safety over social opportunity. Like a lollipop, if it looks too fancy, then I would be too eager to want it so that I abandoned it.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In this consumer society, what cannot be bought?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There are still many stuff, faith, love, trust and the willingness to make changes.&lt;/p&gt;
-
-&lt;p&gt;You can ignore the existence of these invisible concepts, while credit is consist of trust, marriage is made from love and material exchange, and the urge to step out of the comfort zone contributes to the progress around the world.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 30 Aug 2019 21:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/08/30/Lust-and-Loneliness/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/08/30/Lust-and-Loneliness/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cost of Switching from divergent tasks</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/img/post_multi.png&quot; alt=&quot;Multitasking&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We are drowning in information and starving for knowledge.
-                                        –Rutherford D. Roger&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In the book &lt;em&gt;elements of statistical learning&lt;/em&gt;, the author shared with us his experience in analyzing data, stating that statistician’s job is to make sense of it all: to extract important patterns and trends, and understand “what the data says.”&lt;/p&gt;
-
-&lt;p&gt;However, for a fresh green-hand who just enters the industry field, things can be challenging sometimes as we may never easily start from the cleaned, organized data.&lt;/p&gt;
-
-&lt;p&gt;When you are checking the messy data, it just implies welcome to the real world.&lt;/p&gt;
-
-&lt;p&gt;Everything from single details to the big picture of life are composed of learning problems that we consider can be roughly categorized as either &lt;em&gt;supervised&lt;/em&gt; or &lt;em&gt;unsupervised&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;how-individual-does-multi-tasking-physically&quot;&gt;How individual does multi-tasking physically?&lt;/h4&gt;
-
-&lt;p&gt;From the neuroscience studies, we know prefrontal cortex of the brain begins working anytime you need to pay attention.&lt;/p&gt;
-
-&lt;h4 id=&quot;design-working-log&quot;&gt;Design working log&lt;/h4&gt;
-
-&lt;p&gt;One thing I learned from Diana, is try to design the working log of myself. Sometimes, I feel that I have no &lt;strong&gt;me time&lt;/strong&gt; left for myself or I feel exhausted&lt;/p&gt;
-</description>
-        <pubDate>Sat, 29 Jun 2019 06:36:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/06/29/Cost-switching/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/06/29/Cost-switching/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Two separated world</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/img/post_notre_dame_cathedral.jpg&quot; alt=&quot;Notre Dame Cathedral fire&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Plato developed a two layer view of reality, the world of Becoming and the world of Being. &lt;br /&gt;
-         — symposium, Plato&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The world of Becoming is the physical world we percieve through our senses. This world is always in movement, always changing. The world of Being is the world of forms, or ideas. It is absolute, independent, and transcendent. It never changes and yet causes the essential nature of things we percieve in the world of Becoming.&lt;/p&gt;
-
-&lt;p&gt;Massive blaze encompasses the Notre Dame Cathedral, which is not only a landmark of Paris,  also an icon of Europe.&lt;/p&gt;
-
-&lt;p&gt;Shock and quietness engulf all the people, real fears spread among the public, media delineate this event as a devastating disaster.&lt;/p&gt;
-
-&lt;p&gt;Roof has collapsed on such a so-called historical day, isn’t it ironic? you may able to call it an absolute tragedy for these families who have overseen the rise and falls besides the once-romantic Seine bank in Paris.&lt;/p&gt;
-
-&lt;p&gt;The grief, or you can called it the sense of feeling lost your beloved stuff, friends, appeared again for millions of parisians.&lt;/p&gt;
-
-&lt;p&gt;If you watch closely to everyone’s life, you will find there will always be certain degree of shades. There is no doubt, some of us are the lucky dogs among all creatures of God, fortune or wealth, good education or luxury commodities, it always seems to be easy and convenient. However, for those diagnosed with rare disease, are they doomed to suffer from the date of birth? I am completely discouraged by the world, and still I am a person trying to enjoy all the privilege brought to me by my family, abuse resources I have available with me.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;No hope forever,  No &lt;em&gt;orietur&lt;/em&gt;.
-Science and patience,
-The torment is sure.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If the pursuit of knowledge per se cannot change the situation, what should I insist? It is almost impossible for one to keep up with the latest information every moment, it’s often exhausting and tiring, sometimes disappointing, but there is also miracle that exists always.&lt;/p&gt;
-
-&lt;p&gt;To the darkest days, tears and down hours, these will in the final be faded away.&lt;/p&gt;
-
-&lt;p&gt;There are limited time allocated for families, science and society. No wonder, why after carrying on the responsibility to maintain the role of breadwinner in family, more care and attention are paid for the internal mechanism of the tiny cell’s interest instead of the stars on the beautify sky, not necessarily cosmology, but one more important mission for one him/herself.&lt;/p&gt;
-
-&lt;p&gt;The Platonic instinct to &lt;strong&gt;seek a higher principle&lt;/strong&gt; is rooted in my mind, perhaps that is the reason why I can accept my normal good-looking and just above C+ dressing style, as for me, now the &lt;strong&gt;beauty as capital&lt;/strong&gt; still cannot be prioritized.&lt;/p&gt;
-
-&lt;p&gt;I am no copy of anyone, unique and should be cherished, not being able to fulfill eternity, just live in the moment.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 23 Apr 2019 08:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/23/Two-separated-world/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/23/Two-separated-world/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Nothing Forever</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/img/post_notre_dame_cathedral.jpg&quot; alt=&quot;Notre Dame Cathedral fire&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;O my eternal soul,
-&lt;br /&gt;
- Hold fast to desire&lt;br /&gt;
-In spite of the night&lt;br /&gt;
- And the day on fire.&lt;br /&gt;
-And Spring brought me the frightening laugh of the idiot.&lt;br /&gt;
-	         — A Season in Hell &lt;a href=&quot;https://www.poets.org/node/44836&quot;&gt;Arthur Rimbaud&lt;/a&gt;, 1854 - 1891&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Massive blaze encompasses the Notre Dame Cathedral, which is not only a landmark of Paris,  also an icon of Europe.&lt;/p&gt;
-
-&lt;p&gt;Shock and quietness engulf all the people, real fears spread among the public, media delineate this event as a devastating disaster.&lt;/p&gt;
-
-&lt;p&gt;Roof has collapsed on such a so-called historical day, isn’t it ironic? you may able to call it an absolute tragedy for these families who have overseen the rise and falls besides the once-romantic Seine bank in Paris.&lt;/p&gt;
-
-&lt;p&gt;The grief, or you can called it the sense of feeling lost your beloved stuff, friends, appeared again for millions of parisians.&lt;/p&gt;
-
-&lt;p&gt;If you watch closely to everyone’s life, you will find there will always be certain degree of shades. There is no doubt, some of us are the lucky dogs among all creatures of God, fortune or wealth, good education or luxury commodities, it always seems to be easy and convenient. However, for those diagnosed with rare disease, are they doomed to suffer from the date of birth? I am completely discouraged by the world, and still I am a person trying to enjoy all the privilege brought to me by my family, abuse resources I have available with me.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;No hope forever,  No &lt;em&gt;orietur&lt;/em&gt;.
-Science and patience,
-The torment is sure.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If the pursuit of knowledge per se cannot change the situation, what should I insist? It is almost impossible for one to keep up with the latest information every moment, it’s often exhausting and tiring, sometimes disappointing, but there is also miracle that exists always.&lt;/p&gt;
-
-&lt;p&gt;To the darkest days, tears and down hours, these will in the final be faded away.&lt;/p&gt;
-
-&lt;p&gt;There are limited time allocated for families, science and society. No wonder, why after carrying on the responsibility to maintain the role of breadwinner in family, more care and attention are paid for the internal mechanism of the tiny cell’s interest instead of the stars on the beautify sky, not necessarily cosmology, but one more important mission for one him/herself.&lt;/p&gt;
-
-&lt;p&gt;The Platonic instinct to &lt;strong&gt;seek a higher principle&lt;/strong&gt; is rooted in my mind, perhaps that is the reason why I can accept my normal good-looking and just above C+ dressing style, as for me, now the &lt;strong&gt;beauty as capital&lt;/strong&gt; still cannot be prioritized.&lt;/p&gt;
-
-&lt;p&gt;I am no copy of anyone, unique and should be cherished, not being able to fulfill eternity, just live in the moment.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 Apr 2019 08:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/15/Nothing-Forever/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/15/Nothing-Forever/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Python Basics</title>
-        <description>&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML&quot; async=&quot;&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;All programming languages must be able to:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;remember things,&lt;/li&gt;
-  &lt;li&gt;repeat things,&lt;/li&gt;
-  &lt;li&gt;communicate, and&lt;/li&gt;
-  &lt;li&gt;make decisions.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Functions are all about #2: &lt;strong&gt;repeating things&lt;/strong&gt;. Think of a function as a standalone mini-program: It takes some inputs, performs some operations, and generates an output. We define a function once, and we can execute the code define within a function as many times as we like – repeating all those lines of code with a single invocation.&lt;/p&gt;
-
-&lt;p&gt;The code we’ve written in Python have already employed functions – so far, we’ve defined a function named &lt;em&gt;main&lt;/em&gt; and invoked it to kick off the execution of a program.  But we’ll go way beyond that, defining many functions to do one small thing apiece, and putting them together into a larger program. Now that our programs are starting to get more robust and sophisticated, you’ll define functions beyond just main for pretty much everything you write. Not just in Python and not just in DS2000, but for all of your computer science/data science/programming going forward.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why Functions&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Functions help us to organize our code. They save us from writing a big, long, ugly &lt;em&gt;main&lt;/em&gt;. A function is written once and then its code can be executed many times.&lt;/p&gt;
-
-&lt;p&gt;Functions are short and concise. &lt;strong&gt;Keep this rule of thumb in mind:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A  Function has one job.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;We define a function to do its one little thing, and then we can execute that code many times, on all kinds of different inputs.&lt;/p&gt;
-
-&lt;p&gt;We define functions because they are:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Modular&lt;/em&gt;&lt;/strong&gt;. We end up with many small, single-purpose functions, which we can then piece together into a larger program. It’s the same reason IKEA gives us a bunch of separate shelves that we assemble; it might be annoying, but it’s much easier than if we had to build the whole bookshelf from scratch ourselves.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Testable&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;.&lt;/em&gt; We’ve written test cases for our Python programs in this class, which are great and useful. The drawback of what we’ve done so far, with everything in one big &lt;em&gt;main&lt;/em&gt;, is that &lt;u&gt;we need to provide input at the prompt&lt;/u&gt; and then &lt;strong&gt;eyeball the output&lt;/strong&gt; to make sure it all worked as expected. Functions enable us to test our code &lt;em&gt;programmatically&lt;/em&gt;  – instead of a human eyeball, it’s Python code that determines whether a function generated the correct output given an input. Much more reliable.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Reuseable&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;.&lt;/em&gt; Once a function is defined, we can use it in many programs, sometimes with wildly different purposes. For example, Python provides a function that generates a random number, and I’ve used this function for programs that roll dice, deal a card from a deck, play a guessing game, play rock/scissors/paper, and basically any game of chance you can think of, because they’re my favorite programs to write. That one function has come in handy in tons of ways.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Name, Parameters, Return Type&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A function is uniquely defined by three characteristics:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Name (required)&lt;/em&gt;&lt;/strong&gt; . Similar to a variable name, a function is named so we can refer to it elsewhere in the program.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Parameters (zero or more).&lt;/em&gt;&lt;/strong&gt; The data types of its expected input(s). A parameter is a variable that is attached to the function. Because variables must be initialized before we can meaningful use them, a parameter is initialized by the function caller.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Return Type (zero or one).&lt;/em&gt;&lt;/strong&gt; The data type of its expected output. A function performs some operation on its input, and returns the result to the function caller.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Here’s an example of a simple function in Python, defined by the function writer:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;divide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;''' function: divide
-        parameters: two numbers, x and y
-        returns: a float, the result of dividing x / y
-    '''&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Let’s break it down to the important parts:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: divide&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Parameters&lt;/strong&gt;: two numbers, which could be floats or ints. The parameters are variables attached to the function, and they are named &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt;. You can see that &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt; are not initialized here in the function definition, but we know that we need them to be initialized so that we can use them – they’ll be given values by the function caller.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Return type&lt;/strong&gt;: a float. The function returns the result of &lt;em&gt;x / y&lt;/em&gt;, which is a float even if &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt; are both integers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A few other things to notice here:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;There is a block comment written just under the function name. It must be in block comments so that &lt;a href=&quot;https://docs.python.org/2/library/pydoc.html&quot;&gt;pydoc&lt;/a&gt; will generate your function documentation correctly. For DS2000, we require both parameters and return type to be specified here, but including the name is optional (it’s just something I like to do so I can see them all together in IDLE’s green highlights).&lt;/li&gt;
-  &lt;li&gt;The last line of the function is a &lt;strong&gt;return&lt;/strong&gt; statement. Return is a &lt;strong&gt;reserve word&lt;/strong&gt; in Python. Its job is to hand a value back to the caller. Once a return statement is executed, flow of control also returns to the caller. If any additional code were written here underneath the return statement, it would never be executed.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A function is not required to return a value. &lt;u&gt;If it doesn’t return anything, we call it a “void function,”&lt;/u&gt; and we say that its return type is &lt;strong&gt;void.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The &lt;em&gt;main&lt;/em&gt; functions we’ve defined in our programs so far don’t return anything; when the flow of control reaches the end of the function, the function just ends without explicitly requiring a return statement.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Calling the function&lt;/strong&gt;. Here’s how it would look if I call the &lt;em&gt;divide&lt;/em&gt; function from somewhere inside my main function:&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;What to notice here:&lt;/u&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We had to know the &lt;em&gt;name, parameters&lt;/em&gt;, and &lt;em&gt;return type&lt;/em&gt; of this function in order to call it. That’s how we know the correct syntax for invoking it.&lt;/li&gt;
-  &lt;li&gt;We’ve named our variables here &lt;em&gt;a&lt;/em&gt; and &lt;em&gt;b&lt;/em&gt; and initialized them to have the values 14 and 5. Therefore, 14 and 5 become the values associated with the function’s parameters &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt;. The values 14 and 5 are the &lt;strong&gt;arguments&lt;/strong&gt; to the divide function.&lt;/li&gt;
-  &lt;li&gt;Because the function &lt;em&gt;divide&lt;/em&gt; returns a value, the function caller must save the value it returns. Otherwise, the result of dividing 14/5 would be lost. Here, we’re saving the result in a variable, but we could also print it out, or use it as input to another function… but we can’t ignore it.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Flow of Control&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Without functions, a basic little Python code snippet would be executed from top to bottom and left to right, just like reading a book. Here’s an example you might recognize from class: converting my dog’s weight in stone to his weight in pounds.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/th&gt;
-      &lt;th&gt;weight_in_stone = 5.35&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;weight_in_pounds = weight_in_stone * 14&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;3&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;print(‘Tug weighs’, round(weight_in_pounds, 2), ‘pounds!’)&lt;/strong&gt;*&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;The flow of control is easy to follow and predictable. The lines are executed in this order:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Line 1&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Line 2&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Line 3&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Now let’s turn this little bit of code into a function. Even though there’s not much going on with this calculation, it makes sense to turn it into a function, because:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;It could easily be reused in lots of different contexts.&lt;/li&gt;
-  &lt;li&gt;It clearly takes one input (weight in stone) and computes a value (weight in pounds).&lt;/li&gt;
-  &lt;li&gt;It’s a calculation we might need more than once in the same program.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Turning this calculation into a function alters the flow of control. Flow of control begins with &lt;em&gt;main&lt;/em&gt;, which is often called the “driver”, and should be the first place you look when trying to understand someone else’s code. Then, flow of control flows into a function when it is invoked. Flow of control goes back to the caller when a return statement is executed.  Let’s take another look at this example, as a more complete Python program:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-python &quot;&gt;
-def stone_to_pounds(num_stone):
-    num_pounds = num_stone * 14
-    return num_pounds
-
-def main():
-    weight_in_stone = 5.35
-    pounds = stone_to_pounds(weight_in_stone)
-    print('Tug weighs', round(pounds, 2), 'pounds!')
-
-main()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The flow of control really begins at line 10 ( at &lt;u&gt;line 1&lt;/u&gt; and &lt;u&gt;line 5&lt;/u&gt;, we define functions but don’t execute them so the flow of control doesn’t go there yet). When we call the stone_to_pounds function, the flow of control goes up to line 1, and then returns to the caller at line 7. In all, here’s the flow:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Line 10&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Line 5&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Line 6&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Line 7 # invoke stone_to_pounds&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Line 1&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Line 2&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Line 3&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Line 7 # flow of control returns to caller;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;​       &lt;strong&gt;# variable&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;pounds&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;is initialized&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Line 8&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;At line 3, the flow of control returns to the caller. Whatever value is stored in the variable &lt;em&gt;num_pounds&lt;/em&gt; is handed back to the caller. This value is used to initialize the variable &lt;em&gt;pounds&lt;/em&gt; in main.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;A Word on Testing (and more soon…)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;We said above that one of the reasons for writing functions in the first place is so we can test our code programmatically.&lt;/p&gt;
-
-&lt;p&gt;We’ll talk a lot more about testing and debugging in the next few weeks, but for now think of it this way: in the example above, we wrote a function to divide two numbers. Rather than calling the function and eyeballing the output, we can now call the function and write some code to verify that it worked as expected. Rather than hitting function+F5 over and over again to run the program with different inputs, we can use code to test our function many, many times without breaking a sweat. It’ll be great.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Testing and Debugging&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;We already know the most important part of testing and debugging: when something goes wrong, DON’T PANIC!!&lt;/p&gt;
-
-&lt;p&gt;The second most important part of this process is to find possible issues in our code early. Remember, most of the software you write will be used by people who aren’t you. We design and write a big, hopefully useful, piece of code, and hand it off to a group of users who want our software so they can accomplish something meaningful, creative, and substantive. And – I say this from experience – your users will act as if they are &lt;em&gt;trying&lt;/em&gt; to break your program. Your job is not to let them.&lt;/p&gt;
-
-&lt;p&gt;Testing and debugging work together:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt; is the process of running a program (or parts of a program) to ascertain whether it works as intended.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Debugging&lt;/strong&gt; is the process of fixing a program that you already know does not work as intended.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Good programmers write their programs in a way that makes them easier to test and debug. It’s not something to think about after you’ve written your program, but to think about before you begin writing.&lt;/p&gt;
-
-&lt;p&gt;We’ll get some practice with testing in DS2000 by writing test suites. A test suite is a separate Python program, with its own &lt;em&gt;main&lt;/em&gt;, that repeatedly calls a function you’ve written to validate that it works correctly. A test suite will contain tests for multiple functions.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 12 Apr 2019 08:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/12/PythonLec2/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/12/PythonLec2/</guid>
-        
-        <category>Python</category>
-        
-        <category>Computational Social Science</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Seeing the unseeable</title>
-        <description>&lt;h2 id=&quot;the-first-blackhole-picture-captured&quot;&gt;The first blackhole picture captured&lt;/h2&gt;
-
-&lt;p&gt;The unveiling, before a crowd at the National Press Club in Washington D.C. and five other venues around the world, took place almost exactly a century after images of &lt;a href=&quot;https://www.nytimes.com/2017/07/31/science/eclipse-einstein-general-relativity.html?module=inline&quot;&gt;stars askew in the heavens&lt;/a&gt; made Einstein famous and confirmed his theory of general relativity as the law of the cosmos.&lt;/p&gt;
-
-&lt;p&gt;We live 26,000 light-years from the center of the Milky Way. That’s a rounding error by cosmological standards, but still — it’s far. When the light now reaching Earth from the galactic center first took flight, people were crossing the Bering Strait land bridge, hunting woolly mammoths along the way.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;In these dark days, it’s only fitting that the object of this pursuit is the darkest thing imaginable.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The same logic also applies to ourselves, you may never know the limit of yourself, once you are settled down, it is hard and pricy for you to be go even one more step further.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“To do this, we worked for over a decade,” Doeleman said, in a Washington, D.C.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Will you be able to sacrifice, or even give it a shot to make things happen? I doubt, but it worth trying.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 10 Apr 2019 08:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/10/Seeing-the-unseeable-black-hole-and-ego/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/10/Seeing-the-unseeable-black-hole-and-ego/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>996 viral:Chinese young engineers' Asilomar moment</title>
+        <title>Tropical Rain</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;I haven’t really thought of living a life, Because I’m building something, and before I finish it, there won’t be anything else on my mind.&lt;/p&gt;
+  &lt;p&gt;看到齐邦媛书中回忆年轻时候看济慈的诗，其真挚、投入和陶醉其中的描述令我神往不已，于是在这个滂沱大雨的下午，于星洲作诗一首。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Recently there is a viral suddenly spread on github among Chinese computer engineers, on which they set up a project for protesting against the 996 work mode, which is a common practice in Internet&lt;/p&gt;
+&lt;p&gt;倏忽间，灰蒙蒙的天幕撕裂一个口子，
+雷声在天际怒吼，倾覆无言的愤怒，
+霎时密雨倾落，地面罩上一层银色轻纱。&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;996 vs. ICU&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;雨声开始如鼓点般猛烈，
+击打着地面，剥离了燥热与尘埃；
+渐渐地，雨滴变得轻柔，
+在混凝土的怀抱中轻声呜咽，
+最终，藏进了凤梨蕉碧绿的掌心里&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/img/996.jpg&quot; alt=&quot;996 companies&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;随着雷声渐远，雨点缓缓从狂暴的怒涛中抽离，
+变成轻柔的抚摸，如同疲惫的叹息，
+青翠的树叶在细雨中闪烁，
+晶莹的露珠愈加丰盈，
+斑驳的光影在地面上缓缓游走，
+如同流动的墨迹，静静消散。
+雨滴在地面上跳跃着落下细腻的吻，
+散落都市角落，悄然低吟&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;终于，窗外饱满的雨露在叶子上滑落，
+那细密的击打声，如同少女的手指抚平心中的沉重，
+带来温柔的释怀，将灰色的痛苦缓缓涤荡&lt;/p&gt;
 
-&lt;p&gt;What is 996?&lt;/p&gt;
+&lt;p&gt;狮城的雨，像是一场短暂的狂想，
+天空霎时从低沉的雨幕切换到了炙热的阳光，
+它洗净了街巷的尘埃，也洗净了每一颗浮躁的心，
+呼吸着雨后的空气，感受到了真正的安宁&lt;/p&gt;
 
-&lt;p&gt;A “996” work schedule refers to an unofficial work schedule (9 a.m. ~ 9 p.m., 6 days per week) that has been gaining in popularity. Serving a company that encourages the “996” work schedule usually means working for at least 60 hours per week.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Aug 2024 17:06:24 +0800</pubDate>
+        <link>http://localhost:4000/2024/08/29/Tropical_rain/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/08/29/Tropical_rain/</guid>
+        
+        <category>writing</category>
+        
+        <category>Reading</category>
+        
+        <category>Poem</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Yellow face You and Me</title>
+        <description>&lt;h3 id=&quot;june-17&quot;&gt;June 17&lt;/h3&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;I am rooted, but I flow. // 我扎根，却也漂流。&lt;/p&gt;
 
-&lt;p&gt;What can I do?&lt;/p&gt;
+&lt;h3 id=&quot;june-18&quot;&gt;June 18&lt;/h3&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Update this list with evidence to help every worker.&lt;/li&gt;
-  &lt;li&gt;Add this badge to your project to support 996.ICU.&lt;/li&gt;
-  &lt;li&gt;License your awesome projects with the 996ICU License.&lt;/li&gt;
-  &lt;li&gt;Add proposals to give advise and suggestion about the development of 996.ICU.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;中资互联网巨头的手里都沾满了鲜血。兔死狐悲的感伤并没有用，糟糕的就业环境和工作体验，即便在海外也难逃。&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;p&gt;Mapping the mechanism behind popular 996 work Demanding conditions&lt;/p&gt;
-
-&lt;p&gt;Struggle to have a life and work balance is due to the overtime working and strict conditions set on these young elites. They are deprived of their own life, thinking room, together with their happiness shared with family members.&lt;/p&gt;
-
-&lt;p&gt;Some digital media called 996 is a scandal for Chinese start-ups and giant technology empires, while I disagree with such criticism. The inside story is not fully presented by now.&lt;/p&gt;
+&lt;h3 id=&quot;june-23&quot;&gt;June 23&lt;/h3&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;IF THEY DO NOT PUT IN THE HOURS, THEY CAN EASILY JUST BE LAID OFF.&lt;/p&gt;
+  &lt;p&gt;Writing is the closest thing we have to real magic.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;虽然对于Rebecca Kuang在江湖上早有耳闻，可惜她广受好评的 Babel 是本大部头，不太适合最近忙碌的我，于是在今年儿童节，给了自己一份礼物 — 买了本 Paper back &lt;em&gt;Yellow Face&lt;/em&gt;来看一看。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://zqb.cyol.com/html/2019-04/02/nw.D110000zgqnb_20190402_1-02.htm&quot;&gt;被“996”工作制围困的年轻人：像是定好闹钟的机器&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;她与我同样大的年纪，从出道以来就屡获大奖，出生在中国，成长在美国，擅长辩论，文笔老辣。23年最红的小说家莫过于她，她简直是自己笔下的Athena Liu！&lt;/p&gt;
+
+&lt;p&gt;从这本小说本身来说，读起来真的很爽，大概花了三个周末，就已经全部读完。笔触非常流畅，尤其是主人公的心理描写非常老练又辛辣，用词到位。《扮黄脸》听说最近在台湾出了中文版，不知道如何，但是这本书叙述的方式和英文用词很考究，还有作者本人的观点其实都值得细细思考和回味。&lt;/p&gt;
+
+&lt;p&gt;塑料友谊，偷窃，6位数的版税；&lt;/p&gt;
+
+&lt;p&gt;推特揭秘，崩溃，2本书的阴影。&lt;/p&gt;
+
+&lt;p&gt;这本书让我重新认识了小众的出版行业的另一面，也在种族议题上给我重新上了一课。这本书让我重新反思：白人来写亚洲人的历史，真的就罪不可恕么？谁拥有叙述的主体权？作家的种族是界限吗？传统基于经验的写作标准是否也是一种歧视性框架呢？&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Yellow Face&lt;/em&gt; marks my first completed English-novel reading over the years since graduation.&lt;/p&gt;
+
+&lt;p&gt;This book described a story about jealousy, cheating and plagiarism, while this book also provokes a stunning question, which is, should Asian stories only be narrated by Asian-rooted writers? Do white people deserve a chance or a try on Asian-history based novels?&lt;/p&gt;
+
+&lt;p&gt;Before reading this, I only had superficial recognitions on the racial nuances people confronted in the States. Racial expectations are everywhere. Strands of stereotypes, the general expectations of tones you’ve adopted for speaking, reactions shown for misbehaviors, so on and so forth.&lt;/p&gt;
+
+&lt;p&gt;Being a writer is lonely. This book also opens me a new world about how fierce the competition is in this so-called marginalized industry, which echoed the recent movie &lt;em&gt;Civil War,&lt;/em&gt; also directed by an ivy-league recent graduate to reveal the other presentations of journalism in the eyes of front-line war reporters. Journalists are never different from writers, their career life span solely depends on how rare the source information is and how much attention that they can attract.&lt;/p&gt;
+
+&lt;p&gt;The protagonist was in hunger for attention. In her second novella, she was strongly driven by the motivation to acquire more spotlight to shine on her, while she was haunted by Athena that she could not get rid of the shadow of her passed-away fake friend. Instead of writing a 100% original one, once again, she chose to take out some excerpts from the papers she stole. Coincidentally, the excerpts were unpublished workshop efforts back in 2018 by her friend, though not circulated in the press, there were someone who recall the same paragraphs being adopted in the first paragraph of the &lt;em&gt;Mother Witch&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The story feels fucking true. When writers finish their debut project and launched it, no one will stay uncurious about how readers perceive it. They will be like vultures hunting for compliments and mean judgements on Goodreads. The narratives and social media snippets always remind me of what critical role twitter has played for literary circles &amp;amp; academia world.&lt;/p&gt;
+
+&lt;p&gt;All in all, Rebecca’s nitpicking language is extremely spicy. When June was talking about Taylor, she describes her as the white supremacist Barbie. After Candice beat her to the EMT, she mocked the whole tragedy as “riding the diversity elevator”.  The sewing needle of plots are never the books, the publishing, the lies, indeed it’s the racial assumptions and mindsets that are key for progression.&lt;/p&gt;
+
+&lt;p&gt;It is my first time knowing how the publishing works: advances, 6-figure royalties, and countless marketing strategies for sales. It turns out the same as hypes for Hollywood stars, no attention from the public, then people will forget about you, which means you need to sit in the corner and wait the hotter and younger ones to replace you. Classics are rare. The industry is full of gossip, competitions, under-paid assistants and unhealthy rewarding systems. It is not fair at all.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Apr 2019 21:32:24 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/01/996-viral-Chinese-young-engineers-Asilomar-moment/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/01/996-viral-Chinese-young-engineers-Asilomar-moment/</guid>
+        <pubDate>Sun, 23 Jun 2024 15:06:24 +0800</pubDate>
+        <link>http://localhost:4000/2024/06/23/Real-magic/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/06/23/Real-magic/</guid>
+        
+        <category>writing</category>
+        
+        <category>Reading</category>
+        
+        <category>Yellow Face</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>A man&apos;s Epic journey</title>
+        <description>&lt;p&gt;如果让我再重回财大的校园，给人类学导论这门课推荐阅读书目，那么我绝对不会错过这本书。&lt;/p&gt;
+
+&lt;p&gt;某种程度上，作者对于文字的使用，对于见闻的分享，对于人性的认识，已经超越了大多数作品。可惜的是，这本书在如今的中国内地，甚至无法买到，如果不是在吉隆坡诚品书店逛了很久，我也不会注意到这本藏在角落里的《灵山》。&lt;/p&gt;
+
+&lt;p&gt;从2月买回此书，到4月底读完，此书是我读完的第一本繁体竖版书籍。断断续续的阅读和思考，也给我带来了很多反思。可能是因为我家就在长江边的缘故，对这本书莫名的熟悉和亲切。刚开始读，不知何为灵山，也没有意识到“你”和“我”竟是一人的孤独对白，可读着读着，越往后看，越觉得其丝滑。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;你找寻去灵山的路的同时，我正沿长江漫游，就找寻这种真实。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;港城大传播学院有位林芬老师，在她的个人博客里分享了她攀登高山的种种故事，其中&lt;a href=&quot;https://www.fenjlin.com/597960750872&quot;&gt;京那巴鲁山&lt;/a&gt;这一篇的开端令我想起了灵山的找寻过程，其实从佛门早课，到正一教老道家，这本书从不缺乏真实，甚至连其写作过程，都有些过于真实：他保留着对于儒家和正统史学的怀疑态度，而拥抱那些真实发生和流传的诗，歌，吟唱调，一直以来，长江流域的苗族、彝族、羌族、藏族的文化在正统文化史中没有什么记载，而他却带着录音机，深入这些边陲小城实地调查，所以一方面写作手法之创新感十足，另一方面，其描写刻画和现实的勾连，又不得不让人敬佩这数千年生活在嘉陵江畔至汉江，再到吴淞口的民间文化。&lt;/p&gt;
+
+&lt;h4 id=&quot;灵山之美你我他的定位&quot;&gt;灵山之美：「你，我，他的定位」&lt;/h4&gt;
+
+&lt;p&gt;如果你遮住一只眼睛，试试看去丈量桌上的笔和自己的手的距离，是不是变得很难？在语言学的启发下，以人称来代替人物本身，以三个象限，定位出一个丰满的人，是这本书在小说创作本身最大的创新。同时，写作《灵山》的过程中，是先有录音，再加以细致描绘，所以保留了语言本身的活的部分，既真实，又很容易引发共鸣。&lt;/p&gt;
+
+&lt;p&gt;高或许对于用词本身有着天然的敏感：有身份有地位的老人退休了，去的是敬老院；可是没钱没人管的右派分子的外婆只能去孤老院遗憾终老。&lt;/p&gt;
+
+&lt;p&gt;而他对于时代的斥责又只能在政治高压下隐晦表达：「我没准也会揭发给我买过陀螺的外婆和养育我的母亲，就那年代！」&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「有也回，无也回，莫在江边冷风吹」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我想称高为“长江流域的人类学家”。此书读完之后给我的感觉：真的不像是80年代的作品，灵山成书于1989年的法国，在异乡写故土，可是在30多年后的今天，当我读到书中的种种细节和现实的勾连时，却不觉得和其他那时的书籍一样，有着时间和代际的隔阂，在书中总能看到自己的影子，作者似乎有着很强的女性主义视角，无论是分手的画面，找钥匙的画面，等车的不耐烦，攀登山峦大雾中的意识恍惚……每一帧都像是抹不去的画面，刻在我的脑海里。&lt;/p&gt;
+
+&lt;p&gt;美学框架里，《灵山》一定是既有水墨画的写意，又有油画的写实的，两者杂糅，像是吴冠中的画，在西方分析话语下也能自成一体。而且，这部书处处在做思辨，喃喃自语间，仿佛就能得见自在之物和自为之物的分毫差别。与其说这是一个人的孤独旅程，更不如说是他自己对于性灵和人生的真切观察。因为我相信，很少能有人能把下雨天大水冲刷到下水道的香烟盒子，雪糕纸和漂流在人海中的浮沉状态联系在一起，描述得这么贴切又永不过时。&lt;/p&gt;
+
+&lt;h4 id=&quot;灵山之悲一生的逃离&quot;&gt;《灵山》之悲：一生的逃离&lt;/h4&gt;
+
+&lt;p&gt;清除精神污染运动中点了他的名，而依据在文革中得到的经验，他不得不离开北京。这一离开，直到89学潮，就再也没能回过大陆，原先的书籍也无法在内地出版，因此现在书店里能买的发行本都是繁体，不免让人觉得可笑和悲凉，高行健获得诺奖之后，此书被翻译成三十多种文字，可是在内地却连简体字本都不见。&lt;/p&gt;
+
+&lt;p&gt;灵山成书之时，只是在传言要搞大坝，人们并不认为会发生。可如今，每个人都知道，那庞然大物–三峡大坝终究是建起来了。&lt;/p&gt;
+
+&lt;p&gt;高行健业已八十多高龄，新冠后更是大病初愈，但从八岁那年，母亲让他写日记开始，到如今八十高龄，仍笔耕不辍，可惜的是，高行健在华语世界得到的曝光和关注，实在是和他的文字质量不相称。&lt;/p&gt;
+
+&lt;p&gt;文学才能让人保留人的意识，保留我们这个民族很多珍贵的东西。新加坡的公共图书馆无此书，但我想欧美大学的图书馆大抵是有的，只希望几十年后，能有更多人能读过他的文字，也希望他文字里的这个长江，河水声能依旧在幽暗中放光。&lt;/p&gt;
+
+&lt;p&gt;写作，是一门艺术，还是一门技术？我没有答案，但我相信，这笔下的意识似真似幻，能创造那种每个人都能鉴赏的美，也能即刻撕碎最美好的想象，技术本身并没有这么大的爆发力。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 May 2024 15:06:24 +0800</pubDate>
+        <link>http://localhost:4000/2024/05/19/Epic-journey/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/05/19/Epic-journey/</guid>
+        
+        <category>lifestyle</category>
+        
+        <category>writing</category>
+        
+        <category>Reading</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Cast No Shadow</title>
+        <description>&lt;h4 id=&quot;03-18-2024&quot;&gt;03-18-2024&lt;/h4&gt;
+
+&lt;p&gt;今天看到一个翻译文学的网站，给自己命名为渐近线，因为翻译本身即是尽可能接近，但永不可能到达的一种艺术，翻译作品永远不会是原作的镜像，它是基于原作自身的创作艺术，所以这个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;asymptote&lt;/code&gt;的名字听起来让人感觉既灵巧，又还蛮贴切的。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Asymptote&lt;/em&gt; is the premier site for world literature in translation. We take our name from the dotted line on a graph that a mathematical function may tend toward, but never reach. Similarly, a translated text may never fully replicate the effect of the original; it is its own creative act.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The big picture of me: I was actually engaged in the production, distribution, and monetization of cultural content.&lt;/p&gt;
+
+&lt;h4 id=&quot;04-16-2024&quot;&gt;04-16-2024&lt;/h4&gt;
+
+&lt;p&gt;听李烈的Ted才发现，原来她的人生路这样的曲折又传奇，年少成名，30岁压力太大离开演艺圈，到大陆做生意五年，赔了个精光，后来拍片转行幕后，是报着必败的决心，投资了电影，她真的很勇敢。&lt;/p&gt;
+
+&lt;h4 id=&quot;04-20-2024&quot;&gt;04-20-2024&lt;/h4&gt;
+
+&lt;p&gt;4月初，前后看完了《独立时代》和《悲情城市》，都是用字幕版分割的叙事体。不同的是，前者在多个场景来来回回切换，几组人物的故事像经纬一样编织起来，而后者则是长镜头的悲歌，林家的衰亡和压抑的台湾人身份，在雾蒙蒙的山间，似乎看得不那么清楚，于是悲伤也就淡了几分。&lt;/p&gt;
+
+&lt;p&gt;《悲情城市》看完，只记得配乐很日本，好熟悉，又很博大；故事让我第一次真实地面对228事件的残酷，也更切身地感受本省人和外省人的矛盾和割裂。&lt;/p&gt;
+
+&lt;p&gt;在祖国的怀抱里被祖国强暴：1947年的228事件，给本省人带来的创伤，绝不可以被忽视。&lt;/p&gt;
+
+&lt;p&gt;彼时台湾，现时台湾，似乎都在重重的阴影之下，但侯孝贤导演只说：“没有阴影，只有骄傲”，我想那是因为在解除戒严，拥抱民主自由的后中华民国时代，当人们一起回顾并谈论这段历史时，能够一起拿起手中的拼图，思考，反省，这才是真正的骄傲所在。历史的重建和重现很难，但我不认为只是胜利者的书写。&lt;/p&gt;
+
+&lt;h4 id=&quot;04-21-2024-读龙应台演讲集有感&quot;&gt;04-21-2024 读龙应台演讲集有感&lt;/h4&gt;
+
+&lt;p&gt;在龙应台23年出版的演讲集中，收录了近些年她在两岸三地的讲谈，其中不乏很多现在已经无法在中国内地看到，听到的一些观点，但说实话，她思考问题的方式和角度确实很引人深思，而且有着超越台湾本土的文化关怀和真实的人文关怀，所以这也是为什么她的文字这么具有魅力吧……&lt;/p&gt;
+
+&lt;p&gt;她娓娓道来了华文世界的高墙和孤立。和英语世界不同，大陆，香港，台湾，新加坡和马来西亚 （似乎她一直没提澳门🇲🇴，不知是因为什么原因）一直处于文化隔绝状态。&lt;/p&gt;
+
+&lt;p&gt;有个令人惊诧但又延续至今的例子：从1974年的新闻法令规定伊始，新加坡和马来西亚两地的报纸互不流通，人们可以在新加坡读到纽约时报，曼谷邮报，本地出版的《海峡时报》，但就是没法读到一个半岛上的隔壁邻居的《新海峡时报》。据说，这个法令主要是为了防止不必要的民族争端，马来西亚的华人无法阅读在以华人为主体的新加坡发行的华文报纸上刊登的反马来人文章，而新加坡的马来人也无法阅读在以马来人为主体的马来西亚发行的马来文报纸上刊登的反华人文章。&lt;/p&gt;
+
+&lt;p&gt;但书中龙应台又以《何日君再来》讲述了中华文化本身的魅力和凝聚力。作为如今身处海外，缺乏身份认同的我，读完书后，感触良多。&lt;/p&gt;
+
+&lt;p&gt;邓丽君版本《何日君再来》是我爸爸的最爱，他从80年代在湖南部队时，就特别爱邓丽君，可没想到这首歌背后的故事竟然跨越了近一个世纪，从1936年的上海国立专科音乐学院，毕业生刘雪庵创作了一首即兴舞曲，被歌舞故事片《三星伴月》征用，但之后的几十年间，遭国、共、日同时列为禁歌，解放后，又在大陆和台湾同时被禁，直到90年代台湾解除戒严，邓丽君逝世，才得以重见天日。&lt;/p&gt;
+
+&lt;p&gt;原作者刘雪庵的人生际遇和这首歌在海峡两岸屡屡造禁但又屡禁不绝的命运，昭示着文化的穿透力，古人“歌以言志”，今人亦如此。&lt;/p&gt;
+
+&lt;p&gt;龙应台分享了她在欧洲作为驻市作家的经历，也分享了她的梦想：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我也想象这样的未来，华人的驻市作家，能从北京到新加坡，从成都到台北，整个华文世界都是作家、作曲家、画家、思想家的国土，中文就是他唯一的护照。歌的穿透，可以带头。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;或许这样的约翰列侬式的想象，在今日尚无法看到，那何夕得见呢？&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Apr 2024 23:06:24 +0800</pubDate>
+        <link>http://localhost:4000/2024/04/21/Asymptote/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/04/21/Asymptote/</guid>
+        
+        <category>lifestyle</category>
+        
+        <category>writing</category>
+        
+        <category>Reading</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Rejuvenated</title>
+        <description>&lt;h4 id=&quot;jan-15th-2024&quot;&gt;Jan-15th 2024&lt;/h4&gt;
+
+&lt;p&gt;今天看到李翊云的《Wednesday‘s child》这个短篇，才发现英文句子可以写得这么简练，又这么深刻和优美：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Air oxsidizes, water rusts. Time, like air and water, erodes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you do something for dear life, you do it with as much effort as possible.&lt;/p&gt;
+
+&lt;h4 id=&quot;jan-18th-2024&quot;&gt;Jan-18th 2024&lt;/h4&gt;
+
+&lt;p&gt;After one-week wandering, binge-watching and yoga, I was trying hard to release myself from burn-out. I have to be honest that when I finally get the free time and agency which I want, I still have not much energy to achieve the balance in Singapore.&lt;/p&gt;
+
+&lt;h4 id=&quot;jan-22th-2024&quot;&gt;Jan-22th 2024&lt;/h4&gt;
+
+&lt;p&gt;The Story of Survivor Bias&lt;/p&gt;
+
+&lt;p&gt;Ever since we are young, we were told the successful stories of all kinds of heros. It is easy for us to get into the mindset trap, which is that if I work harder, then I can be as successful as the role model. Neverthless, things are not going the way we think. In the book &lt;em&gt;The Art of Thinking clearly&lt;/em&gt;, author told a Story:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Behind every popular author you can find 100 other writers whose books will never sell. Behind them are another 100 who haven’t found publishers. Behind them are yet another 100 whose unfinished manuscripts gather dust in drawers. And behind each one of these are 100 people who dream of – one day – writing a book. You, however, hear of only the successful authors (these days, many of them self-published) and fail to recognise how unlikely literary success is.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;每一个被人所知的作家的背后，都有100个无人问津的作家；每一个无人问津的作家背后，都有100个找不到出版商出版自己作品的作者……如果你羡慕别人，那只是因为你和他还不够熟悉。&lt;/p&gt;
+
+&lt;h4 id=&quot;feb-12-2024&quot;&gt;Feb-12 2024&lt;/h4&gt;
+
+&lt;p&gt;He was attuned to her body’s intensions, and skated along with one hand raised forward and the other hovering around the small of her back, never touching or giving any un-called for assistance, his role that of the sepals to blossoms  (花的萼片之于花心)&lt;/p&gt;
+
+&lt;p&gt;带着老太太Ida溜冰的场景写的实在是简练，而且优美。最喜欢后面这个比喻。&lt;/p&gt;
+
+&lt;h4 id=&quot;feb-24-2024&quot;&gt;Feb-24 2024&lt;/h4&gt;
+
+&lt;p&gt;今天偶然在网飞看到本地纪录片 The Song we sang，讲述了80年代的新加坡民谣运动。在那些年和所有美好的故事背后，是最后一代受华文教育的南洋大学学生，还有年轻学生们对于抛弃母语，拥抱英文的挣扎，和自我认同的矛盾，以及被社会主流文化抛弃的痛苦。&lt;/p&gt;
+
+&lt;p&gt;很欣慰马华文学还有黄锦树，张锦忠这样的存在，在新加坡，如今让年轻人提笔用华文写作，真的是奢望。书店里卖得好，排长队的本地年轻作家，大多写的是英文言情，华文交流/写作在这片文化荒漠实在是没什么市场。&lt;/p&gt;
+
+&lt;h4 id=&quot;feb-29-2024&quot;&gt;Feb-29 2024&lt;/h4&gt;
+
+&lt;p&gt;一则关于潮湿热带的故事&lt;/p&gt;
+
+&lt;p&gt;长年如盛夏，四季不分明。新加坡的雨季总是在中午时分开始，先是一点点的小雨淅沥，倏忽之间，厚重的雨滴密密麻麻便开始砸向地面，打在芭蕉叶上，地上的水坑不一会儿便被填满。雨水顺着玫红色和淡蓝色的低矮房檐，滴滴答答往下流，行人们在狭窄的过道窸窸窣窣的往前走。&lt;/p&gt;
+
+&lt;p&gt;上了巴士，坐在座椅上的全是6，7岁左右的白人小孩，身边是和他们肤色完全不同的nanny，但这些nanny看起来年纪也不是很大。&lt;/p&gt;
+
+&lt;p&gt;辛苦工作了两个月之后，就像是生了一场大病。每天睡到11点，还是觉得累，白天的家里，只有不时飞过的军机轰鸣声和楼下修路的钻机声，时不时回荡于耳。起床后，耽溺于盗墓的电视剧，把大学时代到工作，这十年来未曾有机会看完的电视都看了个遍。上一次这么废柴，还是在纽约的冬天，忙着找工作，却生了一场大病的冬天的夜晚，一个人咯咯咯地在房间里笑，却没有力气爬起来喝杯水，印象特别深刻的是，那个圣诞，我勉强从床上爬起来，到楼下打包了一份蛋炒饭，因为实在吃不下，还留到了第二天。&lt;/p&gt;
+
+&lt;p&gt;但也是那个冬天，改变了我们所有人的生活轨迹。&lt;/p&gt;
+
+&lt;p&gt;该有的毕业典礼成了泡影，鬼使神差我也放弃在香港读博，稀里糊涂的找了份北京的工作。&lt;/p&gt;
+
+&lt;p&gt;那时，不曾想过，命运会把我推到南洋这块土壤。潮湿的气候，常被人称为瘴气，&lt;/p&gt;
+
+&lt;p&gt;所以真的不敢妄言多年以后，我会身处何方？&lt;/p&gt;
+
+&lt;h4 id=&quot;march-1st-2024&quot;&gt;March-1st 2024&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Art Should Comfort the Disturbed and Disturb the Comfortable.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That’s a quote from Cesar A. Cruz.&lt;/p&gt;
+
+&lt;p&gt;人的双重性在此展露无遗。艺术是疗愈受伤心灵的良药，看着流动的湖水，斑斓的光影和广阔的天际线，受伤的心都会受到抚慰。但对于那些习惯在既定路线生活的人们，它又是打破平衡的催化剂。&lt;/p&gt;
+
+&lt;h4 id=&quot;march-4th-2024&quot;&gt;March-4th 2024&lt;/h4&gt;
+
+&lt;p&gt;一进三月，咖啡馆，健身房，甚至是在MRT上，到处都飘散着Taylor的旋律。&lt;/p&gt;
+
+&lt;p&gt;SMU校园小小的，公交站一下来，就是它们的会计学院。学校内的Onalu咖啡馆，环境很好，plain bagel售价5块, 咖啡价格也比CBD中心的其他店便宜不少，真难得，我在NUS都没这种年轻的感觉，反而是这闹市的SMU让我觉得重回大学，人啊，还是少一些偏见，比较好。&lt;/p&gt;
+
+&lt;h4 id=&quot;march-6th-2024&quot;&gt;March-6th 2024&lt;/h4&gt;
+
+&lt;p&gt;艺术，对一个苦难的国家和民族来说，是一个奢侈的概念。&lt;/p&gt;
+
+&lt;p&gt;小说在中国古典文学和文化中的地位非常低，所以五四之后第一篇现代小说的地位才如此之高。&lt;/p&gt;
+
+&lt;h4 id=&quot;march-8th-2024&quot;&gt;March-8th 2024&lt;/h4&gt;
+
+&lt;p&gt;热带的早晨，无论是睡得很饱，还是前晚熬了大夜，起床后，人总是觉得昏昏沉沉，直到换完衣服，出门透气，坐到冷气爆棚的办公室，才觉得神智都从混沌中恢复了清晰。&lt;/p&gt;
+
+&lt;h4 id=&quot;march-9th-2024&quot;&gt;March-9th 2024&lt;/h4&gt;
+
+&lt;p&gt;去看房，竟然在Holland village看到了扎哈的作品，D‘leedon, 想起来以前上学的时候超级迷建筑，甚至想要改行去学，而现在也不可免俗的只知道在彩色的网红屋子下拍拍照： Colorful Peranakan (峇峇娘惹)&lt;/p&gt;
+
+&lt;h4 id=&quot;march-15th-2024&quot;&gt;March-15th 2024&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fun fact：First algorithm engineer&lt;/td&gt;
+      &lt;td&gt;轶闻趣事：世界上第一位程序员&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Ada Lovelace, who was the first inventor of algorithm around the world, was female. For the generative AI testing, people have adopted her name to call the test which can measure the intellectual level of various of AIs on the market.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lovelace: “only when computers originate things should they be believed to have minds”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 15 Mar 2024 11:06:24 +0800</pubDate>
+        <link>http://localhost:4000/2024/03/15/rejuvenate/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/03/15/rejuvenate/</guid>
+        
+        <category>lifestyle</category>
+        
+        <category>writing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>When I Win the Lottery</title>
+        <description>&lt;p&gt;社会主义铁拳和资本主义无影脚，无论哪一个都不太好受。&lt;/p&gt;
+
+&lt;p&gt;早晨突然看到xie yihui在R studio工作十年后，突然被裁的&lt;a href=&quot;https://yihui.org/en/2024/01/bye-rstudio/&quot;&gt;消息&lt;/a&gt; ，有那么一点点意外，但是好像在这大的浪潮下，又没有那么出乎意料。早在19年课上，statistical leaning的老师就说过，R迟早有一天会被Python所取代，大概也就过去了5年时间，这个趋势也变得更加地清晰了。&lt;/p&gt;
+
+&lt;p&gt;以前常和同事一起开玩笑说：“当我中彩票了，我就辞职”。自从2022年7月至今，目睹了身边大大小小的裁员至少有十几轮，送走的同事来来去去，终于我在巨大的burn-out压力和币圈乌烟瘴气的文化下，辞职了，既没有中彩票，也没有年终奖。即将到来的2024.01.09是我在新加坡Office的Last Day，交完电脑，还有90天白卡签证，如果没有下份工作就可以回家了，如今只能尽力希望能在3月找到一份EP的工作。&lt;/p&gt;
+
+&lt;p&gt;现在已经坦然面对，「这钱我赚不来」的事实了，因为严格的保密和全员WFH的事实，这份工作第一次让我体验到，什么是在巨大压力下交付产品：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;疯狂的开发节奏：普通公司一般是1个月/2周一个迭代，因为产品线分得很细，不需要每个迭代都需要上线自己这部分的需求，也就是准备时间会比较长，会经历思考-竞品调研-原型设计-组内讨论-可行性分析-二次修改-大组讨论- UI设计这样的流程。在这份工作中，2周一版本早已满足不了老板们，3天一发版，连最基本的「需求是什么」的讨论时间都被无限压缩，&lt;/li&gt;
+  &lt;li&gt;产品在其中无限被动：因为分布式办公（此时此刻无论你睡了没有，都有时区都有人醒着），所以当精疲力竭地做完一个粗糙的产品讨论后，挑剔的运营们会来千方百计以100分的要求来给你评论和挑刺，24小时里，无论你是不是醒着，都会面临不间断地骚扰，哪怕你是个新人，只要你反驳，那就是你不够“Hardcore”；不光如此，在巨大的不确定和监管压力下，需求不光是多，而且具体要怎么做，也是一变再变，加入公司3周内，需求分给了我6个：1）每一个都是在字节可以做1-2个双月的大需求，涉及到前端/后端/算法，或许也是在TnS待得太自在了，以前改个阈值的需求都可以做2周，在这家公司，改个阈值的需求连提都不值得一提；2）需求一天三变：因为组织变化太大，节奏太快，需求到我手上，刚消化完，过了一小时，整体逻辑就又变了；第二次，当我们走完内部评审，设计图都已经出来了，准备交付开发，但因为种种因素，整体逻辑又被推翻重来；那时，真是第一次体会到当乙方的感受。PM没有话语权，就是个没有脑袋的执行角色。&lt;/li&gt;
+  &lt;li&gt;在艰难地做完执行，沟通完需求，PRD和UI设计都准备就绪，等待开发，RD们需要评估开发工时，可惜的是，这家「极简」的公司在23年裁了太多研发，但又有如此多的新需求需要进入开发，于是RD就只能来砍需求，这时产品又只能唯唯诺诺，无法推进，因为人就只有这么多，活实在堆得太狠。我深刻地感受到开发们的辛苦和疲劳，说实话，这里的开发真的是用命换钱。而且每个需求验收，因为WFH的关系，QA都是要录视频，一张一张截图上传才能证明自己有做工作。&lt;/li&gt;
+  &lt;li&gt;其他让我恶心的细节，不胜枚举：1）鼠标追踪；2）记录即时通讯软件在线时长；3）不能使用Markdown文档；4）固定会议时间很少，遇到问题，直接就是电话沟通，无论时间多晚；&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;说实话，身心健康在我价值观里一直是第一位的，从自己的感受出发，加上理性判断，我在加入的第3周左右，就判断出来可能这家公司的文化，节奏和评价体系和我不是很匹配，可是内心还是想再观察一下，毕竟也可能是 landing期的不适应居多，但后续几周的生活是真的让我感到痛苦：1）新加坡公共假期让我免费加班；2）感冒头痛，一天都没怎么好好吃进饭，看医生都没时间，还让加班到11点多；3）11反馈的事情没有任何改观。于是在这种情况下，我做出了裸辞的决定，或许就像yihui说的，分开并不是哪方的过错，而只是不适合，which is normal。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「The end of a relationship often does not imply anything wrong or a failure of either party. Instead, it can simply indicate a mismatch, which is normal.」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;是时候，休息一下啦～～ 我深刻地感觉到自己需要Reboot一下，获得重新思考和喘息的时间。先过好今天吧，明天的事明天再想～&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;After my short stay at the crypto company, I have decided to quit the job and my Last Day will be Jan-9th.&lt;/p&gt;
+
+&lt;p&gt;Toxic culture and extremely long working hours have contributed to my final decision, I have never regretted to join, cause otherwise I will always have curiosity of the industry and the company. I cherish my mental and physical health more than anything else, and I do believe I deserves a more balanced lifestyle in workplace, which is the crucial for a longer run.&lt;/p&gt;
+
+&lt;p&gt;I plan to take a good rest for the next couple of weeks, while I am still open to work. I’m also looking for opportunities that will give me the freedom and flexibility to continue my PM career and contribution in tech area in general. If anyone has a job opening or is interested in my skillsets, I am happy to chat, and please feel free to email me.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Jan 2024 16:46:24 +0800</pubDate>
+        <link>http://localhost:4000/2024/01/07/Quit-and-Reboot/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/01/07/Quit-and-Reboot/</guid>
+        
+        <category>lifestyle</category>
+        
+        <category>lay off</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>For Remembrance</title>
+        <description>&lt;p&gt;Xiaohong Xu, Ping JIANG, Li Qiang, Ling Zhu all passed away in this winter.&lt;/p&gt;
+
+&lt;p&gt;28号早晨，是个周六，当看到消息的时候，我十分震惊，却又不感觉到意外，仿佛在这个国度，早已无什么法治和公正可言。过去的十年，从本科到研究生毕业，一路见证了中国言论空间的紧缩，纽约客记者在他的长文中写道：这是中国的萎靡时代(china’s age of malaise), 我却没有证据反驳，身边的年轻人们确实不复08-12年左右的朝气蓬勃，仅有的上街和散步都会被真实地报复，不同职业之间的割裂越来越深，每个人都在寻求“上岸”，但没有人能在此处上岸。我常常想，自己这样四处奔波，何处为家？午夜梦回时，常想念那个大家都有希望的年代，可如今，当我回到北京，大疫三年之后，连万圣书园甚至都换了地方，往日的情怀像是天空中四散的柳絮，不复存在。&lt;/p&gt;
+
+&lt;p&gt;说实话，海外媒体唱衰中国，古已有之，但如今我却不得不接受眼前的一些事实，极速衰减的出生人口，高压管控的舆论空间，还有一本本房地产和金融的烂账，早已让这个国家千疮百孔，而在宣传机器的控制下，很多年轻世代的人们却深信“东升西降”，让世界与自己为敌。&lt;/p&gt;
+
+&lt;p&gt;似乎这周是个送别的日子，钱德勒在周日的上午也意外地离开了。说实话，小时候当英语杂志推荐friends的时候，自己很不屑一顾，觉得过于滥俗，但是当工作之后，在周末独处时，突然打开来看，才发现剧中人所面临的人生难题，我所想念的纽约生活，在字字句句都钻进了我的心里。纽约生活近两年，刚开始的日子凄风苦雨，在周末的雨天时常emo，渡过了艰难的第一学期，后来去古巴旅游完，才直到纽约的明媚，Central Park的美好，凉风掠过湖水，吹在脸上，春天里的樱花和狗子们肆意地撒欢儿，都是我记忆里最美好的一些画面。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;美国再也拍不出老友记了，90年代那种纯朴，阳光，自信，开朗的都市气氛早已没有了。现在的纽约与三十年前的相比已恍如隔世，尽管纽约仍是我最爱的城市之一。 ​​​&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2020年春天离开纽约后，在同学们的只言片语里才得知，Floyd事件和covid的叠加，让这座我心爱的城市疲惫不堪，满街的homeless也多了不少，而在地球彼岸的我，在北京的雾霾里，也选择了逃离。&lt;/p&gt;
+
+&lt;p&gt;逃离, 并不意味着忘却；只是另一种面对的方式。我怀念89年的春天，也会铭记23年的秋。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Oct 2023 16:46:24 +0800</pubDate>
+        <link>http://localhost:4000/2023/10/29/headwind-grows/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/10/29/headwind-grows/</guid>
+        
+        <category>lifestyle</category>
+        
+        <category>Learn to say goodbye</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mr. Kiasu in Singapore</title>
+        <description>&lt;h4 id=&quot;何为怕输文化&quot;&gt;何为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;怕输&lt;/code&gt;文化&lt;/h4&gt;
+
+&lt;p&gt;2018年左右，BBC曾经写过一篇文章，名为&lt;a href=&quot;https://www.bbc.com/ukchina/trad/vert-tra-43642173&quot;&gt;这是世界上最争强好胜的国家吗?&lt;/a&gt; 简单说来，文章描述了在新加坡存在的一种&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kiasu&lt;/code&gt;文化, 即 Scare to lose.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Kiasu是閩南話裏的一個詞，Kia的意思是”擔心、害怕”，su是輸掉，所以Kiasu就是「驚輸」，意思就是「怕輸」。2007年，這個詞被收進牛津英語詞典（Oxford English Dictionary），將其解釋為”一種貪婪而自私的態度”。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Kiasu的文化现象在新加坡早已经不是新闻，而在这边生活久了，也很容易观察到Kiasu的影子。&lt;/p&gt;
+
+&lt;p&gt;等电梯时，或是网红餐厅开业时，所有人都蜂拥而至，争当第一，并且甚至为此不惜排队几个小时，今年Taylor演唱会放票时，更是有几百万人在网站等候，再加上Post-covid游客放开，所以在新加坡工作生活中，很难看到人很少，很轻松的场面，你会常常有种错觉，就是恍惚还在中国。除此之外，在全世界范围内，公然占座头一号的除了中国，应该就是新加坡了，因为人多资源少，高峰时期就餐想要一张桌子就只能靠占座来完成，所以连新加坡的“美团”都直接取名Chope。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;chope: (Slang for reserving a seat) 占位：在食阁吃饭时，新加坡人常用一包餐巾紙或雨伞，甚至是工卡（银行卡）来占位。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;其实在这边生活一年多了，常常感受到因为Kiasu带来的压力，竞争性的气氛和淡漠的人情。在社交媒体和身边，都听说很多中国新移民愿意来新加坡，大多数是为了小孩教育，少一些中国式的卷，多一些国际化的开放和创意。&lt;/p&gt;
+
+&lt;p&gt;但是事实上，不论在太平洋彼岸的硅谷，还是在马六甲海峡旁，华人家长们鸡娃的意识和行动出奇的统一，他们都希望能给孩子最好的教育和生活，不愿意让自己的小孩落在別的孩子后面。于是，你就可以看到，在新加坡的各大地铁站，随处可见大大小小的补习中心，孩子们年纪不大，却个个都戴着眼镜，在A4纸上疯狂做题，华文，数学和英语样样不少。&lt;/p&gt;
+
+&lt;p&gt;为了让孩子不能输，新加坡也兴起了和中国类似的学区房概念，热门小学1公里范围内的楼盘的价格也芝麻开花，年年攀升；而与之伴随的学校教育也是非常典型的东亚教育模式，法律规定，对于男生是可以进行体罚的，而新加坡学校对女生进行体罚是被禁止的，女生可能会面对其他形式的纪律处分，比如留校、社区服务或停学。&lt;/p&gt;
+
+&lt;p&gt;据联合早报报道，之前NUS-YALE的一个survey发现 40%+的家长会采用体罚的方式来管教小孩，我只能说，即便是小样本调查，这个比例也是相当惊人。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;根据 MOE的规定，学校只能使用轻细的藤条进行体罚，每次最多只能打三下，并且只能打屁股（隔着衣物）或手掌心。只有校长或经过校长明确授权的学校员工才有权执行体罚，并且学校在对学生进行体罚之前必须事先通知家长或监护人。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;新加坡的教育体系和家庭都非常注重知识的扎实掌握和测评的严密科学，这样培养出的孩子，大概率成绩优良遵守纪律。仔细观察就会发现，即便在新加坡MRT上，连2-3岁的小孩子，都会乖乖坐下，不哭不闹。新加坡人的特点就是“乖”，或者说习惯服从规定，执行力也强，即便是再调皮的男生，经过两年的兵役，也都服了软。&lt;/p&gt;
+
+&lt;p&gt;我耐不住好奇，对kiasu的文化和新加坡的教育体系又做了一番研究，才发现新加坡居然还有家长论坛，直接取名为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kiasuparents.com&lt;/code&gt;, 这个粉丝数量超过千人的论坛，讨论话题从tuition，schools到补习班，层出不穷，甚至除了家长论坛，还有考试题网站&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kiasuexampaper.com/&lt;/code&gt;, 一套往年的试题/卷子要花到18-25新，销量还奇高，真的是新加坡特色了。&lt;/p&gt;
+
+&lt;p&gt;Anyway, 纽黑文有虎妈，SG有Kiasu, 回顾作为东亚子女的我的自由童年，孰是孰非，心里早已经有了答案。&lt;/p&gt;
+
+&lt;p&gt;回想在过去的几个月中，常常回头看，有一些些后悔的情绪，Manager在exit interview给我建议，希望我能找到一份更加satisfied的工作，说实话，这个答案也确实是我自己一直想要追却难以企及的，多想自己还在校园，能够每天多学些新东西，那也算没有虚度了这韶华吧……&lt;/p&gt;
+
+&lt;p&gt;Anyway, 告别了Kent ridge, 也告别了NUS的便宜午餐,终归还是要在SG讨生活呀&lt;/p&gt;
+
+&lt;h4 id=&quot;singlish-joke--几则新加坡笑话&quot;&gt;Singlish Joke ｜ 几则新加坡笑话&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;咖啡还是面包更吵？（谐音梗）&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Question:&lt;/strong&gt; What’s noisier – coffee or bread?&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Bread. Because BreadTalk (bread talks) while Kopitiam (kopi diam).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The east coast plan&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;2020年新加坡有一位政界人士在新加坡东海岸，发表演讲的时候，对台下的民众表示，对东海岸，他们有个很promising的规划，但当提及这个plan是什么时候，他回答说，I have an east coast plan. 所以这一下，sg的废话文学就火了。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Can&lt;/strong&gt;: 新加坡人是真的爱用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Can&lt;/code&gt;, 以至于Amazon在SG的slogan就是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Amazon.sg, Can!&lt;/code&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Guy:&lt;/strong&gt; &lt;strong&gt;Can&lt;/strong&gt; I have a coke can?&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Drinks stall lady:&lt;/strong&gt; Can cannot but bottle can.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Mon, 02 Oct 2023 16:46:24 +0800</pubDate>
+        <link>http://localhost:4000/2023/10/02/Kaisu-culture/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/10/02/Kaisu-culture/</guid>
+        
+        <category>lifestyle</category>
+        
+        <category>Singapore culture</category>
+        
+        <category>Kiasu</category>
         
         
       </item>

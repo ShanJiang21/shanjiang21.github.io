@@ -1,0 +1,167 @@
+---
+layout: default
+---
+
+ <!-- Page Header -->
+ {% include intro-header.html type='post' %}
+
+div class="reading-container">  {% for book in site.data.book_review %}
+    <div class="book-row">   <div class="book-image">
+        <a href="{{ book.link | default: '#' }}">
+          <img src="{{ book.cover }}" alt="{{ book.title }}">
+        </a>
+      </div>
+      <div class="book-details">
+        <a href="{{ book.link | default: '#' }}">
+          <h2 class="book-title">{{ book.title }}</h2>
+        </a>
+        <div class="star-rating-container" data-rating="{{ book.rating }}"></div>
+        <p class="book-review">{{ book.review }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <style>
+    /* ... 之前的 CSS ... */
+  
+    .reading-container {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+  
+    .book-row {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      padding: 1rem;
+      border-bottom: 1px solid #eee;
+    }
+  
+    .book-row:last-child {
+      border-bottom: none;
+    }
+  
+    .book-image {
+      flex: 0 0 150px;
+      max-width: 150px;
+      display: flex;
+      justify-content: center; /* 保持图片水平居中  */
+      align-items: center;    /* 保持图片垂直居中  */
+    }
+  
+    .book-image img {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  
+    .book-details {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start; /* 改为 flex-start，文字左对齐  */
+      text-align: left;       /* 确保文本也左对齐  */
+    }
+  
+    .book-details a {
+      text-decoration: none;
+      color: inherit;
+    }
+  
+    .book-title {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .star-rating-container {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .star-rating-container .star {
+      cursor: default;
+    }
+  
+    .book-review {
+      font-size: 0.9rem;
+    }
+  
+    /* 响应式设计 */
+    @media (max-width: 600px) {
+      .book-row {
+        flex-direction: column;
+        align-items: center;  /* 改为 center  */
+      }
+  
+      .book-image {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 1rem;
+      }
+  
+      .book-details {
+        align-items: center; /* 小屏幕上文字居中  */
+        text-align: center;
+      }
+    }
+  
+  </style>
+  
+  <header class="reading-header">
+    <h1 class="reading-title">{{ page.title }}</h1>
+    <p class="reading-subtitle">{{ page.subtitle }}</p>
+    <hr class="reading-divider">
+  </header>
+  
+  <main class="reading-content">
+    {% if page.highlight %}
+    <div class="reading-highlights">
+      {{ page.highlight | markdownify }}
+    </div>
+    {% endif %}
+  
+    {% if page.awards %}
+    <div class="reading-awards">
+      {% for award in page.awards %}
+      <div class="award-item">
+        <strong>{{ award.title }}</strong>
+        <span class="award-source">{{ award.source }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  
+    {{ content }}
+  
+    {% if page.praise %}
+    <div class="reading-praise">
+      <blockquote>{{ page.praise }}</blockquote>
+    </div>
+    {% endif %}
+  
+    <div class="reading-container">
+      {% for book in site.data.book_review %}
+      <div class="book-row">
+        <div class="book-image">
+          <a href="{{ book.link | default: '#' }}">
+            <img src="{{ book.cover }}" alt="{{ book.title }}">
+          </a>
+        </div>
+        <div class="book-details">
+          <a href="{{ book.link | default: '#' }}">
+            <h2 class="book-title">{{ book.title }}</h2>
+          </a>
+          <div class="star-rating-container" data-rating="{{ book.rating }}"></div>
+          <p class="book-review">{{ book.review }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </main>

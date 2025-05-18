@@ -1,0 +1,18 @@
+<div class="star-rating">
+    {% assign fullStars = include.rating | floor %}
+    {% assign hasHalfStar = include.rating | modulo: 1 | round %}
+    
+    {% for i in (1..5) %}
+      {% if i <= fullStars %}
+        ★
+      {% elsif hasHalfStar == 1 and i == fullStars + 1 %}
+        ☆
+      {% else %}
+        ☆
+      {% endif %}
+    {% endfor %}
+  </div>
+  
+  <style>
+    .star-rating { color: gold; font-size: 1.2em; }
+  </style>

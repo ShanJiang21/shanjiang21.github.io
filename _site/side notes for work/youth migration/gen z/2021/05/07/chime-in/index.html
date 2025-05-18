@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Hi, I am Shan(@shanjiang21).">
+    <meta name="keywords" content="Previous New Yorker, a small-town blog writter">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Open Graph -->
+    <meta property="og:title"
+        content="Channel My Inner Tomboy - Shan Jiang -- A salarygirl, daughter & life-learner">
+    
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Youth and Migration in China
+">
+    
+    <meta property="article:published_time" content=" 2021-05-07T23:08:24Z">
+    
+    
+    <meta property="article:author" content="Shan J.">
+    
+    
+    
+    <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
+    <meta property="og:url" content="http://localhost:4000/side%20notes%20for%20work/youth%20migration/gen%20z/2021/05/07/chime-in/">
+    <meta property="og:site_name" content="Shan Jiang -- A salarygirl, daughter & life-learner">
+
+    <title>Channel My Inner Tomboy - Shan Jiang -- A salarygirl, daughter & life-learner</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/side%20notes%20for%20work/youth%20migration/gen%20z/2021/05/07/chime-in/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href=" /css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href=" /css/hux-blog.min.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Shan's hub</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="huxblog_navbar">
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/about/">About</a>
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/archive/">Archive</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/sharing/">Sharing</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li class="search-icon">
+                            <a href="javascript:void(0)">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <script>
+        // Drop Bootstarp low-performance Navbar
+        // Use customize navbar with high-quality material design animation
+        // in high-perf jank-free CSS3 implementation
+        var $body = document.body;
+        var $toggle = document.querySelector('.navbar-toggle');
+        var $navbar = document.querySelector('#huxblog_navbar');
+        var $collapse = document.querySelector('.navbar-collapse');
+
+        var __HuxNav__ = {
+            close: function () {
+                $navbar.className = " ";
+                // wait until animation end.
+                setTimeout(function () {
+                    // prevent frequently toggle
+                    if ($navbar.className.indexOf('in') < 0) {
+                        $collapse.style.height = "0px"
+                    }
+                }, 400)
+            },
+            open: function () {
+                $collapse.style.height = "auto"
+                $navbar.className += " in";
+            }
+        }
+
+        // Bind Event
+        $toggle.addEventListener('click', function (e) {
+            if ($navbar.className.indexOf('in') > 0) {
+                __HuxNav__.close()
+            } else {
+                __HuxNav__.open()
+            }
+        })
+
+        /**
+         * Since Fastclick is used to delegate 'touchstart' globally
+         * to hack 300ms delay in iOS by performing a fake 'click',
+         * Using 'e.stopPropagation' to stop 'touchstart' event from 
+         * $toggle/$collapse will break global delegation.
+         * 
+         * Instead, we use a 'e.target' filter to prevent handler
+         * added to document close HuxNav.  
+         *
+         * Also, we use 'click' instead of 'touchstart' as compromise
+         */
+        document.addEventListener('click', function (e) {
+            if (e.target == $toggle) return;
+            if (e.target.className == 'icon-bar') return;
+            __HuxNav__.close();
+        })
+    </script>
+    <!-- Search -->
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/post_cuba_2019.JPG" width="0" height="0"> -->
+
+<!-- Post Header -->
+
+
+
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/post_cuba_2019.JPG');
+        background: ;
+    }
+
+    
+</style>
+
+
+
+
+<header class="intro-header" >
+
+    <div class="header-mask"></div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>Channel My Inner Tomboy</h1>
+                    
+                    <h2 class="subheading">活得真实比什么都重要</h2>
+                    <span class="meta">Posted by Shan J. on May 7, 2021</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <!-- Multi-Lingual -->
+                
+
+				<h4 id="youth-and-migration-in-china">Youth and Migration in China</h4>
+
+<p><img src="/img/post_self_driven_nature.png" alt="Leslie T. Chang" width="500" height="320" /></p>
+
+<p>Leslie Chang(张彤禾), a previous WSJ journalist, spent two years in Dongguan to seek out women who work in one of China’s booming megacities. In <em>Factory Girls</em>, she tells their stories and it is the first look into the everyday lives of the migrant factory population in China. One remarkable she shared in the talk inspired me: even for these factory workers, they are not aspiring for a nice house, a TV-set, many of them are lack of the education they want(even these are some extremely rudimentary stuff). I know the experience and observation from this field trip may have become quite different today, as compared with a decade ago. Seriously, I am quite curious what are in their minds now and how are they going down their social-ladder trajectories.</p>
+
+<p>I am fortunate and feel honored that I do have the access to the terrific book which documented my peers’ life.</p>
+
+<p>Across China, there are more than 150 million migrant workers, which represents the largest migration in human history.Migrant workers, usually the offsprings of peasants, are the mainstream rising manpower who drove the trend. They are born around the 1980s and 1990s, one third of them women, who have left their villages to work in the factories, the hotels, the restaurants and the construction sites of these insanely-big cities.Together, they made up the largest migration in history. This is the product of globalization, the chain that begins in a Chinese farming village and ends in an iPhone in our pockets, Nike on our feet, Coach bags on our arms that changed the way these millions of people work, marry, live and think. Very few of them would want to go back where things used to be.</p>
+
+<blockquote>
+  <p>Ties that are not economic but personal in Nature, measured not in money but in memories.</p>
+</blockquote>
+
+<p>Growing up in a peri-urban area, I witnessed some of the fabulous changes that could happen to a small town in such a limited time horizon. I was also one of the rural girls who strived to escape from the small town to explore fancy things: the elegant expressions and gestures of modern girls who are educated in the top schools, the flexible life forms they were granted freedom for choosing to be, the access to incredible foreign-language bookstores, even the public transit such as subway was brand new to me when I first got on. I still remember that was an early morning in mid-August, I planned ahead with my dad to have a three-day travel to Nanking, where is only two-hour drive from my hometown at most. That was de facto the first time I asked my dad to travel with me. I do thank myself for being bold back then, even though it can be consequential when I look back.</p>
+
+<p>The city leaves me a fantastic impression, which in a way also shaped my future life forms and guides me when I chose where to live and pursue my academic dream.</p>
+
+<p>If I have to ask myself, what motivated me most when I was around sixteen? I would say it must be the nice fantasies about the places where I have never been before. Almost every little piece of info I obtained was from books and magazines I read, TV series I watched. To be honest, I have never even stepped out of the Southern bank of Yangtze River.</p>
+
+<p>The trip to NanKing changed many things in my life, that was the first time I know my peers are doing really different from me, and I also got to see the cruel perception gaps that existed(which was embedded in my head for many years until recently, but now I felt this gap is almost closed).</p>
+
+<p>After that, I chose to lead a vagrant life and explore myself in a totally different culture. Accidentally, I was admitted to my Alma Mater, which is located in Peking, the capital of the country and more importantly, the  cultural hub for many scholars, writers, poets and film-makers.</p>
+
+<p>What’s more important, Northern China was a mystery to me, a Pandora’s box which I was curious to open.</p>
+
+<p>Even living by the northern corner of the suburb borough, I fell in love with the city soon. Meeting dozens of new friends who came from diverse backgrounds, I was amazed by the serendipities and possibilities that people can create. Luckily, I found two of my life-long friends and we ran/sang/ate/complained about the finals together, that was definitely the best shining time of my life.</p>
+
+<p>I can still recall the day when I graduated, I smiled happily like I did every time, but when I was sitting on the bus home I cried loudly and sadly. Now I have to acknowledge the truth that even the best friends can only accompany for a short while in the whole life span.</p>
+
+<p>That is probably why I chose to work in Peking again, despite I know the climate and water are not quite suitable for a girl who was raised besides the Yangtze River, because I have someone with whom I can share joy, sorrow and pains with.</p>
+
+<p>Sadly, the turning point is around the corner, coming sooner than I expected. Their graduate school period is going to finish in a month. Another June again, but this time many of my friends are leaving the city permanently, with no hesitations.</p>
+
+<p>To be frankly, I know I will leave this city someday, and the day is soon to come, but facing the reality that I have to wave goodbye is like being abandoned in the halfway. I cannot stop feeling anxious and grieved for quite a while, and I was actually the one who do not even have any idea where to roam.</p>
+
+<p>My inability to settle down seems to be a betray to the Chinese social norms. The social clock has already set up a clear timeline for each normal person.  As a free-spirited old-school girl, I was never clear about what I want and I am critical about. I never deny that I was eager to find a spot in the fancy city to shield myself, since it was somewhere that everyone told me is superb and awesome (even though these people they never lived in the cities they were naming).</p>
+
+<p>二更视频最近模仿日本《我可以和你一起回家吗？》搞了一个“最后一班地铁”栏目，在杭州拍摄，其中一个在大厂做UR的海归小姐姐密密的生活状态似乎展示了十年之后的大厂女孩儿们的精神和社会困境：</p>
+
+<p>She pointed out a lesson and I couldn’t agree more: “Freedom is not free.”</p>
+
+<blockquote>
+  <p>从密密身上仿佛看到了另一个自己。基本一样的留学背景，回国后步入社会的一些不适，在工作中不断面临的挑战和焦虑，下班后一个人的独处，习惯了凡事自己扛，不敢生病怕耽误工作身边也无人照料，但偶尔也渴望爱情降临…..  脱离父母的呵护和保护后，才发现成年人的生活从来都不易。 密密满脸善意的笑容好温暖，那就愿你和我，还有其他在追逐梦想的年轻人，不论经历什么，都拥有迎难而上的勇气，也可以尽力保有对生活的点滴热爱吧～</p>
+</blockquote>
+
+<p>The big moment has finally arrived. After an 8-week performance evaluation, several familiar faces will be gone from the 19th floor where my professional journey embarks. One is a data analyst leader, named Biao, whose hometown is near mine, only 1.5 hrs’ drive from where I grew up. He is easygoing and has taught me many things on business. Even after I was told that he is going to leave soon, he is the one who offered to navigate my future career path in this fast-growing organization. Nothing more can express my gratitude towards him, cause after a one-year exercise in this giant tech company, my own perceptions towards the social media itself and the Internet institutions have shifted a lot. In spite of it, I am also being pushed to make decisions on where to settle down in the next few years, which is contrary to what I was firmly hold on to.</p>
+
+<p>Find the ways to rejoice is sort of an exercise to adult, refreshers can be of different types:</p>
+
+<p>I hate <code class="language-plaintext highlighter-rouge">fortune cookie comments</code>(心灵鸡汤), but I need to find way out. So here I collected some nice tips from the role model that I admire and the book clips that I echo on.</p>
+
+<p><strong>1. Obtaining the sense of achievement</strong></p>
+
+<blockquote>
+  <p>All we have to decide is what to do with the time that is given to us. – <em>Gandalf</em> the Grey.</p>
+</blockquote>
+
+<pre><code class="language-SAS">1. 养成写日记的习惯，这点对我的帮助最大，我不仅把流水账作为情感的宣泄（当我博士读不下去的时候，感觉自己是个诗人 😂），而且写作是一种思路整理的过程。
+2. 前一天晚上列好明天要干啥，然后隔天起床，把目标重复写2遍（我除了有google calendar, 还有两本待办记事本，我每次划掉已做完的事，有着双倍的成就感。 	       
+-- 很酷的王也大大(NYU political science)
+</code></pre>
+
+<p><strong>2. Enjoy some nice songs that are recommended</strong></p>
+
+<pre><code class="language-SAS">1. 沙发上的白日梦 by soulfa灵魂沙发
+2. 无人的海边 by 霓虹花园
+3. 火车驶向云外，梦安魂于九霄 by 刺猬
+4. 夏目漱石 by 橘子海
+5. 瑶瑶 by 达闻西乐队
+6. 大都会 by 达闻西乐队
+7. nocturnes 曳取
+8. 我想,我想 by 洪启
+9. This is life by Amy MacDonald
+</code></pre>
+
+<h4 id="真实就很酷">真实就很酷</h4>
+
+<blockquote>
+  <p>I am a rock, I am an island. 南方姑娘，是不是高楼遮住了你的希望？那就先别管那些了吧～活得酷一些，难道不好吗？</p>
+</blockquote>
+
+<p>现在的很多组织似乎对于年轻人的足够的宽容度似乎也在逐渐下降，就像齿轮一样，和整个组织卡得严丝合缝，发现大家都在面对着一些共同的系统性的困境。
+原来2020年都离我已经很远了，工作也已经10个月了。我的人生参考该是什么样子的呢？<br />
+真的喜欢Chole Zhao的人生态度：活得真实，活得很酷。<br />
+可惜这年头坚守事业上的严肃，不大会让人尊敬，却有被嘲弄的危险。<br />
+但是我认为：真诚地面对这个世界，不做虚假的掩盖和矫饰，这就是大胆的年轻人的样子。<br />
+不知道是不是因为还处在有点理想主义的年纪，我自己其实是对智识生活上的享受的重视一直是强于对于物质生活上的富足的追求(Echos what factory young women minds) <br /></p>
+
+<p>五一假期，很偶然的机会，翻了翻陈映真的《夜行货车》。其中一篇「上班族的一日」让我蛮有代入感，即便是在现在这个数字互联网时代扭曲所有传统工作模式的时代，这篇文章里边儿描绘的下班后的心灵孤独感和失重感却还真实地存在。男主一边叫嚣着上班是一个大大的骗局，拿起了每年去保养的相机，想要鸳梦重温；另一边，他将自己生命最集中的焦点，最具创意的心力都用在了办公室里的各项工作上。</p>
+
+<blockquote>
+  <p>他突然觉得，自以为很辛苦地工作着的这两年来的生活，其实是懒惰的生活。只让这个迅速转动的逐利的世界捶打、撕裂、挫削，而懒于寻求自己真正的生活…</p>
+</blockquote>
+
+<p>找寻自己从来不是一件简单的事情，我从来不是轻易地就能进入一段亲密关系或者袒露自己的人，毕竟，大多数时间学会和自己相处才能解决一切问题。</p>
+
+<p><strong>Anxiety sucks:</strong> Why we need a survival guide for accustomed to the toxic workaholic culture? I believer the status quo is not healthy at all, this mechanism can only reproduce capitalism machines, reserving us a broken body with an empty heart. Personally, I never desire it and never will.</p>
+
+<p>Even though I do not know how my story will end in this huge city, I do have faith and trust at the end of my day.</p>
+
+<h4 id="addicted-to-light">Addicted to Light</h4>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">Hygiene theater</code>: is the practice of taking <strong>hygiene</strong> measures that are intended to provide the feeling of improved safety while doing little to actually reduce any risk.</li>
+  <li><code class="language-plaintext highlighter-rouge">head over heels</code>: in a mad love state， 豆瓣俗称<code class="language-plaintext highlighter-rouge">恋爱脑</code>.</li>
+  <li>A <strong><code class="language-plaintext highlighter-rouge">social media handle</code></strong> is a public username used on <strong>social media</strong> accounts.</li>
+  <li><code class="language-plaintext highlighter-rouge">随机抽样算法</code>: https://xiaochai.github.io/2018/03/12/weighted-random-sampling-paper/</li>
+  <li><code class="language-plaintext highlighter-rouge">noob = newbie</code></li>
+  <li>April 1, 2017, there were reports that Kabosu, the real <strong>doge</strong>, had passed away.</li>
+  <li><code class="language-plaintext highlighter-rouge">Common guava</code> = 番石榴 = 芭乐</li>
+  <li><code class="language-plaintext highlighter-rouge">Quick-fire</code>(chiefly British.):done or coming very quickly one after another quick-fire responses/questions/jokes.</li>
+  <li><strong>Perform Triage on projects:</strong> determining the priority on projects</li>
+  <li><code class="language-plaintext highlighter-rouge">Tomboy</code>: A tomboy is a girl who exhibits characteristics or behaviors considered typical of a boy.</li>
+  <li><code class="language-plaintext highlighter-rouge">'Tummy'</code> is an informal word we use when talking to children.</li>
+  <li>随手分享的资源：
+    <ul>
+      <li><a href="https://www.coursera.org/learn/compthinking?edocomorp=coursera-birthday-2021&amp;utm_source=marketing&amp;utm_medium=email&amp;utm_campaign=6860&amp;sfmc_id=5192207&amp;sfmc_key=0031U00001Pj9dBQAR#syllabus">Coursera 9周年 Uni. of Michigan Computational Thinking free course</a></li>
+      <li>https://markdotto.com/</li>
+    </ul>
+  </li>
+</ol>
+
+
+                <hr style="visibility: hidden;">
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/side%20notes%20for%20work/yolo/insensitivity/2021/04/05/loose-my-soul/" data-toggle="tooltip" data-placement="top" title="Loose my soul">
+                        Previous<br>
+                        <span>Loose my soul</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/side%20notes%20for%20work/youth%20migration/gen%20z/2021/06/06/freedom-is-not-free/" data-toggle="tooltip" data-placement="top" title="Freedom ain't free">
+                        Next<br>
+                        <span>Freedom ain't free</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <hr style="visibility: hidden;">
+
+                
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
+
+                
+            </div>
+
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+
+
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- add support for mathjax by voleking-->
+
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "shanj";
+    var disqus_identifier = "/side%20notes%20for%20work/youth%20migration/gen%20z/2021/05/07/chime-in";
+    var disqus_url = "http://localhost:4000/side%20notes%20for%20work/youth%20migration/gen%20z/2021/05/07/chime-in/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'right',
+          // icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <!-- SNS Link -->
+              
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  <li>
+    <a href="https://twitter.com/Alexand43261453">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/shanjiang21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/shanj21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+                <p class="copyright text-muted">
+                      Powered by <a href="https://github.com/huxpro/huxpro.github.io">Jekyll</a>
+                    <br>Copyright &copy; Shan JIANG. 2025
+                    <br> <img src="/img/icon_wechat.png" alt="Girl in a jacket" width= "22%" height="10%">
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Simple Jekyll Search -->
+<script src="/js/simple-jekyll-search.min.js"></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+        var d = document, t = 'script',
+            o = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+        s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
+        var $nav = document.querySelector("nav");
+        if ($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-138327408-1';
+    var _gaDomain = 'shanj21.com';
+
+    // Originial
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        // interop with multilangual
+        if ('' == 'true') {
+            _containerSelector = 'div.post-container.active'
+        } else {
+            _containerSelector = 'div.post-container'
+        }
+
+        // init
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        // clean
+        $(selector).html('')
+
+        // appending
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Hux to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+<!-- Multi-Lingual -->
+
+
+<!-- Simple Jekyll Search -->
+<script>
+    // https://stackoverflow.com/questions/1912501/unescape-html-entities-in-javascript
+    function htmlDecode(input) {
+        var e = document.createElement('textarea');
+        e.innerHTML = input;
+        // handle case of empty input
+        return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+    }
+
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('search-results'),
+        json: '/search.json',
+        searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
+        noResultsText: 'No results',
+        limit: 50,
+        fuzzy: false,
+        // a hack to get escaped subtitle unescaped. for some reason,
+        // post.subtitle w/o escape filter nuke entire search.
+        templateMiddleware: function (prop, value, template) {
+            if (prop === 'subtitle' || prop === 'title') {
+                if (value.indexOf("code")) {
+                    return htmlDecode(value);
+                } else {
+                    return value;
+                }
+            }
+        }
+    });
+
+    $(document).ready(function () {
+        var $searchPage = $('.search-page');
+        var $searchOpen = $('.search-icon');
+        var $searchClose = $('.search-icon-close');
+        var $searchInput = $('#search-input');
+        var $body = $('body');
+
+        $searchOpen.on('click', function (e) {
+            e.preventDefault();
+            $searchPage.toggleClass('search-active');
+            var prevClasses = $body.attr('class') || '';
+            setTimeout(function () {
+                $body.addClass('no-scroll');
+            }, 400)
+
+            if ($searchPage.hasClass('search-active')) {
+                $searchClose.on('click', function (e) {
+                    e.preventDefault();
+                    $searchPage.removeClass('search-active');
+                    $body.attr('class', prevClasses);  // from closure
+                });
+                $searchInput.focus();
+            }
+        });
+    });
+</script>
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

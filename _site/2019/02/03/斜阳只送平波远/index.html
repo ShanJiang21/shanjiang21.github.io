@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Hi, I am Shan(@shanjiang21).">
+    <meta name="keywords" content="Previous New Yorker, a small-town blog writter">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Open Graph -->
+    <meta property="og:title"
+        content="Miss you | 斜阳只送平波远 - Shan Jiang -- A salarygirl, daughter & life-learner">
+    
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="“I miss you so much!”
+">
+    
+    <meta property="article:published_time" content=" 2019-02-03T09:32:24Z">
+    
+    
+    <meta property="article:author" content="Shan J.">
+    
+    
+    
+    <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
+    <meta property="og:url" content="http://localhost:4000/2019/02/03/%E6%96%9C%E9%98%B3%E5%8F%AA%E9%80%81%E5%B9%B3%E6%B3%A2%E8%BF%9C/">
+    <meta property="og:site_name" content="Shan Jiang -- A salarygirl, daughter & life-learner">
+
+    <title>Miss you | 斜阳只送平波远 - Shan Jiang -- A salarygirl, daughter & life-learner</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/2019/02/03/%E6%96%9C%E9%98%B3%E5%8F%AA%E9%80%81%E5%B9%B3%E6%B3%A2%E8%BF%9C/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href=" /css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href=" /css/hux-blog.min.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Shan's hub</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="huxblog_navbar">
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/about/">About</a>
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/archive/">Archive</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/sharing/">Sharing</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li class="search-icon">
+                            <a href="javascript:void(0)">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <script>
+        // Drop Bootstarp low-performance Navbar
+        // Use customize navbar with high-quality material design animation
+        // in high-perf jank-free CSS3 implementation
+        var $body = document.body;
+        var $toggle = document.querySelector('.navbar-toggle');
+        var $navbar = document.querySelector('#huxblog_navbar');
+        var $collapse = document.querySelector('.navbar-collapse');
+
+        var __HuxNav__ = {
+            close: function () {
+                $navbar.className = " ";
+                // wait until animation end.
+                setTimeout(function () {
+                    // prevent frequently toggle
+                    if ($navbar.className.indexOf('in') < 0) {
+                        $collapse.style.height = "0px"
+                    }
+                }, 400)
+            },
+            open: function () {
+                $collapse.style.height = "auto"
+                $navbar.className += " in";
+            }
+        }
+
+        // Bind Event
+        $toggle.addEventListener('click', function (e) {
+            if ($navbar.className.indexOf('in') > 0) {
+                __HuxNav__.close()
+            } else {
+                __HuxNav__.open()
+            }
+        })
+
+        /**
+         * Since Fastclick is used to delegate 'touchstart' globally
+         * to hack 300ms delay in iOS by performing a fake 'click',
+         * Using 'e.stopPropagation' to stop 'touchstart' event from 
+         * $toggle/$collapse will break global delegation.
+         * 
+         * Instead, we use a 'e.target' filter to prevent handler
+         * added to document close HuxNav.  
+         *
+         * Also, we use 'click' instead of 'touchstart' as compromise
+         */
+        document.addEventListener('click', function (e) {
+            if (e.target == $toggle) return;
+            if (e.target.className == 'icon-bar') return;
+            __HuxNav__.close();
+        })
+    </script>
+    <!-- Search -->
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/home-bg.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+
+
+
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/home-bg.jpg');
+        background: ;
+    }
+
+    
+</style>
+
+
+
+
+<header class="intro-header" >
+
+    <div class="header-mask"></div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>Miss you | 斜阳只送平波远</h1>
+                    
+                    <h2 class="subheading"></h2>
+                    <span class="meta">Posted by Shan J. on February 3, 2019</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <!-- Multi-Lingual -->
+                
+
+				<p>“I miss you so much!”</p>
+
+<blockquote>
+  <p>Miss 是错过</p>
+
+  <p>更是想念</p>
+
+  <p>遗憾那些生命里曾经错过的人</p>
+
+  <p>想念那些过往的岁月</p>
+
+  <p>也是和自己生命里的一部分告别</p>
+
+  <p>Avicii, Godfrey, My Grandma, Olin Wright, Dr. Lee</p>
+
+  <p>Wallerstein and all these who I was not able to say goodbye</p>
+</blockquote>
+
+<h3 id="斜阳只送平波远">「斜阳只送平波远」</h3>
+
+<p>Abbott 统计过美国社会学界每个系教授的平均寿命，</p>
+
+<p>猜猜大部分人能活多久？Roger只活了39岁。</p>
+
+<p>你敢相信吗？ 1949-2019，如果把这个时间当作一个标尺。</p>
+
+<p>我已经跨过近三分之一的新中国历史（24/70)。</p>
+
+<p>How time flies…</p>
+
+<p>高晓松提到一点，</p>
+
+<p>觉得很有共鸣：</p>
+
+<p>知识分子喜欢怀旧，</p>
+
+<p>不仅是怀“小我“的旧，</p>
+
+<p>「物是人非事事休」，</p>
+
+<p>也是“大我”的旧，</p>
+
+<p>「故国回首明月中」。</p>
+
+<p>读正经书不多，</p>
+
+<p>小说看得很杂，</p>
+
+<p>在理智局限和学历框架里，</p>
+
+<p>出格的事情做得很有限，</p>
+
+<p>单薄的人生，</p>
+
+<p>说来顺遂，</p>
+
+<p>就算是曾经的叛逆期，</p>
+
+<p>也没闹出个天翻地覆，</p>
+
+<p>但在过去的一年中，</p>
+
+<p>说是起起伏伏的创伤也好，</p>
+
+<p>说是人生必经的目送之路也好</p>
+
+<p>好像不断地在告别，</p>
+
+<p>时间似乎从来没有给过我承诺，</p>
+
+<p>等一等？不存在的</p>
+
+<p>只有 突如其来的想念，</p>
+
+<p>想念那个初二下午</p>
+
+<p>字字句句读着的南周，</p>
+
+<p>每天午饭时间和老妈一起讨论的锵锵，</p>
+
+<p>我想念那个社交媒体元年里，</p>
+
+<p>骄傲地告诉同学自己的记者梦想的我，</p>
+
+<p>即便稚嫩，</p>
+
+<p>但朴素的勇气，却是今天的我最最珍惜的。</p>
+
+<p>数不清的镜头和画面，</p>
+
+<p>来不及的遗憾，</p>
+
+<p>想变坏，没胆子，</p>
+
+<p>想做好人，没勇气，</p>
+
+<p>放在三四年前，我可能都想象不到</p>
+
+<p>那个曾经 怼天怼地</p>
+
+<p>爱为自己理想和立场执言的小姑娘</p>
+
+<p>去哪里了？</p>
+
+<p>弃文从公卫，想学医，想要曲线救国，</p>
+
+<p>却心里时刻惦记着在学校 韬光养晦，</p>
+
+<p>可能的话，</p>
+
+<p>是时候 做些事情了，</p>
+
+<p>毕竟， 搞丢了自己，谁能帮你呢？</p>
+
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/BWsa9LAUNn28uRZoy23oAOnsCVfV3DZRiaa6PrXKHBjc9wPvwbpYWyBddPFxSunf00oDR2viaiborib28rOQFibFFhw/640?wx_fmt=jpeg" alt="img" /></p>
+
+<p><strong>「How old is your soul?」</strong></p>
+
+<p>​    不得不说，</p>
+
+<p>​    共和国的一段段发展高潮，</p>
+
+<p>​    在极速扩展的四十年里，</p>
+
+<p>​    疯狂压缩式地复刻了</p>
+
+<p>​    19世纪开始的工业文明之路，</p>
+
+<p>​    细细品味，</p>
+
+<p>​    所谓的跨越式前进的代价几何？</p>
+
+<p>​    波澜壮阔又充满血泪，</p>
+
+<p>父母辈的成就感和满足感，</p>
+
+<p>在急速膨胀的房价和物质回报中，</p>
+
+<p>似乎得到了丰富的满足。</p>
+
+<p>​    在这一路上，</p>
+
+<p>​    农耕文明中丰富的人力和资源，</p>
+
+<p>​    被浩浩荡荡送往城市，</p>
+
+<p>​    在和谐号和玻璃幕墙的CBD下的繁荣，</p>
+
+<p>​    有多少委屈着自己，压抑着自我，</p>
+
+<p>​    在前行的人们，</p>
+
+<p>​    又有多少，</p>
+
+<p>​    活得清醒，却又潇洒恣意的，</p>
+
+<p>​     少年郎？</p>
+
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/BWsa9LAUNn28uRZoy23oAOnsCVfV3DZRdXJ3NqDOiajuWaib46KATIuSByhW1JXyECQperu7bY6KiboVE675NhlhA/640?wx_fmt=jpeg" alt="img" /></p>
+
+<p>「What is youth?」</p>
+
+<p>因为年轻，也因为经历单一，</p>
+
+<p>长期呆在校园，</p>
+
+<p>难以意识到生命的短暂,</p>
+
+<p>和对生活付出本该有的珍视,</p>
+
+<p>即使对自己的寿命乐观估计,</p>
+
+<p>我竟然也走过了四分之一的个人生命。</p>
+
+<p>十年前的我想探寻许多问题的答案，</p>
+
+<p>甚至是两年前，刚走出大学校门，</p>
+
+<p>我都有一种无畏的自信，</p>
+
+<p>觉得无所限制，只要肯攀登，</p>
+
+<p>但是现在我意识到时间非常有限。</p>
+
+<p>当似乎看到终点线的时候就有一种畏惧前进的感觉。</p>
+
+<p>好像失去了那种对于不确定未来的渴求，</p>
+
+<p>对于风险的心理承受能力已大不比从前，</p>
+
+<p>曾经至刚易折的我，</p>
+
+<p>如今也是个和稀泥的和事佬，</p>
+
+<p>不是怕和他人冲突，</p>
+
+<p>而是，</p>
+
+<p>有些人 不值得花时间深交</p>
+
+<p>有些朋友 即便交集短暂，</p>
+
+<p>也早就把你放在了心底，</p>
+
+<p>熟悉感 从未因为地理和时间的阻隔，</p>
+
+<p>就像天空与我的距离，</p>
+
+<p>始终如一 从未消磨。</p>
+
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/BWsa9LAUNn28uRZoy23oAOnsCVfV3DZR7LXfvRSwzWHxvV96FrUbcMvlbKz2iccknYsoWUbC0sUdKYexNkphyYA/0?wx_fmt=jpeg" alt="img" /></p>
+
+<p><strong><em>*「东方未明」*</em></strong></p>
+
+<p>我爸今天吐槽我，</p>
+
+<p>无论他摆出多么严肃的口吻和态度，</p>
+
+<p>我总是戏谑着回应，</p>
+
+<p>不知道是在丧的日常中磨砺太久,</p>
+
+<p>还是在过分娱乐化的压力排遣中</p>
+
+<p>逐渐变得佛系，</p>
+
+<p>现在自己解决问题，</p>
+
+<p>大多是习惯性的理性计算模式，</p>
+
+<p>不带感情</p>
+
+<p>很多时候像拿走了机器之心，</p>
+
+<p>那是因为我知道，</p>
+
+<p>我对这个世界的相信 已经不剩几分，</p>
+
+<p>嬉皮笑脸 只为体面一点</p>
+
+<p>面对人生的难</p>
+
+<p>毕竟 当你投入真心 放入感情</p>
+
+<p>如果 常常被无视</p>
+
+<p>那么</p>
+
+<p>那么可能首先思考的最多是</p>
+
+<p>可承受的最大风险，</p>
+
+<p>可接受的最低回报，</p>
+
+<p>买个东西都 恨不得建模才好，</p>
+
+<p>人生的风景似乎失去了</p>
+
+<p>那最初的色彩，</p>
+
+<p>但是 残缺才是记忆最深刻的 不是吗？</p>
+
+<p>2019 相似的</p>
+
+<p>震荡走势</p>
+
+<p>橡皮筋的延展力</p>
+
+<p>倒之颠之 自公令之</p>
+
+<p>​    <strong>「却道海棠依旧」</strong></p>
+
+<p>终于认识到社会发展到今天，</p>
+
+<p>专业化的细分已经无法培养出跨学科的通才，</p>
+
+<p>在这个年代少有壮志凌云并勇于表露自己抱负的人，</p>
+
+<p>看昨天家国情怀，风物长宜放眼量</p>
+
+<p>这绝不是宏大叙事的死亡，却是一种新的生活方式的自适应。</p>
+
+<p>z世代的我</p>
+
+<p>在这个专家系统占据主流，</p>
+
+<p>新兴科技不断侵入的生活状态中</p>
+
+<p>用力的调整，不断的改变</p>
+
+<p>但那种少年时代的无惧无畏，和纯粹的好奇</p>
+
+<p>在苛刻/严谨的公式推理中</p>
+
+<p>逐渐被技巧和术业责任磨灭</p>
+
+<p>我有z世代的典型自我期许,</p>
+
+<p>但却做的不够：</p>
+
+<p>-希望得到理性透明的信息，但是饱受订阅疲劳困扰</p>
+
+<p>-希望为不平等努力，但行动的成本让我的理性常常占据上游</p>
+
+<p>-尊重多样性，却时常在看到新奇事物时接受不太快</p>
+
+<p>-核心家庭的家人是最重要的事情，却长期离家万里</p>
+
+<p><strong>山川异域 风月同天</strong></p>
+
+<p>本以为回国</p>
+
+<p>申请季和流感病毒交织的寒夜</p>
+
+<p>就可以终结在纽约的2019</p>
+
+<p>突如其来的新型病毒</p>
+
+<p>却将所有奔忙着的人们的</p>
+
+<p>脚步和节奏都打乱了</p>
+
+<p>恐惧和担忧在不断地发酵</p>
+
+<p>那个2003的北京的春天</p>
+
+<p>似乎又重现在眼前</p>
+
+<p>匆匆掠过的 大学室友的昨天</p>
+
+<p>即便格外漫长不够：</p>
+
+<p>但是即便一无所有</p>
+
+<p>黑暗之中依然漂浮着我的期待</p>
+
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/BWsa9LAUNn0BicClShdoK6PeWBh6eSjjZIXThbBSSibdMYEibMiaMVKXZCVDlm9bBarfc2LFjR74mCm49I5ZeWhzLg/640?wx_fmt=jpeg" alt="img" /></p>
+
+
+                <hr style="visibility: hidden;">
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2019/01/24/ASA-2018-Economic-sociology-paper-awards/" data-toggle="tooltip" data-placement="top" title="ASA 2018 Economic sociology paper awards">
+                        Previous<br>
+                        <span>ASA 2018 Economic sociology paper awards</span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2019/02/20/Feb-diary/" data-toggle="tooltip" data-placement="top" title="Feb. Diary | 平生我自知">
+                        Next<br>
+                        <span>Feb. Diary | 平生我自知</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <hr style="visibility: hidden;">
+
+                
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
+
+                
+            </div>
+
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+
+
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- add support for mathjax by voleking-->
+
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "shanj";
+    var disqus_identifier = "/2019/02/03/斜阳只送平波远";
+    var disqus_url = "http://localhost:4000/2019/02/03/%E6%96%9C%E9%98%B3%E5%8F%AA%E9%80%81%E5%B9%B3%E6%B3%A2%E8%BF%9C/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'right',
+          // icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <!-- SNS Link -->
+              
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  <li>
+    <a href="https://twitter.com/Alexand43261453">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/shanjiang21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/shanj21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+                <p class="copyright text-muted">
+                      Powered by <a href="https://github.com/huxpro/huxpro.github.io">Jekyll</a>
+                    <br>Copyright &copy; Shan JIANG. 2025
+                    <br> <img src="/img/icon_wechat.png" alt="Girl in a jacket" width= "22%" height="10%">
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Simple Jekyll Search -->
+<script src="/js/simple-jekyll-search.min.js"></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+        var d = document, t = 'script',
+            o = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+        s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
+        var $nav = document.querySelector("nav");
+        if ($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-138327408-1';
+    var _gaDomain = 'shanj21.com';
+
+    // Originial
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        // interop with multilangual
+        if ('' == 'true') {
+            _containerSelector = 'div.post-container.active'
+        } else {
+            _containerSelector = 'div.post-container'
+        }
+
+        // init
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        // clean
+        $(selector).html('')
+
+        // appending
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Hux to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+<!-- Multi-Lingual -->
+
+
+<!-- Simple Jekyll Search -->
+<script>
+    // https://stackoverflow.com/questions/1912501/unescape-html-entities-in-javascript
+    function htmlDecode(input) {
+        var e = document.createElement('textarea');
+        e.innerHTML = input;
+        // handle case of empty input
+        return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+    }
+
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('search-results'),
+        json: '/search.json',
+        searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
+        noResultsText: 'No results',
+        limit: 50,
+        fuzzy: false,
+        // a hack to get escaped subtitle unescaped. for some reason,
+        // post.subtitle w/o escape filter nuke entire search.
+        templateMiddleware: function (prop, value, template) {
+            if (prop === 'subtitle' || prop === 'title') {
+                if (value.indexOf("code")) {
+                    return htmlDecode(value);
+                } else {
+                    return value;
+                }
+            }
+        }
+    });
+
+    $(document).ready(function () {
+        var $searchPage = $('.search-page');
+        var $searchOpen = $('.search-icon');
+        var $searchClose = $('.search-icon-close');
+        var $searchInput = $('#search-input');
+        var $body = $('body');
+
+        $searchOpen.on('click', function (e) {
+            e.preventDefault();
+            $searchPage.toggleClass('search-active');
+            var prevClasses = $body.attr('class') || '';
+            setTimeout(function () {
+                $body.addClass('no-scroll');
+            }, 400)
+
+            if ($searchPage.hasClass('search-active')) {
+                $searchClose.on('click', function (e) {
+                    e.preventDefault();
+                    $searchPage.removeClass('search-active');
+                    $body.attr('class', prevClasses);  // from closure
+                });
+                $searchInput.focus();
+            }
+        });
+    });
+</script>
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

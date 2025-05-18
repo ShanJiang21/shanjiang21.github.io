@@ -1,0 +1,194 @@
+---
+layout: default
+---
+
+ <!-- Page Header -->
+{% include intro-header.html type='page' %}
+
+<main class="reading-content">
+  <div class="book-container">
+    {% for book in site.data.book_review %}
+    <div class="book-card">
+
+      <img src="{{ book.cover }}" alt="{{ book.title }}" class="book-cover">
+
+      <div class="book-info">
+        <h2 class="book-title">{{ book.title }}</h2>
+
+        <div class="star-rating">
+          {% for i in (1..5) %}
+            {% if book.rating >= i %}
+              <span class="star selected" data-rating="{{ i }}">★</span>
+            {% else %}
+              <span class="star" data-rating="{{ i }}">★</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <p class="book-review">{{ book.review }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</main>
+
+<style>
+  /*
+    ===== CSS 变量 =====
+    在这里定义颜色、字体等，方便统一修改
+  */
+  :root {
+    --primary-color: #2c3e50;
+    --secondary-color: #e74c3c;
+    --background-color: #f9f9f9;
+    --text-color: #333;
+    --meta-color: #7f8c8d;
+
+    --title-font: 'Georgia', serif;
+    --info-font: 'Helvetica Neue', sans-serif;
+    --review-font: 'Lora', serif;
+
+    --title-font-size: 1.5rem;
+    --info-font-size: 1.2 rem;
+    --review-font-size: 1.1 rem;
+  }
+
+  /*
+    ===== 页面头部样式 (可选) =====
+    如果你想自定义页面头部样式，可以在这里修改
+    否则，可以删除这部分，使用你的 intro-header.html
+  */
+  .reading-header {
+    background: var(--primary-color);
+    color: white;
+    padding: 12rem 12rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .reading-title {
+    font-family: var(--title-font);
+    font-size: 2 rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .reading-subtitle {
+    font-family: var(--info-font);
+    font-size: 1.5 rem;
+    font-weight: 300;
+    line-height: 1.4;
+    color: var(--meta-color);
+  }
+
+  .reading-divider {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgba(255,255,255,0.75), transparent);
+    margin: 1rem auto;
+    width: 150px;
+  }
+
+  /*
+    ===== 书籍列表样式 =====
+  */
+  .book-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;  /* 设置行和列之间的间距 */
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+  /*
+    ===== 书籍卡片样式 =====
+  */
+  .book-card {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+  .book-card:hover {
+    /* ...  之前的 hover 效果  ...  */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* 更强的阴影效果  */
+  }
+
+  /*
+    ===== 封面样式 =====
+  */
+  .book-cover {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+  }
+
+  /*
+    ===== 书籍信息样式 =====
+  */
+  .book-info {
+    padding: 1rem;
+  }
+
+  /*
+    ===== 标题样式 =====
+  */
+  .book-title {
+    font-size: var(--title-font-size);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-family: var(--title-font);
+    line-height: 1.2;
+    color: var(--text-color);
+  }
+
+  /*
+    ===== 评分样式 =====
+  /* 星级评分 CSS */
+  .star-rating {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 0.5rem;
+  }
+
+  .star {
+    cursor: pointer; /* 如果需要交互 */
+  }
+
+  .star.selected {
+    color: gold;
+  }
+  /*
+    ===== 书评样式 =====
+  */
+  .book-review {
+  /* ...  你的其他样式  ...  */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-height: 5em;  /* 限制显示的行数  */
+}
+
+  /*
+    ===== 响应式设计 =====
+  */
+  @media (max-width: 600px) {
+    .book-container {
+      gap: 1rem;
+    }
+    .book-card {
+      width: 90%; /* 在小屏幕上占据更大宽度 */
+    }
+    .book-title {
+      font-size: 1.1rem;
+    }
+    .book-review {
+      font-size: 0.85rem;
+    }
+  }
+</style>

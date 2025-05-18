@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Hi, I am Shan(@shanjiang21).">
+    <meta name="keywords" content="Previous New Yorker, a small-town blog writter">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Open Graph -->
+    <meta property="og:title"
+        content="Shan Jiang -- A salarygirl, daughter & life-learner">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:description"
+        content="Love, live and lost.">
+    
+    <meta property="og:image" content="http://localhost:4000/img/avatar.jpg">
+    <meta property="og:url" content="http://localhost:4000/blog/page5/">
+    <meta property="og:site_name" content="Shan Jiang -- A salarygirl, daughter & life-learner">
+
+    <title>Shan Jiang -- A salarygirl, daughter & life-learner</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/blog/page5/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href=" /css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href=" /css/hux-blog.min.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Shan's hub</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="huxblog_navbar">
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/about/">About</a>
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/archive/">Archive</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li>
+                            <a href="/sharing/">Sharing</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li class="search-icon">
+                            <a href="javascript:void(0)">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <script>
+        // Drop Bootstarp low-performance Navbar
+        // Use customize navbar with high-quality material design animation
+        // in high-perf jank-free CSS3 implementation
+        var $body = document.body;
+        var $toggle = document.querySelector('.navbar-toggle');
+        var $navbar = document.querySelector('#huxblog_navbar');
+        var $collapse = document.querySelector('.navbar-collapse');
+
+        var __HuxNav__ = {
+            close: function () {
+                $navbar.className = " ";
+                // wait until animation end.
+                setTimeout(function () {
+                    // prevent frequently toggle
+                    if ($navbar.className.indexOf('in') < 0) {
+                        $collapse.style.height = "0px"
+                    }
+                }, 400)
+            },
+            open: function () {
+                $collapse.style.height = "auto"
+                $navbar.className += " in";
+            }
+        }
+
+        // Bind Event
+        $toggle.addEventListener('click', function (e) {
+            if ($navbar.className.indexOf('in') > 0) {
+                __HuxNav__.close()
+            } else {
+                __HuxNav__.open()
+            }
+        })
+
+        /**
+         * Since Fastclick is used to delegate 'touchstart' globally
+         * to hack 300ms delay in iOS by performing a fake 'click',
+         * Using 'e.stopPropagation' to stop 'touchstart' event from 
+         * $toggle/$collapse will break global delegation.
+         * 
+         * Instead, we use a 'e.target' filter to prevent handler
+         * added to document close HuxNav.  
+         *
+         * Also, we use 'click' instead of 'touchstart' as compromise
+         */
+        document.addEventListener('click', function (e) {
+            if (e.target == $toggle) return;
+            if (e.target.className == 'icon-bar') return;
+            __HuxNav__.close();
+        })
+    </script>
+    <!-- Search -->
+<div class="search-page">
+  <div class="search-icon-close-container">
+    <span class="search-icon-close">
+      <i class="fa fa-chevron-down"></i>
+    </span>
+  </div>
+  <div class="search-main container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <form></form>
+        <input type="text" id="search-input" placeholder="$ grep...">
+        </form>
+        <div id="search-results" class="mini-post-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Page Header -->
+
+
+
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/home-bg.jpg');
+        background: ;
+    }
+
+    
+</style>
+
+
+
+
+
+
+
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+  <div class="header-mask"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="site-heading">
+        
+          <h1>Shan's hub</h1>
+          <span class="subheading">Love, live and lost.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    
+    <!-- NO SIDEBAR -->
+    <!-- PostList Container -->
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1
+      postlist-container">
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Love, live and lost.">
+    <title>Shan's hub - Love, live and lost.</title>
+
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css">
+
+    <!-- Custom styles for this template -->
+    <style>
+        .post-preview {
+            margin-bottom: 2rem;
+        }
+        .post-title {
+            font-size: 1.75rem;
+            font-weight: bold;
+        }
+        .post-subtitle {
+            font-size: 1.25rem;
+            color: #555;
+        }
+        .post-meta {
+            font-size: 0.875rem;
+            color: #999;
+        }
+        .pager {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0;
+        }
+        .pager li {
+            flex: 1;
+        }
+        .pager a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .pager a:hover {
+            text-decoration: underline;
+        }
+
+        nav[aria-label="Travel Categories"] {
+            background-color: #eceff1;
+            padding: 2px;
+            }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            padding: 16px;
+            list-style-type: none;
+                }
+
+        .image-item {
+            position: relative;
+            aspect-ratio: 1 / 1;
+            overflow: hidden;
+                }
+
+        .image-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Main Title */
+        .main-title {
+            text-align: center;
+            font-size: 32px;
+            font-family: 'Georgia', serif;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        /* Image Gallery Container */
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Adjusts space between images */
+            padding: 0 20px;
+        }
+
+        /* Individual Image Items */
+        .image-item {
+            flex: 1;
+            text-align: center;
+        }
+
+        /* Image Styling */
+        .image-item img {
+            width: 100%;
+            height: 100%;
+            border-radius: 4px;
+            display: block;
+        }
+
+        /* Image Title */
+        .image-title {
+            margin-top: 10px;
+            font-size: 16px;
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .quote-section {
+            background-color: #f5f5f5;
+            padding: 50px;
+            text-align: center;
+            margin: 0 auto;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+
+        .quote-text {
+            font-size: 1.5em;
+            font-style: italic;
+            color: #333;
+            margin: 0;
+        }
+
+        .quote-author {
+            display: block;
+            margin-top: 18px;
+            font-size: 1em;
+            color: #666;
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+
+<h2 class="main-title">You are on the right track.</h2>
+
+<section class="image-gallery">
+    <div class="image-item">
+
+        <a href="./reading">
+            <img src="img/IMG_1886.jpg" alt="Blog Posts" loading = lazy>
+            <h3 class="image-title">Blog Posts</h3>           
+        </a>
+    </div>
+    <div class="image-item">
+        <a href="./Travel">
+            <img src="img/Gordan_hunt.jpg" alt="On the Road" loading = lazy>
+            <h3 class="image-title">On the Road</h3>
+        </a>
+    </div>
+    <div class="image-item">
+        <a href="./academia">
+            <img src="img/food.jpg" alt="food" loading = lazy>
+            <h3 class="image-title">Food</h3>
+        </a>
+    </div>
+</section>
+
+
+<hr>
+
+
+
+<!-- New Title -->
+<section class="quote-section">
+    <blockquote class="quote-text">
+        “Do not say a little in many words but a great deal in few.”
+    </blockquote>
+    <cite class="quote-author">— Pythagoras</cite>
+</section>
+
+
+
+<section aria-label="Blog Posts">
+    
+    <article class="post-preview">
+        <a href="/side%20notes%20for%20work/yolo/core-periphery%20reflection/2021/12/26/Death-is-not-taboo/">
+            <h2 class="post-title">
+                Trees need sunlight
+            </h2>
+            
+            <h3 class="post-subtitle">
+                我们都是树，都要找到自己需要的土
+            </h3>
+            
+            <div class="post-content-preview">
+                
+                    已经有将近两个月时间没有维护我的blog了，忙起来了，一切都更新慢了。但这不是个好的借口，因为我深知，这只是我失衡的生活状态的其中一个外在表现形式而已。
+
+最近让我困惑的问题是：如何在人生前方的路上走得更远？而不是短暂地像烟花一样，燃烧自己。
+
+在字节，平均职工的年龄是27岁，身边已婚已育的男...
+                
+            </div>
+        </a>
+        <p class="post-meta">
+            Posted by Shan J. on December 26, 2021
+        </p>
+    </article>
+    <hr aria-hidden="true">
+    
+    <article class="post-preview">
+        <a href="/side%20notes%20for%20work/yolo/going%20solo/2021/10/31/modern-love/">
+            <h2 class="post-title">
+                Slammed and luddite as I am
+            </h2>
+            
+            <h3 class="post-subtitle">
+                数字时代规训中的我
+            </h3>
+            
+            <div class="post-content-preview">
+                
+                    09-23
+
+Ombré = having different tones of colors
+
+
+  She and four others from that small group now say the sense of intimacy, artistry and discovery...
+                
+            </div>
+        </a>
+        <p class="post-meta">
+            Posted by Shan J. on October 31, 2021
+        </p>
+    </article>
+    <hr aria-hidden="true">
+    
+    <article class="post-preview">
+        <a href="/side%20notes%20for%20work/yolo/going%20solo/harbin/2021/09/22/We-Meant-to-be/">
+            <h2 class="post-title">
+                Be a cool long ranger
+            </h2>
+            
+            <h3 class="post-subtitle">
+                26岁你好
+            </h3>
+            
+            <div class="post-content-preview">
+                
+                    
+  The wound is where light enters you.  – Rumi
+
+
+1. 空心汤圆：指徒有虚名，并无实利可图的东西，有点洋泾浜。
+
+2. 东兔西乌：古代神话传说中说，月亮里有玉兔，太阳里有三足金乌，所以用乌、兔代表日月。月亮东升，太阳西落。表示时光不断流逝。
+
+...
+                
+            </div>
+        </a>
+        <p class="post-meta">
+            Posted by Shan J. on September 22, 2021
+        </p>
+    </article>
+    <hr aria-hidden="true">
+    
+    <article class="post-preview">
+        <a href="/side%20notes%20for%20work/yolo/going%20solo/shanghai/2021/08/22/Ego-Centered-Bias/">
+            <h2 class="post-title">
+                Practicing self love
+            </h2>
+            
+            <h3 class="post-subtitle">
+                他卷任他卷，躺平不丢脸
+            </h3>
+            
+            <div class="post-content-preview">
+                
+                    人生海海，与城市同在
+
+
+  你待过的城市
+都会成为你性格的一部分
+就好像你爱过的恋人
+都会成为你性格的一部分 – 罗智成
+
+
+今天读到中国青年报《冰点周刊》的一篇文章，这篇文章里面的主人公，出生于北京的军人家庭，在工作磨砺中逐渐失去了曾经的快乐，而她与父母的交流和找寻自我的旅程也让我感同身受...
+                
+            </div>
+        </a>
+        <p class="post-meta">
+            Posted by Shan J. on August 22, 2021
+        </p>
+    </article>
+    <hr aria-hidden="true">
+    
+    <article class="post-preview">
+        <a href="/side%20notes%20for%20work/identity%20crisis/musings/2021/08/08/To-Play-for-love/">
+            <h2 class="post-title">
+                Amateur in a new metaverse
+            </h2>
+            
+            <h3 class="post-subtitle">
+                我们不是只有现在么？
+            </h3>
+            
+            <div class="post-content-preview">
+                
+                    07/20/2021
+
+My data analyst was questioning me for the North Star metrics that they can provide for model training, which made me reckon the past m...
+                
+            </div>
+        </a>
+        <p class="post-meta">
+            Posted by Shan J. on August 8, 2021
+        </p>
+    </article>
+    <hr aria-hidden="true">
+    
+    <article class="post-preview">
+        <a href="/side%20notes%20for%20work/identity%20crisis/musings/2021/07/12/fluid-identity/">
+            <h2 class="post-title">
+                Fluid Identity brings dramatic change
+            </h2>
+            
+            <h3 class="post-subtitle">
+                互联网是身份的实验场
+            </h3>
+            
+            <div class="post-content-preview">
+                
+                    2021-06-25
+
+经常会有人网上蹦迪，网下社死。实际上是一个实体，多个自我被安排在多个不同的场景之中的体现。
+
+媒介是人的延伸，也是人的切割，技术其实本身会放大这些我们在日常生活中所遇到的问题。
+
+Using WeChat is like being dragged into an al...
+                
+            </div>
+        </a>
+        <p class="post-meta">
+            Posted by Shan J. on July 12, 2021
+        </p>
+    </article>
+    <hr aria-hidden="true">
+    
+    <article class="post-preview">
+        <a href="/side%20notes%20for%20work/pm%20life/gen%20z/2021/06/24/Wired-society-with-No-intimacy/">
+            <h2 class="post-title">
+                Wired society with No intimacy
+            </h2>
+            
+            <h3 class="post-subtitle">
+                当路由器还是当胶水呢？
+            </h3>
+            
+            <div class="post-content-preview">
+                
+                    
+  A product manager is “the glue that holds together all the various functions and roles across a company that speak different languages” — Ken No...
+                
+            </div>
+        </a>
+        <p class="post-meta">
+            Posted by Shan J. on June 24, 2021
+        </p>
+    </article>
+    <hr aria-hidden="true">
+    
+</section>
+
+
+<!-- Pagination -->
+
+<nav aria-label="Pagination">
+    <ul class="pager">
+        
+        <li class="previous">
+            <a href="/blog/page4/">&larr; Newer Posts</a>
+        </li>
+        
+        
+        <li class="next">
+            <a href="/blog/page6/">Older Posts &rarr;</a>
+        </li>
+        
+    </ul>
+</nav>
+
+
+<!-- Include the library -->
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js" defer></script>
+
+</body>
+</html>
+    </div>
+    <!-- Sidebar Container -->
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1
+      sidebar-container">
+      <!-- Featured Tags -->
+      
+
+
+
+      <!-- Friends Blog -->
+      
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <!-- SNS Link -->
+              
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  <li>
+    <a href="https://twitter.com/Alexand43261453">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/shanjiang21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/shanj21">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+                <p class="copyright text-muted">
+                      Powered by <a href="https://github.com/huxpro/huxpro.github.io">Jekyll</a>
+                    <br>Copyright &copy; Shan JIANG. 2025
+                    <br> <img src="/img/icon_wechat.png" alt="Girl in a jacket" width= "22%" height="10%">
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Simple Jekyll Search -->
+<script src="/js/simple-jekyll-search.min.js"></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+        var d = document, t = 'script',
+            o = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+        s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
+        var $nav = document.querySelector("nav");
+        if ($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = 'UA-138327408-1';
+    var _gaDomain = 'shanj21.com';
+
+    // Originial
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        // interop with multilangual
+        if ('' == 'true') {
+            _containerSelector = 'div.post-container.active'
+        } else {
+            _containerSelector = 'div.post-container'
+        }
+
+        // init
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        // clean
+        $(selector).html('')
+
+        // appending
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Hux to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+<!-- Multi-Lingual -->
+
+
+<!-- Simple Jekyll Search -->
+<script>
+    // https://stackoverflow.com/questions/1912501/unescape-html-entities-in-javascript
+    function htmlDecode(input) {
+        var e = document.createElement('textarea');
+        e.innerHTML = input;
+        // handle case of empty input
+        return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+    }
+
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('search-results'),
+        json: '/search.json',
+        searchResultTemplate: '<div class="post-preview item"><a href="{url}"><h2 class="post-title">{title}</h2><h3 class="post-subtitle">{subtitle}</h3><hr></a></div>',
+        noResultsText: 'No results',
+        limit: 50,
+        fuzzy: false,
+        // a hack to get escaped subtitle unescaped. for some reason,
+        // post.subtitle w/o escape filter nuke entire search.
+        templateMiddleware: function (prop, value, template) {
+            if (prop === 'subtitle' || prop === 'title') {
+                if (value.indexOf("code")) {
+                    return htmlDecode(value);
+                } else {
+                    return value;
+                }
+            }
+        }
+    });
+
+    $(document).ready(function () {
+        var $searchPage = $('.search-page');
+        var $searchOpen = $('.search-icon');
+        var $searchClose = $('.search-icon-close');
+        var $searchInput = $('#search-input');
+        var $body = $('body');
+
+        $searchOpen.on('click', function (e) {
+            e.preventDefault();
+            $searchPage.toggleClass('search-active');
+            var prevClasses = $body.attr('class') || '';
+            setTimeout(function () {
+                $body.addClass('no-scroll');
+            }, 400)
+
+            if ($searchPage.hasClass('search-active')) {
+                $searchClose.on('click', function (e) {
+                    e.preventDefault();
+                    $searchPage.removeClass('search-active');
+                    $body.attr('class', prevClasses);  // from closure
+                });
+                $searchInput.focus();
+            }
+        });
+    });
+</script>
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
