@@ -7,6 +7,134 @@ header-mask: 0.3
 multilingual: true
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+<style>
+  /* Editorial typography for About markdown content */
+  .post-container h4,
+  .post-container h5 {
+    font-family: 'Fraunces', 'EB Garamond', Georgia, serif;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-variation-settings: "opsz" 144;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+  }
+  .post-container h4 { font-size: 1.7rem; line-height: 1.2; }
+  .post-container h5 { font-size: 1.25rem; }
+  .post-container p,
+  .post-container li {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #2a2a2a;
+  }
+  .post-container blockquote {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    border-left: 3px solid #1a1a1a;
+    padding: 0.2em 0 0.2em 1.4em;
+    margin: 1.5em 0;
+    color: #444;
+  }
+
+  /* ── About journey card (replaces Google My Maps iframe) ── */
+  .about-journey {
+    background: #f9f6f0;
+    border: 1px solid #e5e1d7;
+    border-radius: 4px;
+    padding: 2rem 2.25rem 1.75rem;
+    margin: 2rem 0 2.5rem;
+    position: relative;
+  }
+  .about-journey::before {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 2px;
+    pointer-events: none;
+  }
+  .about-journey__eyebrow {
+    font-family: 'Fraunces', serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #c8001d;
+    font-weight: 600;
+    margin: 0 0 0.9rem;
+  }
+  .about-journey__list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.25rem;
+    border-top: 1px solid rgba(0,0,0,0.08);
+  }
+  .about-journey__list li {
+    display: grid;
+    grid-template-columns: 70px 1fr auto;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    font-family: 'EB Garamond', Georgia, serif;
+  }
+  .aj-year {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #1a1a1a;
+    letter-spacing: 0.02em;
+    font-variation-settings: "opsz" 72;
+  }
+  .aj-place {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #1a1a1a;
+    line-height: 1.2;
+    font-variation-settings: "opsz" 72;
+  }
+  .aj-coord {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: 1rem;
+    color: #6b6b6b;
+    white-space: nowrap;
+  }
+  .about-journey__link {
+    font-family: 'Fraunces', serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+    padding-bottom: 2px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    transition: color 0.2s, border-color 0.2s, gap 0.2s;
+  }
+  .about-journey__link:hover {
+    color: #c8001d;
+    border-color: #c8001d;
+    gap: 0.75rem;
+    text-decoration: none;
+  }
+  @media (max-width: 640px) {
+    .about-journey { padding: 1.5rem 1.25rem 1.25rem; }
+    .about-journey__list li {
+      grid-template-columns: 60px 1fr;
+      gap: 0.5rem;
+    }
+    .aj-coord { grid-column: 1 / -1; padding-left: 70px; }
+  }
+</style>
+
 <!-- Language selector -->
 {% include multilingual-sel.html %}
 

@@ -17,8 +17,18 @@
 
 #### 人生足迹 ｜ Life-Journey
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mipXeTROxyXGCO7-LrqIvDfRgNgKZrXU" width="550" height="420"></iframe>
-<br>
+<div class="about-journey" markdown="0">
+  <p class="about-journey__eyebrow">Mapping</p>
+  <ol class="about-journey__list">
+    <li><span class="aj-year">1994</span><span class="aj-place">Anhui, China</span><em class="aj-coord">30.64° N · 117.85° E</em></li>
+    <li><span class="aj-year">2014</span><span class="aj-place">Beijing</span><em class="aj-coord">39.93° N · 116.39° E</em></li>
+    <li><span class="aj-year">2018</span><span class="aj-place">New York City</span><em class="aj-coord">40.71° N · 74.01° W</em></li>
+    <li><span class="aj-year">2020</span><span class="aj-place">Beijing</span><em class="aj-coord">returned home</em></li>
+    <li><span class="aj-year">2022</span><span class="aj-place">Shanghai → Singapore</span><em class="aj-coord">1.35° N · 103.82° E</em></li>
+  </ol>
+  <a href="/travel/" class="about-journey__link">See the full map <span aria-hidden="true">→</span></a>
+</div>
+
 生于皖南，学于北京和纽约，浪迹过上海，如今工作和生活的物理活动范围，主要在赤道旁的小破岛(1°17′N, 103°50′E)，非常崇尚互联网空间的侠客情结，常分享一些新鲜的可视化技术或统计tutorial。
 
 -----------------

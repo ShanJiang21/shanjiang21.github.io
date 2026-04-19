@@ -142,12 +142,14 @@
             .catch(function(){});
     }
 
-    // Default Paris; upgrade to visitor's city via IP
-    setPlace('Paris', 48.8566, 2.3522, 'Europe/Paris');
+    // Default to Singapore (Shan's home base); upgrade to visitor's city via IP.
+    // ipapi.co is often blocked by ad-blockers/privacy extensions, in which
+    // case we simply stay on Singapore rather than the generic Paris default.
+    setPlace('Singapore', 1.3521, 103.8198, 'Asia/Singapore');
     fetch('https://ipapi.co/json/')
         .then(function(r){ return r.json(); })
         .then(function(d){
-            if (d && d.latitude && d.longitude) {
+            if (d && d.latitude && d.longitude && d.city) {
                 setPlace(d.city, d.latitude, d.longitude, d.timezone);
             }
         })
