@@ -232,7 +232,7 @@ layout: default
   /* Inline code */
   .ss-post__body code {
     font-family: 'SF Mono', Menlo, Consolas, monospace;
-    font-size: 0.9em;
+    font-size: 0.95em;
     background: #f4f2ee;
     padding: 0.15em 0.4em;
     border-radius: 3px;
@@ -242,16 +242,23 @@ layout: default
     background: #f9f7f2;
     border: 1px solid var(--ss-rule);
     border-radius: 4px;
-    padding: 1.1em 1.3em;
+    padding: 1.2em 1.4em;
     overflow-x: auto;
-    font-size: 0.95rem;
-    line-height: 1.55;
+    font-size: 1.08rem;
+    line-height: 1.65;
     margin: 1.5em 0;
   }
   .ss-post__body pre code {
     background: none;
     padding: 0;
-    font-size: 0.95em;
+    font-size: 1em;
+  }
+  /* Rouge/Pygments highlighter blocks (same treatment) */
+  .ss-post__body .highlight pre,
+  .ss-post__body .highlighter-rouge pre,
+  .ss-post__body .highlighter-rouge .highlight pre {
+    font-size: 1.08rem;
+    line-height: 1.65;
   }
 
   /* Images */

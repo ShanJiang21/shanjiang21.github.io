@@ -1,11 +1,26 @@
 ---
 layout: page
 title: "About"
-description: “Go through the mirror."
+description: "Go through the mirror."
 header-img: "img/bg-walle.jpg"
 header-mask: 0.3
 multilingual: true
 ---
+
+<!-- Language selector -->
+{% include multilingual-sel.html %}
+
+<!-- Chinese (default active) -->
+{% capture about_zh %}{% include about/zh.md %}{% endcapture %}
+<div class="post-container zh active">
+  {{ about_zh | markdownify }}
+</div>
+
+<!-- English -->
+{% capture about_en %}{% include about/en.md %}{% endcapture %}
+<div class="post-container en">
+  {{ about_en | markdownify }}
+</div>
 
 {% if site.disqus_username %}
 <!-- disqus 评论框 start -->
