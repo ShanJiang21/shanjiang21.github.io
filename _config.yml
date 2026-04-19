@@ -2,6 +2,7 @@
 title: Shan's hub
 SEOTitle: Shan Jiang -- A salarygirl, daughter & life-learner
 header-img: img/home-bg.jpg
+default-thumb: img/home-bg.jpg  # fallback for posts missing header-img (see _includes/post-thumb.html)
 email: sj2921@columbia.edu
 keyword: Previous New Yorker, a small-town blog writter
 #welcome_message: Now I am working in TikTok for bridging gaps of Machine Learning models and Business.

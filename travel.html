@@ -1,0 +1,393 @@
+---
+title: Travels
+layout: default
+description: Fragments from the road
+permalink: /travel/
+---
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --tv-ink: #1a1612;
+    --tv-muted: #6b6b6b;
+    --tv-paper: #f6f1e6;
+    --tv-paper-warm: #eee6d3;
+    --tv-line: #2a2522;
+    --tv-red: #b22a1e;
+    --tv-gold: #c89a3c;
+  }
+  body { background: var(--tv-paper); color: var(--tv-ink); }
+  .intro-header { display: none !important; }
+
+  .tv-wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 6rem 2rem 5rem;
+  }
+
+  /* ── Header ── */
+  .tv-header { text-align: center; margin-bottom: 3rem; }
+  .tv-kicker {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: .95rem;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--tv-muted);
+    margin: 0 0 .9rem;
+  }
+  .tv-title {
+    font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: clamp(2.6rem, 6vw, 4.6rem);
+    letter-spacing: .025em;
+    line-height: 1;
+    margin: 0 0 1rem;
+  }
+  .tv-subtitle {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: var(--tv-muted);
+    margin: 0;
+  }
+
+  /* ── Stats strip ── */
+  .tv-stats {
+    display: flex; justify-content: center; gap: 4rem;
+    margin: 2.5rem 0 2rem;
+    border-top: 1px solid #2a2522;
+    border-bottom: 1px solid #2a2522;
+    padding: 1.3rem 0;
+  }
+  .tv-stat__n {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .tv-stat__l {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: .92rem;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: var(--tv-muted);
+    margin-top: .3rem;
+  }
+  .tv-stat { text-align: center; }
+
+  /* ── Map ── */
+  .tv-map-wrap {
+    position: relative;
+    background: var(--tv-paper-warm);
+    border: 1px solid #2a2522;
+    padding: 1.5rem 1rem;
+    margin: 0 0 4rem;
+  }
+  .tv-map-caption {
+    position: absolute; top: 1rem; left: 1.5rem;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: .85rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--tv-muted);
+  }
+  #tv-map { width: 100%; height: auto; display: block; }
+  .tv-country { fill: #d9cfb9; stroke: #2a2522; stroke-width: 0.4; }
+  .tv-country.visited { fill: #c29a5c; }
+  .tv-graticule { fill: none; stroke: #bca886; stroke-width: 0.3; stroke-dasharray: 2 2; }
+  .tv-pin {
+    fill: var(--tv-red);
+    stroke: #fff;
+    stroke-width: 1.5;
+    cursor: pointer;
+    transition: r .2s ease, fill .2s ease;
+  }
+  .tv-pin:hover { fill: #000; }
+  .tv-pin-ring {
+    fill: none;
+    stroke: var(--tv-red);
+    stroke-width: 1;
+    opacity: .55;
+    animation: tv-pulse 2s ease-out infinite;
+    pointer-events: none;
+  }
+  @keyframes tv-pulse {
+    0% { r: 4; opacity: .7; }
+    100% { r: 16; opacity: 0; }
+  }
+  .tv-tooltip {
+    position: absolute;
+    background: #1a1612;
+    color: #f6f1e6;
+    padding: .5rem .75rem;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: .95rem;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .15s ease;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .tv-tooltip.visible { opacity: 1; }
+  .tv-tooltip em {
+    display: block;
+    font-size: .78rem;
+    font-style: italic;
+    color: #bca886;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    margin-top: .15rem;
+  }
+
+  /* ── Year sections & cards ── */
+  .tv-year {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 2.5rem;
+    padding: 2.5rem 0;
+    border-top: 1px solid #d4c8ad;
+  }
+  .tv-year:first-of-type { border-top: 2px solid #2a2522; }
+  .tv-year__label {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: .03em;
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+  }
+  .tv-list { display: flex; flex-direction: column; gap: 3rem; }
+
+  .tv-entry { scroll-margin-top: 2rem; }
+  .tv-entry__head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: .8rem;
+    flex-wrap: wrap;
+  }
+  .tv-entry__place {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.1;
+    margin: 0;
+  }
+  .tv-entry__place small {
+    display: block;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: .95rem;
+    color: var(--tv-muted);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-top: .25rem;
+  }
+  .tv-entry__date {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    color: var(--tv-muted);
+    font-size: 1rem;
+    letter-spacing: .05em;
+  }
+  .tv-entry__note {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: #2a2522;
+    font-style: italic;
+    margin: 0 0 1.4rem;
+    max-width: 60ch;
+  }
+
+  .tv-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: .6rem;
+  }
+  .tv-gallery img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    display: block;
+    cursor: zoom-in;
+    filter: grayscale(0) contrast(1);
+    transition: transform .3s ease, filter .3s ease;
+  }
+  .tv-gallery img:hover { transform: scale(1.02); filter: contrast(1.05); }
+
+  .tv-empty {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    color: var(--tv-muted);
+    font-size: .95rem;
+  }
+
+  /* ── Lightbox ── */
+  .tv-lightbox {
+    position: fixed; inset: 0;
+    background: rgba(10,8,6,.94);
+    display: none;
+    align-items: center; justify-content: center;
+    z-index: 1000;
+    cursor: zoom-out;
+  }
+  .tv-lightbox.open { display: flex; }
+  .tv-lightbox img {
+    max-width: 92vw;
+    max-height: 92vh;
+    object-fit: contain;
+  }
+
+  @media (max-width: 720px) {
+    .tv-wrap { padding: 5rem 1.2rem 4rem; }
+    .tv-stats { gap: 2rem; }
+    .tv-year { grid-template-columns: 1fr; gap: 1rem; padding: 2rem 0; }
+    .tv-year__label { position: static; font-size: 1.6rem; }
+    .tv-entry__place { font-size: 1.5rem; }
+  }
+</style>
+
+{%- assign trips = site.data.travel | sort: 'date' | reverse -%}
+{%- assign countries = trips | map: 'country' | uniq -%}
+{%- assign cities    = trips | map: 'place'   | uniq -%}
+{%- assign photo_count = 0 -%}
+{%- for t in trips -%}{%- if t.photos -%}{%- assign photo_count = photo_count | plus: t.photos.size -%}{%- endif -%}{%- endfor -%}
+
+<div class="tv-wrap">
+
+  <header class="tv-header">
+    <p class="tv-kicker">Field Notes · {{ trips.first.date | date: "%Y" | default: 'Present' }}</p>
+    <h1 class="tv-title">Travels</h1>
+    <p class="tv-subtitle">{{ page.description }}.</p>
+  </header>
+
+  <section class="tv-stats" aria-label="Summary">
+    <div class="tv-stat"><div class="tv-stat__n">{{ countries.size }}</div><div class="tv-stat__l">Countries</div></div>
+    <div class="tv-stat"><div class="tv-stat__n">{{ cities.size }}</div><div class="tv-stat__l">Cities</div></div>
+    <div class="tv-stat"><div class="tv-stat__n">{{ photo_count }}</div><div class="tv-stat__l">Photographs</div></div>
+  </section>
+
+  <div class="tv-map-wrap">
+    <span class="tv-map-caption">Chart · The World</span>
+    <svg id="tv-map" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid meet" aria-label="World map of visited places"></svg>
+    <div class="tv-tooltip" id="tv-tooltip"></div>
+  </div>
+
+  {%- assign current_year = '' -%}
+  {%- for t in trips -%}
+    {%- assign y = t.date | date: "%Y" -%}
+    {%- if y != current_year -%}
+      {%- unless forloop.first -%}</div></section>{%- endunless -%}
+      <section class="tv-year">
+        <div class="tv-year__label">{{ y }}</div>
+        <div class="tv-list">
+      {%- assign current_year = y -%}
+    {%- endif -%}
+
+    <article class="tv-entry" id="tv-{{ t.slug | default: t.place | slugify }}">
+      <header class="tv-entry__head">
+        <h2 class="tv-entry__place">{{ t.place }}<small>{{ t.country }}</small></h2>
+        <span class="tv-entry__date">{{ t.date | date: "%B %Y" }}</span>
+      </header>
+      {% if t.note %}<p class="tv-entry__note">{{ t.note }}</p>{% endif %}
+      {% if t.photos and t.photos.size > 0 %}
+      <div class="tv-gallery">
+        {% for p in t.photos %}
+        <img src="{{ site.baseurl }}/img/travel/{{ t.slug }}/{{ p }}" alt="{{ t.place }} — {{ p }}" loading="lazy">
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="tv-empty">— Photographs pending —</p>
+      {% endif %}
+    </article>
+
+    {%- if forloop.last -%}</div></section>{%- endif -%}
+  {%- endfor -%}
+
+</div>
+
+<div class="tv-lightbox" id="tv-lightbox"><img alt="" id="tv-lightbox-img"></div>
+
+<!-- D3 + TopoJSON from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+<script>
+(function(){
+  var trips = [
+    {%- for t in trips -%}
+    { place: {{ t.place | jsonify }}, country: {{ t.country | jsonify }}, lat: {{ t.lat }}, lon: {{ t.lon }}, slug: {{ t.slug | default: t.place | slugify | jsonify }}, date: {{ t.date | jsonify }} }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ];
+
+  var svg = d3.select('#tv-map');
+  var width = 960, height = 500;
+  var projection = d3.geoNaturalEarth1().scale(180).translate([width/2, height/2 - 10]);
+  var path = d3.geoPath(projection);
+
+  // Graticule
+  svg.append('path').datum(d3.geoGraticule10()).attr('class','tv-graticule').attr('d', path);
+
+  var visitedCountries = new Set(trips.map(function(t){ return t.country.toUpperCase(); }));
+
+  d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json').then(function(world){
+    var countries = topojson.feature(world, world.objects.countries).features;
+
+    svg.append('g').selectAll('path')
+      .data(countries).enter().append('path')
+      .attr('class', function(d){
+        var name = (d.properties.name || '').toUpperCase();
+        return 'tv-country' + (visitedCountries.has(name) ? ' visited' : '');
+      })
+      .attr('d', path);
+
+    // Pins
+    var pinLayer = svg.append('g').attr('class','tv-pins');
+    var tooltip = d3.select('#tv-tooltip');
+
+    trips.forEach(function(t){
+      var coords = projection([t.lon, t.lat]);
+      if (!coords) return;
+      pinLayer.append('circle')
+        .attr('class','tv-pin-ring')
+        .attr('cx', coords[0]).attr('cy', coords[1]).attr('r', 4);
+      pinLayer.append('circle')
+        .attr('class','tv-pin')
+        .attr('cx', coords[0]).attr('cy', coords[1]).attr('r', 4.5)
+        .on('mouseenter', function(e){
+          tooltip.html(t.place + '<em>' + t.country + ' · ' + t.date + '</em>').classed('visible', true);
+        })
+        .on('mousemove', function(e){
+          var rect = svg.node().getBoundingClientRect();
+          var mapRect = document.querySelector('.tv-map-wrap').getBoundingClientRect();
+          tooltip
+            .style('left', (e.clientX - mapRect.left + 12) + 'px')
+            .style('top',  (e.clientY - mapRect.top  + 12) + 'px');
+        })
+        .on('mouseleave', function(){ tooltip.classed('visible', false); })
+        .on('click', function(){
+          var el = document.getElementById('tv-' + t.slug);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    });
+  });
+
+  // Lightbox
+  var lb = document.getElementById('tv-lightbox');
+  var lbImg = document.getElementById('tv-lightbox-img');
+  document.querySelectorAll('.tv-gallery img').forEach(function(img){
+    img.addEventListener('click', function(){
+      lbImg.src = img.src; lbImg.alt = img.alt;
+      lb.classList.add('open');
+    });
+  });
+  lb.addEventListener('click', function(){ lb.classList.remove('open'); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') lb.classList.remove('open'); });
+})();
+</script>

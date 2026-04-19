@@ -2,18 +2,160 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <!-- SNS Link -->
-              {% include sns-links.html center=true %}
-                <p class="copyright text-muted">
-                      Powered by <a href="https://github.com/huxpro/huxpro.github.io">Jekyll</a>
-                    <br>Copyright &copy; Shan JIANG. {{ site.time | date: '%Y'}}
-                    <br> <img src="/img/icon_wechat.png" alt="Girl in a jacket" width= "22%" height="10%">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 footer-center">
+                <div class="ambient" id="ambient" aria-live="polite">
+                    <span class="ambient__city" id="ambient-city">—</span>
+                    <span class="ambient__dot" aria-hidden="true"></span>
+                    <span class="ambient__time" id="ambient-time">--:--</span>
+                    <span class="ambient__dot" aria-hidden="true"></span>
+                    <span class="ambient__temp" id="ambient-temp">--°</span>
+                    <span class="ambient__icon" id="ambient-icon" aria-hidden="true"></span>
+                </div>
+                <p class="copyright">
+                    Written by Shan J. &nbsp;·&nbsp; Since 2018 &nbsp;·&nbsp; Made with care, one essay at a time.
                 </p>
             </div>
         </div>
     </div>
 </footer>
+
+<style>
+.footer-center { text-align: center; }
+.footer-center .copyright {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 1.55rem;
+    color: #555;
+    font-style: italic;
+    letter-spacing: .01em;
+    margin: .2rem 0 0;
+}
+.ambient {
+    display: inline-flex; align-items: baseline; gap: 0;
+    font-family: 'EB Garamond', Georgia, serif;
+    color: #2a2a2a;
+    font-size: .88rem;
+    margin: 0;
+    padding: 0;
+    border: none; background: none;
+}
+.ambient > * + *::before {
+    content: "";
+    display: inline-block;
+    width: 18px; height: 1px;
+    background: currentColor;
+    opacity: .25;
+    margin: 0 .85rem;
+    vertical-align: .28em;
+}
+.ambient__city {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic; font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: .01em;
+    text-transform: none;
+    color: #1a1a1a;
+}
+.ambient__city::first-letter { text-transform: uppercase; }
+.ambient__dot { display: none; }
+.ambient__time {
+    font-family: 'Inter', ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: .78rem;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: .06em;
+    color: #555;
+}
+.ambient__temp {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: .95rem;
+    font-variant-numeric: tabular-nums;
+    color: #555;
+}
+.ambient__icon { display: inline-flex; align-items: center; color: #333; }
+.ambient__icon::before { display: none !important; }
+.ambient__icon svg { width: 16px; height: 16px; }
+.ambient__icon svg .sun-ray { transform-origin: center; animation: ambient-sun 18s linear infinite; }
+@keyframes ambient-sun { to { transform: rotate(360deg); } }
+@media (max-width: 580px) {
+    .ambient { font-size: .8rem; }
+    .ambient > * + *::before { width: 12px; margin: 0 .55rem; }
+    .ambient__city { font-size: .92rem; }
+}
+</style>
+
+<script>
+(function(){
+    var elCity = document.getElementById('ambient-city');
+    var elTime = document.getElementById('ambient-time');
+    var elTemp = document.getElementById('ambient-temp');
+    var elIcon = document.getElementById('ambient-icon');
+    if (!elCity) return;
+
+    var tz = null;
+    function tick(){
+        try {
+            var opts = { hour: '2-digit', minute: '2-digit', hour12: false };
+            if (tz) opts.timeZone = tz;
+            elTime.textContent = new Intl.DateTimeFormat('en-GB', opts).format(new Date());
+        } catch(e){}
+    }
+
+    // Weather code → inline SVG icon
+    function icon(code){
+        var s = 'stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"';
+        if (code === 0 || code === 1) { // clear
+            return '<svg viewBox="0 0 24 24"><g class="sun-ray"><circle cx="12" cy="12" r="4" '+s+'/>' +
+                '<path '+s+' d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg>';
+        }
+        if (code <= 3) { // partly/overcast
+            return '<svg viewBox="0 0 24 24"><path '+s+' d="M17 13a5 5 0 0 0-9.6-1.5A4 4 0 0 0 7 19h10a3.5 3.5 0 0 0 0-7z"/></svg>';
+        }
+        if (code >= 45 && code <= 48) { // fog
+            return '<svg viewBox="0 0 24 24"><path '+s+' d="M3 9h18M3 13h18M3 17h12"/></svg>';
+        }
+        if (code >= 51 && code <= 67) { // drizzle/rain
+            return '<svg viewBox="0 0 24 24"><path '+s+' d="M17 11a5 5 0 0 0-9.6-1.5A4 4 0 0 0 7 17h10a3 3 0 0 0 0-6z"/><path '+s+' d="M9 20l-1 2M13 20l-1 2M17 20l-1 2"/></svg>';
+        }
+        if (code >= 71 && code <= 77) { // snow
+            return '<svg viewBox="0 0 24 24"><path '+s+' d="M12 2v20M4 6l16 12M20 6 4 18"/></svg>';
+        }
+        if (code >= 80 && code <= 82) { // showers
+            return '<svg viewBox="0 0 24 24"><path '+s+' d="M17 11a5 5 0 0 0-9.6-1.5A4 4 0 0 0 7 17h10a3 3 0 0 0 0-6z"/><path '+s+' d="M9 19l-1 3M14 19l-1 3"/></svg>';
+        }
+        if (code >= 95) { // thunder
+            return '<svg viewBox="0 0 24 24"><path '+s+' d="M17 11a5 5 0 0 0-9.6-1.5A4 4 0 0 0 7 17h10a3 3 0 0 0 0-6z"/><path '+s+' d="m11 17-2 4h3l-1 3"/></svg>';
+        }
+        return '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" '+s+'/></svg>';
+    }
+
+    function setPlace(city, lat, lon, timezone){
+        elCity.textContent = (city || 'HERE').toUpperCase();
+        tz = timezone || null;
+        tick();
+        fetch('https://api.open-meteo.com/v1/forecast?latitude=' + lat + '&longitude=' + lon + '&current=temperature_2m,weather_code&timezone=auto')
+            .then(function(r){ return r.json(); })
+            .then(function(d){
+                var c = d && d.current;
+                if (!c) return;
+                elTemp.textContent = Math.round(c.temperature_2m) + '°';
+                elIcon.innerHTML = icon(c.weather_code);
+            })
+            .catch(function(){});
+    }
+
+    // Default Paris; upgrade to visitor's city via IP
+    setPlace('Paris', 48.8566, 2.3522, 'Europe/Paris');
+    fetch('https://ipapi.co/json/')
+        .then(function(r){ return r.json(); })
+        .then(function(d){
+            if (d && d.latitude && d.longitude) {
+                setPlace(d.city, d.latitude, d.longitude, d.timezone);
+            }
+        })
+        .catch(function(){});
+
+    setInterval(tick, 15000);
+})();
+</script>
 
 <!-- jQuery -->
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>

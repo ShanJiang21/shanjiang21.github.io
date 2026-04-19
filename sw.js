@@ -7,7 +7,7 @@
  * ========================================================== */
 
 // Dynamic Cache Versioning
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 const CACHE_NAMESPACE = 'main-';
 const CACHE_NAME = `${CACHE_NAMESPACE}${CACHE_VERSION}`;
 
@@ -110,19 +110,31 @@ const cacheFirstStrategy = (request) => {
 };
 
 // Stale-While-Revalidate Strategy for Dynamic Content
+// Correct behavior: return cached response immediately if present;
+// otherwise await the network. Never resolve with null/undefined.
 const staleWhileRevalidateStrategy = (event) => {
   const request = event.request;
-  const cache = caches.match(request);
-  const fetchRequest = fetch(getCacheBustingUrl(request), { cache: "no-store" })
+
+  const networkFetch = fetch(getCacheBustingUrl(request), { cache: "no-store" })
     .then(response => {
-      if (response.ok) {
+      if (response && response.ok) {
         const responseClone = response.clone();
         caches.open(CACHE_NAME).then(cache => cache.put(request, responseClone));
       }
       return response;
-    }).catch(() => cache);
+    });
 
-  return event.respondWith(cache || fetchRequest);
+  return event.respondWith(
+    caches.match(request).then(cached => {
+      // If we have a cached copy, return it and refresh in the background.
+      if (cached) {
+        networkFetch.catch(() => {}); // keep promise alive but don't throw
+        return cached;
+      }
+      // No cache — wait for the network. On failure, fall back to offline page.
+      return networkFetch.catch(() => caches.match('offline.html'));
+    })
+  );
 };
 
 // Fetch and Cache Helper

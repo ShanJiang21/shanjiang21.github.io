@@ -1,0 +1,26 @@
+{%- comment -%}
+  Renders a post thumbnail with an automatic fallback if header-img is missing
+  or empty (e.g. "img/" stub).
+
+  Usage:
+    {% include post-thumb.html post=post class="ny-card__thumb" %}
+    {% include post-thumb.html post=post class="ny-hero__img" loading="eager" %}
+
+  Params:
+    post     — the post object (required)
+    class    — CSS class applied to <img> (optional)
+    loading  — "lazy" (default) or "eager"
+    alt      — override alt text (default: post.title)
+
+  Fallback source: site.default-thumb (set in _config.yml) → site.header-img.
+{%- endcomment -%}
+{%- assign _raw = include.post.header-img | default: '' | strip -%}
+{%- assign _trim = _raw | replace: 'img/', '' -%}
+{%- if _trim != '' -%}
+  {%- assign _src = include.post.header-img -%}
+{%- else -%}
+  {%- assign _src = site.default-thumb | default: site.header-img -%}
+{%- endif -%}
+{%- assign _loading = include.loading | default: 'lazy' -%}
+{%- assign _alt = include.alt | default: include.post.title -%}
+<img src="{{ site.baseurl }}/{{ _src }}" alt="{{ _alt }}" class="{{ include.class }}" loading="{{ _loading }}">

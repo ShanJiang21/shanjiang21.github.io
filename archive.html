@@ -1,85 +1,240 @@
 ---
-title: Archive
+title: Writings
 layout: default
 description: For these good old days
-header-img: "img/tag-bg.jpg"
 ---
 
-<!--
-Credits: this page shamelessly borrowed a lot from:
-https://github.com/kitian616/jekyll-TeXt-theme
--->
-<!-- Page Header -->
-{% include intro-header.html type='page'%}
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			<!-- Tags (as filter) -->
-			<div id='tag_cloud' class="tags tags-sup js-tags">
-				<a class="tag-button--all" data-encode="">
-					Show All
-					<sup>{{site.posts.size}}</sup>
-				</a>
+<style>
+  :root {
+    --arch-ink: #111;
+    --arch-muted: #6b6b6b;
+    --arch-rule: #1a1a1a;
+    --arch-red: #c02626;
+    --arch-bg: #fbfaf7;
+    --arch-chip: #f1efe9;
+  }
+  body { background: var(--arch-bg); }
+  .intro-header { display: none !important; }
 
-				{% capture tags %}
-				{% for tag in site.tags %}
-				<a data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
-					data-encode="{{ tag[0] | strip | url_encode }}"
-					class="tag-button"
-					title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-					{{ tag[0] }}
-					<sup>{{tag[1].size}}</sup>
-				</a>
-				{% endfor %}
-				{% endcapture %}
-        {{ tags | split:'</a>' | sort | join:'</a>' }}
-			</div>
+  .arch-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 6.5rem 2rem 5rem;
+  }
 
-            <!-- Article List -->
-			<div class="mini-post-list js-result d-none">
-			{%- assign _sorted_list = site.posts -%}
-			{%- assign _sorted_list = _sorted_list | sort: 'date' -%}
-			{%- assign _sorted_list = _sorted_list | reverse -%}
+  .arch-header { text-align: center; margin-bottom: 3.5rem; }
+  .arch-dateline {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: .9rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--arch-muted);
+    margin: 0 0 1rem;
+  }
+  .arch-title {
+    font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: clamp(2.4rem, 5.5vw, 4.2rem);
+    letter-spacing: .02em;
+    line-height: 1;
+    color: var(--arch-ink);
+    margin: 0 0 1.1rem;
+  }
+  .arch-subtitle {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--arch-muted);
+    margin: 0;
+  }
 
+  .arch-rule {
+    border: 0;
+    border-top: 2px solid var(--arch-rule);
+    margin: 2.5rem auto 2rem;
+    max-width: 100%;
+  }
 
-			{%- for _article in _sorted_list -%}
-				{%- assign _tags = '' -%}
-				{%- for _tag in _article.tags -%}
-					{%- assign _tag_encode = _tag | strip | url_encode -%}
-					{%- if forloop.last -%}
-						{%- assign _tags = _tags | append: _tag_encode -%}
-					{%- else -%}
-						{%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
-					{%- endif -%}
-				{%- endfor -%}
+  /* Tag filter */
+  .arch-tags {
+    display: flex; flex-wrap: wrap; gap: .5rem .55rem;
+    justify-content: center;
+    margin: 0 0 3.5rem;
+    padding: 0;
+  }
+  .arch-tags a {
+    display: inline-flex; align-items: baseline; gap: .35rem;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: .98rem;
+    padding: .38rem .85rem;
+    color: var(--arch-ink);
+    background: var(--arch-chip);
+    border-radius: 999px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background .15s ease, color .15s ease;
+    line-height: 1.1;
+  }
+  .arch-tags a sup {
+    font-family: 'Inter', sans-serif;
+    font-size: .68rem;
+    color: var(--arch-muted);
+    font-weight: 500;
+    top: -.2em;
+  }
+  .arch-tags a:hover { background: #111; color: #fff; }
+  .arch-tags a:hover sup { color: rgba(255,255,255,.7); }
+  .arch-tags a.arch-tag--active { background: #111; color: #fff; }
+  .arch-tags a.arch-tag--active sup { color: rgba(255,255,255,.7); }
 
-			{% comment %} group by year {% endcomment %}
-			{%- assign _currentdate = _article.date | date: '%Y' -%}
-			{%- if _currentdate != _date -%}
-				{%- unless forloop.first -%}</section>{%- endunless -%}
-				<section>
-				<span class="fa listing-seperator">
-					<span class="tag-text">{{ _currentdate }}</span>
-				</span>
-				{%- assign _date = _currentdate -%}
-			{%- endif -%}
+  /* Year separators */
+  .arch-year {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 2.5rem;
+    padding: 2.5rem 0;
+    border-top: 1px solid #d9d5cc;
+  }
+  .arch-year:first-of-type { border-top: 2px solid var(--arch-rule); }
+  .arch-year__label {
+    font-family: 'Cinzel', 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    letter-spacing: .03em;
+    color: var(--arch-ink);
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+  }
+  .arch-year__list { display: flex; flex-direction: column; gap: 1.8rem; }
 
-				<div class="post-preview item" data-tags="{{ _tags }}">
-				    <a href="{{ _article.url | prepend: site.baseurl }}">
-				        <h2 class="post-title">
-                            {{ _article.title }}
-				        </h2>
-				        {% if _article.subtitle %}
-				        <h3 class="post-subtitle">
-				            {{ _article.subtitle }}
-				        </h3>
-				        {% endif %}
-				    </a>
-					<hr>
-				</div>
-			{% endfor %}
-		</div>
-	</div>
+  .arch-item { padding-bottom: 1.6rem; border-bottom: 1px solid #e5e1d7; }
+  .arch-item:last-child { border-bottom: 0; }
+  .arch-item a { text-decoration: none; color: inherit; display: block; }
+  .arch-item__date {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: .92rem;
+    color: var(--arch-muted);
+    margin: 0 0 .35rem;
+    letter-spacing: .02em;
+  }
+  .arch-item__title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.55rem;
+    line-height: 1.25;
+    color: var(--arch-ink);
+    margin: 0 0 .35rem;
+    transition: color .15s ease;
+  }
+  .arch-item a:hover .arch-item__title { color: var(--arch-red); }
+  .arch-item__subtitle {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 1.02rem;
+    color: var(--arch-muted);
+    font-style: italic;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .arch-hide { display: none !important; }
+
+  @media (max-width: 720px) {
+    .arch-wrap { padding: 5rem 1.2rem 4rem; }
+    .arch-year { grid-template-columns: 1fr; gap: 1rem; padding: 2rem 0; }
+    .arch-year__label { position: static; font-size: 1.6rem; }
+    .arch-item__title { font-size: 1.25rem; }
+  }
+</style>
+
+<div class="arch-wrap">
+  <header class="arch-header">
+    <p class="arch-dateline">The Archive · Since 2018</p>
+    <h1 class="arch-title">Writings</h1>
+    <!-- hero intentionally omitted; layout: default skips intro-header -->
+    <p class="arch-subtitle">For these good old days.</p>
+  </header>
+
+  <nav id="tag_cloud" class="arch-tags js-tags" aria-label="Filter by tag">
+    <a class="tag-button--all arch-tag--active" data-encode="">Show All <sup>{{ site.posts.size }}</sup></a>
+    {% capture tags %}
+    {% for tag in site.tags %}
+    <a data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
+       data-encode="{{ tag[0] | strip | url_encode }}"
+       class="tag-button"
+       title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }} <sup>{{ tag[1].size }}</sup></a>
+    {% endfor %}
+    {% endcapture %}
+    {{ tags | split:'</a>' | sort | join:'</a>' }}
+  </nav>
+
+  <div class="js-result">
+    {%- assign _sorted_list = site.posts | sort: 'date' | reverse -%}
+    {%- assign _date = '' -%}
+    {%- for _article in _sorted_list -%}
+      {%- assign _tags = '' -%}
+      {%- for _tag in _article.tags -%}
+        {%- assign _tag_encode = _tag | strip | url_encode -%}
+        {%- if forloop.last -%}
+          {%- assign _tags = _tags | append: _tag_encode -%}
+        {%- else -%}
+          {%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- assign _currentdate = _article.date | date: '%Y' -%}
+      {%- if _currentdate != _date -%}
+        {%- unless forloop.first -%}</div></section>{%- endunless -%}
+        <section class="arch-year">
+          <div class="arch-year__label">{{ _currentdate }}</div>
+          <div class="arch-year__list">
+        {%- assign _date = _currentdate -%}
+      {%- endif -%}
+
+        <article class="arch-item item" data-tags="{{ _tags }}">
+          <a href="{{ _article.url | prepend: site.baseurl }}">
+            <p class="arch-item__date">{{ _article.date | date: "%B %-d" }}</p>
+            <h2 class="arch-item__title">{{ _article.title }}</h2>
+            {% if _article.subtitle %}<p class="arch-item__subtitle">{{ _article.subtitle }}</p>{% endif %}
+          </a>
+        </article>
+
+      {%- if forloop.last -%}</div></section>{%- endif -%}
+    {%- endfor -%}
+  </div>
 </div>
+
+<script>
+(function(){
+  var tags = document.querySelectorAll('#tag_cloud a');
+  var items = document.querySelectorAll('.arch-item');
+  var sections = document.querySelectorAll('.arch-year');
+
+  function filter(encoded){
+    var visibleBySection = [];
+    sections.forEach(function(sec){ visibleBySection.push(0); });
+    items.forEach(function(item){
+      var t = item.getAttribute('data-tags') || '';
+      var match = !encoded || t.split(',').indexOf(encoded) !== -1;
+      item.classList.toggle('arch-hide', !match);
+    });
+    sections.forEach(function(sec){
+      var anyVisible = sec.querySelectorAll('.arch-item:not(.arch-hide)').length > 0;
+      sec.classList.toggle('arch-hide', !anyVisible);
+    });
+  }
+
+  tags.forEach(function(a){
+    a.addEventListener('click', function(e){
+      e.preventDefault();
+      tags.forEach(function(x){ x.classList.remove('arch-tag--active'); });
+      a.classList.add('arch-tag--active');
+      filter(a.getAttribute('data-encode') || '');
+    });
+  });
+})();
+</script>

@@ -1,4 +1,27 @@
 <!-- Navigation -->
+<style>
+  /* Site wordmark — italic "Shan" replaces the old Bootstrap brand text */
+  .navbar-custom .navbar-brand.site-brand {
+    font-family: 'Playfair Display', 'EB Garamond', Georgia, serif !important;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.9rem;
+    letter-spacing: .01em;
+    line-height: 1;
+    padding-top: 18px;
+    padding-bottom: 14px;
+    color: #111;
+    transition: opacity .2s ease, transform .2s ease;
+  }
+  .navbar-custom.invert .navbar-brand.site-brand { color: #fff; }
+  .navbar-custom .navbar-brand.site-brand:hover,
+  .navbar-custom .navbar-brand.site-brand:focus {
+    opacity: .68;
+    transform: translateY(-1px);
+    background: transparent;
+    text-decoration: none;
+  }
+</style>
 {% if page.nav-style == "invert" or page.header-style == "text" %}
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">
     {% else %}
@@ -13,7 +36,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+                <a class="navbar-brand site-brand" href="{{ site.baseurl }}/">Shan</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,15 +44,14 @@
                 <div class="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="{{ site.baseurl }}/">Home</a>
+                            <a href="{{ site.baseurl }}/archive/">Writings</a>
                         </li>
-                        {% for page in site.pages %}
-                        {% if page.title and page.hide-in-nav != true %}
                         <li>
-                            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                            <a href="{{ site.baseurl }}/sharing/">Sharing</a>
                         </li>
-                        {% endif %}
-                        {% endfor %}
+                        <li>
+                            <a href="{{ site.baseurl }}/about/">About</a>
+                        </li>
                         <li class="search-icon">
                             <a href="javascript:void(0)">
                                 <i class="fa fa-search"></i>
