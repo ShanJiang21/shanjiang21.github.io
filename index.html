@@ -246,14 +246,26 @@ description: "Love, live and lost."
     margin: 0 0 0.95rem;
     font-style: italic;
   }
-  /* Byline block — date + author stacked at the bottom of each card */
+  /* Byline block — date + author on one line at the bottom of each card */
   .ny-card__byline {
     display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.6rem;
     margin: 0;
     margin-top: auto;
     padding-top: 0.75rem;
+  }
+  .ny-card__byline::before {
+    /* editorial · separator */
+    content: "";
+  }
+  .ny-card__date + .ny-card__author::before {
+    content: "·";
+    margin-right: 0.5rem;
+    color: var(--muted);
+    font-style: normal;
   }
   .ny-card__date {
     font-family: var(--ff-body);
