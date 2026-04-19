@@ -13,7 +13,7 @@
     color: #111;
     transition: opacity .2s ease, transform .2s ease;
   }
-  .navbar-custom.invert .navbar-brand.site-brand { color: #fff; }
+  .navbar-custom.invert .navbar-brand.site-brand { color: #111; }
   .navbar-custom .navbar-brand.site-brand:hover,
   .navbar-custom .navbar-brand.site-brand:focus {
     opacity: .68;
@@ -21,6 +21,23 @@
     background: transparent;
     text-decoration: none;
   }
+
+  /* Force dark nav text on every page (all pages now use light backgrounds).
+     Overrides hux-blog's default white-on-dark-hero assumption. */
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav li a,
+  .navbar-custom.is-fixed .navbar-brand,
+  .navbar-custom.is-fixed .nav li a {
+    color: #1a1a1a !important;
+  }
+  .navbar-custom .navbar-brand:hover,
+  .navbar-custom .navbar-brand:focus,
+  .navbar-custom .nav li a:hover,
+  .navbar-custom .nav li a:focus {
+    color: #c8001d !important;
+  }
+  /* Mobile hamburger bars */
+  .navbar-custom .navbar-toggle .icon-bar { background-color: #1a1a1a !important; }
 </style>
 {% if page.nav-style == "invert" or page.header-style == "text" %}
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">

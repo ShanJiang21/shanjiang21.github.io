@@ -7,7 +7,7 @@
  * ========================================================== */
 
 // Dynamic Cache Versioning
-const CACHE_VERSION = 'v3';
+const CACHE_VERSION = 'v4';
 const CACHE_NAMESPACE = 'main-';
 const CACHE_NAME = `${CACHE_NAMESPACE}${CACHE_VERSION}`;
 
@@ -124,17 +124,15 @@ const staleWhileRevalidateStrategy = (event) => {
       return response;
     });
 
-  return event.respondWith(
-    caches.match(request).then(cached => {
-      // If we have a cached copy, return it and refresh in the background.
-      if (cached) {
-        networkFetch.catch(() => {}); // keep promise alive but don't throw
-        return cached;
-      }
-      // No cache — wait for the network. On failure, fall back to offline page.
-      return networkFetch.catch(() => caches.match('offline.html'));
-    })
-  );
+  return caches.match(request).then(cached => {
+    // If we have a cached copy, return it and refresh in the background.
+    if (cached) {
+      networkFetch.catch(() => {}); // keep promise alive but don't throw
+      return cached;
+    }
+    // No cache — wait for the network. On failure, fall back to offline page.
+    return networkFetch.catch(() => caches.match('offline.html'));
+  });
 };
 
 // Fetch and Cache Helper
