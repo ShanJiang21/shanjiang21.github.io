@@ -12,53 +12,21 @@
 #
 # To add a trip:
 #   1. Create folder img/travel/<slug>/ and drop your .jpg/.png files in it.
-#   2. Append a new block below with lat/lon looked up on Google Maps (right-click → copy coords).
+#   2. Append a new block below with lat/lon looked up on Google Maps
+#      (right-click the location → "What's here?" → copy coords).
 #   3. Commit + push. No code changes needed.
+#
+# Example block (uncomment and edit when you're ready to log a trip):
+#
+# - place: Kyoto
+#   country: Japan
+#   lat: 35.0116
+#   lon: 135.7681
+#   date: "2024-04"
+#   slug: kyoto-2024
+#   photos:
+#     - philosophers-path.jpg
+#   cover: philosophers-path.jpg
+#   note: "Cherry blossoms on the Philosopher's Path."
 
-- place: Kyoto
-  country: Japan
-  lat: 35.0116
-  lon: 135.7681
-  date: "2024-04"
-  slug: kyoto-2024
-  photos:
-    - philosophers-path.jpg
-    - fushimi-inari.jpg
-  cover: philosophers-path.jpg
-  note: "Cherry blossoms on the Philosopher's Path; the torii gates of Fushimi Inari at dawn."
-
-- place: Lisbon
-  country: Portugal
-  lat: 38.7223
-  lon: -9.1393
-  date: "2023-10"
-  slug: lisbon-2023
-  photos: []
-  note: "Tiled walls, yellow trams, the Atlantic showing up everywhere you turn a corner."
-
-- place: New York
-  country: USA
-  lat: 40.7128
-  lon: -74.0060
-  date: "2023-06"
-  slug: nyc-2023
-  photos: []
-  note: "Summer in Brooklyn — three years after moving away, it still knows me."
-
-- place: Singapore
-  country: Singapore
-  lat: 1.3521
-  lon: 103.8198
-  date: "2024-08"
-  slug: singapore-2024
-  photos: []
-  note: "Tropical rain, hawker centres, a city that never stops sweating."
-
-- place: Paris
-  country: France
-  lat: 48.8566
-  lon: 2.3522
-  date: "2025-09"
-  slug: paris-2025
-  photos: []
-  note: "Month-long stay. Coffee at Ten Belles; late-night walks along the Canal."
+# No trips logged yet.

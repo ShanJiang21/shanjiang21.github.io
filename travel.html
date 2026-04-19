@@ -268,6 +268,18 @@ permalink: /travel/
     <p class="tv-subtitle">{{ page.description }}.</p>
   </header>
 
+  {% if trips.size == 0 %}
+  <section class="tv-coming-soon" aria-label="Coming soon">
+    <p class="tv-coming-soon__eyebrow">The Field Book</p>
+    <h2 class="tv-coming-soon__title">Logs in progress.</h2>
+    <p class="tv-coming-soon__body">
+      This is where trips will land — a pin on the map, a year, a few photographs,
+      a short note. The first entries are being written up. Check back shortly,
+      or <a href="/writings/">read a dispatch</a> in the meantime.
+    </p>
+  </section>
+  {% else %}
+
   <section class="tv-stats" aria-label="Summary">
     <div class="tv-stat"><div class="tv-stat__n">{{ countries.size }}</div><div class="tv-stat__l">Countries</div></div>
     <div class="tv-stat"><div class="tv-stat__n">{{ cities.size }}</div><div class="tv-stat__l">Cities</div></div>

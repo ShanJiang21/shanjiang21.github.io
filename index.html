@@ -273,17 +273,16 @@ description: "Love, live and lost."
   .ny-card:nth-child(6) { transition-delay: 0.55s; }
   .ny-card__title {
     position: relative;
-    transition: color 0.15s;
+    /* Underline hugs the title text (not the card width) and fades in on hover */
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    transition: color 0.18s ease, text-decoration-color 0.3s ease;
   }
-  .ny-card__title::after {
-    content: '';
-    position: absolute;
-    left: 0; bottom: -3px;
-    width: 0; height: 2px;
-    background: var(--red);
-    transition: width 0.4s cubic-bezier(.2,.7,.2,1);
+  .ny-card:hover .ny-card__title {
+    text-decoration-color: var(--red);
   }
-  .ny-card:hover .ny-card__title::after { width: 55%; }
   .ny-card:nth-child(3n) { border-right: none; padding-right: 0; }
   .ny-card:nth-child(3n+2),
   .ny-card:nth-child(3n+3) { padding-left: 0; }
