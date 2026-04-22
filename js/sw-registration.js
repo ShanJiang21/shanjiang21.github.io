@@ -21,11 +21,9 @@ function handleRegistration(registration){
       if (navigator.serviceWorker.controller) {
         console.log('SW is updated');
       } else {
+        // First-visit install. Silent — the old 'App ready for offline use'
+        // snackbar was intrusive and not useful to readers.
         console.log('A Visit without previous SW');
-        createSnackbar({
-          message: 'App ready for offline use.',
-          duration: 3000
-        })
       }
     };
   }

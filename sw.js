@@ -7,7 +7,7 @@
  * ========================================================== */
 
 // Dynamic Cache Versioning
-const CACHE_VERSION = 'v4';
+const CACHE_VERSION = 'v5';
 const CACHE_NAMESPACE = 'main-';
 const CACHE_NAME = `${CACHE_NAMESPACE}${CACHE_VERSION}`;
 
