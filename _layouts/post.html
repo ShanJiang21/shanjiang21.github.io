@@ -166,6 +166,95 @@ layout: default
   }
   .ss-post__body > * { max-width: 100%; }
 
+  /* ── Floating Table of Contents (right rail, only on wide screens) ── */
+  .ss-toc {
+    display: none;
+  }
+  @media (min-width: 1180px) {
+    .ss-toc {
+      display: block;
+      position: fixed;
+      top: 110px;
+      right: 28px;
+      width: 230px;
+      max-height: calc(100vh - 160px);
+      overflow-y: auto;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--ss-body);
+      z-index: 50;
+    }
+  }
+  .ss-toc__toggle {
+    appearance: none;
+    background: transparent;
+    border: 0;
+    padding: 0 0 0.6rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    color: var(--ss-ink);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.005em;
+    width: 100%;
+  }
+  .ss-toc__bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2d6a8f;
+    flex-shrink: 0;
+  }
+  .ss-toc__title { flex: 1; text-align: left; }
+  .ss-toc__chevron {
+    flex-shrink: 0;
+    color: var(--ss-muted);
+    transition: transform 0.25s ease;
+  }
+  .ss-toc.is-collapsed .ss-toc__chevron { transform: rotate(180deg); }
+  .ss-toc.is-collapsed .ss-toc__list {
+    max-height: 0;
+    opacity: 0;
+    margin: 0;
+    pointer-events: none;
+  }
+  .ss-toc__list {
+    list-style: none;
+    margin: 0.5rem 0 0;
+    padding: 0;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--ss-muted);
+    transition: max-height 0.35s ease, opacity 0.25s ease;
+    max-height: calc(100vh - 220px);
+    overflow-y: auto;
+  }
+  .ss-toc__item {
+    margin: 0.55rem 0;
+  }
+  .ss-toc__item--h3 { padding-left: 1.1rem; font-size: 0.86rem; }
+  .ss-toc__list a {
+    color: var(--ss-muted);
+    text-decoration: none;
+    display: block;
+    padding: 0.05rem 0;
+    border-left: 2px solid transparent;
+    padding-left: 0.6rem;
+    margin-left: -0.6rem;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .ss-toc__list a:hover { color: var(--ss-ink); }
+  .ss-toc__list a.is-active {
+    color: var(--ss-ink);
+    border-left-color: #2d6a8f;
+    font-weight: 500;
+  }
+  /* Custom scrollbar inside toc list */
+  .ss-toc__list::-webkit-scrollbar { width: 4px; }
+  .ss-toc__list::-webkit-scrollbar-thumb { background: rgba(0,0,0,.12); border-radius: 4px; }
+
   /* ── Tufte-style sidenotes ── */
   .sn-ref {
     counter-increment: sidenote;
@@ -505,6 +594,91 @@ layout: default
     {{ content }}
   </div>
 </article>
+
+<!-- Floating Table of Contents (renders on >=1100px screens; collapsible) -->
+<aside class="ss-toc" id="ssTocAside" aria-label="Table of contents" hidden>
+  <button type="button" class="ss-toc__toggle" id="ssTocToggle" aria-expanded="true" aria-controls="ssTocList">
+    <span class="ss-toc__bullet" aria-hidden="true"></span>
+    <span class="ss-toc__title">Table of Contents</span>
+    <svg class="ss-toc__chevron" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 15 12 9 18 15"/></svg>
+  </button>
+  <ol class="ss-toc__list" id="ssTocList"></ol>
+</aside>
+
+<script>
+(function(){
+  var body = document.querySelector('.ss-post__body');
+  var aside = document.getElementById('ssTocAside');
+  var list = document.getElementById('ssTocList');
+  var toggle = document.getElementById('ssTocToggle');
+  if (!body || !aside || !list || !toggle) return;
+
+  var headings = body.querySelectorAll('h1, h2, h3');
+  if (headings.length < 2) return;  // not worth a TOC for a single section
+
+  var slug = function(s){
+    return (s || '').toString().toLowerCase()
+      .replace(/[^一-龥\w\s-]/g, '')
+      .trim().replace(/\s+/g, '-');
+  };
+  var seen = {};
+  Array.prototype.forEach.call(headings, function(h){
+    if (!h.id) {
+      var base = slug(h.textContent);
+      var id = base, n = 2;
+      while (seen[id] || document.getElementById(id)) { id = base + '-' + n++; }
+      seen[id] = true;
+      h.id = id;
+    }
+    var li = document.createElement('li');
+    li.className = 'ss-toc__item ss-toc__item--' + h.tagName.toLowerCase();
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    a.dataset.target = h.id;
+    li.appendChild(a);
+    list.appendChild(li);
+  });
+
+  aside.hidden = false;
+
+  // Toggle expand/collapse
+  toggle.addEventListener('click', function(){
+    var open = aside.classList.toggle('is-collapsed');
+    toggle.setAttribute('aria-expanded', open ? 'false' : 'true');
+  });
+
+  // Active section via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var links = list.querySelectorAll('a');
+    var byId = {};
+    links.forEach(function(l){ byId[l.dataset.target] = l; });
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        var link = byId[e.target.id];
+        if (!link) return;
+        if (e.isIntersecting) {
+          links.forEach(function(l){ l.classList.remove('is-active'); });
+          link.classList.add('is-active');
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
+    Array.prototype.forEach.call(headings, function(h){ io.observe(h); });
+  }
+
+  // Smooth scroll on click
+  list.addEventListener('click', function(e){
+    var a = e.target.closest('a');
+    if (!a) return;
+    var target = document.getElementById(a.dataset.target);
+    if (!target) return;
+    e.preventDefault();
+    var y = target.getBoundingClientRect().top + window.scrollY - 24;
+    window.scrollTo({ top: y, behavior: 'smooth' });
+    history.replaceState(null, '', '#' + a.dataset.target);
+  });
+})();
+</script>
 
 <!-- Prev / Next -->
 {% if page.previous.url or page.next.url %}
