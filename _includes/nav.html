@@ -111,6 +111,10 @@
   /* Push the page content below the sticky bar (it has a peach bg now). */
   body { background: #fff; }
 
+  /* Mobile slide-down menu — hidden by default at every breakpoint;
+     the media query below only opens it on narrow screens. */
+  .acos-mobile { display: none; }
+
   @media (max-width: 860px) {
     .acos-nav__inner {
       grid-template-columns: auto 1fr auto;
