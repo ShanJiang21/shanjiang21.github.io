@@ -11,6 +11,7 @@ description: "Love, live and lost."
   /* ── Tokens ── */
   :root {
     --red:     #c8001d;
+    --blue:    #2d6a8f;          /* editorial steel-blue, used for title hover */
     --ink:     #1a1a1a;
     --muted:   #767676;
     --rule:    #d4d4d4;
@@ -23,7 +24,7 @@ description: "Love, live and lost."
   .ny-home {
     max-width: 1180px;
     margin: 0 auto;
-    padding: 100px 2rem 3rem;
+    padding: 2.5rem 2rem 3rem;
     background: var(--bg);
     color: var(--ink);
   }
@@ -289,7 +290,7 @@ description: "Love, live and lost."
     transition: color 0.15s;
     font-variation-settings: "opsz" 144;
   }
-  .ny-hero__title:hover { color: var(--red); }
+  .ny-hero__title:hover { color: var(--blue); }
   .ny-hero__excerpt {
     font-family: var(--ff-body);
     font-size: 1.32rem;
@@ -416,18 +417,6 @@ description: "Love, live and lost."
   .ny-card:nth-child(4) { transition-delay: 0.35s; }
   .ny-card:nth-child(5) { transition-delay: 0.45s; }
   .ny-card:nth-child(6) { transition-delay: 0.55s; }
-  .ny-card__title {
-    position: relative;
-    /* Underline hugs the title text (not the card width) and fades in on hover */
-    text-decoration: underline;
-    text-decoration-color: transparent;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 4px;
-    transition: color 0.18s ease, text-decoration-color 0.3s ease;
-  }
-  .ny-card:hover .ny-card__title {
-    text-decoration-color: var(--red);
-  }
   .ny-card:nth-child(3n) { border-right: none; padding-right: 0; }
   .ny-card:nth-child(3n+2),
   .ny-card:nth-child(3n+3) { padding-left: 0; }
@@ -448,14 +437,22 @@ description: "Love, live and lost."
     font-weight: 600;
     line-height: 1.18;
     color: var(--ink);
-    text-decoration: none;
+    /* Underline hugs text exactly (text-decoration always fits text content) */
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
     display: block;
     margin: 0 0 0.6rem;
-    transition: color 0.15s;
     letter-spacing: 0;
     font-variation-settings: "opsz" 72;
+    transition: color 0.18s ease, text-decoration-color 0.3s ease;
   }
-  .ny-card__title:hover { color: var(--red); }
+  .ny-card__title:hover,
+  .ny-card:hover .ny-card__title {
+    color: var(--blue);
+    text-decoration-color: var(--blue);
+  }
   .ny-card__excerpt {
     font-family: 'EB Garamond', Georgia, serif;
     font-size: 1.25rem;
@@ -1013,21 +1010,34 @@ description: "Love, live and lost."
     <p class="ny-collections__meta">Est. Collections &nbsp;·&nbsp; 2018 — {{ site.time | date: '%Y' }}</p>
   </header>
   <div class="ny-collections__grid">
-    <a href="{{ site.baseurl }}/writings/" class="ny-coll ny-coll--feature">
+    <a href="{{ site.baseurl }}/sharing/" class="ny-coll ny-coll--feature">
       <span class="ny-coll__num">01</span>
       <figure class="ny-coll__frame">
         <div class="ny-coll__img-inner">
-          <img src="{{ site.baseurl }}/img/IMG_1886.jpg" alt="Essays &amp; Writing" loading="lazy">
+          <img src="{{ site.baseurl }}/img/IMG_1886.jpg" alt="Readings &amp; Recommendations" loading="lazy">
         </div>
       </figure>
       <div class="ny-coll__meta">
-        <span class="ny-coll__kicker">Essays</span>
+        <span class="ny-coll__kicker">Readings</span>
+        <h3 class="ny-coll__title">A Quiet<br><em>Reading List</em></h3>
+        <span class="ny-coll__cta">Browse <span aria-hidden="true">→</span></span>
+      </div>
+    </a>
+    <a href="{{ site.baseurl }}/writings/" class="ny-coll ny-coll--alt ny-coll--up">
+      <span class="ny-coll__num">02</span>
+      <figure class="ny-coll__frame">
+        <div class="ny-coll__img-inner">
+          <img src="{{ site.baseurl }}/img/home-bg.jpg" alt="Essays &amp; Writing" loading="lazy">
+        </div>
+      </figure>
+      <div class="ny-coll__meta">
+        <span class="ny-coll__kicker">Writings</span>
         <h3 class="ny-coll__title">On Writing<br><em>&amp; Other Rooms</em></h3>
         <span class="ny-coll__cta">Enter <span aria-hidden="true">→</span></span>
       </div>
     </a>
-    <a href="{{ site.baseurl }}/travel/" class="ny-coll ny-coll--alt ny-coll--up">
-      <span class="ny-coll__num">02</span>
+    <a href="{{ site.baseurl }}/travel/" class="ny-coll ny-coll--alt ny-coll--down">
+      <span class="ny-coll__num">03</span>
       <figure class="ny-coll__frame">
         <div class="ny-coll__img-inner">
           <img src="{{ site.baseurl }}/img/Gordan_hunt.jpg" alt="On the Road" loading="lazy">
@@ -1037,19 +1047,6 @@ description: "Love, live and lost."
         <span class="ny-coll__kicker">Travel</span>
         <h3 class="ny-coll__title">On the Road</h3>
         <span class="ny-coll__cta">Wander <span aria-hidden="true">→</span></span>
-      </div>
-    </a>
-    <a href="{{ site.baseurl }}/writings/?tag=Food" class="ny-coll ny-coll--alt ny-coll--down">
-      <span class="ny-coll__num">03</span>
-      <figure class="ny-coll__frame">
-        <div class="ny-coll__img-inner">
-          <img src="{{ site.baseurl }}/img/food.jpg" alt="Food" loading="lazy">
-        </div>
-      </figure>
-      <div class="ny-coll__meta">
-        <span class="ny-coll__kicker">Food</span>
-        <h3 class="ny-coll__title">The Long Table</h3>
-        <span class="ny-coll__cta">Taste <span aria-hidden="true">→</span></span>
       </div>
     </a>
   </div>
