@@ -254,9 +254,19 @@ permalink: /travel/
   }
 </style>
 
-{%- assign trips = site.data.travel | sort: 'date' | reverse -%}
-{%- assign countries = trips | map: 'country' | uniq -%}
-{%- assign cities    = trips | map: 'place'   | uniq -%}
+{%- comment -%}
+  When _data/travel.yml has no entries the assign returns `false`, which
+  blows up `| map`. Guard against that with a sensible default.
+{%- endcomment -%}
+{%- if site.data.travel and site.data.travel.size > 0 -%}
+  {%- assign trips = site.data.travel | sort: 'date' | reverse -%}
+  {%- assign countries = trips | map: 'country' | uniq -%}
+  {%- assign cities    = trips | map: 'place'   | uniq -%}
+{%- else -%}
+  {%- assign trips = '' | split: '' -%}
+  {%- assign countries = '' | split: '' -%}
+  {%- assign cities = '' | split: '' -%}
+{%- endif -%}
 {%- assign photo_count = 0 -%}
 {%- for t in trips -%}{%- if t.photos -%}{%- assign photo_count = photo_count | plus: t.photos.size -%}{%- endif -%}{%- endfor -%}
 
