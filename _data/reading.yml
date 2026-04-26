@@ -1,0 +1,58 @@
+# Reading log — single source of truth for /reading/
+#
+# Required:
+#   title    — book title
+#   author   — author name(s)
+#   year     — year you finished (used to group)
+#
+# Optional:
+#   cover    — path under img/reading/  (e.g. "stoner.jpg"). If absent,
+#              the page renders a typographic placeholder card.
+#   rating   — 1-5 (renders dots; omit to hide)
+#   status   — "reading" | "finished"  (default: finished)
+#   favorite — true to surface in the All-Time Favourites row
+#   month    — 1-12 (used to sort within a year)
+#   takeaway — ONE sentence — the thing that stuck
+#   highlights — list of short quotes you marked
+#   notes_url — internal post link if you've written a longer review
+#
+# To add a book:
+#   1. (optional) drop a cover at img/reading/<slug>.jpg, ~600px wide
+#   2. add a block below
+#   3. commit & push — done.
+#
+# Two example rows are commented out so you can see the shape.
+
+# --- CURRENTLY READING ----------------------------------------------------
+
+- title: "Stoner"
+  author: "John Williams"
+  year: 2026
+  status: reading
+  takeaway: "A quiet life can still be a complete one."
+
+# --- FINISHED -------------------------------------------------------------
+
+- title: "Little Women"
+  author: "Louisa May Alcott"
+  year: 2022
+  rating: 4
+  takeaway: "Sisters as a structure for thinking about ambition."
+
+- title: "The Catcher in the Rye"
+  author: "J. D. Salinger"
+  year: 2022
+  rating: 4
+  takeaway: "Holden's voice is more useful at thirty than at sixteen."
+
+# - title: "..."
+#   author: "..."
+#   cover: "title-slug.jpg"
+#   year: 2024
+#   month: 6
+#   rating: 5
+#   favorite: true
+#   takeaway: "A single sentence."
+#   highlights:
+#     - "A quote you marked."
+#     - "Another quote."

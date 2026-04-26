@@ -1,0 +1,12 @@
+{%- comment -%}
+Sidenote — a Tufte-style margin footnote.
+
+Usage in any post body (markdown OK because Liquid runs first):
+
+    Some claim in the body text{% include sn.html note="The supporting
+    note that lives in the right margin on wide screens, and inline on
+    mobile." %}.
+
+The number is auto-counted by CSS (counter-reset on .ss-post__body), so
+you never have to manage `[^1]` yourself.
+{%- endcomment -%}<sup class="sn-ref" aria-label="Note"></sup><aside class="sn-body" role="doc-footnote">{{ include.note | markdownify | strip_newlines | replace: '<p>', '' | replace: '</p>', '' }}</aside>

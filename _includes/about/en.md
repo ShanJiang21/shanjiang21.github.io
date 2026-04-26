@@ -1,14 +1,15 @@
 
 #### About me
 
-In 2020, I graduated from Mailman school of Public Health, Columbia University. During 2020-2022, I worked in [TikTok](https://www.tiktok.com/) as a rookie product manager, after being locked down in Shanghai for 2 months, I decided to seek a new place to continue my professional life. After moving to Singapore, I worked in Shopee for 15 months until Oct 2023, focused on recommendation strategy design for cross-border e-commerce business.  
+I'm Shan — a writer, reader, and (newly) a mother. In 2020 I graduated from the Mailman School of Public Health at Columbia University. From 2020 to 2022 I worked at [TikTok](https://www.tiktok.com/) as a rookie product manager; after being locked down in Shanghai for two months, I decided to seek a new place to continue my professional life. I moved to Singapore and worked at Shopee for fifteen months on cross-border e-commerce recommendation strategy until October 2023.
 
-Currently, I am enjoying my career break. If you think I am a good fit, please hit my [curriculum vitae](./Shan_CV_2023.pdf).
+These days I'm on the slow lane — raising a small human, writing more, sprinting less, reading slower. If you think I'd be a good fit for a role you're hiring, here's my [curriculum vitae](./Shan_CV_2023.pdf).
 
-However, I do believe the occupational identity is merely a tiny facet of me:
-* **Biological Structure:** A five-foot-six girl (she/her/hers).
-* **Social identity**: a daughter, runner and an annoying reader who gives harsh comments.
-* **A Critical Don Quixote**: An Anti-social tomboy.
+But occupational identity is a tiny facet of any of us:
+
+* **Now:** A new mother. A returning runner. A writer in pause.
+* **Always:** A daughter, an annoying reader who still gives harsh comments.
+* **Underneath:** A critical Don Quixote — an anti-social tomboy.
 
 #### Digital footprints
 

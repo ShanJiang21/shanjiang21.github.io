@@ -1,0 +1,424 @@
+---
+layout: default
+title: Reading
+permalink: /reading/
+description: A reading log, slowly.
+---
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,400;1,9..144,600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+  /* ── Tokens ── */
+  :root {
+    --rd-red:    #c8001d;
+    --rd-blue:   #2d6a8f;
+    --rd-ink:    #1a1a1a;
+    --rd-muted:  #767676;
+    --rd-rule:   #d9d3c5;
+    --rd-paper:  #f8efe2;          /* warm peach, matches nav */
+    --rd-card:   #faf6ee;
+    --rd-bg:     #fff;
+    --rd-ff-head:'Fraunces', 'Libre Caslon Text', Georgia, serif;
+    --rd-ff-body:'EB Garamond', Georgia, 'Times New Roman', serif;
+  }
+
+  .rd-wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 3rem 2rem 5rem;
+    color: var(--rd-ink);
+    background: var(--rd-bg);
+  }
+
+  /* ── Header ── */
+  .rd-head { margin: 1rem 0 4rem; }
+  .rd-head__kicker {
+    font-family: var(--rd-ff-body);
+    font-size: 0.95rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--rd-red);
+    margin: 0 0 0.6rem;
+  }
+  .rd-head__title {
+    font-family: var(--rd-ff-head);
+    font-weight: 600;
+    font-size: clamp(3rem, 7vw, 5.5rem);
+    line-height: 1;
+    color: var(--rd-ink);
+    margin: 0 0 0.6rem;
+    letter-spacing: -0.005em;
+    font-variation-settings: "opsz" 144;
+  }
+  .rd-head__sub {
+    font-family: var(--rd-ff-body);
+    font-style: italic;
+    font-size: 1.4rem;
+    color: var(--rd-muted);
+    margin: 0;
+    max-width: 38em;
+  }
+  .rd-head__sub em { color: var(--rd-blue); font-style: italic; font-weight: 500; }
+  .rd-head__line {
+    margin-top: 2.2rem;
+    height: 1px;
+    background: var(--rd-ink);
+    transform: scaleX(0);
+    transform-origin: left center;
+    animation: rd-line 1.1s cubic-bezier(.2,.7,.2,1) 0.35s forwards;
+  }
+  @keyframes rd-line { to { transform: scaleX(1); } }
+
+  /* ── Section labels ── */
+  .rd-section { margin-top: 4.5rem; }
+  .rd-section__head {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin: 0 0 1.5rem;
+  }
+  .rd-section__num {
+    font-family: var(--rd-ff-head);
+    font-size: 1.05rem;
+    color: var(--rd-blue);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .rd-section__title {
+    font-family: var(--rd-ff-head);
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin: 0;
+    color: var(--rd-ink);
+    line-height: 1;
+    font-variation-settings: "opsz" 96;
+  }
+  .rd-section__count {
+    font-family: var(--rd-ff-body);
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--rd-muted);
+    margin-left: auto;
+  }
+
+  /* ── Now reading (featured) ── */
+  .rd-now {
+    background: var(--rd-paper);
+    border: 1px solid var(--rd-rule);
+    border-radius: 4px;
+    padding: 2rem 2.25rem;
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 2rem;
+    align-items: center;
+    position: relative;
+  }
+  .rd-now::before {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 2px;
+    pointer-events: none;
+  }
+  .rd-now__cover {
+    aspect-ratio: 2/3;
+    background: var(--rd-card);
+    border: 1px solid var(--rd-rule);
+    box-shadow: 0 1px 0 rgba(0,0,0,.05), 0 12px 28px -16px rgba(30,25,20,.35);
+    object-fit: cover;
+    width: 100%;
+    display: block;
+  }
+  .rd-now__cover--placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.6rem 0.5rem;
+    font-family: var(--rd-ff-head);
+    font-weight: 600;
+    font-size: 0.7rem;
+    line-height: 1.15;
+    color: var(--rd-ink);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .rd-now__meta {}
+  .rd-now__eyebrow {
+    font-family: var(--rd-ff-body);
+    font-size: 0.78rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--rd-red);
+    font-weight: 600;
+    margin: 0 0 0.7rem;
+  }
+  .rd-now__title {
+    font-family: var(--rd-ff-head);
+    font-size: 1.95rem;
+    font-weight: 600;
+    line-height: 1.15;
+    margin: 0 0 0.35rem;
+    color: var(--rd-ink);
+    font-variation-settings: "opsz" 96;
+  }
+  .rd-now__author {
+    font-family: var(--rd-ff-body);
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--rd-muted);
+    margin: 0 0 0.9rem;
+  }
+  .rd-now__takeaway {
+    font-family: var(--rd-ff-body);
+    font-size: 1.18rem;
+    line-height: 1.5;
+    font-style: italic;
+    color: #2a2a2a;
+    margin: 0;
+    border-left: 2px solid var(--rd-blue);
+    padding-left: 1rem;
+  }
+
+  /* ── Year shelf grid ── */
+  .rd-shelf {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 2rem 1.5rem;
+  }
+  .rd-book {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  .rd-book__cover {
+    aspect-ratio: 2/3;
+    background: var(--rd-card);
+    border: 1px solid var(--rd-rule);
+    box-shadow: 0 1px 0 rgba(0,0,0,.05), 0 14px 28px -18px rgba(30,25,20,.4);
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    transition: transform 0.45s cubic-bezier(.2,.7,.2,1), box-shadow 0.45s;
+  }
+  .rd-book:hover .rd-book__cover {
+    transform: translateY(-4px) rotate(-0.5deg);
+    box-shadow: 0 1px 0 rgba(0,0,0,.05), 0 22px 40px -22px rgba(30,25,20,.5);
+  }
+  /* Typographic placeholder when no cover */
+  .rd-book__cover--placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.75rem 0.7rem 0.85rem;
+    font-family: var(--rd-ff-head);
+    color: var(--rd-ink);
+    background:
+      linear-gradient(to bottom right, rgba(255,255,255,.7), rgba(0,0,0,.04)),
+      var(--rd-card);
+  }
+  .rd-book__cover--placeholder .ph-title {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.18;
+    letter-spacing: 0.005em;
+  }
+  .rd-book__cover--placeholder .ph-author {
+    font-family: var(--rd-ff-body);
+    font-style: italic;
+    font-size: 0.78rem;
+    color: var(--rd-muted);
+    line-height: 1.2;
+  }
+  .rd-book__title {
+    font-family: var(--rd-ff-head);
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 1.25;
+    color: var(--rd-ink);
+    margin: 0;
+    font-variation-settings: "opsz" 60;
+  }
+  .rd-book__author {
+    font-family: var(--rd-ff-body);
+    font-style: italic;
+    font-size: 0.95rem;
+    color: var(--rd-muted);
+    margin: 0;
+  }
+  .rd-book__rating {
+    display: inline-flex;
+    gap: 3px;
+    margin-top: 2px;
+  }
+  .rd-book__rating .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--rd-blue);
+  }
+  .rd-book__rating .dot.empty { background: rgba(45,106,143,0.18); }
+
+  /* ── Hover card / takeaway tooltip on hover ── */
+  .rd-book__takeaway {
+    font-family: var(--rd-ff-body);
+    font-style: italic;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    color: #444;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+  }
+  .rd-book:hover .rd-book__takeaway {
+    max-height: 200px;
+    opacity: 1;
+  }
+
+  /* ── Empty state ── */
+  .rd-empty {
+    padding: 4rem 0;
+    text-align: center;
+    font-family: var(--rd-ff-body);
+    color: var(--rd-muted);
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 720px) {
+    .rd-head__title { font-size: clamp(2.4rem, 12vw, 4rem); }
+    .rd-now { grid-template-columns: 90px 1fr; padding: 1.4rem 1.4rem; gap: 1.2rem; }
+    .rd-now__title { font-size: 1.5rem; }
+    .rd-now__takeaway { font-size: 1.05rem; }
+    .rd-section__title { font-size: 1.6rem; }
+    .rd-shelf { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 1.2rem 1rem; }
+  }
+</style>
+
+{%- assign all = site.data.reading -%}
+{%- assign now = '' | split: '' -%}
+{%- assign done = '' | split: '' -%}
+{%- assign favs = '' | split: '' -%}
+{%- for b in all -%}
+  {%- if b.status == 'reading' -%}
+    {%- assign now = now | push: b -%}
+  {%- else -%}
+    {%- assign done = done | push: b -%}
+  {%- endif -%}
+  {%- if b.favorite -%}{%- assign favs = favs | push: b -%}{%- endif -%}
+{%- endfor -%}
+
+<div class="rd-wrap">
+
+  <header class="rd-head">
+    <p class="rd-head__kicker">Marginalia</p>
+    <h1 class="rd-head__title">Reading.</h1>
+    <p class="rd-head__sub">Books, slowly. <em>Notes in the margins</em> — what stuck, and why.</p>
+    <div class="rd-head__line" aria-hidden="true"></div>
+  </header>
+
+  {% if now.size > 0 %}
+  <section class="rd-section" aria-label="Currently reading">
+    <div class="rd-section__head">
+      <span class="rd-section__num">— Now —</span>
+      <h2 class="rd-section__title">Currently reading</h2>
+    </div>
+    {% for b in now %}
+    <article class="rd-now">
+      {% if b.cover %}
+      <img class="rd-now__cover" src="{{ site.baseurl }}/img/reading/{{ b.cover }}" alt="{{ b.title }}">
+      {% else %}
+      <div class="rd-now__cover rd-now__cover--placeholder">
+        {{ b.title }}
+      </div>
+      {% endif %}
+      <div class="rd-now__meta">
+        <p class="rd-now__eyebrow">In progress</p>
+        <h3 class="rd-now__title">{{ b.title }}</h3>
+        <p class="rd-now__author">by {{ b.author }}</p>
+        {% if b.takeaway %}<p class="rd-now__takeaway">{{ b.takeaway }}</p>{% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if done.size > 0 %}
+    {%- assign done_sorted = done | sort: 'year' | reverse -%}
+    {%- assign current_year = '' -%}
+    {%- for b in done_sorted -%}
+      {%- if b.year != current_year -%}
+        {%- unless forloop.first -%}</div></section>{%- endunless -%}
+        <section class="rd-section">
+          <div class="rd-section__head">
+            <span class="rd-section__num">— {{ b.year }} —</span>
+            <h2 class="rd-section__title">Finished</h2>
+            {% assign year_count = 0 %}
+            {% for x in done_sorted %}{% if x.year == b.year %}{% assign year_count = year_count | plus: 1 %}{% endif %}{% endfor %}
+            <span class="rd-section__count">{{ year_count }} book{% if year_count != 1 %}s{% endif %}</span>
+          </div>
+          <div class="rd-shelf">
+        {%- assign current_year = b.year -%}
+      {%- endif -%}
+
+      <article class="rd-book" tabindex="0">
+        {% if b.cover %}
+        <img class="rd-book__cover" src="{{ site.baseurl }}/img/reading/{{ b.cover }}" alt="{{ b.title }}">
+        {% else %}
+        <div class="rd-book__cover rd-book__cover--placeholder" aria-label="{{ b.title }} by {{ b.author }}">
+          <span class="ph-title">{{ b.title }}</span>
+          <span class="ph-author">{{ b.author }}</span>
+        </div>
+        {% endif %}
+        <h3 class="rd-book__title">{{ b.title }}</h3>
+        <p class="rd-book__author">{{ b.author }}</p>
+        {% if b.rating %}
+        <div class="rd-book__rating" aria-label="{{ b.rating }} of 5">
+          {% for i in (1..5) %}
+            {% if i <= b.rating %}<span class="dot"></span>{% else %}<span class="dot empty"></span>{% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% if b.takeaway %}<p class="rd-book__takeaway">{{ b.takeaway }}</p>{% endif %}
+      </article>
+
+      {%- if forloop.last -%}</div></section>{%- endif -%}
+    {%- endfor -%}
+  {% endif %}
+
+  {% if favs.size > 0 %}
+  <section class="rd-section" aria-label="All-time favourites">
+    <div class="rd-section__head">
+      <span class="rd-section__num">— Forever —</span>
+      <h2 class="rd-section__title">All-time favourites</h2>
+    </div>
+    <div class="rd-shelf">
+      {% for b in favs %}
+      <article class="rd-book">
+        {% if b.cover %}
+        <img class="rd-book__cover" src="{{ site.baseurl }}/img/reading/{{ b.cover }}" alt="{{ b.title }}">
+        {% else %}
+        <div class="rd-book__cover rd-book__cover--placeholder">
+          <span class="ph-title">{{ b.title }}</span>
+          <span class="ph-author">{{ b.author }}</span>
+        </div>
+        {% endif %}
+        <h3 class="rd-book__title">{{ b.title }}</h3>
+        <p class="rd-book__author">{{ b.author }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if all.size == 0 %}
+  <p class="rd-empty">The shelves are empty for now — books arriving soon.</p>
+  {% endif %}
+
+</div>
