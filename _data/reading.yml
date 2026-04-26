@@ -7,7 +7,11 @@
 #
 # Optional:
 #   cover    — path under img/reading/  (e.g. "stoner.jpg"). If absent,
-#              the page renders a typographic placeholder card.
+#              the page falls back to isbn/olid (Open Library covers API),
+#              then a typographic placeholder card.
+#   isbn     — ISBN-13 or ISBN-10. Cover auto-fetched from
+#              https://covers.openlibrary.org/b/isbn/<isbn>-L.jpg
+#   olid     — Open Library edition ID (e.g. "OL27448W"). Same fallback.
 #   rating   — 1-5 (renders dots; omit to hide)
 #   status   — "reading" | "finished"  (default: finished)
 #   favorite — true to surface in the All-Time Favourites row
@@ -27,6 +31,7 @@
 
 - title: "Stoner"
   author: "John Williams"
+  isbn: "9781590171998"
   year: 2026
   status: reading
   takeaway: "A quiet life can still be a complete one."
@@ -35,12 +40,14 @@
 
 - title: "Little Women"
   author: "Louisa May Alcott"
+  isbn: "9780316489263"
   year: 2022
   rating: 4
   takeaway: "Sisters as a structure for thinking about ambition."
 
 - title: "The Catcher in the Rye"
   author: "J. D. Salinger"
+  isbn: "9780316769174"
   year: 2022
   rating: 4
   takeaway: "Holden's voice is more useful at thirty than at sixteen."

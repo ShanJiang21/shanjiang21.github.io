@@ -61,13 +61,13 @@ multilingual: true
   }
   .ab-head__name {
     font-family: 'Fraunces', serif;
-    font-size: clamp(2.6rem, 6vw, 4rem);
+    font-size: 1.67rem;          /* 20pt */
     font-weight: 600;
-    line-height: 1;
-    letter-spacing: -0.005em;
+    line-height: 1.15;
+    letter-spacing: 0;
     margin: 0 0 0.8rem;
     color: var(--ab-ink);
-    font-variation-settings: "opsz" 144;
+    font-variation-settings: "opsz" 96;
   }
   .ab-head__name em { font-style: italic; color: var(--ab-blue); font-weight: 500; }
   .ab-head__lede {
@@ -120,40 +120,77 @@ multilingual: true
   /* Hide the legacy <select> if it ever renders */
   .sel-lang { display: none !important; }
 
-  /* ── Markdown content ── */
-  .post-container {
-    text-align: left;
-  }
+  /* ── Markdown content (flat editorial) ── */
+  .post-container { text-align: left; }
   .post-container h4,
   .post-container h5 {
-    font-family: 'Fraunces', serif;
+    /* CJK fallback ensures Chinese headings render in a serif companion
+       (Songti SC / STSong) instead of system bold sans. */
+    font-family: 'Fraunces', 'Songti SC', 'STSong', 'PingFang SC', 'Noto Serif SC', Georgia, serif;
     font-weight: 600;
     letter-spacing: -0.005em;
     font-variation-settings: "opsz" 96;
     margin: 2.6rem 0 1rem;
     color: var(--ab-ink);
   }
-  .post-container h4 { font-size: 1.6rem; line-height: 1.2; }
-  .post-container h5 { font-size: 1.2rem; }
+  .post-container h4 { font-size: 1.33rem; line-height: 1.25; }   /* ≈ 16pt */
+  .post-container h5 { font-size: 1.08rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ab-muted); }
   .post-container p,
   .post-container li {
-    font-family: 'EB Garamond', Georgia, serif;
-    font-size: 1.18rem;
+    font-family: 'EB Garamond', 'Songti SC', 'STSong', 'PingFang SC', 'Noto Serif SC', Georgia, serif;
+    font-size: 1.08rem;          /* ≈ 13pt */
     line-height: 1.7;
     color: #2a2a2a;
   }
   .post-container ul, .post-container ol { padding-left: 1.4em; }
   .post-container blockquote {
-    font-family: 'EB Garamond', Georgia, serif;
+    font-family: 'EB Garamond', 'Songti SC', 'STSong', Georgia, serif;
     font-style: italic;
     font-size: 1.2rem;
-    border-left: 3px solid var(--ab-blue);
-    padding: 0.2em 0 0.2em 1.4em;
+    border-left: 2px solid var(--ab-ink);
+    padding: 0.1em 0 0.1em 1.2em;
     margin: 1.5em 0;
     color: #444;
   }
-  .post-container a { color: var(--ab-blue); border-bottom: 1px solid currentColor; text-decoration: none; }
-  .post-container a:hover { color: var(--ab-red); }
+  .post-container a {
+    color: var(--ab-ink);
+    text-decoration: underline;
+    text-decoration-color: rgba(45,106,143,0.4);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.18s, color 0.18s;
+  }
+  .post-container a:hover { color: var(--ab-blue); text-decoration-color: var(--ab-blue); }
+
+  /* Classical-Chinese / verse prose blocks (rendered from ```` fenced blocks).
+     Drops the generic 'code box' look — no border, gentle indent, serif. */
+  .post-container pre,
+  .post-container .highlight,
+  .post-container .highlighter-rouge {
+    background: #faf6ee;
+    border: 0;
+    border-radius: 0;
+    padding: 1.6rem 1.8rem;
+    margin: 2rem 0;
+    overflow: visible;
+    box-shadow: none;
+  }
+  .post-container pre code,
+  .post-container .highlight code,
+  .post-container .highlighter-rouge code {
+    font-family: 'EB Garamond', 'Songti SC', 'STSong', 'Cambria', Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.85;
+    color: #3a3a3a;
+    background: transparent;
+    padding: 0;
+    white-space: pre-wrap;
+    letter-spacing: 0.02em;
+  }
+
+  /* Standalone hieroglyph / decoration line */
+  .post-container p:has(> img):only-child,
+  .post-container p:matches(:lang(other)) { text-align: center; }
 
   /* Archived yearly goals — collapsible */
   .post-container details.ab-archive {
@@ -193,31 +230,26 @@ multilingual: true
   .post-container details.ab-archive h4,
   .post-container details.ab-archive h5 { margin-top: 1.6rem; }
 
-  /* ── Life-Journey card (already in markdown) ── */
+  /* ── Life-Journey card (flat: hairline frame, no inner bevel, no shadow) ── */
   .about-journey {
-    background: #f9f6f0;
-    border: 1px solid #e5e1d7;
-    border-radius: 4px;
-    padding: 2rem 2.25rem 1.75rem;
-    margin: 2rem 0 2.5rem;
+    background: transparent;
+    border: 0;
+    border-top: 1px solid var(--ab-ink);
+    border-bottom: 1px solid var(--ab-ink);
+    border-radius: 0;
+    padding: 1.6rem 0 1.4rem;
+    margin: 2.5rem 0;
     position: relative;
   }
-  .about-journey::before {
-    content: "";
-    position: absolute;
-    inset: 8px;
-    border: 1px solid rgba(0,0,0,0.05);
-    border-radius: 2px;
-    pointer-events: none;
-  }
+  .about-journey::before { content: none; }
   .about-journey__eyebrow {
-    font-family: 'Fraunces', serif;
-    font-size: 0.78rem;
-    letter-spacing: 0.24em;
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-size: 0.92rem;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--ab-red);
+    color: var(--ab-ink);
     font-weight: 600;
-    margin: 0 0 0.9rem;
+    margin: 0 0 1rem;
   }
   .about-journey__list { list-style: none; padding: 0; margin: 0 0 1.25rem; border-top: 1px solid rgba(0,0,0,0.08); }
   .about-journey__list li {

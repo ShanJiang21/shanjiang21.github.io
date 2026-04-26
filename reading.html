@@ -333,6 +333,10 @@ description: A reading log, slowly.
     <article class="rd-now">
       {% if b.cover %}
       <img class="rd-now__cover" src="{{ site.baseurl }}/img/reading/{{ b.cover }}" alt="{{ b.title }}">
+      {% elsif b.isbn %}
+      <img class="rd-now__cover" src="https://covers.openlibrary.org/b/isbn/{{ b.isbn }}-L.jpg" alt="{{ b.title }}" loading="lazy" referrerpolicy="no-referrer">
+      {% elsif b.olid %}
+      <img class="rd-now__cover" src="https://covers.openlibrary.org/b/olid/{{ b.olid }}-L.jpg" alt="{{ b.title }}" loading="lazy" referrerpolicy="no-referrer">
       {% else %}
       <div class="rd-now__cover rd-now__cover--placeholder">
         {{ b.title }}
@@ -370,6 +374,10 @@ description: A reading log, slowly.
       <article class="rd-book" tabindex="0">
         {% if b.cover %}
         <img class="rd-book__cover" src="{{ site.baseurl }}/img/reading/{{ b.cover }}" alt="{{ b.title }}">
+        {% elsif b.isbn %}
+        <img class="rd-book__cover" src="https://covers.openlibrary.org/b/isbn/{{ b.isbn }}-L.jpg" alt="{{ b.title }}" loading="lazy" referrerpolicy="no-referrer">
+        {% elsif b.olid %}
+        <img class="rd-book__cover" src="https://covers.openlibrary.org/b/olid/{{ b.olid }}-L.jpg" alt="{{ b.title }}" loading="lazy" referrerpolicy="no-referrer">
         {% else %}
         <div class="rd-book__cover rd-book__cover--placeholder" aria-label="{{ b.title }} by {{ b.author }}">
           <span class="ph-title">{{ b.title }}</span>
@@ -403,6 +411,10 @@ description: A reading log, slowly.
       <article class="rd-book">
         {% if b.cover %}
         <img class="rd-book__cover" src="{{ site.baseurl }}/img/reading/{{ b.cover }}" alt="{{ b.title }}">
+        {% elsif b.isbn %}
+        <img class="rd-book__cover" src="https://covers.openlibrary.org/b/isbn/{{ b.isbn }}-L.jpg" alt="{{ b.title }}" loading="lazy" referrerpolicy="no-referrer">
+        {% elsif b.olid %}
+        <img class="rd-book__cover" src="https://covers.openlibrary.org/b/olid/{{ b.olid }}-L.jpg" alt="{{ b.title }}" loading="lazy" referrerpolicy="no-referrer">
         {% else %}
         <div class="rd-book__cover rd-book__cover--placeholder">
           <span class="ph-title">{{ b.title }}</span>
