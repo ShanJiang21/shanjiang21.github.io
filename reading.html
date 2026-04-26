@@ -332,7 +332,9 @@ description: A reading log, slowly.
     {% for b in now %}
     <article class="rd-now">
       {% if b.cover %}
-      <img class="rd-now__cover" src="{{ site.baseurl }}/img/reading/{{ b.cover }}" alt="{{ b.title }}">
+      {% assign _now_src = b.cover %}
+      {% unless _now_src contains '://' or _now_src contains '/img/' %}{% assign _now_src = b.cover | prepend: '/img/reading/' | prepend: site.baseurl %}{% endunless %}
+      <img class="rd-now__cover" src="{{ _now_src }}" alt="{{ b.title }}">
       {% elsif b.isbn %}
       <img class="rd-now__cover" src="https://covers.openlibrary.org/b/isbn/{{ b.isbn }}-L.jpg" alt="{{ b.title }}" loading="lazy" referrerpolicy="no-referrer">
       {% elsif b.olid %}
@@ -373,7 +375,9 @@ description: A reading log, slowly.
 
       <article class="rd-book" tabindex="0">
         {% if b.cover %}
-        <img class="rd-book__cover" src="{{ site.baseurl }}/img/reading/{{ b.cover }}" alt="{{ b.title }}">
+        {% assign _src = b.cover %}
+        {% unless _src contains '://' or _src contains '/img/' %}{% assign _src = b.cover | prepend: '/img/reading/' | prepend: site.baseurl %}{% endunless %}
+        <img class="rd-book__cover" src="{{ _src }}" alt="{{ b.title }}">
         {% elsif b.isbn %}
         <img class="rd-book__cover" src="https://covers.openlibrary.org/b/isbn/{{ b.isbn }}-L.jpg" alt="{{ b.title }}" loading="lazy" referrerpolicy="no-referrer">
         {% elsif b.olid %}
@@ -410,7 +414,9 @@ description: A reading log, slowly.
       {% for b in favs %}
       <article class="rd-book">
         {% if b.cover %}
-        <img class="rd-book__cover" src="{{ site.baseurl }}/img/reading/{{ b.cover }}" alt="{{ b.title }}">
+        {% assign _src = b.cover %}
+        {% unless _src contains '://' or _src contains '/img/' %}{% assign _src = b.cover | prepend: '/img/reading/' | prepend: site.baseurl %}{% endunless %}
+        <img class="rd-book__cover" src="{{ _src }}" alt="{{ b.title }}">
         {% elsif b.isbn %}
         <img class="rd-book__cover" src="https://covers.openlibrary.org/b/isbn/{{ b.isbn }}-L.jpg" alt="{{ b.title }}" loading="lazy" referrerpolicy="no-referrer">
         {% elsif b.olid %}

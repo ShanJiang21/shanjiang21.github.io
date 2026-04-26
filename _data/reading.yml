@@ -38,6 +38,29 @@
 
 # --- FINISHED -------------------------------------------------------------
 
+- title: "大江大河1949"
+  author: "李英桃"
+  cover: "/img/books/lyt_1949.jpg"
+  year: 2024
+  rating: 5
+  favorite: true
+  takeaway: "所有的颠沛流离，最终都由大江走向大海。"
+
+- title: "Pride and Prejudice"
+  author: "Jane Austen"
+  isbn: "9780141439518"
+  year: 2023
+  rating: 4
+  takeaway: "A witty, insightful commentary on 19th-century English society."
+
+- title: "1984"
+  author: "George Orwell"
+  isbn: "9780451524935"
+  year: 2023
+  rating: 5
+  favorite: true
+  takeaway: "A dystopian masterpiece that remains relevant today."
+
 - title: "Little Women"
   author: "Louisa May Alcott"
   isbn: "9780316489263"

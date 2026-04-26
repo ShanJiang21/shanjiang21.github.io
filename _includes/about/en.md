@@ -1,9 +1,9 @@
 
 #### About me
 
-I'm Shan — a product manager, writer, reader, and (newly) a mother. In 2020 I graduated from the Mailman School of Public Health at Columbia University. From 2020 to 2022 I worked at [TikTok](https://www.tiktok.com/) as a rookie PM; after being locked down in Shanghai for two months, I sought a new place to continue my professional life. I moved to Singapore and spent fifteen months at Shopee on cross-border e-commerce recommendation strategy until October 2023.
+I'm Shan, a product manager, writer, reader, and (newly) a mother. In 2020 I graduated from the Mailman School of Public Health at Columbia University. From 2020 to 2022 I worked at [TikTok](https://www.tiktok.com/) as a rookie PM; after being locked down in Shanghai for two months, I sought a new place to continue my professional life. I moved to Singapore and spent fifteen months at Shopee on cross-border e-commerce recommendation strategy until October 2023.
 
-Six months ago I started a new chapter at a new company — fully remote, 5/5. Work and home now share the same desk. I'm still trying to adapt to the new tempo.
+Six months ago I started a new chapter at a new company. **Fully remote, 5/5.** Work and home share the same desk. I'm still trying to adapt to the new tempo.
 
 But occupational identity is a tiny facet of any of us:
 
